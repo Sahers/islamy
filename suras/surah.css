@@ -1,4 +1,12 @@
 @import url(../menu.css);
+@font-face {
+  font-family: "tafsir";
+  src: url("../fonts/UthmanicHafs1Ver08.otf");
+}
+@font-face{
+  font-family: "quran";
+    src: url("/fonts/ArbFONTS-Noon.ttf");
+}
 .content{
   display: none;
 }
