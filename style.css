@@ -1,0 +1,183 @@
+@import url(menu.css);
+.image{
+  width: 100%;
+/*  background-size: cover;
+  background-image: url("back.jpg");*/
+  background-color: var(--sec-color);
+  padding: 20px;
+}
+li a[href="index.html"] {
+  font-weight: 600;
+}
+.image p{
+  font-size: 21px;
+}
+/*center any word*/
+.center {
+  text-align: center;
+}
+.top{
+  padding-top: 10px;
+  position: relative;
+}
+.top:before{
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 1px;
+  opacity: 0.6;
+  background-color: black;
+  top:35px;
+  right:0;
+}
+.top:after {
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 1px;
+  opacity: 0.6;
+  background-color: black;
+  top: 35px;
+  left: 0;
+}
+.card{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  color: white;
+  border-radius: 10px !important;
+  margin: 15px 0;
+  animation: 1.5s ease-in-out;
+  opacity: 0;
+}
+.card h3{
+  font-size: 22px;
+}
+.text{
+  width: 50%;
+}
+.quran{
+  background-image: url("mainImages/quran.JPG");
+}
+.card button{
+  border: 1px solid black;
+  background-color: var(--sec-color);
+  width:fit-content;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  margin:6px;
+  transition: 0.7s ease-out;
+  cursor: pointer;
+}
+button:hover{
+  padding: 12px;
+  font-size: 16px;
+}
+@keyframes load{
+  from{
+    opacity: 0;
+    transform: translate(0,-100px);
+  }
+  to{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+@keyframes load2{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.hadith{
+  background-image: url("mainImages/hadith.jpeg");
+}
+.azkar{
+  background-image: url("mainImages/azkar.JPG");
+}
+.salah{
+  background-image: url("mainImages/salah.jpeg");
+}
+.doaa{
+  background-image: url("mainImages/doaa.jpeg");
+}
+.question{
+  background-image: url("mainImages/question.jpg");
+}
+.about{
+  background-image: url("mainImages/communicate.jpeg");
+  color: black;
+}
+.roya{
+  position: relative;
+  margin-bottom: 10px;
+}
+.roya:before{
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 1px;
+  opacity: 0.6;
+  background-color: black;
+  top:30px;
+  right:0;
+}
+.roya:after {
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 1px;
+  opacity: 0.6;
+  background-color: black;
+  top: 30px;
+  left: 0;
+}
+.royaa{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.royaa .icon img{
+ width: 80px;
+ height: 80px;
+}
+.me{
+  background-color: var(--main-color);
+}
+.connect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic{
+  margin-top: 7px;
+}
+.pic img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 2px solid var(--sec-color);
+}
+.con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 22px;
+}
+.cona{
+  display: flex;
+ justify-content: space-around;
+}
+.cona .web img{
+  border: 5px var(--sec-color) solid;
+  border-radius: 25px;
+  width:100px;
+  height:100px;
+  padding: 5px;
+}

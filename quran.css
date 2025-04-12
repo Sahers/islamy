@@ -1,0 +1,88 @@
+@import url(menu.css);
+:root{
+  --th-color:#53CDA2;
+}
+li a[href="quran.html"] {
+  font-weight: 600;
+}
+.title{
+  font-size: 32px;
+  text-align: center;
+  background-color:var(--sec-color);
+  background-size: 100% 100%;
+  padding: 20px 0;
+}
+.back img{
+  width: 100%;
+}
+.center {
+  text-align: center;
+}
+.aya{
+  padding: 14px;
+  background-color: #14BD74;
+  font-size: 1.1rem;
+  margin-top: -12px;
+}
+.aya p{
+  font-family: "quran";
+}
+.top{
+  padding-top: 10px;
+  position: relative;
+}
+.top:before{
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 1px;
+  opacity: 0.6;
+  background-color: black;
+  top:35px;
+  right:0;
+}
+.top:after {
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 1px;
+  opacity: 0.6;
+  background-color: black;
+  top: 35px;
+  left: 0;
+}
+.sur{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin-top: 10px;
+}
+.sura{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--sec-color);
+  text-align: center;
+  transition: 0.8s  ease-in-out;
+}
+.sura:hover{
+padding: 15px;
+font-size: 1.1rem;
+}
+.choose{
+  display: flex;
+  justify-content: space-between;
+}
+.choo{
+  background-color: var(--th-color);
+  border-radius: 10px;
+  animation: load 1.2s ease-out;
+  padding: 10px 3px;
+}
+.choo a{
+  text-decoration: none;
+  color: black;
+}
+@keyframes load{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}

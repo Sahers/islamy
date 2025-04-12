@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection{
+  background-color: #56D1B6;
+}
+.container{
+  padding:0 15px;
+  margin: 0 auto;
+}
+html{
+scroll-behavior: smooth;
+}
+ul{
+  list-style: none;
+}
+:root{
+  --main-color:#3FA5F9;
+  --sec-color:#42B6E0;
+  --third-color: #39D09A;
+}
+@font-face{
+  font-family: "islam";
+  src: url("Cairo-VariableFont_slnt,wght.ttf");
+}
+*{
+  font-family:"islam";
+}
+header{
+background-color: var(--main-color);
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  padding: 10px 0;
+}
+.logo img{
+  width:100px;
+}
+.content {
+  display: none;
+  opacity: 0;
+}
+@keyframes openpage {
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+.loading{
+  display: flex;
+}
+.men{
+  position: relative;
+  cursor: pointer;
+}
+.menu{
+ display:flex;
+ flex-direction:column ;
+ width: 40px;
+ justify-content:flex-end;
+ flex-wrap: wrap;
+ position: relative;
+}
+.menu span{
+  width: 40px;
+  margin: 5px 0;
+  height: 2px;
+  background-color: black;
+  border-radius: 2px;
+  position: absolute;
+  top: -10px;
+  transition: 1s ease-out;
+}
+.menu span:first-child{
+  top: -25px;
+}
+.menu span:last-child{
+  top: 5px;
+}
+.links{
+  position: relative;
+}
+ul{
+  position: absolute;
+  top: 42px;
+  right: 0;
+  display: none;
+  z-index: 3;
+}
+li{
+  background-color: #46C3D0;
+  text-align: right;
+  width: 200px;
+  padding: 8px;
+  border-bottom: 1.2px solid black;
+  transition: 1s ease;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+li:hover{
+  padding: 12px;
+}
+.visible{
+  display: block;
+}
+footer {
+  background-color: var(--sec-color);
+  direction: rtl;
+  padding: 5px;
+}
+.center {
+  text-align: center;
+}
+@font-face {
+  font-family: "tafsir";
+  src: url("/fonts/UthmanicHafs1Ver08.otf");
+}
+@font-face{
+font-family: "quran";
+  src: url("/fonts/ArbFONTS-Noon.ttf");
+  }
+.title {
+  background-color: var(--sec-color);
+  padding: 20px;
+}
+.center-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagee{
+  display: block;
+}
+.error-hadith{
+  width:80px;
+  height:80px;
+  margin-top: 10px;
+}
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap:10px;
+}
+.loading div{
+  width: 22vw;
+  height: 22vw;
+  border-radius: 50%;
+  border-top: 2vw solid var(--main-color);
+  border-right: 2vw solid var(--main-color);
+  border-left: 2vw solid var(--main-color);
+  border-bottom: 2vw solid transparent;
+  animation: lo 3s infinite;
+}
+@keyframes lo{
+  from{
+    transform: rotate(0);
+  }to{
+    transform: rotate(1440deg);
+  }
+}
+@media(min-width:520px){
+  .loading{
+    font-size: 18px;
+  }
+}
+@media(min-width:768px){
+  .container{
+    width:750px;
+  }
+  .loading{
+    font-size: 21px;
+  }
+  .loading div{
+    width: 19vw;
+    height: 19vw;
+    border-width: 1.8vw;
+  }
+}
+@media(min-width:992px) {
+  :root{
+    font-size: 20px;
+  }
+  .container {
+    width: 970px;
+  }
+  .loading{
+    font-size: 22px;
+  }
+  .loading div{
+    width: 14vw;
+    height: 14vw;
+    border-width: 1.6vw;
+  }
+}
+@media(min-width:1200px) {
+  .container {
+    width:1170px;
+  }
+  .loading{
+    font-size: 25px;
+  }
+  .loading div{
+    width: 11vw;
+    height: 11vw;
+    border-width: 1.2vw;
+  }
+}

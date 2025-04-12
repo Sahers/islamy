@@ -1,0 +1,56 @@
+@import url(menu.css);
+.title {
+  font-size: 32px;
+  text-align: center;
+  background-color: var(--sec-color);
+  background-size: 100% 100%;
+  padding: 20px 0;
+}
+li a[href="timeprayer.html"] {
+  font-weight: 600;
+}
+.title{
+    font-size: 32px;
+    text-align: center;
+    background-color:var(--sec-color);
+    background-size: 100% 100%;
+    padding: 20px 0;
+  }
+.cont{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--sec-color);
+  padding: 15px;
+  margin: 10px 0;
+  direction: rtl;
+}
+.prayers{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prayers *{
+  text-align: center;
+}
+.time,.info p{
+  background-color: var(--third-color);
+  border-radius: 5px;
+  padding: 10px;
+}
+@media(min-width:550px){
+.prayers{
+  flex-direction: row;
+}
+}
+.info > *:not(:first-child){
+  margin-top:10px;
+}
+.info p{
+  background-color: var(--third-color);
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+.next-salah{
+  margin-top: 10px;
+}

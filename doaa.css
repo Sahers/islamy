@@ -1,0 +1,61 @@
+@import url(menu.css);
+.title {
+  font-size: 32px;
+  text-align: center;
+  background-color: var(--sec-color);
+  background-size: 100% 100%;
+  padding: 20px 0;
+}
+li a[href="doaa.html"] {
+  font-weight: 600;
+}
+.top{
+    padding-top: 10px;
+    position: relative;
+  }
+  .top:before{
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 1px;
+    opacity: 0.6;
+    background-color: black;
+    top:35px;
+    right:0;
+  }
+  .top:after {
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 1px;
+    opacity: 0.6;
+    background-color: black;
+    top: 35px;
+    left: 0;
+  }
+  .doaas{
+    display: flex;
+    flex-direction: column;
+  }
+  .cont{
+    direction: rtl;
+    background-color: var(--sec-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .cont button{
+    border: 1px black solid;
+    border-radius: 8px;
+    padding: 5px;
+    align-self: center;
+    margin-top: 4px;
+    cursor: pointer;
+    background-color: var(--third-color);
+  }
+  .cont img{
+    width:30px;
+    height:30px;
+  }
