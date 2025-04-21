@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById("topic");
 let men = document.getElementsByClassName("menu")[0];
 men.addEventListener("click", function (e) {
@@ -18,10 +19,11 @@ men.addEventListener("click", function (e) {
     menu.classList.add("visible");
   }
 });
+// copyright year
 let daten = document.getElementById("date");
 let datee = new Date();
-console.log();
 daten.innerText = datee.getFullYear();
+// loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
     document.getElementsByClassName('content')[0].style.display = 'block'
@@ -34,6 +36,7 @@ window.addEventListener('load', function(e) {
 })
 let topi = document.getElementById("topics");
 let con = document.getElementById("content");
+// تعريف أبواب كل إمام
 let qsmabudawud = [
   "الطهارة",
   "الصلاة",
@@ -73,6 +76,7 @@ let qsmmalik = ["وقوت الصلاة","الطهارة","الصلاة","الس�
 let qsmmuslim = ["المقدمة","الإيمان","الطهارة","الحيض","الصلاة","المساجد ومواضع الصلاة","صلاة المسافرين وقصرها","الجمعة","صلاة العيدين","الاستسقاء","الكسوف","الجنائز","الزكاة","الصيام","الاعتكاف","الحج","النكاح","الرضاع","الطلاق","اللعان","العتق","البيوع","المساقاة","الفرائض","الهبات","الوصية","النذر","الأيمان","القسامة والمحاربين والقصاص والديات","الحدود","الأقضية","اللقطة","الجهاد والسير","الإمارة","الصيد والذبائح وما يؤكل من الحيوان","الأضاحي","الأشربة","اللباس والزينة","الآداب","السلام","الألفاظ من الأدب وغيرها","الشعر","الرؤيا","الفضائل","فضائل الصحابة رضي الله تعالى عنهم","البر والصلة والأداب","القدر","العلم","الذكر والدعاء والتوبة والاستغفار","الرقاق","التوبة","صفات المنافقين وأحكامهم","صفة القيامة والجنة والنار","الجنة، وصفة نعيمها وأهلها","الفتن وأشراط الساعة","الزهد والرقائق","التفسير"]
 let qsmtirmidhi = ["الطهارة","الصلاة","الوتر","الجمعة","العيدين","السفر","الزكاة","الصوم","الحج","الجنائز","النكاح","الرضاع","الطلاق واللعان","البيوع","الأحكام","الديات","الحدود","الصيد والأطعمة والأحكام والفوائد","الأضاحي","النذور والأيمان","السير","فضائل الجهاد","الجهاد","اللباس","الأطعمة","الأشربة","البر والصلة","الطب","الفرائض","الوصايا","الولاء والهبة","القدر","الفتن","الرؤيا","الشهادات","الزهد","صفة القيامة والرقائق والورع","صفة الجنة","صفة جهنم","الإيمان","العلم","الاستئذان والآداب","الأدب","الأمثال","فضائل القرآن","القراءات","تفسير القرآن","الدعوات","المناقب"]
 // 35 => المزارعة
+// imams handling in add their sections and its hadiths
 let imams = ["abudawud", "bukhari","nasai","ibnmajah","malik","muslim","tirmidhi"];
 let showw = document.getElementById("show");
 let hadithplace = document.getElementById("hadis");
@@ -143,6 +147,7 @@ function secs(imam, id) {
     });
   }
 }
+// mark in section when you click it
 let active = false
 let ele;
 function mark(element, imam) {
@@ -153,6 +158,7 @@ function mark(element, imam) {
   active = true
   ele = element
 }
+// fetch hadiths for any section
 function hadith(imam, num) {
   let url;
   if(imam == "nasai" && num == 36){
@@ -168,6 +174,7 @@ function hadith(imam, num) {
   console.log(url)
   return fetch(url).then((r) => r.json());
 }
+// back to main page on error
 function back() {
   document.body.innerHTML = `<div class="loading">
     <p>جار التحميل</p>
@@ -178,6 +185,7 @@ function back() {
     location.href = "../../index.html";
   }, 1000);
 }
+// add pasting in any hadith
 let element;
 let active2 = false;
 window.addEventListener("click",(e)=>{

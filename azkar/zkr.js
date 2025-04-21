@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById("topic");
 let men = document.getElementsByClassName("menu")[0];
 men.addEventListener("click", function (e) {
@@ -18,10 +19,11 @@ men.addEventListener("click", function (e) {
     menu.classList.add("visible");
   }
 });
+// copyright year
 let daten = document.getElementById("date");
 let datee = new Date();
-console.log();
 daten.innerText = datee.getFullYear();
+// loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
     document.getElementsByClassName('content')[0].style.display = 'block'
@@ -30,6 +32,7 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
 })
+// azkar handling from any type(content,num of times)
 let azkarplace = document.getElementsByClassName("azkar")[0]
 let link = `adkar.json`;
 async function zekr(type) {
@@ -63,6 +66,7 @@ async function zekr(type) {
         `;
     })
 }
+// azkar num of times handling on click
 window.addEventListener("click",(e)=>{ 
     if(e.target.classList.contains("count")){
     let timeess = e.target.getAttribute("times")
@@ -92,6 +96,7 @@ window.addEventListener("click",(e)=>{
     spin.style["stroke-dashoffset"] = `0px`
     }
 })
+// back to main page on error
 function back() {
     document.body.innerHTML = `<div class="loading">
       <p>جار التحميل</p>

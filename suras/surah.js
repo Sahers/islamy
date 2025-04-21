@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById('topic')
 let men = document.getElementsByClassName('menu')[0]
 men.addEventListener('click',function(e) {
@@ -34,10 +35,11 @@ window.addEventListener("click",(e)=>{
 })
 let pa = document.querySelector('.loading p')
 pa.innerText = 'طيِّب وقت فراغك بذكر الله'
+// copyright year
 let daten = document.getElementById('date')
-let datee = new Date()
-console.log()
+let datee = new Date();
 daten.innerText = datee.getFullYear()
+// add links in menu
 let logo = document.querySelector('header .container .logo img')
 logo.src = '../logo.png'
 let links = document.querySelectorAll("li a")
@@ -45,6 +47,7 @@ let lin = ['../index.html','../quran.html','../hadith.html',"../azkar.html","../
 for(let i = 0;i < links.length;i++){
   links[i].href = lin[i]
 }
+// add quran content for any sura
 let numa = document.getElementById('num-aya')
 let ranks = document.getElementById('rank')
 let name = document.querySelector(".title .container h2")
@@ -61,7 +64,7 @@ async function info(num) {
   let dataaudio = `dataaudio.json`
   let url = `https://api.alquran.cloud/v1/surah/${num}`
   let tafs = `https://quranenc.com/api/v1/translation/sura/arabic_moyassar/${num}`
-  // Tab to edit
+  // add quran with many sheikhs
   await fetch(dataaudio).then(r => r.json()).then((r)=>{
     for(let i = 0;i<r[String(num)].length;i++){
       let ele = document.createElement("option")
@@ -74,6 +77,7 @@ async function info(num) {
       selectqaree.appendChild(ele)
     }
   })
+  // add sura ayats
   await fetch(url)
     .then(response => response.json())
     .then(function(data) {
@@ -126,7 +130,7 @@ async function info(num) {
       su.style.backgroundColor = 'var(--third-color)'
       su.style.padding = '40px'
     });
-
+    // add tafsir for any aya in sura
   await fetch(tafs)
     .then(res => res.json())
     .then(function(data) {
@@ -166,6 +170,7 @@ async function info(num) {
       
     })
 }
+// loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
     document.getElementsByClassName('content')[0].style.display = 'block'
@@ -174,6 +179,7 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
 })
+// add pasting for any aya or it tafsir
 let active = false;
 let element;
 window.addEventListener("click",(e)=>{
@@ -197,6 +203,7 @@ window.addEventListener("click",(e)=>{
       element = e.target
   }
 })
+// play the sura with any sheikh handling
 let audioopener = document.querySelector("audio")
 let audioopen = false
 selectqaree.addEventListener("change",async(e)=>{

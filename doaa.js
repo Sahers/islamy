@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById('topic')
 let men = document.getElementsByClassName('menu')[0]
 men.addEventListener('click',function(e) {
@@ -32,10 +33,11 @@ window.addEventListener("click",(e)=>{
   }
 }
 })
+// copyright year
 let daten = document.getElementById('date')
-let datee = new Date()
-console.log()
+let datee = new Date();
 daten.innerText = datee.getFullYear()
+// loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
     document.getElementsByClassName('content')[0].style.display = 'block'
@@ -44,6 +46,7 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
 })
+// add doaas
 let doaacontainer = document.querySelectorAll(".doaa .doaas")
 async function doaa() {
     let link = `doaa/doaa.json`
@@ -63,6 +66,7 @@ async function doaa() {
     })
 }
 doaa()
+// add pasting for any doaa
 let imgs = document.getElementsByClassName("pastee")
 let active = false
 let element;

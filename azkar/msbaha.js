@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById("topic");
 let men = document.getElementsByClassName("menu")[0];
 men.addEventListener("click", function (e) {
@@ -18,10 +19,11 @@ men.addEventListener("click", function (e) {
     menu.classList.add("visible");
   }
 });
+// copyright year
 let daten = document.getElementById("date");
 let datee = new Date();
-console.log();
-daten.innerText = datee.getFullYear();
+daten.innerText = datee.getFullYear()
+// loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
     document.getElementsByClassName('content')[0].style.display = 'block'
@@ -30,12 +32,12 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
 })
-
 let start = document.getElementById("go")
 let input = document.querySelector(".inp input")
 let err = document.getElementsByClassName("error-none")[0]
 let counterplace = document.getElementsByClassName("place")[0]
 let azkarmenu = document.getElementsByClassName("azkar-menu")[0]
+// get azkar menu from local storage
 function getAzkar(){
     let azkarprevious = ""
     for(let i=0;i<localStorage.length;i++){
@@ -57,6 +59,7 @@ function getAzkar(){
 getAzkar()
 
 let zkr_ok = false;
+// remove and continue the zekr from local storage
 window.addEventListener("click",function(e){
     if(e.target.id == "delete"){
     let div = e.target.parentElement
@@ -95,6 +98,7 @@ window.addEventListener("click",function(e){
         }
     }
 })
+// start new zekr
 start.onclick = function(e){
     let val = input.value
     if(val != ""){
@@ -125,6 +129,7 @@ start.onclick = function(e){
         }
     }
 }
+// save azkar progress before unload
 window.onbeforeunload = function(){
 if(zkr_ok){
     let zkrnow = document.getElementsByClassName("the-zekr")[0]

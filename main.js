@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById('topic')
 let men = document.getElementsByClassName('menu')[0]
 men.addEventListener('click',function(e) {
@@ -43,7 +44,7 @@ window.addEventListener('load',function(e) {
   },1000)
 
 })
-
+// adding animation
 let quran = document.getElementsByClassName('quran')[0];
 let hadith = document.getElementsByClassName('hadith')[0]
 let azkar = document.getElementsByClassName('azkar')[0]
@@ -92,7 +93,7 @@ window.addEventListener('scroll',function(){
     aboutani = true
   }
 })
+// copyright year
 let daten = document.getElementById('date')
-let datee = new Date()
-console.log()
+let datee = new Date();
 daten.innerText = datee.getFullYear()

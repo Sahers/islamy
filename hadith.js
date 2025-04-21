@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById('topic')
 let men = document.getElementsByClassName('menu')[0]
 men.addEventListener('click',function(e) {
@@ -32,10 +33,11 @@ window.addEventListener("click",(e)=>{
   }
 }
 })
+// copyright year
 let daten = document.getElementById('date')
-let datee = new Date()
-console.log()
+let datee = new Date();
 daten.innerText = datee.getFullYear()
+// loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
     document.getElementsByClassName('content')[0].style.display = 'block'

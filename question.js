@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById('topic')
 let men = document.getElementsByClassName('menu')[0]
 men.addEventListener('click',function(e) {
@@ -32,10 +33,11 @@ window.addEventListener("click",(e)=>{
   }
 }
 })
+// copyright year
 let daten = document.getElementById('date')
-let datee = new Date()
-console.log()
+let datee = new Date();
 daten.innerText = datee.getFullYear()
+// loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
     document.getElementsByClassName('content')[0].style.display = 'block'
@@ -44,6 +46,7 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
 })
+// start questions
 let startbtn = document.getElementById("start")
 let errormessage = document.getElementsByClassName("err")[0]
 let quescontainer = document.getElementsByClassName("quescont")[0]
@@ -65,6 +68,7 @@ document.body.addEventListener("click",(e)=>{
   }else{
     errormessage.classList.remove("on")
     errormessage.classList.add("off")
+    // get questions
     let link = `https://islamicquiz.i8x.net/api/questions/random?count=${numofques}`
     fetch(link).then((r)=>r.json()).then((r)=>{
       // ques = r[i][q]
@@ -80,6 +84,7 @@ document.body.addEventListener("click",(e)=>{
       <p class="center">هناك خطأ في الموقع حاليًا،يمكنك الرجوع إلى <span onclick="back();" style="color:white;text-decoration:none;cursor:pointer;">الصفحة الرئيسية</span></p>
         `;
     })
+    // question correction and actions
     function eventt(e){
       if(counter < m.length){
         let answers = document.getElementsByClassName("choice")
@@ -106,6 +111,7 @@ document.body.addEventListener("click",(e)=>{
   }
 }
     }
+    // add question
   function printquestion(){
     quescontainer.innerHTML = `
       <div class="num-of-ques">السؤال ${counter + 1}</div>
@@ -120,6 +126,7 @@ document.body.addEventListener("click",(e)=>{
      </div>
     `
   }
+  // show final result
   function showResult(total, score) {
     quescontainer.innerHTML = `
       <div class="result">نتيجتك هي</div>
@@ -150,6 +157,7 @@ document.body.addEventListener("click",(e)=>{
   }
 }
 })
+// back to main page on error
 function back() {
   document.body.innerHTML = `<div class="loading">
     <p>جار التحميل</p>

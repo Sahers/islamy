@@ -1,3 +1,4 @@
+// animation handling in menu
 let menu = document.getElementById('topic')
 let men = document.getElementsByClassName('menu')[0]
 men.addEventListener('click',function(e) {
@@ -32,9 +33,10 @@ window.addEventListener("click",(e)=>{
   }
 }
 })
+// copyright year
 let daten = document.getElementById('date')
-let datee = new Date()
-daten.innerText = datee.getFullYear()
+let datee = new Date();daten.innerText = datee.getFullYear()
+// loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
     document.getElementsByClassName('content')[0].style.display = 'block'
@@ -43,6 +45,7 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
 })
+// prayers time handling
 let maincontainer = document.getElementsByClassName("prayers")[0]
 async function salah() {
     let url = `https://alquran.vip/APIs/getPrayerTimes`
@@ -61,6 +64,7 @@ async function salah() {
     const monthsInArabic = [
       "يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"
   ];
+  // location details and time
 details[0].innerHTML = country
 details[1].innerHTML = city
 details[2].innerHTML = `${daysInArabic[day]} ${datee.getDate()} ${monthsInArabic[month]} ${datee.getFullYear()} م`
@@ -82,6 +86,7 @@ details[2].innerHTML = `${daysInArabic[day]} ${datee.getDate()} ${monthsInArabic
           minutess = "0" + minutess
         }
 details[3].innerHTML =`${hourss}:${minutess} ${(eveningg?"م":"ص")}`
+// prayers time handling
       let prays = document.getElementsByClassName("time")
       let times = Object.values(r["prayer_times"])
       let prayers = [];
@@ -104,8 +109,7 @@ details[3].innerHTML =`${hourss}:${minutess} ${(eveningg?"م":"ص")}`
         }
         prays[i].innerHTML =`${hoursnum}:${minutes} ${(evening?"م":"ص")}`
       }
-      console.log(timenow,prayers)
-      // timenow = [minutes,hours],prayers
+      // next prayer handling
       let nextsalah = "";
       let difhours;
       let difmins;
@@ -185,9 +189,9 @@ details[3].innerHTML =`${hourss}:${minutess} ${(eveningg?"م":"ص")}`
       <p class="center">هناك خطأ في الموقع حاليًا،يمكنك الرجوع إلى <span onclick="back();" style="color:white;text-decoration:none;cursor:pointer;">الصفحة الرئيسية</span></p>
         `;
     })
-    // معرفة الصلاة القادمة
 }
 salah()
+// back to main page on error
 function back() {
   document.body.innerHTML = `<div class="loading">
     <p>جار التحميل</p>
