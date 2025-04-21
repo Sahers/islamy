@@ -97,7 +97,7 @@ circle {
 }
 .repeat{
     padding:5px;
-    background-color: red;
+    background-color: var(--third-color);
     border-radius: 7px;
     display: flex;
     justify-content: center;

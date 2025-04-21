@@ -21,6 +21,9 @@ ul{
   --sec-color:#42B6E0;
   --third-color: #39D09A;
 }
+button{
+  background-color: var(--third-color) !important;
+}
 @font-face{
   font-family: "islam";
   src: url("Cairo-VariableFont_slnt,wght.ttf");
