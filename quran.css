@@ -23,6 +23,7 @@ li a[href="quran.html"] {
   background-color: #14BD74;
   font-size: 1.1rem;
   margin-top: -12px;
+  font-family: "quran";
 }
 .aya p{
   font-family: "quran";
