@@ -33,7 +33,39 @@ window.addEventListener("click",(e)=>{
   }
 }
 })
-window.addEventListener('load',function(e) {
+window.addEventListener('load',async function(e) {
+let ayacont = document.getElementsByClassName("aya")[0];
+let ayaplace = document.querySelector(".aya .text")
+let suraplace = document.querySelectorAll(".aya .sura span")
+let numsurah = Math.max(Math.floor(Math.random() * 114),1)
+let api = `https://api.alquran.cloud/v1/surah/${numsurah}`
+await fetch(api).then((r)=>r.json()).then((data)=>{
+  let numayas = data.data.numberOfAyahs
+let numaya = Math.min(Math.floor(Math.random() * numayas),numayas - 1)
+  let aya = data.data.ayahs[numaya].text
+        let word = "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ "
+        let w2 = "بِّسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ "
+        let ok = true
+        if (numaya == 0 && numsurah != 1) {
+          for (let i = 0; i < word.length; i++) {
+            if (word[i] != aya[i] && w2[i] != aya[i]) {
+              ok = false
+              break;
+            }
+          }
+          if(aya[1] == 'ّ'){
+            ok = true
+          }
+          console.log(ok)
+       if (ok == true) {
+            aya = aya.slice(40)
+         }
+        }
+          ayaplace.innerText = aya
+          let titles =["الفاتحة","البقرة","آل عمران","النساء","المائدة","الأنعام","الأعراف","الأنفال","التوبة","يونس","هود","يوسف","الرعد","إبراهيم","الحجر","النحل","الإسراء","الكهف","مريم","طه","الأنبياء","الحج","المؤمنون","النور","الفرقان","الشعراء","النمل","القصص","العنكبوت","الروم","لقمان","السجدة","الأحزاب","سبأ","فاطر","يس","الصافات","ص","الزمر","غافر","فصلت","الشورى","الزخرف","الدخان","الجاثية","الأحقاف","محمد","الفتح","الحجرات","ق","الذاريات","الطور","النجم","القمر","الرحمن","الواقعة","الحديد","المجادلة","الحشر","الممتحنة","الصف","الجمعة","المنافقون","التغابن","الطلاق","التحريم","المُلك","القلم","الحاقة","المعارج","نوح","الجن","المزمل","المدثر","القيامة","الإنسان","المرسلات","النبأ","النازعات","عبس","التكوير","الانفطار","المطففين","الانشقاق","البروج","الطارق","الأعلى","الغاشية","الفجر","البلد","الشمس","الليل","الضحى","الشرح","التين","العلق","القدر","البينة","الزلزلة","العاديات","القارعة","التكاثر","العصر","الهمزة","الفيل","قريش","الماعون","الكوثر","الكافرون","النصر","المسد","الإخلاص","الفلق","الناس"]
+          suraplace[0].innerText = titles[numsurah - 1];
+          suraplace[1].innerText = numaya + 1
+})
   setTimeout(()=>{
       document.getElementsByClassName('content')[0].style.display = 'block'
       document.getElementsByClassName('content')[0].style.animation = "openpage 1.5s ease-in-out"
@@ -42,56 +74,6 @@ window.addEventListener('load',function(e) {
       document.getElementsByClassName('top')[0].style.animationName = 'load2'
       document.getElementsByClassName('top')[0].style.animationDuration = '2.5s'
   },1000)
-
-})
-// adding animation
-let quran = document.getElementsByClassName('quran')[0];
-let hadith = document.getElementsByClassName('hadith')[0]
-let azkar = document.getElementsByClassName('azkar')[0]
-let doaa = document.getElementsByClassName('doaa')[0]
-let salah = document.getElementsByClassName('salah')[0]
-let question = document.getElementsByClassName('question')[0]
-let about = document.getElementsByClassName('about')[0]
-function ani(ele){
-  ele.style.animationName = 'load'
-  ele.style.opacity = 1
-}
-let quranani = false
-let hadithani = false
-let azkarani = false
-let salahani = false
-let doaaani = false
-let questionani = false
-let aboutani = false
-window.addEventListener('scroll',function(){
-  if(scrollY >= 0 && !quranani){
-    ani(quran)
-    quranani = true
-  }
-  if(scrollY >= 160 && !hadithani){
-    ani(hadith)
-    hadithani = true
-  }
-  if (scrollY >= 460 && !azkarani) {
-    ani(azkar)
-    azkarani = true
-  }
-  if (scrollY >= 580 && !salahani) {
-    ani(salah)
-    salahani = true
-  }
-  if (scrollY >= 800 && !doaaani) {
-    ani(doaa)
-    doaaani = true
-  }
-  if (scrollY >= 990 && !questionani) {
-    ani(question)
-    questionani = true
-  }
-  if (scrollY >= 1125 && !aboutani) {
-    ani(about)
-    aboutani = true
-  }
 })
 // copyright year
 let daten = document.getElementById('date')

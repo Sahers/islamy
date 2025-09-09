@@ -1,8 +1,6 @@
 @import url(menu.css);
 .image{
   width: 100%;
-/*  background-size: cover;
-  background-image: url("back.jpg");*/
   background-color: var(--sec-color);
   padding: 20px;
 }
@@ -12,7 +10,6 @@ li a[href="index.html"] {
 .image p{
   font-size: 21px;
 }
-/*center any word*/
 .center {
   text-align: center;
 }
@@ -40,24 +37,58 @@ li a[href="index.html"] {
   top: 35px;
   left: 0;
 }
+.aya{
+  direction: rtl;
+  background-color: var(--main-color);
+  border-radius:20px;
+  padding: 20px 10px;
+  font-size:21px ;
+  margin-top: 10px;
+  display: flex;
+  gap:20px;
+  flex-direction: column;
+}
+.aya *{
+  font-family:"quran";
+}
+.aya .text{
+  text-align: center;
+}
+.sections .container{
+   display: grid;
+  justify-content: center;
+}
+@media(min-width:625px){
+  .sections .container{
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px;
+}  
+}
+@media(min-width:1200px) {
+  .sections .container{
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}  
+}
 .card{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: right;
   display: flex;
   justify-content: right;
-  padding: 10px;
+  padding: 20px;
   color: white;
   border-radius: 10px !important;
   margin: 15px 0;
   animation: 1.5s ease-in-out;
-  opacity: 0;
+ align-items: center;
+ height: 230px;
 }
 .card h3{
   font-size: 22px;
 }
-.text{
-  width: 50%;
+.card .text{
+  font-size: 19px;
 }
 .quran{
   background-image: url("mainImages/quran.JPG");
@@ -72,6 +103,12 @@ li a[href="index.html"] {
   margin:6px;
   transition: 0.7s ease-out;
   cursor: pointer;
+}
+.card{
+    font-weight: 500;
+}
+.question{
+  color: black;
 }
 button:hover{
   padding: 12px;
@@ -109,10 +146,6 @@ button:hover{
 }
 .question{
   background-image: url("mainImages/question.jpg");
-}
-.about{
-  background-image: url("mainImages/communicate.jpeg");
-  color: black;
 }
 .roya{
   position: relative;
