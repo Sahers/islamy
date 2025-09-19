@@ -58,6 +58,14 @@ li a[href="index.html"] {
 .aya .text{
   text-align: center;
 }
+#read-surah-btn{
+  padding: 10px;
+  font-family:"islam" !important;
+  font-size: 15px;
+  border:1px black solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
 .sections .container{
    display: grid;
   justify-content: center;

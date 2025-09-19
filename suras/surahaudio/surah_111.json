@@ -1,0 +1,1964 @@
+{
+  "إبراهيم الأخضر": {
+    "id": 1,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/akdr/"
+      }
+    ]
+  },
+  "إبراهيم الجبرين": {
+    "id": 2,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/jbreen/"
+      }
+    ]
+  },
+  "إبراهيم الجرمي": {
+    "id": 164,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/jormy/"
+      }
+    ]
+  },
+  "إبراهيم الدوسري": {
+    "id": 178,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/ibrahim_dosri/Rewayat-Hafs-A-n-Assem/"
+      },
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server10.mp3quran.net/ibrahim_dosri/Rewayat-Warsh-A-n-Nafi/"
+      }
+    ]
+  },
+  "إبراهيم السعدان": {
+    "id": 204,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/IbrahemSadan/"
+      }
+    ]
+  },
+  "إبراهيم العسيري": {
+    "id": 3,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/3siri/"
+      }
+    ]
+  },
+  "إبراهيم كشيدان": {
+    "id": 279,
+    "riwayat": [
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server16.mp3quran.net/i_kshidan/Rewayat-Qalon-A-n-Nafi/"
+      }
+    ]
+  },
+  "أحمد الحذيفي": {
+    "id": 205,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/ahmad_huth/"
+      }
+    ]
+  },
+  "أحمد الحواشي": {
+    "id": 6,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/hawashi/"
+      }
+    ]
+  },
+  "أحمد السويلم": {
+    "id": 252,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/swlim/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "أحمد الطرابلسي": {
+    "id": 201,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/trabulsi/"
+      },
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server10.mp3quran.net/trablsi/"
+      }
+    ]
+  },
+  "أحمد النفيس": {
+    "id": 259,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/nufais/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "أحمد بن علي العجمي": {
+    "id": 5,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/ajm/"
+      }
+    ]
+  },
+  "أحمد خليل شاهين": {
+    "id": 256,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/shaheen/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "أحمد ديبان": {
+    "id": 265,
+    "riwayat": [
+      {
+        "riwaya": "ابن جماز عن أبي جعفر - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Ibn-Jammaz-A-n-Abi-Ja-far/"
+      },
+      {
+        "riwaya": "السوسي عن أبي عمرو - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Assosi-A-n-Abi-Amr/"
+      },
+      {
+        "riwaya": "ورش عن نافع من طريق الأزرق - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Alazraq/"
+      },
+      {
+        "riwaya": "الدوري عن أبي عمرو - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Aldori-A-n-Abi-Amr/"
+      },
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Qalon-A-n-Nafi/"
+      },
+      {
+        "riwaya": "البزي عن ابن كثير - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Albizi-A-n-Ibn-Katheer/"
+      },
+      {
+        "riwaya": "قنبل عن ابن كثير - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Qunbol-A-n-Ibn-Katheer/"
+      },
+      {
+        "riwaya": "شعبة  عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Sho-bah-A-n-Asim/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/deban/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "أحمد سعود": {
+    "id": 7,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/saud/"
+      }
+    ]
+  },
+  "أحمد صابر": {
+    "id": 8,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/saber/"
+      }
+    ]
+  },
+  "أحمد طالب بن حميد": {
+    "id": 137,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_binhameed/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "أحمد عامر": {
+    "id": 203,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/Aamer/"
+      }
+    ]
+  },
+  "أحمد عيسى المعصراوي": {
+    "id": 278,
+    "riwayat": [
+      {
+        "riwaya": "قراءة يعقوب الحضرمي بروايتي رويس وروح - مرتل",
+        "server": "https://server16.mp3quran.net/a_maasaraawi/Rewayat-Rawh-A-n-Yakoob-Alhadrami/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_maasaraawi/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "أحمد نعينع": {
+    "id": 9,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/ahmad_nu/"
+      }
+    ]
+  },
+  "إدريس أبكر": {
+    "id": 12,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/abkr/"
+      }
+    ]
+  },
+  "إسلام صبحي": {
+    "id": 253,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/islam/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "أكرم العلاقمي": {
+    "id": 10,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/akrm/"
+      }
+    ]
+  },
+  "الحسيني العزازي": {
+    "id": 11,
+    "riwayat": [
+      {
+        "riwaya": "المصحف المعلم - المصحف المعلم",
+        "server": "https://server8.mp3quran.net/3zazi/"
+      }
+    ]
+  },
+  "الدوكالي محمد العالم": {
+    "id": 208,
+    "riwayat": [
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server7.mp3quran.net/dokali/"
+      }
+    ]
+  },
+  "الزين محمد أحمد": {
+    "id": 13,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/alzain/"
+      }
+    ]
+  },
+  "العشري عمران": {
+    "id": 15,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/omran/"
+      }
+    ]
+  },
+  "العيون الكوشي": {
+    "id": 16,
+    "riwayat": [
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server11.mp3quran.net/koshi/"
+      }
+    ]
+  },
+  "الفاتح محمد الزبير": {
+    "id": 211,
+    "riwayat": [
+      {
+        "riwaya": "الدوري عن أبي عمرو - مرتل",
+        "server": "https://server6.mp3quran.net/fateh/"
+      }
+    ]
+  },
+  "القارئ ياسين": {
+    "id": 14,
+    "riwayat": [
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server11.mp3quran.net/qari/"
+      }
+    ]
+  },
+  "الوليد الشمسان": {
+    "id": 21188,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/shamsan/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "أنس العمادي": {
+    "id": 302,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_alemadi/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "بدر التركي": {
+    "id": 254,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/bader/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "بندر بليله": {
+    "id": 217,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/balilah/"
+      }
+    ]
+  },
+  "بيشه وا قادر الكردي": {
+    "id": 268,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "توفيق الصايغ": {
+    "id": 17,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/twfeeq/"
+      }
+    ]
+  },
+  "جمال شاكر عبدالله": {
+    "id": 18,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/jamal/"
+      }
+    ]
+  },
+  "جمعان العصيمي": {
+    "id": 181,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/jaman/"
+      }
+    ]
+  },
+  "جنيد آدم عبدالله": {
+    "id": 21186,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/J-Abdullah/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "حاتم فريد الواعر": {
+    "id": 163,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/hatem/"
+      }
+    ]
+  },
+  "حسن الدغريري": {
+    "id": 21183,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/H-Aldaghriri/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "حسن صالح": {
+    "id": 286,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/h_saleh/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "حسين آل الشيخ": {
+    "id": 162,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/alshaik/"
+      }
+    ]
+  },
+  "حمد الدغريري": {
+    "id": 19,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/hamad/"
+      }
+    ]
+  },
+  "خالد الجليل": {
+    "id": 20,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/jleel/"
+      }
+    ]
+  },
+  "خالد الزيادي": {
+    "id": 21187,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/K-Alzadi/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "خالد الشارخ": {
+    "id": 247,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/sharekh/"
+      }
+    ]
+  },
+  "خالد الشريمي": {
+    "id": 218,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/shoraimy/"
+      }
+    ]
+  },
+  "خالد الغامدي": {
+    "id": 226,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/ghamdi/"
+      }
+    ]
+  },
+  "خالد القحطاني": {
+    "id": 21,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/qht/"
+      }
+    ]
+  },
+  "خالد المهنا": {
+    "id": 159,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/mohna/"
+      }
+    ]
+  },
+  "خالد عبدالكافي": {
+    "id": 22,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/kafi/"
+      }
+    ]
+  },
+  "خالد كريم محمدي": {
+    "id": 283,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/kh_mohammadi/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "خليفة الطنيجي": {
+    "id": 24,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/tnjy/"
+      }
+    ]
+  },
+  "داود حمزة": {
+    "id": 25,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/hamza/"
+      }
+    ]
+  },
+  "رامي الدعيس": {
+    "id": 230,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/rami/"
+      }
+    ]
+  },
+  "رشيد بلعالية": {
+    "id": 27,
+    "riwayat": [
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server6.mp3quran.net/bl3/Rewayat-Warsh-A-n-Nafi/"
+      }
+    ]
+  },
+  "رعد محمد الكردي": {
+    "id": 221,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/kurdi/"
+      }
+    ]
+  },
+  "رمضان شكور": {
+    "id": 227,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/shakoor/"
+      }
+    ]
+  },
+  "زكي داغستاني": {
+    "id": 33,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/zaki/"
+      }
+    ]
+  },
+  "سامي الحسن": {
+    "id": 34,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/sami_hsn/"
+      }
+    ]
+  },
+  "سامي الدوسري": {
+    "id": 35,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/sami_dosr/"
+      }
+    ]
+  },
+  "سعد الغامدي": {
+    "id": 30,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server7.mp3quran.net/s_gmd/"
+      }
+    ]
+  },
+  "سعد المقرن": {
+    "id": 257,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/saad/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "سعود الشريم": {
+    "id": 31,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server7.mp3quran.net/shur/"
+      }
+    ]
+  },
+  "سلمان الصديق": {
+    "id": 285,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/s_sadeiq/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "سلمان العتيبي": {
+    "id": 240,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/salman/"
+      }
+    ]
+  },
+  "سهل ياسين": {
+    "id": 32,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/shl/"
+      }
+    ]
+  },
+  "سيد أحمد هاشمي": {
+    "id": 282,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/s_hashemi/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "سيد رمضان": {
+    "id": 36,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/sayed/"
+      }
+    ]
+  },
+  "شيخ أبو بكر الشاطري": {
+    "id": 4,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/shatri/"
+      }
+    ]
+  },
+  "شيرزاد عبدالرحمن طاهر": {
+    "id": 38,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/taher/"
+      }
+    ]
+  },
+  "صابر عبدالحكم": {
+    "id": 39,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/hkm/"
+      }
+    ]
+  },
+  "صالح الشمراني": {
+    "id": 300,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/shamrani/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "صالح الصاهود": {
+    "id": 40,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/sahood/"
+      }
+    ]
+  },
+  "صالح القريشي": {
+    "id": 290,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/s_alquraishi/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "صالح الهبدان": {
+    "id": 42,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/habdan/"
+      }
+    ]
+  },
+  "صلاح البدير": {
+    "id": 43,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/s_bud/"
+      }
+    ]
+  },
+  "صلاح الهاشم": {
+    "id": 44,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/salah_hashim_m/"
+      }
+    ]
+  },
+  "صلاح بو خاطر": {
+    "id": 46,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/bu_khtr/"
+      }
+    ]
+  },
+  "صلاح مصلي": {
+    "id": 246,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/musali/"
+      }
+    ]
+  },
+  "طارق عبدالغني دعوب": {
+    "id": 212,
+    "riwayat": [
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server10.mp3quran.net/tareq/"
+      }
+    ]
+  },
+  "عادل الكلباني": {
+    "id": 160,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/a_klb/"
+      }
+    ]
+  },
+  "عادل ريان": {
+    "id": 48,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/ryan/"
+      }
+    ]
+  },
+  "عبدالإله بن عون": {
+    "id": 136,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_binaoun/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالبارئ الثبيتي": {
+    "id": 49,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/thubti/"
+      }
+    ]
+  },
+  "عبدالبارئ محمد": {
+    "id": 50,
+    "riwayat": [
+      {
+        "riwaya": "المصحف المعلم - المصحف المعلم",
+        "server": "https://server12.mp3quran.net/bari/Almusshaf-Al-Mo-lim/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/bari/"
+      }
+    ]
+  },
+  "عبدالباسط عبدالصمد": {
+    "id": 51,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server7.mp3quran.net/basit/"
+      },
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server7.mp3quran.net/basit/Rewayat-Warsh-A-n-Nafi/"
+      },
+      {
+        "riwaya": "المصحف المجود - المصحف المجود",
+        "server": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/"
+      }
+    ]
+  },
+  "عبدالرحمن السديس": {
+    "id": 54,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/sds/"
+      }
+    ]
+  },
+  "عبدالرحمن السويّد": {
+    "id": 135,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_swaiyd/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالرحمن الشحات": {
+    "id": 287,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_alshahhat/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالرحمن العوسي": {
+    "id": 225,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/aloosi/"
+      }
+    ]
+  },
+  "عبدالرحمن الماجد": {
+    "id": 236,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/a_majed/"
+      }
+    ]
+  },
+  "عبدالرشيد صوفي": {
+    "id": 64,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/soufi/Rewayat-Hafs-A-n-Assem/"
+      },
+      {
+        "riwaya": "السوسي عن أبي عمرو - مرتل",
+        "server": "https://server16.mp3quran.net/soufi/Rewayat-Assosi-A-n-Abi-Amr/"
+      },
+      {
+        "riwaya": "خلف عن حمزة - مرتل",
+        "server": "https://server16.mp3quran.net/soufi/Rewayat-Khalaf-A-n-Hamzah/"
+      }
+    ]
+  },
+  "عبدالعزيز الأحمد": {
+    "id": 55,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/a_ahmed/"
+      }
+    ]
+  },
+  "عبدالعزيز التركي": {
+    "id": 79,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_turki/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالعزيز الزهراني": {
+    "id": 56,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/zahrani/"
+      }
+    ]
+  },
+  "عبدالكريم الحازمي": {
+    "id": 304,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_alhazmi/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالله البريمي": {
+    "id": 57,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/brmi/"
+      }
+    ]
+  },
+  "عبدالله البعيجان": {
+    "id": 58,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/buajan/"
+      }
+    ]
+  },
+  "عبدالله الخلف": {
+    "id": 244,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/khalf/"
+      }
+    ]
+  },
+  "عبدالله الكندري": {
+    "id": 202,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/Abdullahk/"
+      }
+    ]
+  },
+  "عبدالله المطرود": {
+    "id": 59,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/mtrod/"
+      }
+    ]
+  },
+  "عبدالله الموسى": {
+    "id": 243,
+    "riwayat": [
+      {
+        "riwaya": "المصحف المعلم - المصحف المعلم",
+        "server": "https://server14.mp3quran.net/mousa/Almusshaf-Al-Mo-lim/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/mousa/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالله بخاري": {
+    "id": 29,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_bukhari/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالله بصفر": {
+    "id": 60,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/bsfr/"
+      }
+    ]
+  },
+  "عبدالله خياط": {
+    "id": 61,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/kyat/"
+      }
+    ]
+  },
+  "عبدالله عبدل": {
+    "id": 98,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/a_abdl/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالله عواد الجهني": {
+    "id": 62,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server13.mp3quran.net/jhn/"
+      }
+    ]
+  },
+  "عبدالله غيلان": {
+    "id": 63,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/gulan/"
+      }
+    ]
+  },
+  "عبدالله كامل": {
+    "id": 267,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/kamel/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عبدالمجيد الأركاني": {
+    "id": 228,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server7.mp3quran.net/m_arkani/"
+      }
+    ]
+  },
+  "عبدالمحسن الحارثي": {
+    "id": 66,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/mohsin_harthi/"
+      }
+    ]
+  },
+  "عبدالمحسن العبيكان": {
+    "id": 69,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/obk/"
+      }
+    ]
+  },
+  "عبدالمحسن القاسم": {
+    "id": 67,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/qasm/"
+      }
+    ]
+  },
+  "عبدالهادي أحمد كناكري": {
+    "id": 70,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/kanakeri/"
+      }
+    ]
+  },
+  "عبدالودود حنيف": {
+    "id": 71,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/wdod/"
+      }
+    ]
+  },
+  "عبدالولي الأركاني": {
+    "id": 72,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/arkani/"
+      }
+    ]
+  },
+  "عثمان الأنصاري": {
+    "id": 216,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/Othmn/"
+      }
+    ]
+  },
+  "عكاشة كميني": {
+    "id": 272,
+    "riwayat": [
+      {
+        "riwaya": "البزي عن ابن كثير - مرتل",
+        "server": "https://server16.mp3quran.net/okasha/Rewayat-Albizi-A-n-Ibn-Katheer/"
+      },
+      {
+        "riwaya": "الدوري عن الكسائي - مرتل",
+        "server": "https://server16.mp3quran.net/okasha/Rewayat-AlDorai-A-n-Al-Kisa-ai/"
+      }
+    ]
+  },
+  "علي بن عبدالرحمن الحذيفي": {
+    "id": 74,
+    "riwayat": [
+      {
+        "riwaya": "شعبة  عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/hthfi/Rewayat-Sho-bah-A-n-Asim/"
+      },
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server9.mp3quran.net/huthifi_qalon/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/hthfi/"
+      }
+    ]
+  },
+  "علي جابر": {
+    "id": 76,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/a_jbr/"
+      }
+    ]
+  },
+  "علي حجاج السويسي": {
+    "id": 77,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/hajjaj/"
+      }
+    ]
+  },
+  "عماد زهير حافظ": {
+    "id": 78,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/hafz/"
+      }
+    ]
+  },
+  "عمر الدريويز": {
+    "id": 260,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/darweez/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "عمر القزابري": {
+    "id": 80,
+    "riwayat": [
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server9.mp3quran.net/omar_warsh/"
+      }
+    ]
+  },
+  "فؤاد الخامري": {
+    "id": 281,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/f_khamery/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "فارس عباد": {
+    "id": 81,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/frs_a/"
+      }
+    ]
+  },
+  "فهد الكندري": {
+    "id": 83,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/kndri/"
+      }
+    ]
+  },
+  "فيصل الهاجري": {
+    "id": 301,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/f_hajry/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "لافي العوني": {
+    "id": 85,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/lafi/"
+      }
+    ]
+  },
+  "ماجد الزامل": {
+    "id": 139,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/zaml/"
+      }
+    ]
+  },
+  "ماجد العنزي": {
+    "id": 100,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/majd_onazi/"
+      }
+    ]
+  },
+  "مال الله عبدالرحمن الجابر": {
+    "id": 284,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/mal-allah_jaber/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "ماهر المعيقلي": {
+    "id": 102,
+    "riwayat": [
+      {
+        "riwaya": "المصحف المجود - المصحف المجود",
+        "server": "https://server12.mp3quran.net/maher/Almusshaf-Al-Mojawwad/"
+      },
+      {
+        "riwaya": "المصحف المعلم - المصحف المعلم",
+        "server": "https://server12.mp3quran.net/maher/Almusshaf-Al-Mo-lim/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/maher/"
+      }
+    ]
+  },
+  "ماهر شخاشيرو": {
+    "id": 149,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/shaksh/"
+      }
+    ]
+  },
+  "محمد أبو سنينة": {
+    "id": 274,
+    "riwayat": [
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server16.mp3quran.net/sneineh/Rewayat-Qalon-A-n-Nafi/"
+      }
+    ]
+  },
+  "محمد الأمين قنيوة": {
+    "id": 275,
+    "riwayat": [
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server16.mp3quran.net/qeniwa/Rewayat-Qalon-A-n-Nafi/"
+      }
+    ]
+  },
+  "محمد الأيراوي": {
+    "id": 104,
+    "riwayat": [
+      {
+        "riwaya": "ورش عن نافع من طريق الأزرق - مرتل",
+        "server": "https://server6.mp3quran.net/earawi/"
+      }
+    ]
+  },
+  "محمد البخيت": {
+    "id": 250,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/bukheet/"
+      }
+    ]
+  },
+  "محمد البراك": {
+    "id": 105,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server13.mp3quran.net/braak/"
+      }
+    ]
+  },
+  "محمد الطبلاوي": {
+    "id": 106,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/tblawi/"
+      }
+    ]
+  },
+  "محمد الفقيه": {
+    "id": 21184,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/M_Alfaqih/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "محمد اللحيدان": {
+    "id": 107,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/lhdan/"
+      }
+    ]
+  },
+  "محمد المحيسني": {
+    "id": 108,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/mhsny/"
+      }
+    ]
+  },
+  "محمد المنشد": {
+    "id": 150,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/monshed/"
+      }
+    ]
+  },
+  "محمد أيوب": {
+    "id": 109,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - 4",
+        "server": "https://server16.mp3quran.net/ayyoub2/Rewayat-Hafs-A-n-Assem/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/ayyub/"
+      }
+    ]
+  },
+  "محمد برهجي": {
+    "id": 21181,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/M_Burhaji/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "محمد جبريل": {
+    "id": 111,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/jbrl/"
+      }
+    ]
+  },
+  "محمد خليل القارئ": {
+    "id": 229,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/m_qari/"
+      }
+    ]
+  },
+  "محمد رشاد الشريف": {
+    "id": 198,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/rashad/"
+      }
+    ]
+  },
+  "محمد سايد": {
+    "id": 134,
+    "riwayat": [
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server16.mp3quran.net/m_sayed/Rewayat-Warsh-A-n-Nafi/"
+      }
+    ]
+  },
+  "محمد صالح عالم شاه": {
+    "id": 110,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/shah/"
+      }
+    ]
+  },
+  "محمد صديق المنشاوي": {
+    "id": 112,
+    "riwayat": [
+      {
+        "riwaya": "المصحف المعلم - المصحف المعلم",
+        "server": "https://server10.mp3quran.net/minsh/Almusshaf-Al-Mo-lim/"
+      },
+      {
+        "riwaya": "المصحف المجود - المصحف المجود",
+        "server": "https://server10.mp3quran.net/minsh/Almusshaf-Al-Mojawwad/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server10.mp3quran.net/minsh/"
+      }
+    ]
+  },
+  "محمد عبدالحكيم سعيد العبدالله": {
+    "id": 116,
+    "riwayat": [
+      {
+        "riwaya": "الدوري عن الكسائي - مرتل",
+        "server": "https://server9.mp3quran.net/abdullah/Rewayat-AlDorai-A-n-Al-Kisa-ai/"
+      },
+      {
+        "riwaya": "البزي وقنبل عن ابن كثير - مرتل",
+        "server": "https://server9.mp3quran.net/abdullah/"
+      }
+    ]
+  },
+  "محمد عبدالكريم": {
+    "id": 115,
+    "riwayat": [
+      {
+        "riwaya": "ورش عن نافع من طريق أبي بكر الأصبهاني - مرتل",
+        "server": "https://server12.mp3quran.net/m_krm/Rewayat-Warsh-A-n-Nafi-Men-Tariq-Abi-Baker-Alasbahani/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/m_krm/"
+      }
+    ]
+  },
+  "محمد عثمان خان": {
+    "id": 206,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/khan/"
+      }
+    ]
+  },
+  "محمود الرفاعي": {
+    "id": 165,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/mrifai/"
+      }
+    ]
+  },
+  "محمود الشيمي": {
+    "id": 151,
+    "riwayat": [
+      {
+        "riwaya": "الدوري عن الكسائي - مرتل",
+        "server": "https://server10.mp3quran.net/sheimy/"
+      }
+    ]
+  },
+  "محمود خليل الحصري": {
+    "id": 118,
+    "riwayat": [
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server13.mp3quran.net/husr/Rewayat-Qalon-A-n-Nafi/"
+      },
+      {
+        "riwaya": "الدوري عن أبي عمرو - مرتل",
+        "server": "https://server13.mp3quran.net/husr/Rewayat-Aldori-A-n-Abi-Amr/"
+      },
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server13.mp3quran.net/husr/Rewayat-Warsh-A-n-Nafi/"
+      },
+      {
+        "riwaya": "المصحف المجود - المصحف المجود",
+        "server": "https://server13.mp3quran.net/husr/Almusshaf-Al-Mojawwad/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server13.mp3quran.net/husr/"
+      }
+    ]
+  },
+  "محمود عبدالحكم": {
+    "id": 277,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/m_abdelhakam/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "محمود علي البنا": {
+    "id": 121,
+    "riwayat": [
+      {
+        "riwaya": "المصحف المجود - المصحف المجود",
+        "server": "https://server8.mp3quran.net/bna/Almusshaf-Al-Mojawwad/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/bna/"
+      }
+    ]
+  },
+  "مختار الحاج": {
+    "id": 47,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/mukhtar_haj/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "مروان العكري": {
+    "id": 237,
+    "riwayat": [
+      {
+        "riwaya": "قالون عن نافع - مرتل",
+        "server": "https://server16.mp3quran.net/m_akri/Rewayat-Qalon-A-n-Nafi/"
+      }
+    ]
+  },
+  "مشاري العفاسي": {
+    "id": 123,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/afs/"
+      }
+    ]
+  },
+  "مصطفى إسماعيل": {
+    "id": 125,
+    "riwayat": [
+      {
+        "riwaya": "المصحف المجود - المصحف المجود",
+        "server": "https://server8.mp3quran.net/mustafa/Almusshaf-Al-Mojawwad/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/mustafa/"
+      }
+    ]
+  },
+  "مصطفى اللاهوني": {
+    "id": 126,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/lahoni/"
+      }
+    ]
+  },
+  "مصطفى رعد العزاوي": {
+    "id": 127,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/ra3ad/"
+      }
+    ]
+  },
+  "معمر الأندونيسي": {
+    "id": 128,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/muamr/"
+      }
+    ]
+  },
+  "معيض الحارثي": {
+    "id": 197,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/harthi/"
+      }
+    ]
+  },
+  "مفتاح السلطني": {
+    "id": 129,
+    "riwayat": [
+      {
+        "riwaya": "ابن ذكوان عن ابن عامر - مرتل",
+        "server": "https://server14.mp3quran.net/muftah_sultany/Rewayat_Ibn-Thakwan-A-n-Ibn-Amer/"
+      },
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/muftah_sultany/Rewayat-Hafs-A-n-Assem/"
+      },
+      {
+        "riwaya": "الدوري عن الكسائي - مرتل",
+        "server": "https://server14.mp3quran.net/muftah_sultany/Rewayat-AlDorai-A-n-Al-Kisa-ai/"
+      },
+      {
+        "riwaya": "الدوري عن أبي عمرو - مرتل",
+        "server": "https://server14.mp3quran.net/muftah_sultany/Rewayat-Aldori-A-n-Abi-Amr/"
+      }
+    ]
+  },
+  "منصور السالمي": {
+    "id": 245,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/mansor/"
+      }
+    ]
+  },
+  "موسى بلال": {
+    "id": 161,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/bilal/"
+      }
+    ]
+  },
+  "ناصر العبيد": {
+    "id": 166,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/obaid/"
+      }
+    ]
+  },
+  "ناصر العصفور": {
+    "id": 248,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/alosfor/"
+      }
+    ]
+  },
+  "ناصر القطامي": {
+    "id": 86,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/qtm/"
+      }
+    ]
+  },
+  "ناصر الماجد": {
+    "id": 251,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server14.mp3quran.net/nasser_almajed/"
+      }
+    ]
+  },
+  "نبيل الرفاعي": {
+    "id": 87,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/nabil/"
+      }
+    ]
+  },
+  "نذير المالكي": {
+    "id": 271,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net//nathier/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "نعمة الحسان": {
+    "id": 88,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/namh/"
+      }
+    ]
+  },
+  "نورين محمد صديق": {
+    "id": 138,
+    "riwayat": [
+      {
+        "riwaya": "الدوري عن أبي عمرو - مرتل",
+        "server": "https://server16.mp3quran.net/nourin_siddig/Rewayat-Aldori-A-n-Abi-Amr/"
+      }
+    ]
+  },
+  "هارون بقائي": {
+    "id": 289,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/h_baqai/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "هاشم أبو دلال": {
+    "id": 280,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/h_abudalal/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "هاني الرفاعي": {
+    "id": 89,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/hani/"
+      }
+    ]
+  },
+  "هزاع البلوشي": {
+    "id": 231,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/hazza/"
+      }
+    ]
+  },
+  "هشام الهراز": {
+    "id": 305,
+    "riwayat": [
+      {
+        "riwaya": "ورش عن نافع - مرتل",
+        "server": "https://server16.mp3quran.net/H-Lharraz/Rewayat-Warsh-A-n-Nafi/"
+      }
+    ]
+  },
+  "هيثم الجدعاني": {
+    "id": 255,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server16.mp3quran.net/hitham/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "هيثم الدخين": {
+    "id": 273,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - 4",
+        "server": "https://server16.mp3quran.net/h_dukhain/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "وديع اليمني": {
+    "id": 219,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/wdee3/"
+      }
+    ]
+  },
+  "وليد الدليمي": {
+    "id": 90,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/dlami/"
+      }
+    ]
+  },
+  "وليد النائحي": {
+    "id": 91,
+    "riwayat": [
+      {
+        "riwaya": "قالون عن نافع من طريق أبي نشيط - مرتل",
+        "server": "https://server9.mp3quran.net/waleed/"
+      }
+    ]
+  },
+  "ياسر الدوسري": {
+    "id": 92,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server11.mp3quran.net/yasser/"
+      }
+    ]
+  },
+  "ياسر الفيلكاوي": {
+    "id": 94,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server6.mp3quran.net/fyl/"
+      }
+    ]
+  },
+  "ياسر القرشي": {
+    "id": 93,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/qurashi/"
+      }
+    ]
+  },
+  "ياسر المزروعي ": {
+    "id": 95,
+    "riwayat": [
+      {
+        "riwaya": "قراءة يعقوب الحضرمي بروايتي رويس وروح - مرتل",
+        "server": "https://server9.mp3quran.net/mzroyee/"
+      }
+    ]
+  },
+  "ياسر سلامة": {
+    "id": 152,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/salamah/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "يحيى حوا": {
+    "id": 96,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server12.mp3quran.net/yahya/"
+      }
+    ]
+  },
+  "يوسف الدغوش": {
+    "id": 207,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server7.mp3quran.net/dgsh/"
+      }
+    ]
+  },
+  "يوسف الشويعي": {
+    "id": 97,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server9.mp3quran.net/yousef/"
+      }
+    ]
+  },
+  "يوسف العيدروس": {
+    "id": 21182,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - 4",
+        "server": "https://server16.mp3quran.net/Y_ALaidroos/Rewayat-Hafs-A-n-Assem/"
+      }
+    ]
+  },
+  "يوسف بن نوح أحمد": {
+    "id": 193,
+    "riwayat": [
+      {
+        "riwaya": "حفص عن عاصم - مرتل",
+        "server": "https://server8.mp3quran.net/noah/"
+      }
+    ]
+  }
+}
