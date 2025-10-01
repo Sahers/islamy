@@ -185,7 +185,7 @@ details[3].innerHTML =`${hourss}:${minutess} ${(eveningg?"م":"ص")}`
       let mainncontainer = document.getElementsByClassName("cont")[0]
       mainncontainer.style.flexDirection = "column"
       mainncontainer.style.backgroundColor = "var(--sec-color)"
-      mainncontainer.innerHTML = `<div class="center-image"><img src="../../icons/error.png" class="imagee error-hadith"></div>
+      mainncontainer.innerHTML = `<div class="center-image"><img loading="lazy" src="../../icons/error.png" class="imagee error-hadith"></div>
       <p class="center">هناك خطأ في الموقع حاليًا،يمكنك الرجوع إلى <span onclick="back();" style="color:white;text-decoration:none;cursor:pointer;">الصفحة الرئيسية</span></p>
         `;
     })

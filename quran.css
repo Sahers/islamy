@@ -2,6 +2,7 @@
 @font-face{
 font-family: "quran";
   src: url(fonts/ArbFONTS-Noon.ttf);
+  font-display: swap;
   }
 :root{
   --th-color:#53CDA2;

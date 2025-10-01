@@ -126,13 +126,13 @@ function secs(imam, id) {
               `<div class="hadithcontainer">
               <div data="${m["hadiths"][j]["text"]}" class="one-hadith">${m["hadiths"][j]["arabicnumber"]}-` +
               m["hadiths"][j]["text"] +
-              `</div><button class="paste"><img src="../icons/paste.png" alt="لصق" class="pastee"></button></div>`;
+              `</div><button class="paste"><img loading="lazy" src="../icons/paste.png" alt="لصق" class="pastee"></button></div>`;
             }
           }
           return ret;
         }).catch((e) => {
           console.log(e)
-          showw.innerHTML = `<div class="center-image"><img src="../../icons/error.png" class="imagee error-hadith"></div>
+          showw.innerHTML = `<div class="center-image"><img loading="lazy" src="../../icons/error.png" class="imagee error-hadith"></div>
       <p class="center">هناك خطأ في الموقع حاليًا،يمكنك الرجوع إلى <span onclick="back();" style="color:white;text-decoration:none;cursor:pointer;">الصفحة الرئيسية</span></p>
         `;
         });
@@ -140,7 +140,7 @@ function secs(imam, id) {
       ${data}
       `;
       if(data == ""){
-        showw.innerHTML = `<div class="center-image"><img src="../../icons/error.png" class="imagee error-hadith"></div>
+        showw.innerHTML = `<div class="center-image"><img loading="lazy" src="../../icons/error.png" class="imagee error-hadith"></div>
       <p class="center">هناك خطأ في الموقع حاليًا،يمكنك الرجوع إلى <span onclick="back();" style="color:white;text-decoration:none;cursor:pointer;">الصفحة الرئيسية</span></p>
         `;
       }

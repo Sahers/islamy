@@ -27,6 +27,7 @@ button{
 @font-face{
   font-family: "islam";
   src: url("Cairo-VariableFont_slnt,wght.ttf");
+  font-display: swap;
 }
 *{
   font-family:"islam";
@@ -126,10 +127,12 @@ footer {
 @font-face {
   font-family: "tafsir";
   src: url("/fonts/UthmanicHafs1Ver08.otf");
+  font-display: swap;
 }
 @font-face{
 font-family: "quran";
   src: url("/fonts/ArbFONTS-Noon.ttf");
+  font-display: swap;
   }
 .title {
   background-color: var(--sec-color);

@@ -2,10 +2,12 @@
 @font-face {
   font-family: "tafsir";
   src: url("../fonts/UthmanicHafs1Ver08.otf");
+  font-display: swap;
 }
 @font-face{
   font-family: "quran";
     src: url("../fonts/ArbFONTS-Noon.ttf");
+    font-display: swap;
 }
 .content{
   display: none;

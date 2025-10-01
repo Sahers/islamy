@@ -2,6 +2,7 @@
 @font-face{
 font-family: "quran";
   src: url(fonts/ArbFONTS-Noon.ttf);
+  font-display: swap;
   }
 .image{
   width: 100%;
@@ -69,6 +70,7 @@ li a[href="index.html"] {
 .sections .container{
    display: grid;
   justify-content: center;
+  direction: rtl;
 }
 @media(min-width:625px){
   .sections .container{
@@ -94,7 +96,7 @@ li a[href="index.html"] {
   margin: 15px 0;
   animation: 1.5s ease-in-out;
  align-items: center;
- height: 230px;
+ height: 270px;
 }
 .card h3{
   font-size: 22px;

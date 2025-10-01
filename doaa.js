@@ -57,7 +57,7 @@ async function doaa() {
             for(let j = 0;j < parts[i].length;j++){
                 cont[i] += `<div class="cont">
                 <div class="text">${parts[i][j]["text"]}</div>
-                <button class="paste"><img src="icons/paste.png" alt="لصق" class="pastee"></button>
+                <button class="paste"><img loading="lazy" src="icons/paste.png" alt="لصق" class="pastee"></button>
                 </div>
                 `
             }

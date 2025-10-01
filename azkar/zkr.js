@@ -61,7 +61,7 @@ async function zekr(type) {
         azkarplace.style.backgroundColor = "var(--sec-color)"
         azkarplace.style.display = "flex"
         azkarplace.style.flexDirection = "column"
-        azkarplace.innerHTML = `<div class="center-image"><img src="../../icons/error.png" class="imagee error-hadith"></div>
+        azkarplace.innerHTML = `<div class="center-image"><img loading="lazy" src="../../icons/error.png" class="imagee error-hadith"></div>
       <p class="center">هناك خطأ في الموقع حاليًا،يمكنك الرجوع إلى <span onclick="back();" style="color:white;text-decoration:none;cursor:pointer;">الصفحة الرئيسية</span></p>
         `;
     })

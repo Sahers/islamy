@@ -170,7 +170,7 @@ async function info(num) {
     })
     .catch(error => {
       //console.log(error)
-      su.innerHTML = '<div class="center-image"><img src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br>أعد تحميل الصفحة<br> أو بلغنا'
+      su.innerHTML = '<div class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br>أعد تحميل الصفحة<br> أو بلغنا'
       su.style.textAlign = 'center'
       su.style.backgroundColor = 'var(--third-color)'
       su.style.padding = '40px'
@@ -192,7 +192,7 @@ async function info(num) {
         <div class="ayaa">
         <div class="ayacont">
                 <div class="aya-text">${eles[i]} (${i + 1})</div>
-                <button class="paste"><img src="../icons/paste.png" alt="لصق" class="pastee"></button>
+                <button class="paste"><img loading="lazy" src="../icons/paste.png" alt="لصق" class="pastee"></button>
                 </div>
                 <hr>
         <div class="tafsircont">
@@ -201,14 +201,14 @@ async function info(num) {
               </div>
                 <hr>
                 <div class="tafsir">${tafsir[i]}</div>
-                <button class="paste"><img src="../icons/paste.png" alt="لصق" class="pastee"></button>
+                <button class="paste"><img loading="lazy" src="../icons/paste.png" alt="لصق" class="pastee"></button>
                 </div>
               </div>`
       }
     })
     .catch(function(error) {
       //console.log(error)
-      su.innerHTML = '<div class="center-image"><img src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br>اعد تحميل الصفحة<br> أو بلغنا'
+      su.innerHTML = '<div class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br>اعد تحميل الصفحة<br> أو بلغنا'
       su.style.textAlign = 'center'
       su.style.backgroundColor = 'var(--third-color)'
       su.style.padding = '40px'

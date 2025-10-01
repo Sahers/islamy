@@ -69,6 +69,11 @@ let numaya = Math.min(Math.floor(Math.random() * numayas),numayas - 1)
           suraplace[0].innerText = titles[numsurah - 1];
           suraplace[1].innerText = numaya + 1
           suralinkplace.href = `suras/${surapage[numsurah]}.html`
+}).catch(()=>{
+  ayaplace.innerText = "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَـٰلَمِینَ"
+  suraplace[0].innerText = "الفاتحة";
+  suraplace[1].innerText = 2
+  suralinkplace.href = `suras/alfatiha.html`
 })
   setTimeout(()=>{
       document.getElementsByClassName('content')[0].style.display = 'block'
