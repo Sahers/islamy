@@ -58,7 +58,6 @@ let event;
 document.body.addEventListener("click",(e)=>{
   if(e.target && e.target.id == "start"){
   let numofques = +document.querySelector(".choic input").value
-  console.log(document.querySelector(".choic input").value)
   if(numofques < 1 || numofques > 20 || numofques === "" || isNaN(numofques)){
     errorshowed = false
     if(!errorshowed){
@@ -165,6 +164,6 @@ function back() {
   </div>`;
   // مهم
   setTimeout(() => {
-    location.href = "../../index.html";
+    location.href = "index.html";
   }, 1000);
 }

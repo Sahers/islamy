@@ -58,7 +58,6 @@ let numaya = Math.min(Math.floor(Math.random() * numayas),numayas - 1)
           if(aya[1] == 'ّ'){
             ok = true
           }
-          console.log(ok)
        if (ok == true) {
             aya = aya.slice(40)
          }

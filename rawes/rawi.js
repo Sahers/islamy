@@ -105,7 +105,6 @@ function secs(imam, id) {
       let word = imams[id];
       let data = await hadith(word, i + 1)
         .then((m) => {
-          console.log(m)
           mark(ele, imam);
           let par = document.querySelector(".show p");
           par.innerHTML = `باب ${e.target.innerText}`;
@@ -119,7 +118,6 @@ function secs(imam, id) {
             if(word == "muslim" && i == 0){
               dif = 15
             }
-          console.log(dif);
           for (let j = 0; j < dif; j++) {
             if(m["hadiths"][j]["text"] != ""){
             ret +=
@@ -131,7 +129,6 @@ function secs(imam, id) {
           }
           return ret;
         }).catch((e) => {
-          console.log(e)
           showw.innerHTML = `<div class="center-image"><img loading="lazy" src="../../icons/error.png" class="imagee error-hadith"></div>
       <p class="center">هناك خطأ في الموقع حاليًا،يمكنك الرجوع إلى <span onclick="back();" style="color:white;text-decoration:none;cursor:pointer;">الصفحة الرئيسية</span></p>
         `;
@@ -171,7 +168,6 @@ function hadith(imam, num) {
   else{
   url = `https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-${imam}/sections/${num}.json`;
   }
-  console.log(url)
   return fetch(url).then((r) => r.json());
 }
 // back to main page on error
@@ -182,7 +178,7 @@ function back() {
   </div>`;
   // مهم
   setTimeout(() => {
-    location.href = "../../index.html";
+    location.href = "../index.html";
   }, 1000);
 }
 // add pasting in any hadith

@@ -59,6 +59,7 @@ let tafsir = []
 let numay;
 let selectqaree= document.getElementById("qaree")
 let numsurah;
+let surahname;
 async function info(num) {
   // buttons after and before
   let arwsplace = document.getElementById("arrows")
@@ -98,7 +99,6 @@ async function info(num) {
   `
   // add sura data
   numsurah = num 
-  let dataaudio;
   let url = `https://api.alquran.cloud/v1/surah/${num}`
   let tafs = `https://quranenc.com/api/v1/translation/sura/arabic_moyassar/${num}`
   // add quran with many sheikhs
@@ -115,7 +115,6 @@ async function info(num) {
         }else{
           numero = num
         }
-        console.log(`${r[sheikhs[i]]["riwayat"][j]["server"]}${numero}.mp3`)
         let rewaaya = r[sheikhs[i]]["riwayat"][j]["riwaya"]
         let audiourl = `${r[sheikhs[i]]["riwayat"][j]["server"]}${numero}.mp3`
         selectqaree.innerHTML += `<option value="${r[sheikhs[i]]["id"]}" data-url="${audiourl}">${sheikhs[i]} (${rewaaya})</option>`
@@ -129,6 +128,7 @@ async function info(num) {
       //console.log(data.data)
       let nam = data.data.name
       name.innerHTML = nam
+      surahname = nam
       let rank = data.data.number
       //console.log(rank)
       ranks.innerHTML = rank
@@ -139,7 +139,6 @@ async function info(num) {
       typ.innerHTML = type
       let numayas = data.data.numberOfAyahs
       numay = numayas
-      console.log(numayas)
       let word = 'آيات'
       if (numayas > 10) { word = 'آية' }
       numa.innerHTML = numayas + " " + word
@@ -150,7 +149,6 @@ async function info(num) {
         let ok = true
         if (i == 0 && num != 1) {
           for (let i = 0; i < word.length; i++) {
-            console.log(aya[i],word[i])
             if (word[i] != aya[i]) {
               ok = false
               break;
@@ -159,7 +157,6 @@ async function info(num) {
           if(aya[1] == 'ّ'){
             ok = true
           }
-          console.log(ok)
        if (ok == true) {
             aya = aya.slice(40)
          }
@@ -191,8 +188,11 @@ async function info(num) {
         ayatt.innerHTML += `
         <div class="ayaa">
         <div class="ayacont">
-                <div class="aya-text">${eles[i]} (${i + 1})</div>
+                <div class="aya-text" data-aya="${i+1}">${eles[i]} (${i + 1})</div>
+                <div class="tools-flex" id="qurantext">
+                <button class="share"><img loading="lazy" src="../icons/share.png" alt="مشاركة" class="sharee"></button>
                 <button class="paste"><img loading="lazy" src="../icons/paste.png" alt="لصق" class="pastee"></button>
+                </div>
                 </div>
                 <hr>
         <div class="tafsircont">
@@ -201,7 +201,10 @@ async function info(num) {
               </div>
                 <hr>
                 <div class="tafsir">${tafsir[i]}</div>
+                <div class="tools-flex" id="tafsirtext">
+                <button class="share"><img loading="lazy" src="../icons/share.png" alt="مشاركة" class="sharee"></button>
                 <button class="paste"><img loading="lazy" src="../icons/paste.png" alt="لصق" class="pastee"></button>
+                </div>
                 </div>
               </div>`
       }
@@ -224,35 +227,167 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
 })
-// add pasting for any aya or it tafsir
-let active = false;
+// add pasting and sharing for any aya or it tafsir
 let element;
+let type = 0;
 window.addEventListener("click",(e)=>{
-  if(e.target.classList.contains("paste")){
-  let ele = e.target.previousElementSibling
+  if(e.target.classList.contains("paste") || e.target.classList.contains("share")){
+  let ele = e.target.parentElement.previousElementSibling
+    if(e.target.classList.contains("paste")){
       navigator.clipboard.writeText(ele.innerText)
-      if(active){
+      if(type != 0){
+        if(type == 1){
           element.src = "../icons/paste.png"
+        }else if(type == 2){
+          element.src = "../icons/share.png"
+        }
+      }
+        e.target.children[0].src = "../icons/check-mark.png"
+        type = 1;
+        element = e.target.children[0]
+    }else if(e.target.classList.contains("share")){
+     let textplacecont = document.querySelector(".pop-up-share")
+     let textplace = document.querySelector(".content-shared")
+     let exitbtn = document.querySelector(".exit-pop-up")
+     let btns = document.querySelectorAll(".sites button")
+     textplacecont.style.display = "flex"
+     let sharetxt;
+     let eleid = e.target.parentElement.id
+     if(eleid == "tafsirtext"){
+      let ayatxt = e.target.parentElement.parentElement.parentElement.children[0].children[0]
+      let ayatxtcontent = ayatxt.innerHTML
+      let tafsirtxt = e.target.parentElement.parentElement.innerText
+      sharetxt = `${ayatxtcontent} \n${tafsirtxt}\n${surahname}`
+     }
+     else if(eleid == "qurantext"){
+      sharetxt = `${ele.innerText} \n(${surahname})`
+    }
+    textplace.innerText = sharetxt
+    // sharing
+    const pageUrl = "https://sahers.github.io/islamy";
+    // 1-facebook sharing
+    btns[0].onclick = function(){
+      const url = "https://www.facebook.com/sharer/sharer.php?u=" 
+            + encodeURIComponent(pageUrl);
+      navigator.clipboard.writeText(sharetxt)
+      window.open(url, "_blank");
+    }
+    // 2- whatsapp sharing
+    btns[1].onclick = function(){
+  const shareUrl = `https://wa.me/?text=${encodeURIComponent(sharetxt + " " + pageUrl)}`;
+  window.open(shareUrl, "_blank");
+    }
+    // 3 - x sharing
+    btns[2].onclick = function(){
+      const shareUrl = "https://x.com/intent/post?text=" + encodeURIComponent(sharetxt);
+      window.open(shareUrl, "_blank");
+    }
+    // 4 - telegram sharing
+    btns[3].onclick = function(){
+      const url = "https://t.me/share/url?url=" + encodeURIComponent(pageUrl) + "&text=" + encodeURIComponent(sharetxt);
+      window.open(url, "_blank");
+    }
+    // exit button
+     exitbtn.onclick = function(){
+      textplacecont.style.display = "none"
+     }
+     if(type != 0){
+        if(type == 1){
+          element.src = "../icons/paste.png"
+        }else if(type == 2){
+          element.src = "../icons/share.png"
+        }
       }
       e.target.children[0].src = "../icons/check-mark.png"
-      active = true
-      element = e.target.children[0]
-  }else if(e.target.classList.contains("pastee")){
-      let ele = e.target.parentElement.previousElementSibling
+        type = 2;
+        element = e.target.children[0]
+    }
+  }else if(e.target.classList.contains("pastee") || e.target.classList.contains("sharee")){
+      let ele = e.target.parentElement.parentElement.previousElementSibling
+      if(e.target.classList.contains("pastee")){
       navigator.clipboard.writeText(ele.innerText)
-      if(active){
+      if(type != 0){
+        if(type == 1){
           element.src = "../icons/paste.png"
+        }else if(type == 2){
+          element.src = "../icons/share.png"
+        }
       }
       e.target.src = "../icons/check-mark.png"
-      active = true
-      element = e.target
+        type = 1;
+        element = e.target
+      }else if(e.target.classList.contains("sharee")){
+     let textplacecont = document.querySelector(".pop-up-share")
+     let textplace = document.querySelector(".content-shared")
+     let exitbtn = document.querySelector(".exit-pop-up")
+     let btns = document.querySelectorAll(".sites button")
+     textplacecont.style.display = "flex"
+     let sharetxt;
+     let eleid = e.target.parentElement.parentElement.id
+     if(eleid == "tafsirtext"){
+      let ayatxt = e.target.parentElement.parentElement.parentElement.parentElement.children[0].children[0]
+      let ayatxtcontent = ayatxt.innerHTML
+      let tafsirtxt = e.target.parentElement.parentElement.parentElement.innerText
+      sharetxt = `${ayatxtcontent} \n${tafsirtxt}\n${surahname}`
+     }
+     else if(eleid == "qurantext"){
+      sharetxt = `${ele.innerText} \n(${surahname})`
+    }
+    textplace.innerText = sharetxt
+    // sharing
+    const pageUrl = "https://sahers.github.io/islamy";
+    // 1-facebook sharing
+    btns[0].onclick = function(){
+      const url = "https://www.facebook.com/sharer/sharer.php?u=" 
+            + encodeURIComponent(pageUrl);
+      navigator.clipboard.writeText(sharetxt)
+      window.open(url, "_blank");
+    }
+    // 2- whatsapp sharing
+    btns[1].onclick = function(){
+  const shareUrl = `https://wa.me/?text=${encodeURIComponent(sharetxt + " " + pageUrl)}`;
+  window.open(shareUrl, "_blank");
+    }
+    // 3 - x sharing
+    btns[2].onclick = function(){
+      const shareUrl = "https://x.com/intent/post?text=" + encodeURIComponent(sharetxt);
+      window.open(shareUrl, "_blank");
+    }
+    // 4 - telegram sharing
+    btns[3].onclick = function(){
+      const url = "https://t.me/share/url?url=" + encodeURIComponent(pageUrl) + "&text=" + encodeURIComponent(sharetxt);
+      window.open(url, "_blank");
+    }
+    // exit button
+     exitbtn.onclick = function(){
+      textplacecont.style.display = "none"
+     }
+     if(type != 0){
+        if(type == 1){
+          element.src = "../icons/paste.png"
+        }else if(type == 2){
+          element.src = "../icons/share.png"
+        }
+      }
+      e.target.src = "../icons/check-mark.png"
+        type = 2;
+        element = e.target
+    }
+  }else{
+    if(type != 0){
+        if(type == 1){
+          element.src = "../icons/paste.png"
+        }else if(type == 2){
+          element.src = "../icons/share.png"
+        }
+      }
+      type = 0;
   }
 })
 // play the sura with any sheikh handling
 let audioopener = document.querySelector("audio")
 let audioopen = false
 selectqaree.addEventListener("change",async(e)=>{
-  console.log(selectqaree)
   if(selectqaree.value != "--"){
     if(!audioopen){
       audioopener.style.animation = "openaudio 1s ease-out" 

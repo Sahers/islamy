@@ -68,6 +68,11 @@
   flex-direction: column;
   padding: 5px;
 }
+.tools-flex{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 .ayacont button,.tafsircont button{
   border: 1px black solid;
   border-radius: 8px;
@@ -142,4 +147,69 @@ audio{
   to{
     opacity: 1;
   }
+}
+/* sharing */
+.pop-up-share{
+  background-color: var(--sec-color);
+  padding: 10px 40px;
+  margin: 30px auto;
+  border-radius: 10px;
+  position: fixed;
+  top:50%;
+  display: none;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  border:1px solid black;
+}
+.exit-pop-up{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  position: absolute;
+  right:10px;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 100%;
+  border:1.2px solid black;
+  cursor: pointer;
+}
+.content-shared{
+  font-family: "quran";
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.sites{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sites button{
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  border:1.2px solid black;
+  cursor: pointer;
+  padding: 6px;
+}
+.face{
+  background-image: url("../icons/facebook.png");
+}
+.whatsapp{
+  background-image: url("../icons/whatsapp.png");
+}
+.x{
+  background-image: url("../icons/twitter.png");
+}
+.telegram{
+  background-image: url("../icons/telegram.png");
 }

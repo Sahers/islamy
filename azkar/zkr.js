@@ -104,6 +104,6 @@ function back() {
     </div>`;
     // مهم
     setTimeout(() => {
-      location.href = "../../index.html";
+      location.href = "../index.html";
     }, 1000);
   }
