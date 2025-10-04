@@ -151,6 +151,7 @@ audio{
 /* sharing */
 .pop-up-share{
   background-color: var(--sec-color);
+  width: 90%;
   padding: 10px 40px;
   margin: 30px auto;
   border-radius: 10px;
@@ -162,7 +163,7 @@ audio{
   flex-direction: column;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 90%;
+  max-width: 400px;
   border:1px solid black;
 }
 .exit-pop-up{
