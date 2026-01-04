@@ -29,7 +29,7 @@ font-size: 1.1rem;
 }
 #new::before{
   position: absolute;
-content: "جديد ✨";
+content: "جديد";
 direction: rtl;
 left: 0;
 transform: rotate(-45deg);
