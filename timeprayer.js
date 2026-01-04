@@ -24,6 +24,7 @@ window.addEventListener("click",(e)=>{
 // copyright year
 let daten = document.getElementById('date')
 let datee = new Date();daten.innerText = datee.getFullYear()
+let lat,lon;
 // loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
@@ -32,30 +33,33 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('content')[0].style.opacity = 1
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
+   navigator.geolocation.getCurrentPosition(position => {
+     lat = position.coords.latitude;
+     lon = position.coords.longitude;
+     salah()
+})
 })
 // prayers time handling
 let maincontainer = document.getElementsByClassName("prayers")[0]
 async function salah() {
-    let url = `https://alquran.vip/APIs/getPrayerTimes`
-    let data = await fetch(url).then((r)=>r.json())
+    let url = `https://api.aladhan.com/v1/timings?latitude=${lat}&longitude=${lon}&method=5`
+    await fetch(url).then((r)=>r.json())
     .then((r)=>{
-      let city = r["region"]
-      let co = r["country"]
-      let names={AF:"أفغانستان",AL:"ألبانيا",DZ:"الجزائر",AD:"أندورا",AO:"أنغولا",AR:"الأرجنتين",AM:"أرمينيا",AU:"أستراليا",AT:"النمسا",AZ:"أذربيجان",BS:"جزر الباهاما",BH:"البحرين",BD:"بنغلاديش",BB:"بربادوس",BY:"بيلاروسيا",BE:"بلجيكا",BZ:"بليز",BJ:"بنين",BT:"بوتان",BO:"بوليفيا",BA:"البوسنة والهرسك",BW:"بوتسوانا",BR:"البرازيل",BN:"بروناي",BG:"بلغاريا",BF:"بوركينا فاسو",BI:"بوروندي",CV:"الرأس الأخضر",KH:"كامبوديا",CM:"الكاميرون",CA:"كندا",KY:"جزر كايمان",CF:"جمهورية أفريقيا الوسطى",TD:"تشاد",CL:"تشيلي",CN:"الصين",CO:"كولومبيا",KM:"جزر القمر",CG:"الكونغو",CD:"الكونغو (جمهورية الكونغو الديمقراطية)",CR:"كوستاريكا",HR:"كرواتيا",CU:"كوبا",CY:"قبرص",CZ:"جمهورية التشيك",DK:"الدنمارك",DJ:"جيبوتي",DM:"دومينيكا",DO:"جمهورية الدومينيكان",EC:"الإكوادور",EG:"مصر",SV:"السلفادور",GQ:"غينيا الاستوائية",ER:"إريتريا",EE:"إستونيا",SZ:"إيسواتيني",ET:"إثيوبيا",FJ:"فيجي",FI:"فنلندا",FR:"فرنسا",GA:"غابون",GM:"غامبيا",GE:"جورجيا",DE:"ألمانيا",GH:"غانا",GR:"اليونان",GD:"غرينادا",GT:"غواتيمالا",GN:"غينيا",GW:"غينيا بيساو",GY:"غويانا",HT:"هايتي",HN:"هندوراس",HU:"هنغاريا",IS:"آيسلندا",IN:"الهند",ID:"إندونيسيا",IR:"إيران",IQ:"العراق",IE:"أيرلندا",IT:"إيطاليا",CI:"كوت ديفوار",JM:"جامايكا",JP:"اليابان",JO:"الأردن",KZ:"كازاخستان",KE:"كينيا",KI:"كيريباتي",KW:"الكويت",KG:"قيرغيزستان",LA:"لاوس",LV:"لاتفيا",LB:"لبنان",LS:"ليسوتو",LR:"ليبيريا",LY:"ليبيا",LI:"ليختنشتاين",LT:"ليتوانيا",LU:"لوكسمبورغ",MG:"مدغشقر",MW:"مالاوي",MY:"ماليزيا",MV:"المالديف",ML:"مالي",MT:"مالطا",MH:"جزر مارشال",MQ:"مارتينيك",MR:"موريتانيا",MU:"موريشيوس",MX:"المكسيك",FM:"ميكرونيزيا",MD:"مولدوفا",MC:"موناكو",MN:"منغوليا",ME:"الجبل الأسود",MA:"المغرب",MZ:"موزمبيق",MM:"ميانمار",NA:"ناميبيا",NR:"ناورو",NP:"نيبال",NL:"هولندا",NC:"كاليدونيا الجديدة",NZ:"نيوزيلندا",NI:"نيكاراغوا",NE:"النيجر",NG:"نيجيريا",MK:"مقدونيا الشمالية",NO:"النرويج",OM:"عمان",PK:"باكستان",PW:"بالاو",PA:"بنما",PG:"بابوا غينيا الجديدة",PY:"باراغواي",PE:"بيرو",PH:"الفلبين",PL:"بولندا",PT:"البرتغال",QA:"قطر",RE:"ريونيون",RO:"رومانيا",RU:"روسيا",RW:"رواندا",ST:"ساو تومي وبرينسيب",SA:"المملكة العربية السعودية",SN:"السنغال",RS:"صربيا",SC:"سيشل",SL:"سيراليون",SG:"سنغافورة",SK:"سلوفاكيا",SI:"سلوفينيا",SB:"جزر سليمان",SO:"الصومال",ZA:"جنوب أفريقيا",KR:"كوريا الجنوبية",SS:"جنوب السودان",ES:"إسبانيا",LK:"سريلانكا",SD:"السودان",SR:"سورينام",SE:"السويد",CH:"سويسرا",SY:"سوريا",TW:"تايوان",TJ:"طاجيكستان",TZ:"تنزانيا",TH:"تايلاند",TL:"تيمور الشرقية",TG:"توغو",TK:"توكيلو",TO:"تونغا",TT:"ترينيداد وتوباغو",TN:"تونس",TR:"تركيا",TM:"تركمانستان",TC:"جزر توركس وكايكوس",TV:"توفالو",UG:"أوغندا",UA:"أوكرانيا",AE:"الإمارات العربية المتحدة",GB:"المملكة المتحدة",US:"الولايات المتحدة",UY:"أوروغواي",UZ:"أوزبكستان",VU:"فانواتو",VE:"فنزويلا",VN:"فيتنام",WF:"جزر وواليس وفوتونا",EH:"الصحراء الغربية",YE:"اليمن",ZM:"زامبيا",ZW:"زيمبابوي"};
-      let country = names[co];
       let details = document.querySelectorAll(".info div span")
       let day = datee.getDay()
       let month = datee.getMonth()
+      let hijridate = r["data"]["date"]["hijri"]
+      console.log(hijridate)
       const daysInArabic = [
         "الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"
     ];
     const monthsInArabic = [
       "يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"
   ];
+  
   // location details and time
-details[0].innerHTML = country
-details[1].innerHTML = city
-details[2].innerHTML = `${daysInArabic[day]} ${datee.getDate()} ${monthsInArabic[month]} ${datee.getFullYear()} م`
+details[0].innerHTML = `${daysInArabic[day]} ${datee.getDate()} ${monthsInArabic[month]} ${datee.getFullYear()} م`
+details[1].innerHTML = `${hijridate["day"]} ${hijridate["month"]["ar"]} ${hijridate["year"]} ھ`
         let eveningg = false
         let hourss = datee.getHours()
         let minutess = datee.getMinutes()
@@ -73,10 +77,11 @@ details[2].innerHTML = `${daysInArabic[day]} ${datee.getDate()} ${monthsInArabic
         if(minutess < 10){
           minutess = "0" + minutess
         }
-details[3].innerHTML =`${hourss}:${minutess} ${(eveningg?"م":"ص")}`
+details[2].innerHTML =`${hourss}:${minutess} ${(eveningg?"م":"ص")}`
 // prayers time handling
       let prays = document.getElementsByClassName("time")
-      let times = Object.values(r["prayer_times"])
+      let timestable = r["data"]["timings"]
+      let times = [timestable["Fajr"],timestable["Sunrise"],timestable["Dhuhr"],timestable["Asr"],timestable["Maghrib"],timestable["Isha"]]
       let prayers = [];
         for(let i = 0;i<prays.length;i++){
         let timee = times[i]
@@ -176,9 +181,9 @@ details[3].innerHTML =`${hourss}:${minutess} ${(eveningg?"م":"ص")}`
       mainncontainer.innerHTML = `<div class="center-image"><img loading="lazy" src="../../icons/error.png" class="imagee error-hadith"></div>
       <p class="center">هناك خطأ في الموقع حاليًا،يمكنك الرجوع إلى <span onclick="back();" style="color:white;text-decoration:none;cursor:pointer;">الصفحة الرئيسية</span></p>
         `;
+        console.log(e)
     })
 }
-salah()
 // back to main page on error
 function back() {
   document.body.innerHTML = `<div class="loading">
