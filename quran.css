@@ -7,7 +7,7 @@ font-family: "quran";
 :root{
   --th-color:#53CDA2;
 }
-li a[href="quran.html"] {
+a[href="quran.html"] li {
   font-weight: 600;
 }
 .title{

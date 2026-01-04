@@ -6,7 +6,7 @@
   background-size: 100% 100%;
   padding: 20px 0;
 }
-li a[href="doaa.html"] {
+a[href="doaa.html"] li {
   font-weight: 600;
 }
 .top{

@@ -1,4 +1,7 @@
 @import url(../menu.css);
+html {
+  scroll-behavior: smooth;
+}
 .title {
   background-color: var(--sec-color);
   padding: 20px;
@@ -13,7 +16,7 @@
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 5px;
-  margin-left: 5px;
+  margin-left: 2px;
 }
 .top{
   padding-top: 10px;
@@ -115,4 +118,51 @@
     background-color:black;
     color:white;
   }
+}
+.hadithnawawi{
+  background-color: var(--sec-color);
+  direction: rtl;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom:10px;
+}
+#hadithnum{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  direction: rtl;
+}
+.numbtn{
+border: 1px solid black;
+padding: 10px;
+border-radius: 7px;
+cursor: pointer;
+}
+.hadithnawawi p{
+  padding: 2px;
+}
+.hadithnawawi .hadnaw{
+  background-color: var(--third-color);
+  border-radius: 5px;
+}
+.tafsir-know{
+  border:1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 15px;
+  margin: 5px 0;
+}
+.taf-off{
+  display:none;
+}
+.taf-on{
+  display: block;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  max-height: 300px;
+  border: 1.7px solid black;
+  border-radius: 5px;
 }

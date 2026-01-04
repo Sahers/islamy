@@ -4,18 +4,8 @@ let men = document.getElementsByClassName("menu")[0];
 men.addEventListener("click", function (e) {
   let contain = menu.classList.contains("visible");
   if (contain) {
-    men.children[0].style.transform = `rotate(0)`;
-    men.children[0].style.top = "-25px";
-    men.children[2].style.transform = `rotate(0)`;
-    men.children[2].style.top = "5px";
-    men.children[1].style.display = `block`;
     menu.classList.remove("visible");
   } else {
-    men.children[0].style.transform = `rotate(45deg)`;
-    men.children[0].style.top = "-10px";
-    men.children[2].style.transform = `rotate(-45deg)`;
-    men.children[2].style.top = "-10px";
-    men.children[1].style.display = `none`;
     menu.classList.add("visible");
   }
 });

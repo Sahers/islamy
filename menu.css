@@ -67,33 +67,16 @@ header .container{
 .menu{
  display:flex;
  flex-direction:column ;
- width: 40px;
  justify-content:flex-end;
- flex-wrap: wrap;
  position: relative;
-}
-.menu span{
-  width: 40px;
-  margin: 5px 0;
-  height: 2px;
-  background-color: black;
-  border-radius: 2px;
-  position: absolute;
-  top: -10px;
-  transition: 1s ease-out;
-}
-.menu span:first-child{
-  top: -25px;
-}
-.menu span:last-child{
-  top: 5px;
+ user-select: none;
 }
 .links{
   position: relative;
 }
 ul{
   position: absolute;
-  top: 42px;
+  top: 27px;
   right: 0;
   display: none;
   z-index: 3;
@@ -105,8 +88,9 @@ li{
   padding: 8px;
   border-bottom: 1.2px solid black;
   transition: 1s ease;
+  user-select: none;
 }
-li a{
+a{
   text-decoration: none;
   color: black;
 }

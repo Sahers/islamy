@@ -151,7 +151,8 @@ audio{
 /* sharing */
 .pop-up-share{
   background-color: var(--sec-color);
-  width: 90%;
+  width: 80%;
+  max-height: 70vh;
   padding: 10px 40px;
   margin: 30px auto;
   border-radius: 10px;
@@ -165,6 +166,9 @@ audio{
   transform: translate(-50%, -50%);
   max-width: 400px;
   border:1px solid black;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  direction: rtl;
 }
 .exit-pop-up{
   width: 40px;

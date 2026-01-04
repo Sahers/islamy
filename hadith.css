@@ -6,7 +6,7 @@
   background-size: 100% 100%;
   padding: 20px 0;
 }
-li a[href="hadith.html"] {
+a[href="hadith.html"] li {
   font-weight: 600;
 }
 .rawi{
@@ -22,6 +22,22 @@ font-size: 1.1rem;
 }
 .rawi a{
   text-decoration: none;
+}
+#new{
+  position: relative;
+  overflow: hidden;
+}
+#new::before{
+  position: absolute;
+content: "جديد ✨";
+direction: rtl;
+left: 0;
+transform: rotate(-45deg);
+border:1px black solid;
+border-left: none;
+border-right: none;
+width: 24%;
+background-color: var(--third-color);
 }
 .top{
   padding-top: 10px;

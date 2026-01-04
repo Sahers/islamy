@@ -5,18 +5,10 @@ men.addEventListener('click',function(e) {
 e.stopPropagation()
   let contain = menu.classList.contains('visible')
   if(contain){
-    men.children[0].style.transform = `rotate(0)`
-    men.children[0].style.top = '-25px'
-    men.children[2].style.transform = `rotate(0)`
-    men.children[2].style.top = '5px'
-    men.children[1].style.display = `block`
+
     menu.classList.remove('visible')
   }else{
-    men.children[0].style.transform = `rotate(45deg)`
-    men.children[0].style.top = '-10px'
-    men.children[2].style.transform = `rotate(-45deg)`
-    men.children[2].style.top = '-10px'
-    men.children[1].style.display = `none`
+
     menu.classList.add('visible')
   }
 })
@@ -24,11 +16,7 @@ window.addEventListener("click",(e)=>{
   e.stopPropagation();
   if(e.target != menu){
   if(menu.classList.contains('visible')){
-    men.children[0].style.transform = `rotate(0)`
-    men.children[0].style.top = '-25px'
-    men.children[2].style.transform = `rotate(0)`
-    men.children[2].style.top = '5px'
-    men.children[1].style.display = `block`
+
     menu.classList.remove('visible')
   }
 }
@@ -42,7 +30,7 @@ daten.innerText = datee.getFullYear()
 // add links in menu
 let logo = document.querySelector('header .container .logo img')
 logo.src = '../logo.png'
-let links = document.querySelectorAll("li a")
+let links = document.querySelectorAll("ul a")
 let lin = ['../index.html','../quran.html','../hadith.html',"../azkar.html","../timeprayer.html","../doaa.html","../question.html","../about.html"]
 for(let i = 0;i < links.length;i++){
   links[i].href = lin[i]

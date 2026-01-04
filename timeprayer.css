@@ -6,7 +6,7 @@
   background-size: 100% 100%;
   padding: 20px 0;
 }
-li a[href="timeprayer.html"] {
+a[href="timeprayer.html"] li {
   font-weight: 600;
 }
 .title{
