@@ -21,6 +21,7 @@
   justify-content: space-between;
   margin-top: 10px;
   margin-bottom: 15px;
+  gap: 20px;
 }
 #next button,#prev button{
   padding: 10px;
@@ -43,30 +44,193 @@
   border-radius: 10px;
   margin-bottom: 5px;
 }
+.details-container{
+  margin: 12px;
+  padding: 8px;
+  background-color: var(--main-color);
+  border-radius: 7px;
+  text-align: center;
+  display: none;
+}
+.theaya{
+  font-family: "quran";
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 5px;
+  width:auto;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.container .details{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 7px;
+ }
+.details > div,#choicesaudio .div-flex div,.thesound-open,.repeat-aya,.sura-part,.sura-full,.ch-full{
+background-color: var(--third-color);
+padding: 5px;
+border-radius: 7px;
+cursor: pointer;
+}
+.detail{
+  padding: 8px;
+}
+.detail div{
+  font-family: "tafsir";
+  font-size: 1.3rem;
+}
+#audio-player > div{
+  display: flex;
+  justify-content: space-around;
+}
+#audio-player{
+  padding: 8px;
+  border-top: 4.5px solid var(--sec-color);
+}
+#choicesaudio select{
+  direction: rtl;
+}
+#error,#error-repeat,#error-repeat-ayats{
+  color: red;
+  display: none;
+  background-color:transparent !important;
+}
+.type-1,.type-2,.type-3{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+#audio-player .div-flex{
+  display: flex;
+  justify-content: space-around;
+}
+#choicesaudio{
+padding: 10px;
+display: none;
+border-top:4.5px solid var(--sec-color);
+}
+#choicesaudio .div-flex{
+  display: flex;
+  justify-content: space-around;
+  gap:20px;
+  flex-wrap: wrap;
+  margin: 5px 0 0 0;
+  flex-direction: row-reverse;
+}
+#choicesaudio div{
+  width: auto;
+}
+@media(min-width:700px) {
+#choicesaudio select{
+  width: 35%;
+}
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#repeat-times,#endaya{
+  border-radius: 5px;
+    border:1px solid black;
+    width: 34px;
+    height:34px;
+    font-size: 21px;
+    padding: 5px;
+}
+#play,#pause{
+background-color: var(--third-color);
+padding: 5px;
+border-radius: 7px;
+cursor: pointer;
+}
+.limit-repeat{
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent !important;
+  direction: rtl;
+  gap:6px;
+  align-items: center;
+}
 .bsm{
   font-size: 1.5rem;
   font-family: "quran";
+  user-select: none;
 }
 #ayas{
   text-align: right;
   margin: 10px;
+  border: 1px solid  var(--main-color);
+  padding: 12px;
+  border-radius: 5px;
+  direction: rtl;
+  background-color: var(--third-color);
 }
-.ayaa{
- border: 3.5px var(--third-color) solid;
- font-size: 1.1rem;
- background-color: var(--sec-color);
- margin-bottom: 10px;
- direction: rtl;
+.aya{
+  display: inline; 
 }
-.ayacont{
+.aya-container{
+  white-space: normal;
+}
+.aya-text{
+  font-family: "quran";
+  font-size: 1.5rem;
+  cursor:pointer;
+  user-select: none;
+}
+.aya-text:hover{
+  background-color: var(--main-color);
+}
+.aya-num{
+  margin: 0 5px;
+}
+.aya-load{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+.circle-load{
+  width: 100px !important;
+  height: 100px;
+  border: 10px solid var(--sec-color);
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: loadsurah 3s linear infinite;
+}
+@keyframes loadsurah{
+  from{
+    transform: rotate(0);
+  }to{
+    transform: rotate(1440deg);
+  }
+}
+.controls{
   display: flex;
   justify-content: space-between;
-  padding: 5px;
+  flex-direction: row-reverse;
+  gap: 20px;
+  margin: 10px;
 }
-.tafsircont{
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
+.controls button{
+  background-color: var(--main-color) !important;
+  padding: 12px;
+  border-radius: 7px;
+  border: 1px solid black;
+  cursor:grabbing;
+  user-select: none;
+}
+.right{
+  visibility: hidden;
 }
 .tools-flex{
   display: flex;
@@ -86,28 +250,11 @@
   width:30px;
   height:30px;
 }
-.aya-text{
-  padding: 15px;
-  font-family: "quran";
-}
 hr{
   background-color: var(--third-color);
   border: none;
   border-bottom: var(--third-color) 1px solid;
   border-top: var(--third-color) 1px solid;
-}
-.tafsir-text{
-  display: flex;
-  justify-content: right;
-  flex-direction: row;
-  padding: 15px;
-}
-.tafsir-text *{
-  font-family: "tafsir";
-}
-.tafsir{
-  font-family: "tafsir";
-  padding: 15px;
 }
 .audio{
   margin-bottom: 15px;
@@ -126,9 +273,11 @@ select{
   border-radius: 5px;
 }
 audio{
- display:none;
  padding: 4px;
  border-radius: 15px;
+}
+audio#full-surah{
+display:none;
 }
 @media(max-width:440px){
   audio{
@@ -148,52 +297,35 @@ audio{
     opacity: 1;
   }
 }
-/* sharing */
-.pop-up-share{
-  background-color: var(--sec-color);
-  width: 80%;
-  max-height: 70vh;
-  padding: 10px 40px;
-  margin: 30px auto;
-  border-radius: 10px;
-  position: fixed;
-  top:50%;
+/* Copy content*/
+.copy-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.copy-container div{
+background-color: var(--third-color);
+padding: 5px;
+border-radius: 7px;
+cursor: pointer;
+}
+.pop-up-message{
   display: none;
-  justify-self: center;
-  align-self: center;
-  flex-direction: column;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 400px;
-  border:1px solid black;
-  overflow-y: scroll;
-  scrollbar-width: none;
-  direction: rtl;
+  position: fixed;
+  margin: auto;
+  right: 0;
+  left: 0;
+  background-color: #fefcff;
+  padding: 12px;
+  width: fit-content;
 }
-.exit-pop-up{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--main-color);
-  position: absolute;
-  right:10px;
-  font-family: Arial;
-  font-weight: 700;
-  font-size: 100%;
-  border:1.2px solid black;
-  cursor: pointer;
-}
-.content-shared{
-  font-family: "quran";
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
-}
+/* sharing */
 .sites{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 .sites button{
   background-size: 70%;

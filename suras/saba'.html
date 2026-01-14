@@ -33,20 +33,6 @@
   </div>
   <div class="content">
   <header>  
-<div class="container-p container">
-      <div class="pop-up-share center">
-        <button class="exit-pop-up">X</button>
-        <br><br>
-        <div class="content-shared"></div>
-        <p class="title center">اختر المنصة التي تريد المشاركة عليها <br> ملاحظة:عند المشاركة عبر فيسبوك سوف يتم نسخ النص تلقائيًا ثم تلصقه في منشور فيسبوك الذي سيتم إنشاءه</p>
-        <div class="sites">
-          <button class="site face"></button>
-          <button class="site whatsapp"></button>
-          <button class="site x"></button>
-          <button class="site telegram"></button>
-        </div>
-        </div>
-    </div>
     <div class="container">
       <div class="logo">
         <img loading="lazy" src="../logo.png" alt="لوجو">
@@ -96,27 +82,36 @@
     <div class="container">
       <h3 class="center">اختر القارئ</h3>
     <div class="audio center">
-      <select id="qaree">
-        <option value="--">--</option>
-      </select>
-      <audio controls></audio>
+      <audio id="audio-source" preload="metadata"></audio>
+    </div>
+    <div class="details-container">
+      <div class="theaya center"></div>
+      <div class="details">
+        <div class="thetafsir">تفسير</div>
+        <div class="thesound">استماع</div>
+        <div class="thecopy">نسخ</div>
+        <div class="theshare">مشاركة</div>
+        </div>
+      <div class="detail"></div>
+      <div id="choicesaudio">
+      </div>
+      <div id="audio-player">
+      </div>
+      </div>
     </div>
     </div>
-    </div>
-    <div class="container">
-      <h3 class="center">اختر القارئ</h3>
-    <div class="audio center">
-      <select id="qaree">
-        <option value="--">--</option>
-      </select>
-      <audio controls></audio>
-    </div>
-    </div>
+
     <div class="ayat">
       <div class="container">
-        <div class="bsm center">بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
         <div id="ayas">
         </div>
+      </div>
+    </div>
+    <div class="container control">
+      <audio src="sound/taqlib-safha.mp3"></audio>
+    <div class="controls">
+      <button class="right">الصفحة السابقة</button>
+      <button class="left">الصفحة التالية</button>
       </div>
     </div>
   </div>

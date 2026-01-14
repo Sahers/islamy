@@ -1,0 +1,857 @@
+{
+  "surah_id": 99,
+  "surah_name": "الزلزلة",
+  "إبراهيم الأخضر - حفص عن عاصم": {
+    "reader_id": 1,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 8029
+      },
+      "1": {
+        "start_time": 8029,
+        "end_time": 12952
+      },
+      "2": {
+        "start_time": 12952,
+        "end_time": 17524
+      },
+      "3": {
+        "start_time": 17524,
+        "end_time": 22364
+      },
+      "4": {
+        "start_time": 22364,
+        "end_time": 28097
+      },
+      "5": {
+        "start_time": 28097,
+        "end_time": 33307
+      },
+      "6": {
+        "start_time": 33307,
+        "end_time": 42607
+      },
+      "7": {
+        "start_time": 42607,
+        "end_time": 50427
+      },
+      "8": {
+        "start_time": 50427,
+        "end_time": 60003
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/akdr/"
+  },
+  "أحمد بن علي العجمي - حفص عن عاصم": {
+    "reader_id": 5,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 110
+      },
+      "1": {
+        "start_time": 110,
+        "end_time": 3858
+      },
+      "2": {
+        "start_time": 3858,
+        "end_time": 7421
+      },
+      "3": {
+        "start_time": 7421,
+        "end_time": 11733
+      },
+      "4": {
+        "start_time": 11733,
+        "end_time": 16670
+      },
+      "5": {
+        "start_time": 16670,
+        "end_time": 20570
+      },
+      "6": {
+        "start_time": 20570,
+        "end_time": 27231
+      },
+      "7": {
+        "start_time": 27231,
+        "end_time": 32245
+      },
+      "8": {
+        "start_time": 32245,
+        "end_time": 38672
+      }
+    },
+    "folder_url": "https://server10.mp3quran.net/ajm/"
+  },
+  "أحمد نعينع - حفص عن عاصم": {
+    "reader_id": 9,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4605
+      },
+      "1": {
+        "start_time": 4605,
+        "end_time": 10453
+      },
+      "2": {
+        "start_time": 10453,
+        "end_time": 15608
+      },
+      "3": {
+        "start_time": 15608,
+        "end_time": 21319
+      },
+      "4": {
+        "start_time": 21319,
+        "end_time": 32330
+      },
+      "5": {
+        "start_time": 32330,
+        "end_time": 37166
+      },
+      "6": {
+        "start_time": 37166,
+        "end_time": 46842
+      },
+      "7": {
+        "start_time": 46842,
+        "end_time": 54693
+      },
+      "8": {
+        "start_time": 54693,
+        "end_time": 63478
+      }
+    },
+    "folder_url": "https://server11.mp3quran.net/ahmad_nu/"
+  },
+  "أكرم العلاقمي - حفص عن عاصم": {
+    "reader_id": 10,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 5176
+      },
+      "1": {
+        "start_time": 5176,
+        "end_time": 10577
+      },
+      "2": {
+        "start_time": 10577,
+        "end_time": 15367
+      },
+      "3": {
+        "start_time": 15367,
+        "end_time": 20528
+      },
+      "4": {
+        "start_time": 20528,
+        "end_time": 26579
+      },
+      "5": {
+        "start_time": 26579,
+        "end_time": 31302
+      },
+      "6": {
+        "start_time": 31302,
+        "end_time": 40626
+      },
+      "7": {
+        "start_time": 40626,
+        "end_time": 47851
+      },
+      "8": {
+        "start_time": 47851,
+        "end_time": 55601
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/akrm/"
+  },
+  "سعود الشريم - حفص عن عاصم": {
+    "reader_id": 31,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2759
+      },
+      "1": {
+        "start_time": 2759,
+        "end_time": 6113
+      },
+      "2": {
+        "start_time": 6113,
+        "end_time": 9105
+      },
+      "3": {
+        "start_time": 9105,
+        "end_time": 12381
+      },
+      "4": {
+        "start_time": 12381,
+        "end_time": 15422
+      },
+      "5": {
+        "start_time": 15422,
+        "end_time": 18397
+      },
+      "6": {
+        "start_time": 18397,
+        "end_time": 24533
+      },
+      "7": {
+        "start_time": 24533,
+        "end_time": 29449
+      },
+      "8": {
+        "start_time": 29449,
+        "end_time": 35104
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/shur/"
+  },
+  "سهل ياسين - حفص عن عاصم": {
+    "reader_id": 32,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2999
+      },
+      "1": {
+        "start_time": 2999,
+        "end_time": 7142
+      },
+      "2": {
+        "start_time": 7142,
+        "end_time": 10734
+      },
+      "3": {
+        "start_time": 10734,
+        "end_time": 14636
+      },
+      "4": {
+        "start_time": 14636,
+        "end_time": 19000
+      },
+      "5": {
+        "start_time": 19000,
+        "end_time": 23161
+      },
+      "6": {
+        "start_time": 23161,
+        "end_time": 30168
+      },
+      "7": {
+        "start_time": 30168,
+        "end_time": 36619
+      },
+      "8": {
+        "start_time": 36619,
+        "end_time": 43774
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/shl/"
+  },
+  "عبدالباسط عبدالصمد - المصحف المجود": {
+    "reader_id": 51,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 9137
+      },
+      "1": {
+        "start_time": 9137,
+        "end_time": 21197
+      },
+      "2": {
+        "start_time": 21197,
+        "end_time": 33135
+      },
+      "3": {
+        "start_time": 33135,
+        "end_time": 44134
+      },
+      "4": {
+        "start_time": 44134,
+        "end_time": 56198
+      },
+      "5": {
+        "start_time": 56198,
+        "end_time": 67945
+      },
+      "6": {
+        "start_time": 67945,
+        "end_time": 86634
+      },
+      "7": {
+        "start_time": 86634,
+        "end_time": 102517
+      },
+      "8": {
+        "start_time": 102517,
+        "end_time": 118016
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/"
+  },
+  "عبدالباسط عبدالصمد - حفص عن عاصم": {
+    "reader_id": 53,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 3833
+      },
+      "1": {
+        "start_time": 3833,
+        "end_time": 8989
+      },
+      "2": {
+        "start_time": 8989,
+        "end_time": 13594
+      },
+      "3": {
+        "start_time": 13594,
+        "end_time": 18607
+      },
+      "4": {
+        "start_time": 18607,
+        "end_time": 24210
+      },
+      "5": {
+        "start_time": 24210,
+        "end_time": 29164
+      },
+      "6": {
+        "start_time": 29164,
+        "end_time": 38238
+      },
+      "7": {
+        "start_time": 38238,
+        "end_time": 45893
+      },
+      "8": {
+        "start_time": 45893,
+        "end_time": 53950
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/basit/"
+  },
+  "عبدالله بصفر - حفص عن عاصم": {
+    "reader_id": 60,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4874
+      },
+      "1": {
+        "start_time": 4874,
+        "end_time": 9374
+      },
+      "2": {
+        "start_time": 9374,
+        "end_time": 13474
+      },
+      "3": {
+        "start_time": 13474,
+        "end_time": 17774
+      },
+      "4": {
+        "start_time": 17774,
+        "end_time": 22774
+      },
+      "5": {
+        "start_time": 22774,
+        "end_time": 27174
+      },
+      "6": {
+        "start_time": 27174,
+        "end_time": 35135
+      },
+      "7": {
+        "start_time": 35135,
+        "end_time": 41801
+      },
+      "8": {
+        "start_time": 41801,
+        "end_time": 49972
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/bsfr/"
+  },
+  "عبدالله عواد الجهني - حفص عن عاصم": {
+    "reader_id": 62,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2574
+      },
+      "1": {
+        "start_time": 2574,
+        "end_time": 6526
+      },
+      "2": {
+        "start_time": 6526,
+        "end_time": 9907
+      },
+      "3": {
+        "start_time": 9907,
+        "end_time": 13700
+      },
+      "4": {
+        "start_time": 13700,
+        "end_time": 17931
+      },
+      "5": {
+        "start_time": 17931,
+        "end_time": 21525
+      },
+      "6": {
+        "start_time": 21525,
+        "end_time": 28348
+      },
+      "7": {
+        "start_time": 28348,
+        "end_time": 33972
+      },
+      "8": {
+        "start_time": 33972,
+        "end_time": 40097
+      }
+    },
+    "folder_url": "https://server13.mp3quran.net/jhn/"
+  },
+  "عبدالمحسن القاسم - حفص عن عاصم": {
+    "reader_id": 67,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4763
+      },
+      "1": {
+        "start_time": 4763,
+        "end_time": 8373
+      },
+      "2": {
+        "start_time": 8373,
+        "end_time": 11363
+      },
+      "3": {
+        "start_time": 11363,
+        "end_time": 14984
+      },
+      "4": {
+        "start_time": 14984,
+        "end_time": 18844
+      },
+      "5": {
+        "start_time": 18844,
+        "end_time": 22394
+      },
+      "6": {
+        "start_time": 22394,
+        "end_time": 28964
+      },
+      "7": {
+        "start_time": 28964,
+        "end_time": 34126
+      },
+      "8": {
+        "start_time": 34126,
+        "end_time": 40426
+      }
+    },
+    "folder_url": "https://server8.mp3quran.net/qasm/"
+  },
+  "علي بن عبدالرحمن الحذيفي - حفص عن عاصم": {
+    "reader_id": 74,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 5255
+      },
+      "1": {
+        "start_time": 5255,
+        "end_time": 10255
+      },
+      "2": {
+        "start_time": 10255,
+        "end_time": 14637
+      },
+      "3": {
+        "start_time": 14637,
+        "end_time": 19567
+      },
+      "4": {
+        "start_time": 19567,
+        "end_time": 24898
+      },
+      "5": {
+        "start_time": 24898,
+        "end_time": 29864
+      },
+      "6": {
+        "start_time": 29864,
+        "end_time": 38800
+      },
+      "7": {
+        "start_time": 38800,
+        "end_time": 45810
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/hthfi/"
+  },
+  "علي حجاج السويسي - حفص عن عاصم": {
+    "reader_id": 77,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 3234
+      },
+      "1": {
+        "start_time": 3234,
+        "end_time": 8462
+      },
+      "2": {
+        "start_time": 8462,
+        "end_time": 13009
+      },
+      "3": {
+        "start_time": 13009,
+        "end_time": 17477
+      },
+      "4": {
+        "start_time": 17477,
+        "end_time": 23031
+      },
+      "5": {
+        "start_time": 23031,
+        "end_time": 27470
+      },
+      "6": {
+        "start_time": 27470,
+        "end_time": 35957
+      },
+      "7": {
+        "start_time": 35957,
+        "end_time": 43389
+      },
+      "8": {
+        "start_time": 43389,
+        "end_time": 50796
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/hajjaj/"
+  },
+  "عماد زهير حافظ - حفص عن عاصم": {
+    "reader_id": 78,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 8494
+      },
+      "1": {
+        "start_time": 8494,
+        "end_time": 13698
+      },
+      "2": {
+        "start_time": 13698,
+        "end_time": 18448
+      },
+      "3": {
+        "start_time": 18448,
+        "end_time": 23232
+      },
+      "4": {
+        "start_time": 23232,
+        "end_time": 28827
+      },
+      "5": {
+        "start_time": 28827,
+        "end_time": 33718
+      },
+      "6": {
+        "start_time": 33718,
+        "end_time": 42775
+      },
+      "7": {
+        "start_time": 42775,
+        "end_time": 50346
+      },
+      "8": {
+        "start_time": 50346,
+        "end_time": 59768
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/hafz/"
+  },
+  "محمد الطبلاوي - حفص عن عاصم": {
+    "reader_id": 106,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 7343
+      },
+      "1": {
+        "start_time": 7343,
+        "end_time": 14973
+      },
+      "2": {
+        "start_time": 14973,
+        "end_time": 21764
+      },
+      "3": {
+        "start_time": 21764,
+        "end_time": 28885
+      },
+      "4": {
+        "start_time": 28885,
+        "end_time": 37128
+      },
+      "5": {
+        "start_time": 37128,
+        "end_time": 44040
+      },
+      "6": {
+        "start_time": 44040,
+        "end_time": 57782
+      },
+      "7": {
+        "start_time": 57782,
+        "end_time": 68588
+      },
+      "8": {
+        "start_time": 68588,
+        "end_time": 79830
+      }
+    },
+    "folder_url": "https://server12.mp3quran.net/tblawi/"
+  },
+  "محمد صديق المنشاوي - حفص عن عاصم": {
+    "reader_id": 112,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4883
+      },
+      "1": {
+        "start_time": 4883,
+        "end_time": 10819
+      },
+      "2": {
+        "start_time": 10819,
+        "end_time": 16068
+      },
+      "3": {
+        "start_time": 16068,
+        "end_time": 21569
+      },
+      "4": {
+        "start_time": 21569,
+        "end_time": 27759
+      },
+      "5": {
+        "start_time": 27759,
+        "end_time": 33509
+      },
+      "6": {
+        "start_time": 33509,
+        "end_time": 44132
+      },
+      "7": {
+        "start_time": 44132,
+        "end_time": 52944
+      },
+      "8": {
+        "start_time": 52944,
+        "end_time": 61884
+      }
+    },
+    "folder_url": "https://server10.mp3quran.net/minsh/"
+  },
+  "محمود خليل الحصري - حفص عن عاصم": {
+    "reader_id": 118,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 8272
+      },
+      "1": {
+        "start_time": 8272,
+        "end_time": 16728
+      },
+      "2": {
+        "start_time": 16728,
+        "end_time": 24189
+      },
+      "3": {
+        "start_time": 24189,
+        "end_time": 32096
+      },
+      "4": {
+        "start_time": 32096,
+        "end_time": 40741
+      },
+      "5": {
+        "start_time": 40741,
+        "end_time": 48312
+      },
+      "6": {
+        "start_time": 48312,
+        "end_time": 62298
+      },
+      "7": {
+        "start_time": 62298,
+        "end_time": 74024
+      },
+      "8": {
+        "start_time": 74024,
+        "end_time": 85036
+      }
+    },
+    "folder_url": "https://server13.mp3quran.net/husr/"
+  },
+  "خالد المهنا - حفص عن عاصم": {
+    "reader_id": 159,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 7853
+      },
+      "1": {
+        "start_time": 7853,
+        "end_time": 13040
+      },
+      "2": {
+        "start_time": 13040,
+        "end_time": 17838
+      },
+      "3": {
+        "start_time": 17838,
+        "end_time": 23303
+      },
+      "4": {
+        "start_time": 23303,
+        "end_time": 29156
+      },
+      "5": {
+        "start_time": 29156,
+        "end_time": 34744
+      },
+      "6": {
+        "start_time": 34744,
+        "end_time": 43669
+      },
+      "7": {
+        "start_time": 43669,
+        "end_time": 51662
+      },
+      "8": {
+        "start_time": 51662,
+        "end_time": 61022
+      }
+    },
+    "folder_url": "https://server11.mp3quran.net/mohna/"
+  },
+  "أحمد خليل شاهين - حفص عن عاصم": {
+    "reader_id": 256,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 5485
+      },
+      "1": {
+        "start_time": 5485,
+        "end_time": 11485
+      },
+      "2": {
+        "start_time": 11485,
+        "end_time": 16807
+      },
+      "3": {
+        "start_time": 16807,
+        "end_time": 22311
+      },
+      "4": {
+        "start_time": 22311,
+        "end_time": 28741
+      },
+      "5": {
+        "start_time": 28741,
+        "end_time": 34299
+      },
+      "6": {
+        "start_time": 34299,
+        "end_time": 44445
+      },
+      "7": {
+        "start_time": 44445,
+        "end_time": 52384
+      },
+      "8": {
+        "start_time": 52384,
+        "end_time": 61623
+      }
+    },
+    "folder_url": "https://server16.mp3quran.net/shaheen/Rewayat-Hafs-A-n-Assem/"
+  },
+  "sheikhs": {
+    "إبراهيم الأخضر - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/akdr/undefined.mp3"
+    },
+    "أحمد بن علي العجمي - حفص عن عاصم": {
+      "url": "https://server10.mp3quran.net/ajm/undefined.mp3"
+    },
+    "أحمد نعينع - حفص عن عاصم": {
+      "url": "https://server11.mp3quran.net/ahmad_nu/undefined.mp3"
+    },
+    "أكرم العلاقمي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/akrm/undefined.mp3"
+    },
+    "سعود الشريم - حفص عن عاصم": {
+      "url": "https://server7.mp3quran.net/shur/undefined.mp3"
+    },
+    "سهل ياسين - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/shl/undefined.mp3"
+    },
+    "عبدالباسط عبدالصمد - المصحف المجود": {
+      "url": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/undefined.mp3"
+    },
+    "عبدالباسط عبدالصمد - حفص عن عاصم": {
+      "url": "https://server7.mp3quran.net/basit/undefined.mp3"
+    },
+    "عبدالله بصفر - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/bsfr/undefined.mp3"
+    },
+    "عبدالله عواد الجهني - حفص عن عاصم": {
+      "url": "https://server13.mp3quran.net/jhn/undefined.mp3"
+    },
+    "عبدالمحسن القاسم - حفص عن عاصم": {
+      "url": "https://server8.mp3quran.net/qasm/undefined.mp3"
+    },
+    "علي بن عبدالرحمن الحذيفي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/hthfi/undefined.mp3"
+    },
+    "علي حجاج السويسي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/hajjaj/undefined.mp3"
+    },
+    "عماد زهير حافظ - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/hafz/undefined.mp3"
+    },
+    "محمد الطبلاوي - حفص عن عاصم": {
+      "url": "https://server12.mp3quran.net/tblawi/undefined.mp3"
+    },
+    "محمد صديق المنشاوي - حفص عن عاصم": {
+      "url": "https://server10.mp3quran.net/minsh/undefined.mp3"
+    },
+    "محمود خليل الحصري - حفص عن عاصم": {
+      "url": "https://server13.mp3quran.net/husr/undefined.mp3"
+    },
+    "خالد المهنا - حفص عن عاصم": {
+      "url": "https://server11.mp3quran.net/mohna/undefined.mp3"
+    },
+    "أحمد خليل شاهين - حفص عن عاصم": {
+      "url": "https://server16.mp3quran.net/shaheen/Rewayat-Hafs-A-n-Assem/undefined.mp3"
+    }
+  }
+}

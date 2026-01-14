@@ -1,0 +1,3061 @@
+{
+  "surah_id": 45,
+  "surah_name": "الجاثية",
+  "إبراهيم الأخضر - حفص عن عاصم": {
+    "reader_id": 1,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 6570
+      },
+      "1": {
+        "start_time": 6570,
+        "end_time": 11770
+      },
+      "2": {
+        "start_time": 11770,
+        "end_time": 20719
+      },
+      "3": {
+        "start_time": 20719,
+        "end_time": 30306
+      },
+      "4": {
+        "start_time": 30306,
+        "end_time": 45878
+      },
+      "5": {
+        "start_time": 45878,
+        "end_time": 74128
+      },
+      "6": {
+        "start_time": 74128,
+        "end_time": 90526
+      },
+      "7": {
+        "start_time": 90526,
+        "end_time": 96913
+      },
+      "8": {
+        "start_time": 96913,
+        "end_time": 114615
+      },
+      "9": {
+        "start_time": 114615,
+        "end_time": 130550
+      },
+      "10": {
+        "start_time": 130550,
+        "end_time": 155908
+      },
+      "11": {
+        "start_time": 155908,
+        "end_time": 173364
+      },
+      "12": {
+        "start_time": 173364,
+        "end_time": 191464
+      },
+      "13": {
+        "start_time": 191464,
+        "end_time": 213681
+      },
+      "14": {
+        "start_time": 213681,
+        "end_time": 231187
+      },
+      "15": {
+        "start_time": 231187,
+        "end_time": 247750
+      },
+      "16": {
+        "start_time": 247750,
+        "end_time": 269883
+      },
+      "17": {
+        "start_time": 269883,
+        "end_time": 305608
+      },
+      "18": {
+        "start_time": 305608,
+        "end_time": 324157
+      },
+      "19": {
+        "start_time": 324157,
+        "end_time": 348915
+      },
+      "20": {
+        "start_time": 348915,
+        "end_time": 362918
+      },
+      "21": {
+        "start_time": 362918,
+        "end_time": 391321
+      },
+      "22": {
+        "start_time": 391321,
+        "end_time": 407448
+      },
+      "23": {
+        "start_time": 407448,
+        "end_time": 444008
+      },
+      "24": {
+        "start_time": 444008,
+        "end_time": 469140
+      },
+      "25": {
+        "start_time": 469140,
+        "end_time": 495592
+      },
+      "26": {
+        "start_time": 495592,
+        "end_time": 518209
+      },
+      "27": {
+        "start_time": 518209,
+        "end_time": 533959
+      },
+      "28": {
+        "start_time": 533959,
+        "end_time": 556406
+      },
+      "29": {
+        "start_time": 556406,
+        "end_time": 576943
+      },
+      "30": {
+        "start_time": 576943,
+        "end_time": 594332
+      },
+      "31": {
+        "start_time": 594332,
+        "end_time": 614151
+      },
+      "32": {
+        "start_time": 614151,
+        "end_time": 641861
+      },
+      "33": {
+        "start_time": 641861,
+        "end_time": 655247
+      },
+      "34": {
+        "start_time": 655247,
+        "end_time": 676104
+      },
+      "35": {
+        "start_time": 676104,
+        "end_time": 700481
+      },
+      "36": {
+        "start_time": 700481,
+        "end_time": 711520
+      },
+      "37": {
+        "start_time": 711520,
+        "end_time": 724637
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/akdr/"
+  },
+  "أحمد بن علي العجمي - حفص عن عاصم": {
+    "reader_id": 5,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 1980
+      },
+      "1": {
+        "start_time": 1980,
+        "end_time": 6669
+      },
+      "2": {
+        "start_time": 6669,
+        "end_time": 14571
+      },
+      "3": {
+        "start_time": 14571,
+        "end_time": 21981
+      },
+      "4": {
+        "start_time": 21981,
+        "end_time": 34293
+      },
+      "5": {
+        "start_time": 34293,
+        "end_time": 60254
+      },
+      "6": {
+        "start_time": 60254,
+        "end_time": 74942
+      },
+      "7": {
+        "start_time": 74942,
+        "end_time": 79982
+      },
+      "8": {
+        "start_time": 79982,
+        "end_time": 100514
+      },
+      "9": {
+        "start_time": 100514,
+        "end_time": 114317
+      },
+      "10": {
+        "start_time": 114317,
+        "end_time": 138829
+      },
+      "11": {
+        "start_time": 138829,
+        "end_time": 150906
+      },
+      "12": {
+        "start_time": 150906,
+        "end_time": 165240
+      },
+      "13": {
+        "start_time": 165240,
+        "end_time": 180155
+      },
+      "14": {
+        "start_time": 180155,
+        "end_time": 195389
+      },
+      "15": {
+        "start_time": 195389,
+        "end_time": 212152
+      },
+      "16": {
+        "start_time": 212152,
+        "end_time": 230312
+      },
+      "17": {
+        "start_time": 230312,
+        "end_time": 258027
+      },
+      "18": {
+        "start_time": 258027,
+        "end_time": 273088
+      },
+      "19": {
+        "start_time": 273088,
+        "end_time": 292487
+      },
+      "20": {
+        "start_time": 292487,
+        "end_time": 304903
+      },
+      "21": {
+        "start_time": 304903,
+        "end_time": 327962
+      },
+      "22": {
+        "start_time": 327962,
+        "end_time": 342774
+      },
+      "23": {
+        "start_time": 342774,
+        "end_time": 370145
+      },
+      "24": {
+        "start_time": 370145,
+        "end_time": 389898
+      },
+      "25": {
+        "start_time": 389898,
+        "end_time": 417697
+      },
+      "26": {
+        "start_time": 417697,
+        "end_time": 439460
+      },
+      "27": {
+        "start_time": 439460,
+        "end_time": 452548
+      },
+      "28": {
+        "start_time": 452548,
+        "end_time": 474259
+      },
+      "29": {
+        "start_time": 474259,
+        "end_time": 489532
+      },
+      "30": {
+        "start_time": 489532,
+        "end_time": 503048
+      },
+      "31": {
+        "start_time": 503048,
+        "end_time": 518458
+      },
+      "32": {
+        "start_time": 518458,
+        "end_time": 539524
+      },
+      "33": {
+        "start_time": 539524,
+        "end_time": 552382
+      },
+      "34": {
+        "start_time": 552382,
+        "end_time": 571856
+      },
+      "35": {
+        "start_time": 571856,
+        "end_time": 590456
+      },
+      "36": {
+        "start_time": 590456,
+        "end_time": 598456
+      },
+      "37": {
+        "start_time": 598456,
+        "end_time": 610143
+      }
+    },
+    "folder_url": "https://server10.mp3quran.net/ajm/"
+  },
+  "أحمد نعينع - حفص عن عاصم": {
+    "reader_id": 9,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4866
+      },
+      "1": {
+        "start_time": 4866,
+        "end_time": 11071
+      },
+      "2": {
+        "start_time": 11071,
+        "end_time": 20109
+      },
+      "3": {
+        "start_time": 20109,
+        "end_time": 29561
+      },
+      "4": {
+        "start_time": 29561,
+        "end_time": 43470
+      },
+      "5": {
+        "start_time": 43470,
+        "end_time": 67200
+      },
+      "6": {
+        "start_time": 67200,
+        "end_time": 84987
+      },
+      "7": {
+        "start_time": 84987,
+        "end_time": 91481
+      },
+      "8": {
+        "start_time": 91481,
+        "end_time": 109169
+      },
+      "9": {
+        "start_time": 109169,
+        "end_time": 125341
+      },
+      "10": {
+        "start_time": 125341,
+        "end_time": 153710
+      },
+      "11": {
+        "start_time": 153710,
+        "end_time": 169135
+      },
+      "12": {
+        "start_time": 169135,
+        "end_time": 185720
+      },
+      "13": {
+        "start_time": 185720,
+        "end_time": 206751
+      },
+      "14": {
+        "start_time": 206751,
+        "end_time": 223270
+      },
+      "15": {
+        "start_time": 223270,
+        "end_time": 243134
+      },
+      "16": {
+        "start_time": 243134,
+        "end_time": 262272
+      },
+      "17": {
+        "start_time": 262272,
+        "end_time": 295648
+      },
+      "18": {
+        "start_time": 295648,
+        "end_time": 314976
+      },
+      "19": {
+        "start_time": 314976,
+        "end_time": 339118
+      },
+      "20": {
+        "start_time": 339118,
+        "end_time": 351857
+      },
+      "21": {
+        "start_time": 351857,
+        "end_time": 376329
+      },
+      "22": {
+        "start_time": 376329,
+        "end_time": 392455
+      },
+      "23": {
+        "start_time": 392455,
+        "end_time": 422988
+      },
+      "24": {
+        "start_time": 422988,
+        "end_time": 447241
+      },
+      "25": {
+        "start_time": 447241,
+        "end_time": 469471
+      },
+      "26": {
+        "start_time": 469471,
+        "end_time": 488856
+      },
+      "27": {
+        "start_time": 488856,
+        "end_time": 504983
+      },
+      "28": {
+        "start_time": 504983,
+        "end_time": 528639
+      },
+      "29": {
+        "start_time": 528639,
+        "end_time": 548833
+      },
+      "30": {
+        "start_time": 548833,
+        "end_time": 567187
+      },
+      "31": {
+        "start_time": 567187,
+        "end_time": 582854
+      },
+      "32": {
+        "start_time": 582854,
+        "end_time": 613868
+      },
+      "33": {
+        "start_time": 613868,
+        "end_time": 626236
+      },
+      "34": {
+        "start_time": 626236,
+        "end_time": 646116
+      },
+      "35": {
+        "start_time": 646116,
+        "end_time": 669235
+      },
+      "36": {
+        "start_time": 669235,
+        "end_time": 678483
+      },
+      "37": {
+        "start_time": 678483,
+        "end_time": 691566
+      }
+    },
+    "folder_url": "https://server11.mp3quran.net/ahmad_nu/"
+  },
+  "أكرم العلاقمي - حفص عن عاصم": {
+    "reader_id": 10,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4403
+      },
+      "1": {
+        "start_time": 4403,
+        "end_time": 8343
+      },
+      "2": {
+        "start_time": 8343,
+        "end_time": 14683
+      },
+      "3": {
+        "start_time": 14683,
+        "end_time": 21764
+      },
+      "4": {
+        "start_time": 21764,
+        "end_time": 33104
+      },
+      "5": {
+        "start_time": 33104,
+        "end_time": 58658
+      },
+      "6": {
+        "start_time": 58658,
+        "end_time": 72339
+      },
+      "7": {
+        "start_time": 72339,
+        "end_time": 77269
+      },
+      "8": {
+        "start_time": 77269,
+        "end_time": 92222
+      },
+      "9": {
+        "start_time": 92222,
+        "end_time": 105263
+      },
+      "10": {
+        "start_time": 105263,
+        "end_time": 125995
+      },
+      "11": {
+        "start_time": 125995,
+        "end_time": 137115
+      },
+      "12": {
+        "start_time": 137115,
+        "end_time": 154837
+      },
+      "13": {
+        "start_time": 154837,
+        "end_time": 171188
+      },
+      "14": {
+        "start_time": 171188,
+        "end_time": 184631
+      },
+      "15": {
+        "start_time": 184631,
+        "end_time": 198572
+      },
+      "16": {
+        "start_time": 198572,
+        "end_time": 217903
+      },
+      "17": {
+        "start_time": 217903,
+        "end_time": 243906
+      },
+      "18": {
+        "start_time": 243906,
+        "end_time": 257557
+      },
+      "19": {
+        "start_time": 257557,
+        "end_time": 275979
+      },
+      "20": {
+        "start_time": 275979,
+        "end_time": 286561
+      },
+      "21": {
+        "start_time": 286561,
+        "end_time": 309394
+      },
+      "22": {
+        "start_time": 309394,
+        "end_time": 322035
+      },
+      "23": {
+        "start_time": 322035,
+        "end_time": 352010
+      },
+      "24": {
+        "start_time": 352010,
+        "end_time": 371011
+      },
+      "25": {
+        "start_time": 371011,
+        "end_time": 394793
+      },
+      "26": {
+        "start_time": 394793,
+        "end_time": 413998
+      },
+      "27": {
+        "start_time": 413998,
+        "end_time": 426669
+      },
+      "28": {
+        "start_time": 426669,
+        "end_time": 442071
+      },
+      "29": {
+        "start_time": 442071,
+        "end_time": 456972
+      },
+      "30": {
+        "start_time": 456972,
+        "end_time": 470123
+      },
+      "31": {
+        "start_time": 470123,
+        "end_time": 486624
+      },
+      "32": {
+        "start_time": 486624,
+        "end_time": 509497
+      },
+      "33": {
+        "start_time": 509497,
+        "end_time": 519777
+      },
+      "34": {
+        "start_time": 519777,
+        "end_time": 539957
+      },
+      "35": {
+        "start_time": 539957,
+        "end_time": 558993
+      },
+      "36": {
+        "start_time": 558993,
+        "end_time": 567325
+      },
+      "37": {
+        "start_time": 567325,
+        "end_time": 577898
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/akrm/"
+  },
+  "سعود الشريم - حفص عن عاصم": {
+    "reader_id": 31,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2748
+      },
+      "1": {
+        "start_time": 2748,
+        "end_time": 7053
+      },
+      "2": {
+        "start_time": 7053,
+        "end_time": 12015
+      },
+      "3": {
+        "start_time": 12015,
+        "end_time": 17648
+      },
+      "4": {
+        "start_time": 17648,
+        "end_time": 26528
+      },
+      "5": {
+        "start_time": 26528,
+        "end_time": 43642
+      },
+      "6": {
+        "start_time": 43642,
+        "end_time": 53555
+      },
+      "7": {
+        "start_time": 53555,
+        "end_time": 56825
+      },
+      "8": {
+        "start_time": 56825,
+        "end_time": 69644
+      },
+      "9": {
+        "start_time": 69644,
+        "end_time": 78564
+      },
+      "10": {
+        "start_time": 78564,
+        "end_time": 93546
+      },
+      "11": {
+        "start_time": 93546,
+        "end_time": 102310
+      },
+      "12": {
+        "start_time": 102310,
+        "end_time": 115078
+      },
+      "13": {
+        "start_time": 115078,
+        "end_time": 126399
+      },
+      "14": {
+        "start_time": 126399,
+        "end_time": 136471
+      },
+      "15": {
+        "start_time": 136471,
+        "end_time": 146376
+      },
+      "16": {
+        "start_time": 146376,
+        "end_time": 161946
+      },
+      "17": {
+        "start_time": 161946,
+        "end_time": 179996
+      },
+      "18": {
+        "start_time": 179996,
+        "end_time": 191217
+      },
+      "19": {
+        "start_time": 191217,
+        "end_time": 203960
+      },
+      "20": {
+        "start_time": 203960,
+        "end_time": 212004
+      },
+      "21": {
+        "start_time": 212004,
+        "end_time": 230654
+      },
+      "22": {
+        "start_time": 230654,
+        "end_time": 240318
+      },
+      "23": {
+        "start_time": 240318,
+        "end_time": 260271
+      },
+      "24": {
+        "start_time": 260271,
+        "end_time": 274232
+      },
+      "25": {
+        "start_time": 274232,
+        "end_time": 290257
+      },
+      "26": {
+        "start_time": 290257,
+        "end_time": 303234
+      },
+      "27": {
+        "start_time": 303234,
+        "end_time": 312186
+      },
+      "28": {
+        "start_time": 312186,
+        "end_time": 323324
+      },
+      "29": {
+        "start_time": 323324,
+        "end_time": 333444
+      },
+      "30": {
+        "start_time": 333444,
+        "end_time": 342925
+      },
+      "31": {
+        "start_time": 342925,
+        "end_time": 356380
+      },
+      "32": {
+        "start_time": 356380,
+        "end_time": 369359
+      },
+      "33": {
+        "start_time": 369359,
+        "end_time": 376129
+      },
+      "34": {
+        "start_time": 376129,
+        "end_time": 386746
+      },
+      "35": {
+        "start_time": 386746,
+        "end_time": 398777
+      },
+      "36": {
+        "start_time": 398777,
+        "end_time": 404510
+      },
+      "37": {
+        "start_time": 404510,
+        "end_time": 411428
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/shur/"
+  },
+  "سهل ياسين - حفص عن عاصم": {
+    "reader_id": 32,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2806
+      },
+      "1": {
+        "start_time": 2806,
+        "end_time": 7467
+      },
+      "2": {
+        "start_time": 7467,
+        "end_time": 13671
+      },
+      "3": {
+        "start_time": 13671,
+        "end_time": 20412
+      },
+      "4": {
+        "start_time": 20412,
+        "end_time": 33034
+      },
+      "5": {
+        "start_time": 33034,
+        "end_time": 56131
+      },
+      "6": {
+        "start_time": 56131,
+        "end_time": 70207
+      },
+      "7": {
+        "start_time": 70207,
+        "end_time": 75467
+      },
+      "8": {
+        "start_time": 75467,
+        "end_time": 90393
+      },
+      "9": {
+        "start_time": 90393,
+        "end_time": 104979
+      },
+      "10": {
+        "start_time": 104979,
+        "end_time": 127311
+      },
+      "11": {
+        "start_time": 127311,
+        "end_time": 139575
+      },
+      "12": {
+        "start_time": 139575,
+        "end_time": 157763
+      },
+      "13": {
+        "start_time": 157763,
+        "end_time": 173316
+      },
+      "14": {
+        "start_time": 173316,
+        "end_time": 186712
+      },
+      "15": {
+        "start_time": 186712,
+        "end_time": 201839
+      },
+      "16": {
+        "start_time": 201839,
+        "end_time": 220732
+      },
+      "17": {
+        "start_time": 220732,
+        "end_time": 247124
+      },
+      "18": {
+        "start_time": 247124,
+        "end_time": 264757
+      },
+      "19": {
+        "start_time": 264757,
+        "end_time": 283239
+      },
+      "20": {
+        "start_time": 283239,
+        "end_time": 293998
+      },
+      "21": {
+        "start_time": 293998,
+        "end_time": 318985
+      },
+      "22": {
+        "start_time": 318985,
+        "end_time": 331041
+      },
+      "23": {
+        "start_time": 331041,
+        "end_time": 359642
+      },
+      "24": {
+        "start_time": 359642,
+        "end_time": 378138
+      },
+      "25": {
+        "start_time": 378138,
+        "end_time": 398727
+      },
+      "26": {
+        "start_time": 398727,
+        "end_time": 415522
+      },
+      "27": {
+        "start_time": 415522,
+        "end_time": 428612
+      },
+      "28": {
+        "start_time": 428612,
+        "end_time": 445815
+      },
+      "29": {
+        "start_time": 445815,
+        "end_time": 462333
+      },
+      "30": {
+        "start_time": 462333,
+        "end_time": 476420
+      },
+      "31": {
+        "start_time": 476420,
+        "end_time": 492887
+      },
+      "32": {
+        "start_time": 492887,
+        "end_time": 518079
+      },
+      "33": {
+        "start_time": 518079,
+        "end_time": 527816
+      },
+      "34": {
+        "start_time": 527816,
+        "end_time": 551316
+      },
+      "35": {
+        "start_time": 551316,
+        "end_time": 570499
+      },
+      "36": {
+        "start_time": 570499,
+        "end_time": 579091
+      },
+      "37": {
+        "start_time": 579091,
+        "end_time": 590781
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/shl/"
+  },
+  "عبدالباسط عبدالصمد - المصحف المجود": {
+    "reader_id": 51,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 10118
+      },
+      "1": {
+        "start_time": 10118,
+        "end_time": 18116
+      },
+      "2": {
+        "start_time": 18116,
+        "end_time": 35867
+      },
+      "3": {
+        "start_time": 35867,
+        "end_time": 55115
+      },
+      "4": {
+        "start_time": 55115,
+        "end_time": 82179
+      },
+      "5": {
+        "start_time": 82179,
+        "end_time": 139554
+      },
+      "6": {
+        "start_time": 139554,
+        "end_time": 179993
+      },
+      "7": {
+        "start_time": 179993,
+        "end_time": 193993
+      },
+      "8": {
+        "start_time": 193993,
+        "end_time": 226243
+      },
+      "9": {
+        "start_time": 226243,
+        "end_time": 260680
+      },
+      "10": {
+        "start_time": 260680,
+        "end_time": 306618
+      },
+      "11": {
+        "start_time": 306618,
+        "end_time": 339432
+      },
+      "12": {
+        "start_time": 339432,
+        "end_time": 372183
+      },
+      "13": {
+        "start_time": 372183,
+        "end_time": 411931
+      },
+      "14": {
+        "start_time": 411931,
+        "end_time": 446496
+      },
+      "15": {
+        "start_time": 446496,
+        "end_time": 476808
+      },
+      "16": {
+        "start_time": 476808,
+        "end_time": 528558
+      },
+      "17": {
+        "start_time": 528558,
+        "end_time": 586870
+      },
+      "18": {
+        "start_time": 586870,
+        "end_time": 620309
+      },
+      "19": {
+        "start_time": 620309,
+        "end_time": 662558
+      },
+      "20": {
+        "start_time": 662558,
+        "end_time": 684247
+      },
+      "21": {
+        "start_time": 684247,
+        "end_time": 731935
+      },
+      "22": {
+        "start_time": 731935,
+        "end_time": 762495
+      },
+      "23": {
+        "start_time": 762495,
+        "end_time": 832560
+      },
+      "24": {
+        "start_time": 832560,
+        "end_time": 876747
+      },
+      "25": {
+        "start_time": 876747,
+        "end_time": 930686
+      },
+      "26": {
+        "start_time": 930686,
+        "end_time": 968185
+      },
+      "27": {
+        "start_time": 968185,
+        "end_time": 1001721
+      },
+      "28": {
+        "start_time": 1001721,
+        "end_time": 1041157
+      },
+      "29": {
+        "start_time": 1041157,
+        "end_time": 1078971
+      },
+      "30": {
+        "start_time": 1078971,
+        "end_time": 1115282
+      },
+      "31": {
+        "start_time": 1115282,
+        "end_time": 1150722
+      },
+      "32": {
+        "start_time": 1150722,
+        "end_time": 1208471
+      },
+      "33": {
+        "start_time": 1208471,
+        "end_time": 1235535
+      },
+      "34": {
+        "start_time": 1235535,
+        "end_time": 1268222
+      },
+      "35": {
+        "start_time": 1268222,
+        "end_time": 1316289
+      },
+      "36": {
+        "start_time": 1316289,
+        "end_time": 1341102
+      },
+      "37": {
+        "start_time": 1341102,
+        "end_time": 1365854
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/"
+  },
+  "عبدالباسط عبدالصمد - حفص عن عاصم": {
+    "reader_id": 53,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 9064
+      },
+      "1": {
+        "start_time": 9064,
+        "end_time": 13564
+      },
+      "2": {
+        "start_time": 13564,
+        "end_time": 21725
+      },
+      "3": {
+        "start_time": 21725,
+        "end_time": 31490
+      },
+      "4": {
+        "start_time": 31490,
+        "end_time": 46960
+      },
+      "5": {
+        "start_time": 46960,
+        "end_time": 81828
+      },
+      "6": {
+        "start_time": 81828,
+        "end_time": 100503
+      },
+      "7": {
+        "start_time": 100503,
+        "end_time": 106463
+      },
+      "8": {
+        "start_time": 106463,
+        "end_time": 125739
+      },
+      "9": {
+        "start_time": 125739,
+        "end_time": 141510
+      },
+      "10": {
+        "start_time": 141510,
+        "end_time": 168650
+      },
+      "11": {
+        "start_time": 168650,
+        "end_time": 183367
+      },
+      "12": {
+        "start_time": 183367,
+        "end_time": 203194
+      },
+      "13": {
+        "start_time": 203194,
+        "end_time": 224223
+      },
+      "14": {
+        "start_time": 224223,
+        "end_time": 242849
+      },
+      "15": {
+        "start_time": 242849,
+        "end_time": 261223
+      },
+      "16": {
+        "start_time": 261223,
+        "end_time": 291616
+      },
+      "17": {
+        "start_time": 291616,
+        "end_time": 327263
+      },
+      "18": {
+        "start_time": 327263,
+        "end_time": 346675
+      },
+      "19": {
+        "start_time": 346675,
+        "end_time": 371009
+      },
+      "20": {
+        "start_time": 371009,
+        "end_time": 383676
+      },
+      "21": {
+        "start_time": 383676,
+        "end_time": 411113
+      },
+      "22": {
+        "start_time": 411113,
+        "end_time": 427986
+      },
+      "23": {
+        "start_time": 427986,
+        "end_time": 466489
+      },
+      "24": {
+        "start_time": 466489,
+        "end_time": 492824
+      },
+      "25": {
+        "start_time": 492824,
+        "end_time": 520212
+      },
+      "26": {
+        "start_time": 520212,
+        "end_time": 544696
+      },
+      "27": {
+        "start_time": 544696,
+        "end_time": 562269
+      },
+      "28": {
+        "start_time": 562269,
+        "end_time": 583899
+      },
+      "29": {
+        "start_time": 583899,
+        "end_time": 603327
+      },
+      "30": {
+        "start_time": 603327,
+        "end_time": 621601
+      },
+      "31": {
+        "start_time": 621601,
+        "end_time": 640374
+      },
+      "32": {
+        "start_time": 640374,
+        "end_time": 673080
+      },
+      "33": {
+        "start_time": 673080,
+        "end_time": 686647
+      },
+      "34": {
+        "start_time": 686647,
+        "end_time": 707678
+      },
+      "35": {
+        "start_time": 707678,
+        "end_time": 733221
+      },
+      "36": {
+        "start_time": 733221,
+        "end_time": 744289
+      },
+      "37": {
+        "start_time": 744289,
+        "end_time": 756304
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/basit/"
+  },
+  "عبدالله بصفر - حفص عن عاصم": {
+    "reader_id": 60,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 6093
+      },
+      "1": {
+        "start_time": 6093,
+        "end_time": 9993
+      },
+      "2": {
+        "start_time": 9993,
+        "end_time": 16217
+      },
+      "3": {
+        "start_time": 16217,
+        "end_time": 22717
+      },
+      "4": {
+        "start_time": 22717,
+        "end_time": 33217
+      },
+      "5": {
+        "start_time": 33217,
+        "end_time": 61693
+      },
+      "6": {
+        "start_time": 61693,
+        "end_time": 77270
+      },
+      "7": {
+        "start_time": 77270,
+        "end_time": 81700
+      },
+      "8": {
+        "start_time": 81700,
+        "end_time": 95400
+      },
+      "9": {
+        "start_time": 95400,
+        "end_time": 106244
+      },
+      "10": {
+        "start_time": 106244,
+        "end_time": 125102
+      },
+      "11": {
+        "start_time": 125102,
+        "end_time": 135705
+      },
+      "12": {
+        "start_time": 135705,
+        "end_time": 150799
+      },
+      "13": {
+        "start_time": 150799,
+        "end_time": 165416
+      },
+      "14": {
+        "start_time": 165416,
+        "end_time": 180349
+      },
+      "15": {
+        "start_time": 180349,
+        "end_time": 194548
+      },
+      "16": {
+        "start_time": 194548,
+        "end_time": 212498
+      },
+      "17": {
+        "start_time": 212498,
+        "end_time": 238198
+      },
+      "18": {
+        "start_time": 238198,
+        "end_time": 251268
+      },
+      "19": {
+        "start_time": 251268,
+        "end_time": 266948
+      },
+      "20": {
+        "start_time": 266948,
+        "end_time": 279748
+      },
+      "21": {
+        "start_time": 279748,
+        "end_time": 299851
+      },
+      "22": {
+        "start_time": 299851,
+        "end_time": 313051
+      },
+      "23": {
+        "start_time": 313051,
+        "end_time": 341879
+      },
+      "24": {
+        "start_time": 341879,
+        "end_time": 360173
+      },
+      "25": {
+        "start_time": 360173,
+        "end_time": 378773
+      },
+      "26": {
+        "start_time": 378773,
+        "end_time": 396182
+      },
+      "27": {
+        "start_time": 396182,
+        "end_time": 407941
+      },
+      "28": {
+        "start_time": 407941,
+        "end_time": 426538
+      },
+      "29": {
+        "start_time": 426538,
+        "end_time": 439538
+      },
+      "30": {
+        "start_time": 439538,
+        "end_time": 452083
+      },
+      "31": {
+        "start_time": 452083,
+        "end_time": 471784
+      },
+      "32": {
+        "start_time": 471784,
+        "end_time": 494414
+      },
+      "33": {
+        "start_time": 494414,
+        "end_time": 507471
+      },
+      "34": {
+        "start_time": 507471,
+        "end_time": 533062
+      },
+      "35": {
+        "start_time": 533062,
+        "end_time": 554032
+      },
+      "36": {
+        "start_time": 554032,
+        "end_time": 562731
+      },
+      "37": {
+        "start_time": 562731,
+        "end_time": 575399
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/bsfr/"
+  },
+  "عبدالله عواد الجهني - حفص عن عاصم": {
+    "reader_id": 62,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2715
+      },
+      "1": {
+        "start_time": 2715,
+        "end_time": 6915
+      },
+      "2": {
+        "start_time": 6915,
+        "end_time": 11706
+      },
+      "3": {
+        "start_time": 11706,
+        "end_time": 16676
+      },
+      "4": {
+        "start_time": 16676,
+        "end_time": 25868
+      },
+      "5": {
+        "start_time": 25868,
+        "end_time": 41719
+      },
+      "6": {
+        "start_time": 41719,
+        "end_time": 51219
+      },
+      "7": {
+        "start_time": 51219,
+        "end_time": 54300
+      },
+      "8": {
+        "start_time": 54300,
+        "end_time": 64114
+      },
+      "9": {
+        "start_time": 64114,
+        "end_time": 74137
+      },
+      "10": {
+        "start_time": 74137,
+        "end_time": 91022
+      },
+      "11": {
+        "start_time": 91022,
+        "end_time": 99096
+      },
+      "12": {
+        "start_time": 99096,
+        "end_time": 110043
+      },
+      "13": {
+        "start_time": 110043,
+        "end_time": 121474
+      },
+      "14": {
+        "start_time": 121474,
+        "end_time": 131367
+      },
+      "15": {
+        "start_time": 131367,
+        "end_time": 141689
+      },
+      "16": {
+        "start_time": 141689,
+        "end_time": 155140
+      },
+      "17": {
+        "start_time": 155140,
+        "end_time": 172567
+      },
+      "18": {
+        "start_time": 172567,
+        "end_time": 183270
+      },
+      "19": {
+        "start_time": 183270,
+        "end_time": 196525
+      },
+      "20": {
+        "start_time": 196525,
+        "end_time": 203436
+      },
+      "21": {
+        "start_time": 203436,
+        "end_time": 220605
+      },
+      "22": {
+        "start_time": 220605,
+        "end_time": 229488
+      },
+      "23": {
+        "start_time": 229488,
+        "end_time": 247353
+      },
+      "24": {
+        "start_time": 247353,
+        "end_time": 261568
+      },
+      "25": {
+        "start_time": 261568,
+        "end_time": 277332
+      },
+      "26": {
+        "start_time": 277332,
+        "end_time": 293380
+      },
+      "27": {
+        "start_time": 293380,
+        "end_time": 301622
+      },
+      "28": {
+        "start_time": 301622,
+        "end_time": 312126
+      },
+      "29": {
+        "start_time": 312126,
+        "end_time": 322497
+      },
+      "30": {
+        "start_time": 322497,
+        "end_time": 332521
+      },
+      "31": {
+        "start_time": 332521,
+        "end_time": 342253
+      },
+      "32": {
+        "start_time": 342253,
+        "end_time": 361543
+      },
+      "33": {
+        "start_time": 361543,
+        "end_time": 368974
+      },
+      "34": {
+        "start_time": 368974,
+        "end_time": 383279
+      },
+      "35": {
+        "start_time": 383279,
+        "end_time": 397752
+      },
+      "36": {
+        "start_time": 397752,
+        "end_time": 404215
+      },
+      "37": {
+        "start_time": 404215,
+        "end_time": 413570
+      }
+    },
+    "folder_url": "https://server13.mp3quran.net/jhn/"
+  },
+  "عبدالمحسن القاسم - حفص عن عاصم": {
+    "reader_id": 67,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4569
+      },
+      "1": {
+        "start_time": 4569,
+        "end_time": 8391
+      },
+      "2": {
+        "start_time": 8391,
+        "end_time": 13644
+      },
+      "3": {
+        "start_time": 13644,
+        "end_time": 19315
+      },
+      "4": {
+        "start_time": 19315,
+        "end_time": 29367
+      },
+      "5": {
+        "start_time": 29367,
+        "end_time": 47576
+      },
+      "6": {
+        "start_time": 47576,
+        "end_time": 58700
+      },
+      "7": {
+        "start_time": 58700,
+        "end_time": 62314
+      },
+      "8": {
+        "start_time": 62314,
+        "end_time": 74888
+      },
+      "9": {
+        "start_time": 74888,
+        "end_time": 85501
+      },
+      "10": {
+        "start_time": 85501,
+        "end_time": 101510
+      },
+      "11": {
+        "start_time": 101510,
+        "end_time": 112946
+      },
+      "12": {
+        "start_time": 112946,
+        "end_time": 124995
+      },
+      "13": {
+        "start_time": 124995,
+        "end_time": 138359
+      },
+      "14": {
+        "start_time": 138359,
+        "end_time": 149946
+      },
+      "15": {
+        "start_time": 149946,
+        "end_time": 159942
+      },
+      "16": {
+        "start_time": 159942,
+        "end_time": 173917
+      },
+      "17": {
+        "start_time": 173917,
+        "end_time": 195475
+      },
+      "18": {
+        "start_time": 195475,
+        "end_time": 207401
+      },
+      "19": {
+        "start_time": 207401,
+        "end_time": 221638
+      },
+      "20": {
+        "start_time": 221638,
+        "end_time": 230012
+      },
+      "21": {
+        "start_time": 230012,
+        "end_time": 247384
+      },
+      "22": {
+        "start_time": 247384,
+        "end_time": 258961
+      },
+      "23": {
+        "start_time": 258961,
+        "end_time": 280634
+      },
+      "24": {
+        "start_time": 280634,
+        "end_time": 296695
+      },
+      "25": {
+        "start_time": 296695,
+        "end_time": 313329
+      },
+      "26": {
+        "start_time": 313329,
+        "end_time": 327631
+      },
+      "27": {
+        "start_time": 327631,
+        "end_time": 337380
+      },
+      "28": {
+        "start_time": 337380,
+        "end_time": 351126
+      },
+      "29": {
+        "start_time": 351126,
+        "end_time": 363001
+      },
+      "30": {
+        "start_time": 363001,
+        "end_time": 375189
+      },
+      "31": {
+        "start_time": 375189,
+        "end_time": 387886
+      },
+      "32": {
+        "start_time": 387886,
+        "end_time": 405751
+      },
+      "33": {
+        "start_time": 405751,
+        "end_time": 414899
+      },
+      "34": {
+        "start_time": 414899,
+        "end_time": 428946
+      },
+      "35": {
+        "start_time": 428946,
+        "end_time": 445061
+      },
+      "36": {
+        "start_time": 445061,
+        "end_time": 453557
+      },
+      "37": {
+        "start_time": 453557,
+        "end_time": 463756
+      }
+    },
+    "folder_url": "https://server8.mp3quran.net/qasm/"
+  },
+  "علي بن عبدالرحمن الحذيفي - حفص عن عاصم": {
+    "reader_id": 74,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 5691
+      },
+      "1": {
+        "start_time": 5691,
+        "end_time": 10991
+      },
+      "2": {
+        "start_time": 10991,
+        "end_time": 19399
+      },
+      "3": {
+        "start_time": 19399,
+        "end_time": 27847
+      },
+      "4": {
+        "start_time": 27847,
+        "end_time": 42787
+      },
+      "5": {
+        "start_time": 42787,
+        "end_time": 71519
+      },
+      "6": {
+        "start_time": 71519,
+        "end_time": 85476
+      },
+      "7": {
+        "start_time": 85476,
+        "end_time": 91970
+      },
+      "8": {
+        "start_time": 91970,
+        "end_time": 110568
+      },
+      "9": {
+        "start_time": 110568,
+        "end_time": 125272
+      },
+      "10": {
+        "start_time": 125272,
+        "end_time": 151464
+      },
+      "11": {
+        "start_time": 151464,
+        "end_time": 164302
+      },
+      "12": {
+        "start_time": 164302,
+        "end_time": 185178
+      },
+      "13": {
+        "start_time": 185178,
+        "end_time": 203674
+      },
+      "14": {
+        "start_time": 203674,
+        "end_time": 218138
+      },
+      "15": {
+        "start_time": 218138,
+        "end_time": 233400
+      },
+      "16": {
+        "start_time": 233400,
+        "end_time": 256591
+      },
+      "17": {
+        "start_time": 256591,
+        "end_time": 298616
+      },
+      "18": {
+        "start_time": 298616,
+        "end_time": 314761
+      },
+      "19": {
+        "start_time": 314761,
+        "end_time": 336015
+      },
+      "20": {
+        "start_time": 336015,
+        "end_time": 348623
+      },
+      "21": {
+        "start_time": 348623,
+        "end_time": 372518
+      },
+      "22": {
+        "start_time": 372518,
+        "end_time": 386134
+      },
+      "23": {
+        "start_time": 386134,
+        "end_time": 416936
+      },
+      "24": {
+        "start_time": 416936,
+        "end_time": 438402
+      },
+      "25": {
+        "start_time": 438402,
+        "end_time": 470978
+      },
+      "26": {
+        "start_time": 470978,
+        "end_time": 497386
+      },
+      "27": {
+        "start_time": 497386,
+        "end_time": 511665
+      },
+      "28": {
+        "start_time": 511665,
+        "end_time": 532029
+      },
+      "29": {
+        "start_time": 532029,
+        "end_time": 550848
+      },
+      "30": {
+        "start_time": 550848,
+        "end_time": 566181
+      },
+      "31": {
+        "start_time": 566181,
+        "end_time": 583444
+      },
+      "32": {
+        "start_time": 583444,
+        "end_time": 611557
+      },
+      "33": {
+        "start_time": 611557,
+        "end_time": 622707
+      },
+      "34": {
+        "start_time": 622707,
+        "end_time": 641254
+      },
+      "35": {
+        "start_time": 641254,
+        "end_time": 661895
+      },
+      "36": {
+        "start_time": 661895,
+        "end_time": 671639
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/hthfi/"
+  },
+  "علي حجاج السويسي - حفص عن عاصم": {
+    "reader_id": 77,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 3760
+      },
+      "1": {
+        "start_time": 3760,
+        "end_time": 8300
+      },
+      "2": {
+        "start_time": 8300,
+        "end_time": 16691
+      },
+      "3": {
+        "start_time": 16691,
+        "end_time": 25255
+      },
+      "4": {
+        "start_time": 25255,
+        "end_time": 37881
+      },
+      "5": {
+        "start_time": 37881,
+        "end_time": 66874
+      },
+      "6": {
+        "start_time": 66874,
+        "end_time": 83052
+      },
+      "7": {
+        "start_time": 83052,
+        "end_time": 88281
+      },
+      "8": {
+        "start_time": 88281,
+        "end_time": 106355
+      },
+      "9": {
+        "start_time": 106355,
+        "end_time": 121348
+      },
+      "10": {
+        "start_time": 121348,
+        "end_time": 146480
+      },
+      "11": {
+        "start_time": 146480,
+        "end_time": 160023
+      },
+      "12": {
+        "start_time": 160023,
+        "end_time": 176409
+      },
+      "13": {
+        "start_time": 176409,
+        "end_time": 196284
+      },
+      "14": {
+        "start_time": 196284,
+        "end_time": 213066
+      },
+      "15": {
+        "start_time": 213066,
+        "end_time": 230947
+      },
+      "16": {
+        "start_time": 230947,
+        "end_time": 251062
+      },
+      "17": {
+        "start_time": 251062,
+        "end_time": 282598
+      },
+      "18": {
+        "start_time": 282598,
+        "end_time": 300858
+      },
+      "19": {
+        "start_time": 300858,
+        "end_time": 323472
+      },
+      "20": {
+        "start_time": 323472,
+        "end_time": 336144
+      },
+      "21": {
+        "start_time": 336144,
+        "end_time": 362037
+      },
+      "22": {
+        "start_time": 362037,
+        "end_time": 378362
+      },
+      "23": {
+        "start_time": 378362,
+        "end_time": 408556
+      },
+      "24": {
+        "start_time": 408556,
+        "end_time": 432241
+      },
+      "25": {
+        "start_time": 432241,
+        "end_time": 454085
+      },
+      "26": {
+        "start_time": 454085,
+        "end_time": 475682
+      },
+      "27": {
+        "start_time": 475682,
+        "end_time": 490922
+      },
+      "28": {
+        "start_time": 490922,
+        "end_time": 512192
+      },
+      "29": {
+        "start_time": 512192,
+        "end_time": 530922
+      },
+      "30": {
+        "start_time": 530922,
+        "end_time": 548209
+      },
+      "31": {
+        "start_time": 548209,
+        "end_time": 566059
+      },
+      "32": {
+        "start_time": 566059,
+        "end_time": 596203
+      },
+      "33": {
+        "start_time": 596203,
+        "end_time": 609865
+      },
+      "34": {
+        "start_time": 609865,
+        "end_time": 631872
+      },
+      "35": {
+        "start_time": 631872,
+        "end_time": 655251
+      },
+      "36": {
+        "start_time": 655251,
+        "end_time": 665926
+      },
+      "37": {
+        "start_time": 665926,
+        "end_time": 678281
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/hajjaj/"
+  },
+  "عماد زهير حافظ - حفص عن عاصم": {
+    "reader_id": 78,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 6855
+      },
+      "1": {
+        "start_time": 6855,
+        "end_time": 11666
+      },
+      "2": {
+        "start_time": 11666,
+        "end_time": 20074
+      },
+      "3": {
+        "start_time": 20074,
+        "end_time": 29071
+      },
+      "4": {
+        "start_time": 29071,
+        "end_time": 43417
+      },
+      "5": {
+        "start_time": 43417,
+        "end_time": 71126
+      },
+      "6": {
+        "start_time": 71126,
+        "end_time": 85708
+      },
+      "7": {
+        "start_time": 85708,
+        "end_time": 92245
+      },
+      "8": {
+        "start_time": 92245,
+        "end_time": 108513
+      },
+      "9": {
+        "start_time": 108513,
+        "end_time": 123237
+      },
+      "10": {
+        "start_time": 123237,
+        "end_time": 150810
+      },
+      "11": {
+        "start_time": 150810,
+        "end_time": 166861
+      },
+      "12": {
+        "start_time": 166861,
+        "end_time": 186985
+      },
+      "13": {
+        "start_time": 186985,
+        "end_time": 205410
+      },
+      "14": {
+        "start_time": 205410,
+        "end_time": 221059
+      },
+      "15": {
+        "start_time": 221059,
+        "end_time": 235116
+      },
+      "16": {
+        "start_time": 235116,
+        "end_time": 260340
+      },
+      "17": {
+        "start_time": 260340,
+        "end_time": 287401
+      },
+      "18": {
+        "start_time": 287401,
+        "end_time": 303412
+      },
+      "19": {
+        "start_time": 303412,
+        "end_time": 323284
+      },
+      "20": {
+        "start_time": 323284,
+        "end_time": 335454
+      },
+      "21": {
+        "start_time": 335454,
+        "end_time": 358611
+      },
+      "22": {
+        "start_time": 358611,
+        "end_time": 372625
+      },
+      "23": {
+        "start_time": 372625,
+        "end_time": 404604
+      },
+      "24": {
+        "start_time": 404604,
+        "end_time": 425036
+      },
+      "25": {
+        "start_time": 425036,
+        "end_time": 453538
+      },
+      "26": {
+        "start_time": 453538,
+        "end_time": 481023
+      },
+      "27": {
+        "start_time": 481023,
+        "end_time": 493457
+      },
+      "28": {
+        "start_time": 493457,
+        "end_time": 510993
+      },
+      "29": {
+        "start_time": 510993,
+        "end_time": 527131
+      },
+      "30": {
+        "start_time": 527131,
+        "end_time": 542874
+      },
+      "31": {
+        "start_time": 542874,
+        "end_time": 558160
+      },
+      "32": {
+        "start_time": 558160,
+        "end_time": 584654
+      },
+      "33": {
+        "start_time": 584654,
+        "end_time": 596323
+      },
+      "34": {
+        "start_time": 596323,
+        "end_time": 614051
+      },
+      "35": {
+        "start_time": 614051,
+        "end_time": 634162
+      },
+      "36": {
+        "start_time": 634162,
+        "end_time": 643946
+      },
+      "37": {
+        "start_time": 643946,
+        "end_time": 656274
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/hafz/"
+  },
+  "محمد الطبلاوي - حفص عن عاصم": {
+    "reader_id": 106,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 5073
+      },
+      "1": {
+        "start_time": 5073,
+        "end_time": 9416
+      },
+      "2": {
+        "start_time": 9416,
+        "end_time": 16870
+      },
+      "3": {
+        "start_time": 16870,
+        "end_time": 24712
+      },
+      "4": {
+        "start_time": 24712,
+        "end_time": 36857
+      },
+      "5": {
+        "start_time": 36857,
+        "end_time": 61116
+      },
+      "6": {
+        "start_time": 61116,
+        "end_time": 75991
+      },
+      "7": {
+        "start_time": 75991,
+        "end_time": 80968
+      },
+      "8": {
+        "start_time": 80968,
+        "end_time": 96510
+      },
+      "9": {
+        "start_time": 96510,
+        "end_time": 109783
+      },
+      "10": {
+        "start_time": 109783,
+        "end_time": 132287
+      },
+      "11": {
+        "start_time": 132287,
+        "end_time": 144010
+      },
+      "12": {
+        "start_time": 144010,
+        "end_time": 160289
+      },
+      "13": {
+        "start_time": 160289,
+        "end_time": 177480
+      },
+      "14": {
+        "start_time": 177480,
+        "end_time": 191844
+      },
+      "15": {
+        "start_time": 191844,
+        "end_time": 207336
+      },
+      "16": {
+        "start_time": 207336,
+        "end_time": 227703
+      },
+      "17": {
+        "start_time": 227703,
+        "end_time": 258339
+      },
+      "18": {
+        "start_time": 258339,
+        "end_time": 274219
+      },
+      "19": {
+        "start_time": 274219,
+        "end_time": 294087
+      },
+      "20": {
+        "start_time": 294087,
+        "end_time": 307784
+      },
+      "21": {
+        "start_time": 307784,
+        "end_time": 330835
+      },
+      "22": {
+        "start_time": 330835,
+        "end_time": 344676
+      },
+      "23": {
+        "start_time": 344676,
+        "end_time": 372359
+      },
+      "24": {
+        "start_time": 372359,
+        "end_time": 395843
+      },
+      "25": {
+        "start_time": 395843,
+        "end_time": 418543
+      },
+      "26": {
+        "start_time": 418543,
+        "end_time": 436232
+      },
+      "27": {
+        "start_time": 436232,
+        "end_time": 450058
+      },
+      "28": {
+        "start_time": 450058,
+        "end_time": 468360
+      },
+      "29": {
+        "start_time": 468360,
+        "end_time": 484680
+      },
+      "30": {
+        "start_time": 484680,
+        "end_time": 500249
+      },
+      "31": {
+        "start_time": 500249,
+        "end_time": 515899
+      },
+      "32": {
+        "start_time": 515899,
+        "end_time": 536636
+      },
+      "33": {
+        "start_time": 536636,
+        "end_time": 547215
+      },
+      "34": {
+        "start_time": 547215,
+        "end_time": 564050
+      },
+      "35": {
+        "start_time": 564050,
+        "end_time": 584487
+      },
+      "36": {
+        "start_time": 584487,
+        "end_time": 593534
+      },
+      "37": {
+        "start_time": 593534,
+        "end_time": 604120
+      }
+    },
+    "folder_url": "https://server12.mp3quran.net/tblawi/"
+  },
+  "محمد صديق المنشاوي - حفص عن عاصم": {
+    "reader_id": 112,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 3618
+      },
+      "1": {
+        "start_time": 3618,
+        "end_time": 7556
+      },
+      "2": {
+        "start_time": 7556,
+        "end_time": 14429
+      },
+      "3": {
+        "start_time": 14429,
+        "end_time": 22057
+      },
+      "4": {
+        "start_time": 22057,
+        "end_time": 33624
+      },
+      "5": {
+        "start_time": 33624,
+        "end_time": 59812
+      },
+      "6": {
+        "start_time": 59812,
+        "end_time": 73688
+      },
+      "7": {
+        "start_time": 73688,
+        "end_time": 78310
+      },
+      "8": {
+        "start_time": 78310,
+        "end_time": 93561
+      },
+      "9": {
+        "start_time": 93561,
+        "end_time": 106187
+      },
+      "10": {
+        "start_time": 106187,
+        "end_time": 127440
+      },
+      "11": {
+        "start_time": 127440,
+        "end_time": 138749
+      },
+      "12": {
+        "start_time": 138749,
+        "end_time": 153189
+      },
+      "13": {
+        "start_time": 153189,
+        "end_time": 170078
+      },
+      "14": {
+        "start_time": 170078,
+        "end_time": 183858
+      },
+      "15": {
+        "start_time": 183858,
+        "end_time": 198045
+      },
+      "16": {
+        "start_time": 198045,
+        "end_time": 218797
+      },
+      "17": {
+        "start_time": 218797,
+        "end_time": 246296
+      },
+      "18": {
+        "start_time": 246296,
+        "end_time": 260736
+      },
+      "19": {
+        "start_time": 260736,
+        "end_time": 278546
+      },
+      "20": {
+        "start_time": 278546,
+        "end_time": 288358
+      },
+      "21": {
+        "start_time": 288358,
+        "end_time": 309171
+      },
+      "22": {
+        "start_time": 309171,
+        "end_time": 322047
+      },
+      "23": {
+        "start_time": 322047,
+        "end_time": 350234
+      },
+      "24": {
+        "start_time": 350234,
+        "end_time": 370547
+      },
+      "25": {
+        "start_time": 370547,
+        "end_time": 390988
+      },
+      "26": {
+        "start_time": 390988,
+        "end_time": 416585
+      },
+      "27": {
+        "start_time": 416585,
+        "end_time": 428020
+      },
+      "28": {
+        "start_time": 428020,
+        "end_time": 446021
+      },
+      "29": {
+        "start_time": 446021,
+        "end_time": 460521
+      },
+      "30": {
+        "start_time": 460521,
+        "end_time": 474086
+      },
+      "31": {
+        "start_time": 474086,
+        "end_time": 488588
+      },
+      "32": {
+        "start_time": 488588,
+        "end_time": 513274
+      },
+      "33": {
+        "start_time": 513274,
+        "end_time": 523023
+      },
+      "34": {
+        "start_time": 523023,
+        "end_time": 539086
+      },
+      "35": {
+        "start_time": 539086,
+        "end_time": 557774
+      },
+      "36": {
+        "start_time": 557774,
+        "end_time": 565586
+      },
+      "37": {
+        "start_time": 565586,
+        "end_time": 575148
+      }
+    },
+    "folder_url": "https://server10.mp3quran.net/minsh/"
+  },
+  "محمود خليل الحصري - حفص عن عاصم": {
+    "reader_id": 118,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 8103
+      },
+      "1": {
+        "start_time": 8103,
+        "end_time": 14076
+      },
+      "2": {
+        "start_time": 14076,
+        "end_time": 27110
+      },
+      "3": {
+        "start_time": 27110,
+        "end_time": 40801
+      },
+      "4": {
+        "start_time": 40801,
+        "end_time": 63268
+      },
+      "5": {
+        "start_time": 63268,
+        "end_time": 108546
+      },
+      "6": {
+        "start_time": 108546,
+        "end_time": 137040
+      },
+      "7": {
+        "start_time": 137040,
+        "end_time": 145975
+      },
+      "8": {
+        "start_time": 145975,
+        "end_time": 174827
+      },
+      "9": {
+        "start_time": 174827,
+        "end_time": 199195
+      },
+      "10": {
+        "start_time": 199195,
+        "end_time": 238643
+      },
+      "11": {
+        "start_time": 238643,
+        "end_time": 262043
+      },
+      "12": {
+        "start_time": 262043,
+        "end_time": 289862
+      },
+      "13": {
+        "start_time": 289862,
+        "end_time": 320514
+      },
+      "14": {
+        "start_time": 320514,
+        "end_time": 348284
+      },
+      "15": {
+        "start_time": 348284,
+        "end_time": 374110
+      },
+      "16": {
+        "start_time": 374110,
+        "end_time": 408499
+      },
+      "17": {
+        "start_time": 408499,
+        "end_time": 458867
+      },
+      "18": {
+        "start_time": 458867,
+        "end_time": 485447
+      },
+      "19": {
+        "start_time": 485447,
+        "end_time": 520844
+      },
+      "20": {
+        "start_time": 520844,
+        "end_time": 542204
+      },
+      "21": {
+        "start_time": 542204,
+        "end_time": 580386
+      },
+      "22": {
+        "start_time": 580386,
+        "end_time": 606784
+      },
+      "23": {
+        "start_time": 606784,
+        "end_time": 661510
+      },
+      "24": {
+        "start_time": 661510,
+        "end_time": 699168
+      },
+      "25": {
+        "start_time": 699168,
+        "end_time": 742914
+      },
+      "26": {
+        "start_time": 742914,
+        "end_time": 774047
+      },
+      "27": {
+        "start_time": 774047,
+        "end_time": 797959
+      },
+      "28": {
+        "start_time": 797959,
+        "end_time": 828439
+      },
+      "29": {
+        "start_time": 828439,
+        "end_time": 855032
+      },
+      "30": {
+        "start_time": 855032,
+        "end_time": 884598
+      },
+      "31": {
+        "start_time": 884598,
+        "end_time": 911178
+      },
+      "32": {
+        "start_time": 911178,
+        "end_time": 948791
+      },
+      "33": {
+        "start_time": 948791,
+        "end_time": 967825
+      },
+      "34": {
+        "start_time": 967825,
+        "end_time": 996823
+      },
+      "35": {
+        "start_time": 996823,
+        "end_time": 1032076
+      },
+      "36": {
+        "start_time": 1032076,
+        "end_time": 1048836
+      },
+      "37": {
+        "start_time": 1048836,
+        "end_time": 1066743
+      }
+    },
+    "folder_url": "https://server13.mp3quran.net/husr/"
+  },
+  "خالد المهنا - حفص عن عاصم": {
+    "reader_id": 159,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 8171
+      },
+      "1": {
+        "start_time": 8171,
+        "end_time": 13650
+      },
+      "2": {
+        "start_time": 13650,
+        "end_time": 22236
+      },
+      "3": {
+        "start_time": 22236,
+        "end_time": 31162
+      },
+      "4": {
+        "start_time": 31162,
+        "end_time": 45650
+      },
+      "5": {
+        "start_time": 45650,
+        "end_time": 69124
+      },
+      "6": {
+        "start_time": 69124,
+        "end_time": 85322
+      },
+      "7": {
+        "start_time": 85322,
+        "end_time": 91822
+      },
+      "8": {
+        "start_time": 91822,
+        "end_time": 109222
+      },
+      "9": {
+        "start_time": 109222,
+        "end_time": 125388
+      },
+      "10": {
+        "start_time": 125388,
+        "end_time": 151909
+      },
+      "11": {
+        "start_time": 151909,
+        "end_time": 165717
+      },
+      "12": {
+        "start_time": 165717,
+        "end_time": 182721
+      },
+      "13": {
+        "start_time": 182721,
+        "end_time": 202351
+      },
+      "14": {
+        "start_time": 202351,
+        "end_time": 218688
+      },
+      "15": {
+        "start_time": 218688,
+        "end_time": 234288
+      },
+      "16": {
+        "start_time": 234288,
+        "end_time": 255126
+      },
+      "17": {
+        "start_time": 255126,
+        "end_time": 284315
+      },
+      "18": {
+        "start_time": 284315,
+        "end_time": 301861
+      },
+      "19": {
+        "start_time": 301861,
+        "end_time": 324823
+      },
+      "20": {
+        "start_time": 324823,
+        "end_time": 339057
+      },
+      "21": {
+        "start_time": 339057,
+        "end_time": 363920
+      },
+      "22": {
+        "start_time": 363920,
+        "end_time": 378477
+      },
+      "23": {
+        "start_time": 378477,
+        "end_time": 417154
+      },
+      "24": {
+        "start_time": 417154,
+        "end_time": 438215
+      },
+      "25": {
+        "start_time": 438215,
+        "end_time": 460064
+      },
+      "26": {
+        "start_time": 460064,
+        "end_time": 479804
+      },
+      "27": {
+        "start_time": 479804,
+        "end_time": 494221
+      },
+      "28": {
+        "start_time": 494221,
+        "end_time": 513239
+      },
+      "29": {
+        "start_time": 513239,
+        "end_time": 531347
+      },
+      "30": {
+        "start_time": 531347,
+        "end_time": 547836
+      },
+      "31": {
+        "start_time": 547836,
+        "end_time": 564426
+      },
+      "32": {
+        "start_time": 564426,
+        "end_time": 587593
+      },
+      "33": {
+        "start_time": 587593,
+        "end_time": 599700
+      },
+      "34": {
+        "start_time": 599700,
+        "end_time": 618938
+      },
+      "35": {
+        "start_time": 618938,
+        "end_time": 640695
+      },
+      "36": {
+        "start_time": 640695,
+        "end_time": 651551
+      },
+      "37": {
+        "start_time": 651551,
+        "end_time": 663520
+      }
+    },
+    "folder_url": "https://server11.mp3quran.net/mohna/"
+  },
+  "أحمد خليل شاهين - حفص عن عاصم": {
+    "reader_id": 256,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4422
+      },
+      "1": {
+        "start_time": 4422,
+        "end_time": 8922
+      },
+      "2": {
+        "start_time": 8922,
+        "end_time": 16568
+      },
+      "3": {
+        "start_time": 16568,
+        "end_time": 24862
+      },
+      "4": {
+        "start_time": 24862,
+        "end_time": 38672
+      },
+      "5": {
+        "start_time": 38672,
+        "end_time": 67720
+      },
+      "6": {
+        "start_time": 67720,
+        "end_time": 82611
+      },
+      "7": {
+        "start_time": 82611,
+        "end_time": 87662
+      },
+      "8": {
+        "start_time": 87662,
+        "end_time": 111591
+      },
+      "9": {
+        "start_time": 111591,
+        "end_time": 126560
+      },
+      "10": {
+        "start_time": 126560,
+        "end_time": 154651
+      },
+      "11": {
+        "start_time": 154651,
+        "end_time": 166836
+      },
+      "12": {
+        "start_time": 166836,
+        "end_time": 187389
+      },
+      "13": {
+        "start_time": 187389,
+        "end_time": 205483
+      },
+      "14": {
+        "start_time": 205483,
+        "end_time": 220990
+      },
+      "15": {
+        "start_time": 220990,
+        "end_time": 236159
+      },
+      "16": {
+        "start_time": 236159,
+        "end_time": 261807
+      },
+      "17": {
+        "start_time": 261807,
+        "end_time": 291284
+      },
+      "18": {
+        "start_time": 291284,
+        "end_time": 308499
+      },
+      "19": {
+        "start_time": 308499,
+        "end_time": 329563
+      },
+      "20": {
+        "start_time": 329563,
+        "end_time": 341755
+      },
+      "21": {
+        "start_time": 341755,
+        "end_time": 365328
+      },
+      "22": {
+        "start_time": 365328,
+        "end_time": 379659
+      },
+      "23": {
+        "start_time": 379659,
+        "end_time": 411946
+      },
+      "24": {
+        "start_time": 411946,
+        "end_time": 437268
+      },
+      "25": {
+        "start_time": 437268,
+        "end_time": 458199
+      },
+      "26": {
+        "start_time": 458199,
+        "end_time": 477403
+      },
+      "27": {
+        "start_time": 477403,
+        "end_time": 490550
+      },
+      "28": {
+        "start_time": 490550,
+        "end_time": 508370
+      },
+      "29": {
+        "start_time": 508370,
+        "end_time": 525721
+      },
+      "30": {
+        "start_time": 525721,
+        "end_time": 541042
+      },
+      "31": {
+        "start_time": 541042,
+        "end_time": 557509
+      },
+      "32": {
+        "start_time": 557509,
+        "end_time": 586499
+      },
+      "33": {
+        "start_time": 586499,
+        "end_time": 597836
+      },
+      "34": {
+        "start_time": 597836,
+        "end_time": 616462
+      },
+      "35": {
+        "start_time": 616462,
+        "end_time": 637132
+      },
+      "36": {
+        "start_time": 637132,
+        "end_time": 646309
+      },
+      "37": {
+        "start_time": 646309,
+        "end_time": 657267
+      }
+    },
+    "folder_url": "https://server16.mp3quran.net/shaheen/Rewayat-Hafs-A-n-Assem/"
+  },
+  "sheikhs": {
+    "إبراهيم الأخضر - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/akdr/undefined.mp3"
+    },
+    "أحمد بن علي العجمي - حفص عن عاصم": {
+      "url": "https://server10.mp3quran.net/ajm/undefined.mp3"
+    },
+    "أحمد نعينع - حفص عن عاصم": {
+      "url": "https://server11.mp3quran.net/ahmad_nu/undefined.mp3"
+    },
+    "أكرم العلاقمي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/akrm/undefined.mp3"
+    },
+    "سعود الشريم - حفص عن عاصم": {
+      "url": "https://server7.mp3quran.net/shur/undefined.mp3"
+    },
+    "سهل ياسين - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/shl/undefined.mp3"
+    },
+    "عبدالباسط عبدالصمد - المصحف المجود": {
+      "url": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/undefined.mp3"
+    },
+    "عبدالباسط عبدالصمد - حفص عن عاصم": {
+      "url": "https://server7.mp3quran.net/basit/undefined.mp3"
+    },
+    "عبدالله بصفر - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/bsfr/undefined.mp3"
+    },
+    "عبدالله عواد الجهني - حفص عن عاصم": {
+      "url": "https://server13.mp3quran.net/jhn/undefined.mp3"
+    },
+    "عبدالمحسن القاسم - حفص عن عاصم": {
+      "url": "https://server8.mp3quran.net/qasm/undefined.mp3"
+    },
+    "علي بن عبدالرحمن الحذيفي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/hthfi/undefined.mp3"
+    },
+    "علي حجاج السويسي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/hajjaj/undefined.mp3"
+    },
+    "عماد زهير حافظ - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/hafz/undefined.mp3"
+    },
+    "محمد الطبلاوي - حفص عن عاصم": {
+      "url": "https://server12.mp3quran.net/tblawi/undefined.mp3"
+    },
+    "محمد صديق المنشاوي - حفص عن عاصم": {
+      "url": "https://server10.mp3quran.net/minsh/undefined.mp3"
+    },
+    "محمود خليل الحصري - حفص عن عاصم": {
+      "url": "https://server13.mp3quran.net/husr/undefined.mp3"
+    },
+    "خالد المهنا - حفص عن عاصم": {
+      "url": "https://server11.mp3quran.net/mohna/undefined.mp3"
+    },
+    "أحمد خليل شاهين - حفص عن عاصم": {
+      "url": "https://server16.mp3quran.net/shaheen/Rewayat-Hafs-A-n-Assem/undefined.mp3"
+    }
+  }
+}

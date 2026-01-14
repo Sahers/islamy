@@ -1,0 +1,7773 @@
+{
+  "surah_id": 15,
+  "surah_name": "الحجر",
+  "إبراهيم الأخضر - حفص عن عاصم": {
+    "reader_id": 1,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 8532
+      },
+      "1": {
+        "start_time": 8532,
+        "end_time": 22719
+      },
+      "2": {
+        "start_time": 22719,
+        "end_time": 31801
+      },
+      "3": {
+        "start_time": 31801,
+        "end_time": 43398
+      },
+      "4": {
+        "start_time": 43398,
+        "end_time": 56466
+      },
+      "5": {
+        "start_time": 56466,
+        "end_time": 67145
+      },
+      "6": {
+        "start_time": 67145,
+        "end_time": 80283
+      },
+      "7": {
+        "start_time": 80283,
+        "end_time": 93090
+      },
+      "8": {
+        "start_time": 93090,
+        "end_time": 109297
+      },
+      "9": {
+        "start_time": 109297,
+        "end_time": 120128
+      },
+      "10": {
+        "start_time": 120128,
+        "end_time": 129685
+      },
+      "11": {
+        "start_time": 129685,
+        "end_time": 141246
+      },
+      "12": {
+        "start_time": 141246,
+        "end_time": 149543
+      },
+      "13": {
+        "start_time": 149543,
+        "end_time": 159689
+      },
+      "14": {
+        "start_time": 159689,
+        "end_time": 174576
+      },
+      "15": {
+        "start_time": 174576,
+        "end_time": 189357
+      },
+      "16": {
+        "start_time": 189357,
+        "end_time": 204373
+      },
+      "17": {
+        "start_time": 204373,
+        "end_time": 214130
+      },
+      "18": {
+        "start_time": 214130,
+        "end_time": 225875
+      },
+      "19": {
+        "start_time": 225875,
+        "end_time": 243750
+      },
+      "20": {
+        "start_time": 243750,
+        "end_time": 254649
+      },
+      "21": {
+        "start_time": 254649,
+        "end_time": 277744
+      },
+      "22": {
+        "start_time": 277744,
+        "end_time": 303283
+      },
+      "23": {
+        "start_time": 303283,
+        "end_time": 313463
+      },
+      "24": {
+        "start_time": 313463,
+        "end_time": 325566
+      },
+      "25": {
+        "start_time": 325566,
+        "end_time": 336139
+      },
+      "26": {
+        "start_time": 336139,
+        "end_time": 349935
+      },
+      "27": {
+        "start_time": 349935,
+        "end_time": 364333
+      },
+      "28": {
+        "start_time": 364333,
+        "end_time": 384597
+      },
+      "29": {
+        "start_time": 384597,
+        "end_time": 395906
+      },
+      "30": {
+        "start_time": 395906,
+        "end_time": 404967
+      },
+      "31": {
+        "start_time": 404967,
+        "end_time": 417584
+      },
+      "32": {
+        "start_time": 417584,
+        "end_time": 428815
+      },
+      "33": {
+        "start_time": 428815,
+        "end_time": 443907
+      },
+      "34": {
+        "start_time": 443907,
+        "end_time": 451697
+      },
+      "35": {
+        "start_time": 451697,
+        "end_time": 460586
+      },
+      "36": {
+        "start_time": 460586,
+        "end_time": 471368
+      },
+      "37": {
+        "start_time": 471368,
+        "end_time": 479149
+      },
+      "38": {
+        "start_time": 479149,
+        "end_time": 485164
+      },
+      "39": {
+        "start_time": 485164,
+        "end_time": 501728
+      },
+      "40": {
+        "start_time": 501728,
+        "end_time": 508845
+      },
+      "41": {
+        "start_time": 508845,
+        "end_time": 516613
+      },
+      "42": {
+        "start_time": 516613,
+        "end_time": 529547
+      },
+      "43": {
+        "start_time": 529547,
+        "end_time": 538941
+      },
+      "44": {
+        "start_time": 538941,
+        "end_time": 551918
+      },
+      "45": {
+        "start_time": 551918,
+        "end_time": 562644
+      },
+      "46": {
+        "start_time": 562644,
+        "end_time": 569618
+      },
+      "47": {
+        "start_time": 569618,
+        "end_time": 583951
+      },
+      "48": {
+        "start_time": 583951,
+        "end_time": 598251
+      },
+      "49": {
+        "start_time": 598251,
+        "end_time": 611151
+      },
+      "50": {
+        "start_time": 611151,
+        "end_time": 619296
+      },
+      "51": {
+        "start_time": 619296,
+        "end_time": 627470
+      },
+      "52": {
+        "start_time": 627470,
+        "end_time": 640751
+      },
+      "53": {
+        "start_time": 640751,
+        "end_time": 650664
+      },
+      "54": {
+        "start_time": 650664,
+        "end_time": 663618
+      },
+      "55": {
+        "start_time": 663618,
+        "end_time": 674828
+      },
+      "56": {
+        "start_time": 674828,
+        "end_time": 689941
+      },
+      "57": {
+        "start_time": 689941,
+        "end_time": 697223
+      },
+      "58": {
+        "start_time": 697223,
+        "end_time": 711334
+      },
+      "59": {
+        "start_time": 711334,
+        "end_time": 722655
+      },
+      "60": {
+        "start_time": 722655,
+        "end_time": 734242
+      },
+      "61": {
+        "start_time": 734242,
+        "end_time": 743829
+      },
+      "62": {
+        "start_time": 743829,
+        "end_time": 752847
+      },
+      "63": {
+        "start_time": 752847,
+        "end_time": 761677
+      },
+      "64": {
+        "start_time": 761677,
+        "end_time": 771116
+      },
+      "65": {
+        "start_time": 771116,
+        "end_time": 790443
+      },
+      "66": {
+        "start_time": 790443,
+        "end_time": 809201
+      },
+      "67": {
+        "start_time": 809201,
+        "end_time": 817933
+      },
+      "68": {
+        "start_time": 817933,
+        "end_time": 829265
+      },
+      "69": {
+        "start_time": 829265,
+        "end_time": 835782
+      },
+      "70": {
+        "start_time": 835782,
+        "end_time": 844884
+      },
+      "71": {
+        "start_time": 844884,
+        "end_time": 858967
+      },
+      "72": {
+        "start_time": 858967,
+        "end_time": 868066
+      },
+      "73": {
+        "start_time": 868066,
+        "end_time": 875406
+      },
+      "74": {
+        "start_time": 875406,
+        "end_time": 890020
+      },
+      "75": {
+        "start_time": 890020,
+        "end_time": 899777
+      },
+      "76": {
+        "start_time": 899777,
+        "end_time": 909107
+      },
+      "77": {
+        "start_time": 909107,
+        "end_time": 918414
+      },
+      "78": {
+        "start_time": 918414,
+        "end_time": 927264
+      },
+      "79": {
+        "start_time": 927264,
+        "end_time": 938607
+      },
+      "80": {
+        "start_time": 938607,
+        "end_time": 946775
+      },
+      "81": {
+        "start_time": 946775,
+        "end_time": 956767
+      },
+      "82": {
+        "start_time": 956767,
+        "end_time": 966224
+      },
+      "83": {
+        "start_time": 966224,
+        "end_time": 973248
+      },
+      "84": {
+        "start_time": 973248,
+        "end_time": 983588
+      },
+      "85": {
+        "start_time": 983588,
+        "end_time": 1005320
+      },
+      "86": {
+        "start_time": 1005320,
+        "end_time": 1014010
+      },
+      "87": {
+        "start_time": 1014010,
+        "end_time": 1025612
+      },
+      "88": {
+        "start_time": 1025612,
+        "end_time": 1046146
+      },
+      "89": {
+        "start_time": 1046146,
+        "end_time": 1057326
+      },
+      "90": {
+        "start_time": 1057326,
+        "end_time": 1066280
+      },
+      "91": {
+        "start_time": 1066280,
+        "end_time": 1073858
+      },
+      "92": {
+        "start_time": 1073858,
+        "end_time": 1081890
+      },
+      "93": {
+        "start_time": 1081890,
+        "end_time": 1088528
+      },
+      "94": {
+        "start_time": 1088528,
+        "end_time": 1096746
+      },
+      "95": {
+        "start_time": 1096746,
+        "end_time": 1104412
+      },
+      "96": {
+        "start_time": 1104412,
+        "end_time": 1115914
+      },
+      "97": {
+        "start_time": 1115914,
+        "end_time": 1126322
+      },
+      "98": {
+        "start_time": 1126322,
+        "end_time": 1135192
+      },
+      "99": {
+        "start_time": 1135192,
+        "end_time": 1144059
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/akdr/"
+  },
+  "أحمد بن علي العجمي - حفص عن عاصم": {
+    "reader_id": 5,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2820
+      },
+      "1": {
+        "start_time": 2820,
+        "end_time": 15447
+      },
+      "2": {
+        "start_time": 15447,
+        "end_time": 22941
+      },
+      "3": {
+        "start_time": 22941,
+        "end_time": 33067
+      },
+      "4": {
+        "start_time": 33067,
+        "end_time": 44163
+      },
+      "5": {
+        "start_time": 44163,
+        "end_time": 54616
+      },
+      "6": {
+        "start_time": 54616,
+        "end_time": 65837
+      },
+      "7": {
+        "start_time": 65837,
+        "end_time": 77494
+      },
+      "8": {
+        "start_time": 77494,
+        "end_time": 91546
+      },
+      "9": {
+        "start_time": 91546,
+        "end_time": 101257
+      },
+      "10": {
+        "start_time": 101257,
+        "end_time": 108546
+      },
+      "11": {
+        "start_time": 108546,
+        "end_time": 117784
+      },
+      "12": {
+        "start_time": 117784,
+        "end_time": 124808
+      },
+      "13": {
+        "start_time": 124808,
+        "end_time": 135222
+      },
+      "14": {
+        "start_time": 135222,
+        "end_time": 146981
+      },
+      "15": {
+        "start_time": 146981,
+        "end_time": 158340
+      },
+      "16": {
+        "start_time": 158340,
+        "end_time": 169779
+      },
+      "17": {
+        "start_time": 169779,
+        "end_time": 176225
+      },
+      "18": {
+        "start_time": 176225,
+        "end_time": 185076
+      },
+      "19": {
+        "start_time": 185076,
+        "end_time": 202645
+      },
+      "20": {
+        "start_time": 202645,
+        "end_time": 212480
+      },
+      "21": {
+        "start_time": 212480,
+        "end_time": 232321
+      },
+      "22": {
+        "start_time": 232321,
+        "end_time": 256597
+      },
+      "23": {
+        "start_time": 256597,
+        "end_time": 264795
+      },
+      "24": {
+        "start_time": 264795,
+        "end_time": 276827
+      },
+      "25": {
+        "start_time": 276827,
+        "end_time": 288649
+      },
+      "26": {
+        "start_time": 288649,
+        "end_time": 298329
+      },
+      "27": {
+        "start_time": 298329,
+        "end_time": 309084
+      },
+      "28": {
+        "start_time": 309084,
+        "end_time": 322583
+      },
+      "29": {
+        "start_time": 322583,
+        "end_time": 333640
+      },
+      "30": {
+        "start_time": 333640,
+        "end_time": 341869
+      },
+      "31": {
+        "start_time": 341869,
+        "end_time": 351922
+      },
+      "32": {
+        "start_time": 351922,
+        "end_time": 362101
+      },
+      "33": {
+        "start_time": 362101,
+        "end_time": 373269
+      },
+      "34": {
+        "start_time": 373269,
+        "end_time": 380869
+      },
+      "35": {
+        "start_time": 380869,
+        "end_time": 389093
+      },
+      "36": {
+        "start_time": 389093,
+        "end_time": 398460
+      },
+      "37": {
+        "start_time": 398460,
+        "end_time": 404283
+      },
+      "38": {
+        "start_time": 404283,
+        "end_time": 409881
+      },
+      "39": {
+        "start_time": 409881,
+        "end_time": 425008
+      },
+      "40": {
+        "start_time": 425008,
+        "end_time": 432475
+      },
+      "41": {
+        "start_time": 432475,
+        "end_time": 439867
+      },
+      "42": {
+        "start_time": 439867,
+        "end_time": 451951
+      },
+      "43": {
+        "start_time": 451951,
+        "end_time": 459915
+      },
+      "44": {
+        "start_time": 459915,
+        "end_time": 468890
+      },
+      "45": {
+        "start_time": 468890,
+        "end_time": 509010
+      },
+      "46": {
+        "start_time": 509010,
+        "end_time": 515517
+      },
+      "47": {
+        "start_time": 515517,
+        "end_time": 526649
+      },
+      "48": {
+        "start_time": 526649,
+        "end_time": 536916
+      },
+      "49": {
+        "start_time": 536916,
+        "end_time": 546819
+      },
+      "50": {
+        "start_time": 546819,
+        "end_time": 554619
+      },
+      "51": {
+        "start_time": 554619,
+        "end_time": 580749
+      },
+      "52": {
+        "start_time": 580749,
+        "end_time": 590318
+      },
+      "53": {
+        "start_time": 590318,
+        "end_time": 599267
+      },
+      "54": {
+        "start_time": 599267,
+        "end_time": 609221
+      },
+      "55": {
+        "start_time": 609221,
+        "end_time": 617427
+      },
+      "56": {
+        "start_time": 617427,
+        "end_time": 629887
+      },
+      "57": {
+        "start_time": 629887,
+        "end_time": 636250
+      },
+      "58": {
+        "start_time": 636250,
+        "end_time": 645559
+      },
+      "59": {
+        "start_time": 645559,
+        "end_time": 653929
+      },
+      "60": {
+        "start_time": 653929,
+        "end_time": 662596
+      },
+      "61": {
+        "start_time": 662596,
+        "end_time": 670261
+      },
+      "62": {
+        "start_time": 670261,
+        "end_time": 676585
+      },
+      "63": {
+        "start_time": 676585,
+        "end_time": 684638
+      },
+      "64": {
+        "start_time": 684638,
+        "end_time": 693102
+      },
+      "65": {
+        "start_time": 693102,
+        "end_time": 709556
+      },
+      "66": {
+        "start_time": 709556,
+        "end_time": 732160
+      },
+      "67": {
+        "start_time": 732160,
+        "end_time": 739938
+      },
+      "68": {
+        "start_time": 739938,
+        "end_time": 750070
+      },
+      "69": {
+        "start_time": 750070,
+        "end_time": 756031
+      },
+      "70": {
+        "start_time": 756031,
+        "end_time": 762775
+      },
+      "71": {
+        "start_time": 762775,
+        "end_time": 773455
+      },
+      "72": {
+        "start_time": 773455,
+        "end_time": 780327
+      },
+      "73": {
+        "start_time": 780327,
+        "end_time": 787375
+      },
+      "74": {
+        "start_time": 787375,
+        "end_time": 802584
+      },
+      "75": {
+        "start_time": 802584,
+        "end_time": 812569
+      },
+      "76": {
+        "start_time": 812569,
+        "end_time": 818144
+      },
+      "77": {
+        "start_time": 818144,
+        "end_time": 827276
+      },
+      "78": {
+        "start_time": 827276,
+        "end_time": 833795
+      },
+      "79": {
+        "start_time": 833795,
+        "end_time": 842595
+      },
+      "80": {
+        "start_time": 842595,
+        "end_time": 848517
+      },
+      "81": {
+        "start_time": 848517,
+        "end_time": 855074
+      },
+      "82": {
+        "start_time": 855074,
+        "end_time": 862893
+      },
+      "83": {
+        "start_time": 862893,
+        "end_time": 868818
+      },
+      "84": {
+        "start_time": 868818,
+        "end_time": 877788
+      },
+      "85": {
+        "start_time": 877788,
+        "end_time": 895657
+      },
+      "86": {
+        "start_time": 895657,
+        "end_time": 902974
+      },
+      "87": {
+        "start_time": 902974,
+        "end_time": 912726
+      },
+      "88": {
+        "start_time": 912726,
+        "end_time": 930777
+      },
+      "89": {
+        "start_time": 930777,
+        "end_time": 939127
+      },
+      "90": {
+        "start_time": 939127,
+        "end_time": 947442
+      },
+      "91": {
+        "start_time": 947442,
+        "end_time": 953992
+      },
+      "92": {
+        "start_time": 953992,
+        "end_time": 962548
+      },
+      "93": {
+        "start_time": 962548,
+        "end_time": 968907
+      },
+      "94": {
+        "start_time": 968907,
+        "end_time": 976427
+      },
+      "95": {
+        "start_time": 976427,
+        "end_time": 983156
+      },
+      "96": {
+        "start_time": 983156,
+        "end_time": 993458
+      },
+      "97": {
+        "start_time": 993458,
+        "end_time": 1003031
+      },
+      "98": {
+        "start_time": 1003031,
+        "end_time": 1011307
+      },
+      "99": {
+        "start_time": 1011307,
+        "end_time": 1018849
+      }
+    },
+    "folder_url": "https://server10.mp3quran.net/ajm/"
+  },
+  "أحمد نعينع - حفص عن عاصم": {
+    "reader_id": 9,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 5144
+      },
+      "1": {
+        "start_time": 5144,
+        "end_time": 19377
+      },
+      "2": {
+        "start_time": 19377,
+        "end_time": 27853
+      },
+      "3": {
+        "start_time": 27853,
+        "end_time": 39918
+      },
+      "4": {
+        "start_time": 39918,
+        "end_time": 50028
+      },
+      "5": {
+        "start_time": 50028,
+        "end_time": 58982
+      },
+      "6": {
+        "start_time": 58982,
+        "end_time": 69264
+      },
+      "7": {
+        "start_time": 69264,
+        "end_time": 80359
+      },
+      "8": {
+        "start_time": 80359,
+        "end_time": 93419
+      },
+      "9": {
+        "start_time": 93419,
+        "end_time": 102867
+      },
+      "10": {
+        "start_time": 102867,
+        "end_time": 111284
+      },
+      "11": {
+        "start_time": 111284,
+        "end_time": 121143
+      },
+      "12": {
+        "start_time": 121143,
+        "end_time": 128633
+      },
+      "13": {
+        "start_time": 128633,
+        "end_time": 137431
+      },
+      "14": {
+        "start_time": 137431,
+        "end_time": 160391
+      },
+      "15": {
+        "start_time": 160391,
+        "end_time": 171295
+      },
+      "16": {
+        "start_time": 171295,
+        "end_time": 183787
+      },
+      "17": {
+        "start_time": 183787,
+        "end_time": 190801
+      },
+      "18": {
+        "start_time": 190801,
+        "end_time": 199308
+      },
+      "19": {
+        "start_time": 199308,
+        "end_time": 214455
+      },
+      "20": {
+        "start_time": 214455,
+        "end_time": 224155
+      },
+      "21": {
+        "start_time": 224155,
+        "end_time": 240076
+      },
+      "22": {
+        "start_time": 240076,
+        "end_time": 259973
+      },
+      "23": {
+        "start_time": 259973,
+        "end_time": 268997
+      },
+      "24": {
+        "start_time": 268997,
+        "end_time": 279587
+      },
+      "25": {
+        "start_time": 279587,
+        "end_time": 290195
+      },
+      "26": {
+        "start_time": 290195,
+        "end_time": 301685
+      },
+      "27": {
+        "start_time": 301685,
+        "end_time": 313737
+      },
+      "28": {
+        "start_time": 313737,
+        "end_time": 331246
+      },
+      "29": {
+        "start_time": 331246,
+        "end_time": 341661
+      },
+      "30": {
+        "start_time": 341661,
+        "end_time": 349054
+      },
+      "31": {
+        "start_time": 349054,
+        "end_time": 357781
+      },
+      "32": {
+        "start_time": 357781,
+        "end_time": 366725
+      },
+      "33": {
+        "start_time": 366725,
+        "end_time": 379343
+      },
+      "34": {
+        "start_time": 379343,
+        "end_time": 385907
+      },
+      "35": {
+        "start_time": 385907,
+        "end_time": 393750
+      },
+      "36": {
+        "start_time": 393750,
+        "end_time": 401378
+      },
+      "37": {
+        "start_time": 401378,
+        "end_time": 413305
+      },
+      "38": {
+        "start_time": 413305,
+        "end_time": 418073
+      },
+      "39": {
+        "start_time": 418073,
+        "end_time": 431822
+      },
+      "40": {
+        "start_time": 431822,
+        "end_time": 438296
+      },
+      "41": {
+        "start_time": 438296,
+        "end_time": 444781
+      },
+      "42": {
+        "start_time": 444781,
+        "end_time": 456717
+      },
+      "43": {
+        "start_time": 456717,
+        "end_time": 464352
+      },
+      "44": {
+        "start_time": 464352,
+        "end_time": 476488
+      },
+      "45": {
+        "start_time": 476488,
+        "end_time": 484766
+      },
+      "46": {
+        "start_time": 484766,
+        "end_time": 490641
+      },
+      "47": {
+        "start_time": 490641,
+        "end_time": 503286
+      },
+      "48": {
+        "start_time": 503286,
+        "end_time": 513271
+      },
+      "49": {
+        "start_time": 513271,
+        "end_time": 521377
+      },
+      "50": {
+        "start_time": 521377,
+        "end_time": 528493
+      },
+      "51": {
+        "start_time": 528493,
+        "end_time": 535734
+      },
+      "52": {
+        "start_time": 535734,
+        "end_time": 548094
+      },
+      "53": {
+        "start_time": 548094,
+        "end_time": 558757
+      },
+      "54": {
+        "start_time": 558757,
+        "end_time": 570297
+      },
+      "55": {
+        "start_time": 570297,
+        "end_time": 579558
+      },
+      "56": {
+        "start_time": 579558,
+        "end_time": 590930
+      },
+      "57": {
+        "start_time": 590930,
+        "end_time": 597803
+      },
+      "58": {
+        "start_time": 597803,
+        "end_time": 606846
+      },
+      "59": {
+        "start_time": 606846,
+        "end_time": 623574
+      },
+      "60": {
+        "start_time": 623574,
+        "end_time": 632074
+      },
+      "61": {
+        "start_time": 632074,
+        "end_time": 646784
+      },
+      "62": {
+        "start_time": 646784,
+        "end_time": 654374
+      },
+      "63": {
+        "start_time": 654374,
+        "end_time": 661681
+      },
+      "64": {
+        "start_time": 661681,
+        "end_time": 669678
+      },
+      "65": {
+        "start_time": 669678,
+        "end_time": 686470
+      },
+      "66": {
+        "start_time": 686470,
+        "end_time": 699754
+      },
+      "67": {
+        "start_time": 699754,
+        "end_time": 707057
+      },
+      "68": {
+        "start_time": 707057,
+        "end_time": 716331
+      },
+      "69": {
+        "start_time": 716331,
+        "end_time": 721552
+      },
+      "70": {
+        "start_time": 721552,
+        "end_time": 728362
+      },
+      "71": {
+        "start_time": 728362,
+        "end_time": 739288
+      },
+      "72": {
+        "start_time": 739288,
+        "end_time": 747150
+      },
+      "73": {
+        "start_time": 747150,
+        "end_time": 753069
+      },
+      "74": {
+        "start_time": 753069,
+        "end_time": 766062
+      },
+      "75": {
+        "start_time": 766062,
+        "end_time": 774385
+      },
+      "76": {
+        "start_time": 774385,
+        "end_time": 780528
+      },
+      "77": {
+        "start_time": 780528,
+        "end_time": 788239
+      },
+      "78": {
+        "start_time": 788239,
+        "end_time": 795699
+      },
+      "79": {
+        "start_time": 795699,
+        "end_time": 807345
+      },
+      "80": {
+        "start_time": 807345,
+        "end_time": 814613
+      },
+      "81": {
+        "start_time": 814613,
+        "end_time": 824358
+      },
+      "82": {
+        "start_time": 824358,
+        "end_time": 833189
+      },
+      "83": {
+        "start_time": 833189,
+        "end_time": 839248
+      },
+      "84": {
+        "start_time": 839248,
+        "end_time": 847120
+      },
+      "85": {
+        "start_time": 847120,
+        "end_time": 867744
+      },
+      "86": {
+        "start_time": 867744,
+        "end_time": 874666
+      },
+      "87": {
+        "start_time": 874666,
+        "end_time": 886568
+      },
+      "88": {
+        "start_time": 886568,
+        "end_time": 907093
+      },
+      "89": {
+        "start_time": 907093,
+        "end_time": 914955
+      },
+      "90": {
+        "start_time": 914955,
+        "end_time": 921883
+      },
+      "91": {
+        "start_time": 921883,
+        "end_time": 928026
+      },
+      "92": {
+        "start_time": 928026,
+        "end_time": 940897
+      },
+      "93": {
+        "start_time": 940897,
+        "end_time": 946152
+      },
+      "94": {
+        "start_time": 946152,
+        "end_time": 953978
+      },
+      "95": {
+        "start_time": 953978,
+        "end_time": 960854
+      },
+      "96": {
+        "start_time": 960854,
+        "end_time": 973134
+      },
+      "97": {
+        "start_time": 973134,
+        "end_time": 982516
+      },
+      "98": {
+        "start_time": 982516,
+        "end_time": 990200
+      },
+      "99": {
+        "start_time": 990200,
+        "end_time": 996258
+      }
+    },
+    "folder_url": "https://server11.mp3quran.net/ahmad_nu/"
+  },
+  "أكرم العلاقمي - حفص عن عاصم": {
+    "reader_id": 10,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4880
+      },
+      "1": {
+        "start_time": 4880,
+        "end_time": 17253
+      },
+      "2": {
+        "start_time": 17253,
+        "end_time": 23624
+      },
+      "3": {
+        "start_time": 23624,
+        "end_time": 32378
+      },
+      "4": {
+        "start_time": 32378,
+        "end_time": 42271
+      },
+      "5": {
+        "start_time": 42271,
+        "end_time": 49373
+      },
+      "6": {
+        "start_time": 49373,
+        "end_time": 58987
+      },
+      "7": {
+        "start_time": 58987,
+        "end_time": 68640
+      },
+      "8": {
+        "start_time": 68640,
+        "end_time": 80445
+      },
+      "9": {
+        "start_time": 80445,
+        "end_time": 88168
+      },
+      "10": {
+        "start_time": 88168,
+        "end_time": 95111
+      },
+      "11": {
+        "start_time": 95111,
+        "end_time": 103194
+      },
+      "12": {
+        "start_time": 103194,
+        "end_time": 109448
+      },
+      "13": {
+        "start_time": 109448,
+        "end_time": 116450
+      },
+      "14": {
+        "start_time": 116450,
+        "end_time": 126497
+      },
+      "15": {
+        "start_time": 126497,
+        "end_time": 137013
+      },
+      "16": {
+        "start_time": 137013,
+        "end_time": 147789
+      },
+      "17": {
+        "start_time": 147789,
+        "end_time": 153560
+      },
+      "18": {
+        "start_time": 153560,
+        "end_time": 160974
+      },
+      "19": {
+        "start_time": 160974,
+        "end_time": 173585
+      },
+      "20": {
+        "start_time": 173585,
+        "end_time": 181597
+      },
+      "21": {
+        "start_time": 181597,
+        "end_time": 195421
+      },
+      "22": {
+        "start_time": 195421,
+        "end_time": 219578
+      },
+      "23": {
+        "start_time": 219578,
+        "end_time": 226604
+      },
+      "24": {
+        "start_time": 226604,
+        "end_time": 235187
+      },
+      "25": {
+        "start_time": 235187,
+        "end_time": 243029
+      },
+      "26": {
+        "start_time": 243029,
+        "end_time": 252571
+      },
+      "27": {
+        "start_time": 252571,
+        "end_time": 262525
+      },
+      "28": {
+        "start_time": 262525,
+        "end_time": 276985
+      },
+      "29": {
+        "start_time": 276985,
+        "end_time": 285299
+      },
+      "30": {
+        "start_time": 285299,
+        "end_time": 292461
+      },
+      "31": {
+        "start_time": 292461,
+        "end_time": 302033
+      },
+      "32": {
+        "start_time": 302033,
+        "end_time": 310047
+      },
+      "33": {
+        "start_time": 310047,
+        "end_time": 320307
+      },
+      "34": {
+        "start_time": 320307,
+        "end_time": 326329
+      },
+      "35": {
+        "start_time": 326329,
+        "end_time": 332149
+      },
+      "36": {
+        "start_time": 332149,
+        "end_time": 339211
+      },
+      "37": {
+        "start_time": 339211,
+        "end_time": 344875
+      },
+      "38": {
+        "start_time": 344875,
+        "end_time": 349015
+      },
+      "39": {
+        "start_time": 349015,
+        "end_time": 361970
+      },
+      "40": {
+        "start_time": 361970,
+        "end_time": 367134
+      },
+      "41": {
+        "start_time": 367134,
+        "end_time": 372385
+      },
+      "42": {
+        "start_time": 372385,
+        "end_time": 382139
+      },
+      "43": {
+        "start_time": 382139,
+        "end_time": 388663
+      },
+      "44": {
+        "start_time": 388663,
+        "end_time": 397495
+      },
+      "45": {
+        "start_time": 397495,
+        "end_time": 404705
+      },
+      "46": {
+        "start_time": 404705,
+        "end_time": 409707
+      },
+      "47": {
+        "start_time": 409707,
+        "end_time": 419819
+      },
+      "48": {
+        "start_time": 419819,
+        "end_time": 428533
+      },
+      "49": {
+        "start_time": 428533,
+        "end_time": 437144
+      },
+      "50": {
+        "start_time": 437144,
+        "end_time": 443137
+      },
+      "51": {
+        "start_time": 443137,
+        "end_time": 448598
+      },
+      "52": {
+        "start_time": 448598,
+        "end_time": 458109
+      },
+      "53": {
+        "start_time": 458109,
+        "end_time": 465780
+      },
+      "54": {
+        "start_time": 465780,
+        "end_time": 475852
+      },
+      "55": {
+        "start_time": 475852,
+        "end_time": 483523
+      },
+      "56": {
+        "start_time": 483523,
+        "end_time": 495045
+      },
+      "57": {
+        "start_time": 495045,
+        "end_time": 500688
+      },
+      "58": {
+        "start_time": 500688,
+        "end_time": 511849
+      },
+      "59": {
+        "start_time": 511849,
+        "end_time": 519971
+      },
+      "60": {
+        "start_time": 519971,
+        "end_time": 527993
+      },
+      "61": {
+        "start_time": 527993,
+        "end_time": 536005
+      },
+      "62": {
+        "start_time": 536005,
+        "end_time": 541735
+      },
+      "63": {
+        "start_time": 541735,
+        "end_time": 548245
+      },
+      "64": {
+        "start_time": 548245,
+        "end_time": 554239
+      },
+      "65": {
+        "start_time": 554239,
+        "end_time": 572591
+      },
+      "66": {
+        "start_time": 572591,
+        "end_time": 588004
+      },
+      "67": {
+        "start_time": 588004,
+        "end_time": 594314
+      },
+      "68": {
+        "start_time": 594314,
+        "end_time": 603315
+      },
+      "69": {
+        "start_time": 603315,
+        "end_time": 607400
+      },
+      "70": {
+        "start_time": 607400,
+        "end_time": 613212
+      },
+      "71": {
+        "start_time": 613212,
+        "end_time": 623567
+      },
+      "72": {
+        "start_time": 623567,
+        "end_time": 630188
+      },
+      "73": {
+        "start_time": 630188,
+        "end_time": 634828
+      },
+      "74": {
+        "start_time": 634828,
+        "end_time": 645114
+      },
+      "75": {
+        "start_time": 645114,
+        "end_time": 651404
+      },
+      "76": {
+        "start_time": 651404,
+        "end_time": 656867
+      },
+      "77": {
+        "start_time": 656867,
+        "end_time": 662650
+      },
+      "78": {
+        "start_time": 662650,
+        "end_time": 668890
+      },
+      "79": {
+        "start_time": 668890,
+        "end_time": 677014
+      },
+      "80": {
+        "start_time": 677014,
+        "end_time": 683057
+      },
+      "81": {
+        "start_time": 683057,
+        "end_time": 689887
+      },
+      "82": {
+        "start_time": 689887,
+        "end_time": 696800
+      },
+      "83": {
+        "start_time": 696800,
+        "end_time": 701101
+      },
+      "84": {
+        "start_time": 701101,
+        "end_time": 708321
+      },
+      "85": {
+        "start_time": 708321,
+        "end_time": 725050
+      },
+      "86": {
+        "start_time": 725050,
+        "end_time": 730642
+      },
+      "87": {
+        "start_time": 730642,
+        "end_time": 738692
+      },
+      "88": {
+        "start_time": 738692,
+        "end_time": 757663
+      },
+      "89": {
+        "start_time": 757663,
+        "end_time": 764016
+      },
+      "90": {
+        "start_time": 764016,
+        "end_time": 770338
+      },
+      "91": {
+        "start_time": 770338,
+        "end_time": 774789
+      },
+      "92": {
+        "start_time": 774789,
+        "end_time": 780172
+      },
+      "93": {
+        "start_time": 780172,
+        "end_time": 784002
+      },
+      "94": {
+        "start_time": 784002,
+        "end_time": 790602
+      },
+      "95": {
+        "start_time": 790602,
+        "end_time": 795813
+      },
+      "96": {
+        "start_time": 795813,
+        "end_time": 804025
+      },
+      "97": {
+        "start_time": 804025,
+        "end_time": 811657
+      },
+      "98": {
+        "start_time": 811657,
+        "end_time": 818152
+      },
+      "99": {
+        "start_time": 818152,
+        "end_time": 823573
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/akrm/"
+  },
+  "سعود الشريم - حفص عن عاصم": {
+    "reader_id": 31,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2680
+      },
+      "1": {
+        "start_time": 2680,
+        "end_time": 12051
+      },
+      "2": {
+        "start_time": 12051,
+        "end_time": 17504
+      },
+      "3": {
+        "start_time": 17504,
+        "end_time": 24191
+      },
+      "4": {
+        "start_time": 24191,
+        "end_time": 30840
+      },
+      "5": {
+        "start_time": 30840,
+        "end_time": 36261
+      },
+      "6": {
+        "start_time": 36261,
+        "end_time": 43565
+      },
+      "7": {
+        "start_time": 43565,
+        "end_time": 50965
+      },
+      "8": {
+        "start_time": 50965,
+        "end_time": 59029
+      },
+      "9": {
+        "start_time": 59029,
+        "end_time": 65018
+      },
+      "10": {
+        "start_time": 65018,
+        "end_time": 70373
+      },
+      "11": {
+        "start_time": 70373,
+        "end_time": 76766
+      },
+      "12": {
+        "start_time": 76766,
+        "end_time": 81157
+      },
+      "13": {
+        "start_time": 81157,
+        "end_time": 86631
+      },
+      "14": {
+        "start_time": 86631,
+        "end_time": 94688
+      },
+      "15": {
+        "start_time": 94688,
+        "end_time": 103680
+      },
+      "16": {
+        "start_time": 103680,
+        "end_time": 111724
+      },
+      "17": {
+        "start_time": 111724,
+        "end_time": 116007
+      },
+      "18": {
+        "start_time": 116007,
+        "end_time": 121328
+      },
+      "19": {
+        "start_time": 121328,
+        "end_time": 130573
+      },
+      "20": {
+        "start_time": 130573,
+        "end_time": 136386
+      },
+      "21": {
+        "start_time": 136386,
+        "end_time": 146287
+      },
+      "22": {
+        "start_time": 146287,
+        "end_time": 160629
+      },
+      "23": {
+        "start_time": 160629,
+        "end_time": 165561
+      },
+      "24": {
+        "start_time": 165561,
+        "end_time": 171796
+      },
+      "25": {
+        "start_time": 171796,
+        "end_time": 177246
+      },
+      "26": {
+        "start_time": 177246,
+        "end_time": 183854
+      },
+      "27": {
+        "start_time": 183854,
+        "end_time": 192262
+      },
+      "28": {
+        "start_time": 192262,
+        "end_time": 202749
+      },
+      "29": {
+        "start_time": 202749,
+        "end_time": 209087
+      },
+      "30": {
+        "start_time": 209087,
+        "end_time": 214529
+      },
+      "31": {
+        "start_time": 214529,
+        "end_time": 219457
+      },
+      "32": {
+        "start_time": 219457,
+        "end_time": 224800
+      },
+      "33": {
+        "start_time": 224800,
+        "end_time": 232527
+      },
+      "34": {
+        "start_time": 232527,
+        "end_time": 236207
+      },
+      "35": {
+        "start_time": 236207,
+        "end_time": 240452
+      },
+      "36": {
+        "start_time": 240452,
+        "end_time": 245284
+      },
+      "37": {
+        "start_time": 245284,
+        "end_time": 248709
+      },
+      "38": {
+        "start_time": 248709,
+        "end_time": 251531
+      },
+      "39": {
+        "start_time": 251531,
+        "end_time": 259827
+      },
+      "40": {
+        "start_time": 259827,
+        "end_time": 263267
+      },
+      "41": {
+        "start_time": 263267,
+        "end_time": 266976
+      },
+      "42": {
+        "start_time": 266976,
+        "end_time": 274831
+      },
+      "43": {
+        "start_time": 274831,
+        "end_time": 279434
+      },
+      "44": {
+        "start_time": 279434,
+        "end_time": 287386
+      },
+      "45": {
+        "start_time": 287386,
+        "end_time": 292123
+      },
+      "46": {
+        "start_time": 292123,
+        "end_time": 295589
+      },
+      "47": {
+        "start_time": 295589,
+        "end_time": 302932
+      },
+      "48": {
+        "start_time": 302932,
+        "end_time": 308748
+      },
+      "49": {
+        "start_time": 308748,
+        "end_time": 314369
+      },
+      "50": {
+        "start_time": 314369,
+        "end_time": 318374
+      },
+      "51": {
+        "start_time": 318374,
+        "end_time": 321896
+      },
+      "52": {
+        "start_time": 321896,
+        "end_time": 328557
+      },
+      "53": {
+        "start_time": 328557,
+        "end_time": 333664
+      },
+      "54": {
+        "start_time": 333664,
+        "end_time": 339784
+      },
+      "55": {
+        "start_time": 339784,
+        "end_time": 346005
+      },
+      "56": {
+        "start_time": 346005,
+        "end_time": 353241
+      },
+      "57": {
+        "start_time": 353241,
+        "end_time": 357147
+      },
+      "58": {
+        "start_time": 357147,
+        "end_time": 361977
+      },
+      "59": {
+        "start_time": 361977,
+        "end_time": 366929
+      },
+      "60": {
+        "start_time": 366929,
+        "end_time": 372796
+      },
+      "61": {
+        "start_time": 372796,
+        "end_time": 377757
+      },
+      "62": {
+        "start_time": 377757,
+        "end_time": 381411
+      },
+      "63": {
+        "start_time": 381411,
+        "end_time": 385884
+      },
+      "64": {
+        "start_time": 385884,
+        "end_time": 390143
+      },
+      "65": {
+        "start_time": 390143,
+        "end_time": 400365
+      },
+      "66": {
+        "start_time": 400365,
+        "end_time": 408739
+      },
+      "67": {
+        "start_time": 408739,
+        "end_time": 412990
+      },
+      "68": {
+        "start_time": 412990,
+        "end_time": 418038
+      },
+      "69": {
+        "start_time": 418038,
+        "end_time": 420715
+      },
+      "70": {
+        "start_time": 420715,
+        "end_time": 424179
+      },
+      "71": {
+        "start_time": 424179,
+        "end_time": 429875
+      },
+      "72": {
+        "start_time": 429875,
+        "end_time": 434621
+      },
+      "73": {
+        "start_time": 434621,
+        "end_time": 437790
+      },
+      "74": {
+        "start_time": 437790,
+        "end_time": 445604
+      },
+      "75": {
+        "start_time": 445604,
+        "end_time": 450114
+      },
+      "76": {
+        "start_time": 450114,
+        "end_time": 453425
+      },
+      "77": {
+        "start_time": 453425,
+        "end_time": 458251
+      },
+      "78": {
+        "start_time": 458251,
+        "end_time": 462740
+      },
+      "79": {
+        "start_time": 462740,
+        "end_time": 468102
+      },
+      "80": {
+        "start_time": 468102,
+        "end_time": 472317
+      },
+      "81": {
+        "start_time": 472317,
+        "end_time": 477250
+      },
+      "82": {
+        "start_time": 477250,
+        "end_time": 482034
+      },
+      "83": {
+        "start_time": 482034,
+        "end_time": 485468
+      },
+      "84": {
+        "start_time": 485468,
+        "end_time": 491245
+      },
+      "85": {
+        "start_time": 491245,
+        "end_time": 502292
+      },
+      "86": {
+        "start_time": 502292,
+        "end_time": 505910
+      },
+      "87": {
+        "start_time": 505910,
+        "end_time": 511926
+      },
+      "88": {
+        "start_time": 511926,
+        "end_time": 522800
+      },
+      "89": {
+        "start_time": 522800,
+        "end_time": 526600
+      },
+      "90": {
+        "start_time": 526600,
+        "end_time": 530163
+      },
+      "91": {
+        "start_time": 530163,
+        "end_time": 533493
+      },
+      "92": {
+        "start_time": 533493,
+        "end_time": 537932
+      },
+      "93": {
+        "start_time": 537932,
+        "end_time": 540705
+      },
+      "94": {
+        "start_time": 540705,
+        "end_time": 544928
+      },
+      "95": {
+        "start_time": 544928,
+        "end_time": 548610
+      },
+      "96": {
+        "start_time": 548610,
+        "end_time": 554520
+      },
+      "97": {
+        "start_time": 554520,
+        "end_time": 559894
+      },
+      "98": {
+        "start_time": 559894,
+        "end_time": 564521
+      },
+      "99": {
+        "start_time": 564521,
+        "end_time": 569872
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/shur/"
+  },
+  "سهل ياسين - حفص عن عاصم": {
+    "reader_id": 32,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 2954
+      },
+      "1": {
+        "start_time": 2954,
+        "end_time": 12894
+      },
+      "2": {
+        "start_time": 12894,
+        "end_time": 18794
+      },
+      "3": {
+        "start_time": 18794,
+        "end_time": 26355
+      },
+      "4": {
+        "start_time": 26355,
+        "end_time": 34056
+      },
+      "5": {
+        "start_time": 34056,
+        "end_time": 40616
+      },
+      "6": {
+        "start_time": 40616,
+        "end_time": 48643
+      },
+      "7": {
+        "start_time": 48643,
+        "end_time": 57253
+      },
+      "8": {
+        "start_time": 57253,
+        "end_time": 67244
+      },
+      "9": {
+        "start_time": 67244,
+        "end_time": 75724
+      },
+      "10": {
+        "start_time": 75724,
+        "end_time": 82278
+      },
+      "11": {
+        "start_time": 82278,
+        "end_time": 90225
+      },
+      "12": {
+        "start_time": 90225,
+        "end_time": 96363
+      },
+      "13": {
+        "start_time": 96363,
+        "end_time": 103833
+      },
+      "14": {
+        "start_time": 103833,
+        "end_time": 113029
+      },
+      "15": {
+        "start_time": 113029,
+        "end_time": 121819
+      },
+      "16": {
+        "start_time": 121819,
+        "end_time": 131701
+      },
+      "17": {
+        "start_time": 131701,
+        "end_time": 136511
+      },
+      "18": {
+        "start_time": 136511,
+        "end_time": 143253
+      },
+      "19": {
+        "start_time": 143253,
+        "end_time": 155254
+      },
+      "20": {
+        "start_time": 155254,
+        "end_time": 163014
+      },
+      "21": {
+        "start_time": 163014,
+        "end_time": 175855
+      },
+      "22": {
+        "start_time": 175855,
+        "end_time": 191670
+      },
+      "23": {
+        "start_time": 191670,
+        "end_time": 198230
+      },
+      "24": {
+        "start_time": 198230,
+        "end_time": 206230
+      },
+      "25": {
+        "start_time": 206230,
+        "end_time": 214653
+      },
+      "26": {
+        "start_time": 214653,
+        "end_time": 223203
+      },
+      "27": {
+        "start_time": 223203,
+        "end_time": 232485
+      },
+      "28": {
+        "start_time": 232485,
+        "end_time": 245251
+      },
+      "29": {
+        "start_time": 245251,
+        "end_time": 252935
+      },
+      "30": {
+        "start_time": 252935,
+        "end_time": 258585
+      },
+      "31": {
+        "start_time": 258585,
+        "end_time": 264157
+      },
+      "32": {
+        "start_time": 264157,
+        "end_time": 270367
+      },
+      "33": {
+        "start_time": 270367,
+        "end_time": 280228
+      },
+      "34": {
+        "start_time": 280228,
+        "end_time": 285008
+      },
+      "35": {
+        "start_time": 285008,
+        "end_time": 290290
+      },
+      "36": {
+        "start_time": 290290,
+        "end_time": 295781
+      },
+      "37": {
+        "start_time": 295781,
+        "end_time": 299371
+      },
+      "38": {
+        "start_time": 299371,
+        "end_time": 302991
+      },
+      "39": {
+        "start_time": 302991,
+        "end_time": 313414
+      },
+      "40": {
+        "start_time": 313414,
+        "end_time": 317854
+      },
+      "41": {
+        "start_time": 317854,
+        "end_time": 322484
+      },
+      "42": {
+        "start_time": 322484,
+        "end_time": 333382
+      },
+      "43": {
+        "start_time": 333382,
+        "end_time": 339372
+      },
+      "44": {
+        "start_time": 339372,
+        "end_time": 349254
+      },
+      "45": {
+        "start_time": 349254,
+        "end_time": 356394
+      },
+      "46": {
+        "start_time": 356394,
+        "end_time": 361214
+      },
+      "47": {
+        "start_time": 361214,
+        "end_time": 385712
+      },
+      "48": {
+        "start_time": 385712,
+        "end_time": 399317
+      },
+      "49": {
+        "start_time": 399317,
+        "end_time": 406397
+      },
+      "50": {
+        "start_time": 406397,
+        "end_time": 413238
+      },
+      "51": {
+        "start_time": 413238,
+        "end_time": 418858
+      },
+      "52": {
+        "start_time": 418858,
+        "end_time": 428374
+      },
+      "53": {
+        "start_time": 428374,
+        "end_time": 436146
+      },
+      "54": {
+        "start_time": 436146,
+        "end_time": 445060
+      },
+      "55": {
+        "start_time": 445060,
+        "end_time": 453020
+      },
+      "56": {
+        "start_time": 453020,
+        "end_time": 464502
+      },
+      "57": {
+        "start_time": 464502,
+        "end_time": 470362
+      },
+      "58": {
+        "start_time": 470362,
+        "end_time": 477250
+      },
+      "59": {
+        "start_time": 477250,
+        "end_time": 483881
+      },
+      "60": {
+        "start_time": 483881,
+        "end_time": 491684
+      },
+      "61": {
+        "start_time": 491684,
+        "end_time": 497685
+      },
+      "62": {
+        "start_time": 497685,
+        "end_time": 503166
+      },
+      "63": {
+        "start_time": 503166,
+        "end_time": 509697
+      },
+      "64": {
+        "start_time": 509697,
+        "end_time": 515809
+      },
+      "65": {
+        "start_time": 515809,
+        "end_time": 534027
+      },
+      "66": {
+        "start_time": 534027,
+        "end_time": 545962
+      },
+      "67": {
+        "start_time": 545962,
+        "end_time": 552063
+      },
+      "68": {
+        "start_time": 552063,
+        "end_time": 559585
+      },
+      "69": {
+        "start_time": 559585,
+        "end_time": 563828
+      },
+      "70": {
+        "start_time": 563828,
+        "end_time": 569470
+      },
+      "71": {
+        "start_time": 569470,
+        "end_time": 577845
+      },
+      "72": {
+        "start_time": 577845,
+        "end_time": 583413
+      },
+      "73": {
+        "start_time": 583413,
+        "end_time": 587715
+      },
+      "74": {
+        "start_time": 587715,
+        "end_time": 598526
+      },
+      "75": {
+        "start_time": 598526,
+        "end_time": 605338
+      },
+      "76": {
+        "start_time": 605338,
+        "end_time": 610728
+      },
+      "77": {
+        "start_time": 610728,
+        "end_time": 616130
+      },
+      "78": {
+        "start_time": 616130,
+        "end_time": 621601
+      },
+      "79": {
+        "start_time": 621601,
+        "end_time": 629982
+      },
+      "80": {
+        "start_time": 629982,
+        "end_time": 635947
+      },
+      "81": {
+        "start_time": 635947,
+        "end_time": 642798
+      },
+      "82": {
+        "start_time": 642798,
+        "end_time": 648719
+      },
+      "83": {
+        "start_time": 648719,
+        "end_time": 652450
+      },
+      "84": {
+        "start_time": 652450,
+        "end_time": 658712
+      },
+      "85": {
+        "start_time": 658712,
+        "end_time": 674230
+      },
+      "86": {
+        "start_time": 674230,
+        "end_time": 679413
+      },
+      "87": {
+        "start_time": 679413,
+        "end_time": 687597
+      },
+      "88": {
+        "start_time": 687597,
+        "end_time": 705898
+      },
+      "89": {
+        "start_time": 705898,
+        "end_time": 710331
+      },
+      "90": {
+        "start_time": 710331,
+        "end_time": 714692
+      },
+      "91": {
+        "start_time": 714692,
+        "end_time": 718867
+      },
+      "92": {
+        "start_time": 718867,
+        "end_time": 723318
+      },
+      "93": {
+        "start_time": 723318,
+        "end_time": 727220
+      },
+      "94": {
+        "start_time": 727220,
+        "end_time": 732933
+      },
+      "95": {
+        "start_time": 732933,
+        "end_time": 737616
+      },
+      "96": {
+        "start_time": 737616,
+        "end_time": 746273
+      },
+      "97": {
+        "start_time": 746273,
+        "end_time": 753386
+      },
+      "98": {
+        "start_time": 753386,
+        "end_time": 759787
+      },
+      "99": {
+        "start_time": 759787,
+        "end_time": 767049
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/shl/"
+  },
+  "عبدالباسط عبدالصمد - المصحف المجود": {
+    "reader_id": 51,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 8711
+      },
+      "1": {
+        "start_time": 8711,
+        "end_time": 40396
+      },
+      "2": {
+        "start_time": 40396,
+        "end_time": 59021
+      },
+      "3": {
+        "start_time": 59021,
+        "end_time": 82086
+      },
+      "4": {
+        "start_time": 82086,
+        "end_time": 105647
+      },
+      "5": {
+        "start_time": 105647,
+        "end_time": 124335
+      },
+      "6": {
+        "start_time": 124335,
+        "end_time": 150960
+      },
+      "7": {
+        "start_time": 150960,
+        "end_time": 177085
+      },
+      "8": {
+        "start_time": 177085,
+        "end_time": 202462
+      },
+      "9": {
+        "start_time": 202462,
+        "end_time": 223147
+      },
+      "10": {
+        "start_time": 223147,
+        "end_time": 244588
+      },
+      "11": {
+        "start_time": 244588,
+        "end_time": 266711
+      },
+      "12": {
+        "start_time": 266711,
+        "end_time": 285900
+      },
+      "13": {
+        "start_time": 285900,
+        "end_time": 307773
+      },
+      "14": {
+        "start_time": 307773,
+        "end_time": 332337
+      },
+      "15": {
+        "start_time": 332337,
+        "end_time": 357524
+      },
+      "16": {
+        "start_time": 357524,
+        "end_time": 381149
+      },
+      "17": {
+        "start_time": 381149,
+        "end_time": 396586
+      },
+      "18": {
+        "start_time": 396586,
+        "end_time": 419336
+      },
+      "19": {
+        "start_time": 419336,
+        "end_time": 449775
+      },
+      "20": {
+        "start_time": 449775,
+        "end_time": 471025
+      },
+      "21": {
+        "start_time": 471025,
+        "end_time": 504713
+      },
+      "22": {
+        "start_time": 504713,
+        "end_time": 542275
+      },
+      "23": {
+        "start_time": 542275,
+        "end_time": 562277
+      },
+      "24": {
+        "start_time": 562277,
+        "end_time": 585089
+      },
+      "25": {
+        "start_time": 585089,
+        "end_time": 611839
+      },
+      "26": {
+        "start_time": 611839,
+        "end_time": 632776
+      },
+      "27": {
+        "start_time": 632776,
+        "end_time": 653089
+      },
+      "28": {
+        "start_time": 653089,
+        "end_time": 683152
+      },
+      "29": {
+        "start_time": 683152,
+        "end_time": 704278
+      },
+      "30": {
+        "start_time": 704278,
+        "end_time": 721527
+      },
+      "31": {
+        "start_time": 721527,
+        "end_time": 741901
+      },
+      "32": {
+        "start_time": 741901,
+        "end_time": 763089
+      },
+      "33": {
+        "start_time": 763089,
+        "end_time": 790026
+      },
+      "34": {
+        "start_time": 790026,
+        "end_time": 803527
+      },
+      "35": {
+        "start_time": 803527,
+        "end_time": 823341
+      },
+      "36": {
+        "start_time": 823341,
+        "end_time": 843902
+      },
+      "37": {
+        "start_time": 843902,
+        "end_time": 859778
+      },
+      "38": {
+        "start_time": 859778,
+        "end_time": 873840
+      },
+      "39": {
+        "start_time": 873840,
+        "end_time": 901841
+      },
+      "40": {
+        "start_time": 901841,
+        "end_time": 916340
+      },
+      "41": {
+        "start_time": 916340,
+        "end_time": 931343
+      },
+      "42": {
+        "start_time": 931343,
+        "end_time": 959341
+      },
+      "43": {
+        "start_time": 959341,
+        "end_time": 978593
+      },
+      "44": {
+        "start_time": 978593,
+        "end_time": 1003093
+      },
+      "45": {
+        "start_time": 1003093,
+        "end_time": 1020092
+      },
+      "46": {
+        "start_time": 1020092,
+        "end_time": 1037030
+      },
+      "47": {
+        "start_time": 1037030,
+        "end_time": 1062342
+      },
+      "48": {
+        "start_time": 1062342,
+        "end_time": 1083844
+      },
+      "49": {
+        "start_time": 1083844,
+        "end_time": 1102278
+      },
+      "50": {
+        "start_time": 1102278,
+        "end_time": 1121279
+      },
+      "51": {
+        "start_time": 1121279,
+        "end_time": 1140470
+      },
+      "52": {
+        "start_time": 1140470,
+        "end_time": 1164031
+      },
+      "53": {
+        "start_time": 1164031,
+        "end_time": 1182093
+      },
+      "54": {
+        "start_time": 1182093,
+        "end_time": 1207344
+      },
+      "55": {
+        "start_time": 1207344,
+        "end_time": 1227405
+      },
+      "56": {
+        "start_time": 1227405,
+        "end_time": 1250664
+      },
+      "57": {
+        "start_time": 1250664,
+        "end_time": 1266603
+      },
+      "58": {
+        "start_time": 1266603,
+        "end_time": 1292978
+      },
+      "59": {
+        "start_time": 1292978,
+        "end_time": 1314539
+      },
+      "60": {
+        "start_time": 1314539,
+        "end_time": 1336040
+      },
+      "61": {
+        "start_time": 1336040,
+        "end_time": 1350040
+      },
+      "62": {
+        "start_time": 1350040,
+        "end_time": 1363604
+      },
+      "63": {
+        "start_time": 1363604,
+        "end_time": 1382728
+      },
+      "64": {
+        "start_time": 1382728,
+        "end_time": 1399728
+      },
+      "65": {
+        "start_time": 1399728,
+        "end_time": 1436353
+      },
+      "66": {
+        "start_time": 1436353,
+        "end_time": 1470039
+      },
+      "67": {
+        "start_time": 1470039,
+        "end_time": 1485480
+      },
+      "68": {
+        "start_time": 1485480,
+        "end_time": 1507791
+      },
+      "69": {
+        "start_time": 1507791,
+        "end_time": 1522041
+      },
+      "70": {
+        "start_time": 1522041,
+        "end_time": 1540166
+      },
+      "71": {
+        "start_time": 1540166,
+        "end_time": 1565729
+      },
+      "72": {
+        "start_time": 1565729,
+        "end_time": 1582606
+      },
+      "73": {
+        "start_time": 1582606,
+        "end_time": 1596105
+      },
+      "74": {
+        "start_time": 1596105,
+        "end_time": 1622916
+      },
+      "75": {
+        "start_time": 1622916,
+        "end_time": 1641541
+      },
+      "76": {
+        "start_time": 1641541,
+        "end_time": 1657482
+      },
+      "77": {
+        "start_time": 1657482,
+        "end_time": 1674356
+      },
+      "78": {
+        "start_time": 1674356,
+        "end_time": 1690542
+      },
+      "79": {
+        "start_time": 1690542,
+        "end_time": 1711042
+      },
+      "80": {
+        "start_time": 1711042,
+        "end_time": 1727169
+      },
+      "81": {
+        "start_time": 1727169,
+        "end_time": 1750667
+      },
+      "82": {
+        "start_time": 1750667,
+        "end_time": 1768731
+      },
+      "83": {
+        "start_time": 1768731,
+        "end_time": 1785542
+      },
+      "84": {
+        "start_time": 1785542,
+        "end_time": 1806482
+      },
+      "85": {
+        "start_time": 1806482,
+        "end_time": 1848668
+      },
+      "86": {
+        "start_time": 1848668,
+        "end_time": 1862667
+      },
+      "87": {
+        "start_time": 1862667,
+        "end_time": 1888544
+      },
+      "88": {
+        "start_time": 1888544,
+        "end_time": 1924733
+      },
+      "89": {
+        "start_time": 1924733,
+        "end_time": 1943983
+      },
+      "90": {
+        "start_time": 1943983,
+        "end_time": 1958731
+      },
+      "91": {
+        "start_time": 1958731,
+        "end_time": 1972795
+      },
+      "92": {
+        "start_time": 1972795,
+        "end_time": 1991358
+      },
+      "93": {
+        "start_time": 1991358,
+        "end_time": 2006419
+      },
+      "94": {
+        "start_time": 2006419,
+        "end_time": 2023234
+      },
+      "95": {
+        "start_time": 2023234,
+        "end_time": 2038919
+      },
+      "96": {
+        "start_time": 2038919,
+        "end_time": 2065732
+      },
+      "97": {
+        "start_time": 2065732,
+        "end_time": 2087732
+      },
+      "98": {
+        "start_time": 2087732,
+        "end_time": 2104734
+      },
+      "99": {
+        "start_time": 2104734,
+        "end_time": 2119108
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/"
+  },
+  "عبدالباسط عبدالصمد - حفص عن عاصم": {
+    "reader_id": 53,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 3763
+      },
+      "1": {
+        "start_time": 3763,
+        "end_time": 15226
+      },
+      "2": {
+        "start_time": 15226,
+        "end_time": 21837
+      },
+      "3": {
+        "start_time": 21837,
+        "end_time": 30653
+      },
+      "4": {
+        "start_time": 30653,
+        "end_time": 40861
+      },
+      "5": {
+        "start_time": 40861,
+        "end_time": 48523
+      },
+      "6": {
+        "start_time": 48523,
+        "end_time": 58484
+      },
+      "7": {
+        "start_time": 58484,
+        "end_time": 68448
+      },
+      "8": {
+        "start_time": 68448,
+        "end_time": 80167
+      },
+      "9": {
+        "start_time": 80167,
+        "end_time": 88777
+      },
+      "10": {
+        "start_time": 88777,
+        "end_time": 96489
+      },
+      "11": {
+        "start_time": 96489,
+        "end_time": 104950
+      },
+      "12": {
+        "start_time": 104950,
+        "end_time": 110508
+      },
+      "13": {
+        "start_time": 110508,
+        "end_time": 117115
+      },
+      "14": {
+        "start_time": 117115,
+        "end_time": 127479
+      },
+      "15": {
+        "start_time": 127479,
+        "end_time": 137995
+      },
+      "16": {
+        "start_time": 137995,
+        "end_time": 149058
+      },
+      "17": {
+        "start_time": 149058,
+        "end_time": 154969
+      },
+      "18": {
+        "start_time": 154969,
+        "end_time": 162227
+      },
+      "19": {
+        "start_time": 162227,
+        "end_time": 175095
+      },
+      "20": {
+        "start_time": 175095,
+        "end_time": 182806
+      },
+      "21": {
+        "start_time": 182806,
+        "end_time": 198578
+      },
+      "22": {
+        "start_time": 198578,
+        "end_time": 216450
+      },
+      "23": {
+        "start_time": 216450,
+        "end_time": 225114
+      },
+      "24": {
+        "start_time": 225114,
+        "end_time": 234527
+      },
+      "25": {
+        "start_time": 234527,
+        "end_time": 243442
+      },
+      "26": {
+        "start_time": 243442,
+        "end_time": 253451
+      },
+      "27": {
+        "start_time": 253451,
+        "end_time": 264265
+      },
+      "28": {
+        "start_time": 264265,
+        "end_time": 279736
+      },
+      "29": {
+        "start_time": 279736,
+        "end_time": 288351
+      },
+      "30": {
+        "start_time": 288351,
+        "end_time": 294606
+      },
+      "31": {
+        "start_time": 294606,
+        "end_time": 303769
+      },
+      "32": {
+        "start_time": 303769,
+        "end_time": 311881
+      },
+      "33": {
+        "start_time": 311881,
+        "end_time": 323848
+      },
+      "34": {
+        "start_time": 323848,
+        "end_time": 329607
+      },
+      "35": {
+        "start_time": 329607,
+        "end_time": 336014
+      },
+      "36": {
+        "start_time": 336014,
+        "end_time": 343725
+      },
+      "37": {
+        "start_time": 343725,
+        "end_time": 349732
+      },
+      "38": {
+        "start_time": 349732,
+        "end_time": 354090
+      },
+      "39": {
+        "start_time": 354090,
+        "end_time": 367008
+      },
+      "40": {
+        "start_time": 367008,
+        "end_time": 372214
+      },
+      "41": {
+        "start_time": 372214,
+        "end_time": 377925
+      },
+      "42": {
+        "start_time": 377925,
+        "end_time": 388339
+      },
+      "43": {
+        "start_time": 388339,
+        "end_time": 396498
+      },
+      "44": {
+        "start_time": 396498,
+        "end_time": 405658
+      },
+      "45": {
+        "start_time": 405658,
+        "end_time": 413621
+      },
+      "46": {
+        "start_time": 413621,
+        "end_time": 418628
+      },
+      "47": {
+        "start_time": 418628,
+        "end_time": 429239
+      },
+      "48": {
+        "start_time": 429239,
+        "end_time": 437403
+      },
+      "49": {
+        "start_time": 437403,
+        "end_time": 446216
+      },
+      "50": {
+        "start_time": 446216,
+        "end_time": 452123
+      },
+      "51": {
+        "start_time": 452123,
+        "end_time": 457831
+      },
+      "52": {
+        "start_time": 457831,
+        "end_time": 468395
+      },
+      "53": {
+        "start_time": 468395,
+        "end_time": 476757
+      },
+      "54": {
+        "start_time": 476757,
+        "end_time": 486620
+      },
+      "55": {
+        "start_time": 486620,
+        "end_time": 494531
+      },
+      "56": {
+        "start_time": 494531,
+        "end_time": 505545
+      },
+      "57": {
+        "start_time": 505545,
+        "end_time": 511103
+      },
+      "58": {
+        "start_time": 511103,
+        "end_time": 521918
+      },
+      "59": {
+        "start_time": 521918,
+        "end_time": 530435
+      },
+      "60": {
+        "start_time": 530435,
+        "end_time": 538842
+      },
+      "61": {
+        "start_time": 538842,
+        "end_time": 546151
+      },
+      "62": {
+        "start_time": 546151,
+        "end_time": 552863
+      },
+      "63": {
+        "start_time": 552863,
+        "end_time": 559270
+      },
+      "64": {
+        "start_time": 559270,
+        "end_time": 565677
+      },
+      "65": {
+        "start_time": 565677,
+        "end_time": 579896
+      },
+      "66": {
+        "start_time": 579896,
+        "end_time": 594216
+      },
+      "67": {
+        "start_time": 594216,
+        "end_time": 600825
+      },
+      "68": {
+        "start_time": 600825,
+        "end_time": 609538
+      },
+      "69": {
+        "start_time": 609538,
+        "end_time": 613793
+      },
+      "70": {
+        "start_time": 613793,
+        "end_time": 620152
+      },
+      "71": {
+        "start_time": 620152,
+        "end_time": 631217
+      },
+      "72": {
+        "start_time": 631217,
+        "end_time": 637625
+      },
+      "73": {
+        "start_time": 637625,
+        "end_time": 642080
+      },
+      "74": {
+        "start_time": 642080,
+        "end_time": 652696
+      },
+      "75": {
+        "start_time": 652696,
+        "end_time": 659405
+      },
+      "76": {
+        "start_time": 659405,
+        "end_time": 665214
+      },
+      "77": {
+        "start_time": 665214,
+        "end_time": 671922
+      },
+      "78": {
+        "start_time": 671922,
+        "end_time": 678078
+      },
+      "79": {
+        "start_time": 678078,
+        "end_time": 687041
+      },
+      "80": {
+        "start_time": 687041,
+        "end_time": 692651
+      },
+      "81": {
+        "start_time": 692651,
+        "end_time": 699760
+      },
+      "82": {
+        "start_time": 699760,
+        "end_time": 706269
+      },
+      "83": {
+        "start_time": 706269,
+        "end_time": 710824
+      },
+      "84": {
+        "start_time": 710824,
+        "end_time": 717833
+      },
+      "85": {
+        "start_time": 717833,
+        "end_time": 736066
+      },
+      "86": {
+        "start_time": 736066,
+        "end_time": 741818
+      },
+      "87": {
+        "start_time": 741818,
+        "end_time": 750130
+      },
+      "88": {
+        "start_time": 750130,
+        "end_time": 766600
+      },
+      "89": {
+        "start_time": 766600,
+        "end_time": 773611
+      },
+      "90": {
+        "start_time": 773611,
+        "end_time": 780318
+      },
+      "91": {
+        "start_time": 780318,
+        "end_time": 785180
+      },
+      "92": {
+        "start_time": 785180,
+        "end_time": 790935
+      },
+      "93": {
+        "start_time": 790935,
+        "end_time": 795593
+      },
+      "94": {
+        "start_time": 795593,
+        "end_time": 801499
+      },
+      "95": {
+        "start_time": 801499,
+        "end_time": 807457
+      },
+      "96": {
+        "start_time": 807457,
+        "end_time": 815467
+      },
+      "97": {
+        "start_time": 815467,
+        "end_time": 822829
+      },
+      "98": {
+        "start_time": 822829,
+        "end_time": 829187
+      },
+      "99": {
+        "start_time": 829187,
+        "end_time": 834244
+      }
+    },
+    "folder_url": "https://server7.mp3quran.net/basit/"
+  },
+  "عبدالله بصفر - حفص عن عاصم": {
+    "reader_id": 60,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 7275
+      },
+      "1": {
+        "start_time": 7275,
+        "end_time": 17246
+      },
+      "2": {
+        "start_time": 17246,
+        "end_time": 22680
+      },
+      "3": {
+        "start_time": 22680,
+        "end_time": 29285
+      },
+      "4": {
+        "start_time": 29285,
+        "end_time": 36775
+      },
+      "5": {
+        "start_time": 36775,
+        "end_time": 42504
+      },
+      "6": {
+        "start_time": 42504,
+        "end_time": 50004
+      },
+      "7": {
+        "start_time": 50004,
+        "end_time": 56984
+      },
+      "8": {
+        "start_time": 56984,
+        "end_time": 66767
+      },
+      "9": {
+        "start_time": 66767,
+        "end_time": 74140
+      },
+      "10": {
+        "start_time": 74140,
+        "end_time": 79915
+      },
+      "11": {
+        "start_time": 79915,
+        "end_time": 86836
+      },
+      "12": {
+        "start_time": 86836,
+        "end_time": 91336
+      },
+      "13": {
+        "start_time": 91336,
+        "end_time": 96965
+      },
+      "14": {
+        "start_time": 96965,
+        "end_time": 105443
+      },
+      "15": {
+        "start_time": 105443,
+        "end_time": 115640
+      },
+      "16": {
+        "start_time": 115640,
+        "end_time": 123910
+      },
+      "17": {
+        "start_time": 123910,
+        "end_time": 128610
+      },
+      "18": {
+        "start_time": 128610,
+        "end_time": 134587
+      },
+      "19": {
+        "start_time": 134587,
+        "end_time": 146686
+      },
+      "20": {
+        "start_time": 146686,
+        "end_time": 153117
+      },
+      "21": {
+        "start_time": 153117,
+        "end_time": 164410
+      },
+      "22": {
+        "start_time": 164410,
+        "end_time": 181749
+      },
+      "23": {
+        "start_time": 181749,
+        "end_time": 187424
+      },
+      "24": {
+        "start_time": 187424,
+        "end_time": 194495
+      },
+      "25": {
+        "start_time": 194495,
+        "end_time": 200703
+      },
+      "26": {
+        "start_time": 200703,
+        "end_time": 208137
+      },
+      "27": {
+        "start_time": 208137,
+        "end_time": 216565
+      },
+      "28": {
+        "start_time": 216565,
+        "end_time": 228693
+      },
+      "29": {
+        "start_time": 228693,
+        "end_time": 235872
+      },
+      "30": {
+        "start_time": 235872,
+        "end_time": 240458
+      },
+      "31": {
+        "start_time": 240458,
+        "end_time": 246103
+      },
+      "32": {
+        "start_time": 246103,
+        "end_time": 251915
+      },
+      "33": {
+        "start_time": 251915,
+        "end_time": 260686
+      },
+      "34": {
+        "start_time": 260686,
+        "end_time": 266271
+      },
+      "35": {
+        "start_time": 266271,
+        "end_time": 271401
+      },
+      "36": {
+        "start_time": 271401,
+        "end_time": 277347
+      },
+      "37": {
+        "start_time": 277347,
+        "end_time": 282057
+      },
+      "38": {
+        "start_time": 282057,
+        "end_time": 286136
+      },
+      "39": {
+        "start_time": 286136,
+        "end_time": 296455
+      },
+      "40": {
+        "start_time": 296455,
+        "end_time": 300355
+      },
+      "41": {
+        "start_time": 300355,
+        "end_time": 305112
+      },
+      "42": {
+        "start_time": 305112,
+        "end_time": 315612
+      },
+      "43": {
+        "start_time": 315612,
+        "end_time": 322425
+      },
+      "44": {
+        "start_time": 322425,
+        "end_time": 334027
+      },
+      "45": {
+        "start_time": 334027,
+        "end_time": 340691
+      },
+      "46": {
+        "start_time": 340691,
+        "end_time": 345674
+      },
+      "47": {
+        "start_time": 345674,
+        "end_time": 357591
+      },
+      "48": {
+        "start_time": 357591,
+        "end_time": 368998
+      },
+      "49": {
+        "start_time": 368998,
+        "end_time": 377437
+      },
+      "50": {
+        "start_time": 377437,
+        "end_time": 385437
+      },
+      "51": {
+        "start_time": 385437,
+        "end_time": 390022
+      },
+      "52": {
+        "start_time": 390022,
+        "end_time": 397699
+      },
+      "53": {
+        "start_time": 397699,
+        "end_time": 403417
+      },
+      "54": {
+        "start_time": 403417,
+        "end_time": 410979
+      },
+      "55": {
+        "start_time": 410979,
+        "end_time": 416991
+      },
+      "56": {
+        "start_time": 416991,
+        "end_time": 425671
+      },
+      "57": {
+        "start_time": 425671,
+        "end_time": 429987
+      },
+      "58": {
+        "start_time": 429987,
+        "end_time": 437618
+      },
+      "59": {
+        "start_time": 437618,
+        "end_time": 443742
+      },
+      "60": {
+        "start_time": 443742,
+        "end_time": 449945
+      },
+      "61": {
+        "start_time": 449945,
+        "end_time": 454757
+      },
+      "62": {
+        "start_time": 454757,
+        "end_time": 459079
+      },
+      "63": {
+        "start_time": 459079,
+        "end_time": 463865
+      },
+      "64": {
+        "start_time": 463865,
+        "end_time": 468832
+      },
+      "65": {
+        "start_time": 468832,
+        "end_time": 482218
+      },
+      "66": {
+        "start_time": 482218,
+        "end_time": 491861
+      },
+      "67": {
+        "start_time": 491861,
+        "end_time": 496281
+      },
+      "68": {
+        "start_time": 496281,
+        "end_time": 502363
+      },
+      "69": {
+        "start_time": 502363,
+        "end_time": 506095
+      },
+      "70": {
+        "start_time": 506095,
+        "end_time": 510553
+      },
+      "71": {
+        "start_time": 510553,
+        "end_time": 517311
+      },
+      "72": {
+        "start_time": 517311,
+        "end_time": 522664
+      },
+      "73": {
+        "start_time": 522664,
+        "end_time": 526349
+      },
+      "74": {
+        "start_time": 526349,
+        "end_time": 539734
+      },
+      "75": {
+        "start_time": 539734,
+        "end_time": 544843
+      },
+      "76": {
+        "start_time": 544843,
+        "end_time": 548741
+      },
+      "77": {
+        "start_time": 548741,
+        "end_time": 553175
+      },
+      "78": {
+        "start_time": 553175,
+        "end_time": 558875
+      },
+      "79": {
+        "start_time": 558875,
+        "end_time": 565600
+      },
+      "80": {
+        "start_time": 565600,
+        "end_time": 570238
+      },
+      "81": {
+        "start_time": 570238,
+        "end_time": 576039
+      },
+      "82": {
+        "start_time": 576039,
+        "end_time": 581238
+      },
+      "83": {
+        "start_time": 581238,
+        "end_time": 584863
+      },
+      "84": {
+        "start_time": 584863,
+        "end_time": 590863
+      },
+      "85": {
+        "start_time": 590863,
+        "end_time": 604921
+      },
+      "86": {
+        "start_time": 604921,
+        "end_time": 609137
+      },
+      "87": {
+        "start_time": 609137,
+        "end_time": 616312
+      },
+      "88": {
+        "start_time": 616312,
+        "end_time": 630734
+      },
+      "89": {
+        "start_time": 630734,
+        "end_time": 635541
+      },
+      "90": {
+        "start_time": 635541,
+        "end_time": 639682
+      },
+      "91": {
+        "start_time": 639682,
+        "end_time": 643253
+      },
+      "92": {
+        "start_time": 643253,
+        "end_time": 647638
+      },
+      "93": {
+        "start_time": 647638,
+        "end_time": 650864
+      },
+      "94": {
+        "start_time": 650864,
+        "end_time": 656275
+      },
+      "95": {
+        "start_time": 656275,
+        "end_time": 660435
+      },
+      "96": {
+        "start_time": 660435,
+        "end_time": 667924
+      },
+      "97": {
+        "start_time": 667924,
+        "end_time": 673960
+      },
+      "98": {
+        "start_time": 673960,
+        "end_time": 678786
+      },
+      "99": {
+        "start_time": 678786,
+        "end_time": 685793
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/bsfr/"
+  },
+  "عبدالله عواد الجهني - حفص عن عاصم": {
+    "reader_id": 62,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 6978
+      },
+      "1": {
+        "start_time": 6978,
+        "end_time": 15583
+      },
+      "2": {
+        "start_time": 15583,
+        "end_time": 20506
+      },
+      "3": {
+        "start_time": 20506,
+        "end_time": 26751
+      },
+      "4": {
+        "start_time": 26751,
+        "end_time": 33897
+      },
+      "5": {
+        "start_time": 33897,
+        "end_time": 39231
+      },
+      "6": {
+        "start_time": 39231,
+        "end_time": 45874
+      },
+      "7": {
+        "start_time": 45874,
+        "end_time": 53878
+      },
+      "8": {
+        "start_time": 53878,
+        "end_time": 61941
+      },
+      "9": {
+        "start_time": 61941,
+        "end_time": 68086
+      },
+      "10": {
+        "start_time": 68086,
+        "end_time": 73328
+      },
+      "11": {
+        "start_time": 73328,
+        "end_time": 79830
+      },
+      "12": {
+        "start_time": 79830,
+        "end_time": 84252
+      },
+      "13": {
+        "start_time": 84252,
+        "end_time": 89803
+      },
+      "14": {
+        "start_time": 89803,
+        "end_time": 98616
+      },
+      "15": {
+        "start_time": 98616,
+        "end_time": 108448
+      },
+      "16": {
+        "start_time": 108448,
+        "end_time": 116656
+      },
+      "17": {
+        "start_time": 116656,
+        "end_time": 121489
+      },
+      "18": {
+        "start_time": 121489,
+        "end_time": 127250
+      },
+      "19": {
+        "start_time": 127250,
+        "end_time": 139502
+      },
+      "20": {
+        "start_time": 139502,
+        "end_time": 145633
+      },
+      "21": {
+        "start_time": 145633,
+        "end_time": 157104
+      },
+      "22": {
+        "start_time": 157104,
+        "end_time": 172341
+      },
+      "23": {
+        "start_time": 172341,
+        "end_time": 177393
+      },
+      "24": {
+        "start_time": 177393,
+        "end_time": 184337
+      },
+      "25": {
+        "start_time": 184337,
+        "end_time": 192999
+      },
+      "26": {
+        "start_time": 192999,
+        "end_time": 201233
+      },
+      "27": {
+        "start_time": 201233,
+        "end_time": 209278
+      },
+      "28": {
+        "start_time": 209278,
+        "end_time": 221774
+      },
+      "29": {
+        "start_time": 221774,
+        "end_time": 229403
+      },
+      "30": {
+        "start_time": 229403,
+        "end_time": 233714
+      },
+      "31": {
+        "start_time": 233714,
+        "end_time": 238964
+      },
+      "32": {
+        "start_time": 238964,
+        "end_time": 244605
+      },
+      "33": {
+        "start_time": 244605,
+        "end_time": 253449
+      },
+      "34": {
+        "start_time": 253449,
+        "end_time": 257300
+      },
+      "35": {
+        "start_time": 257300,
+        "end_time": 261823
+      },
+      "36": {
+        "start_time": 261823,
+        "end_time": 265785
+      },
+      "37": {
+        "start_time": 265785,
+        "end_time": 269308
+      },
+      "38": {
+        "start_time": 269308,
+        "end_time": 272370
+      },
+      "39": {
+        "start_time": 272370,
+        "end_time": 281294
+      },
+      "40": {
+        "start_time": 281294,
+        "end_time": 284996
+      },
+      "41": {
+        "start_time": 284996,
+        "end_time": 289835
+      },
+      "42": {
+        "start_time": 289835,
+        "end_time": 298297
+      },
+      "43": {
+        "start_time": 298297,
+        "end_time": 303912
+      },
+      "44": {
+        "start_time": 303912,
+        "end_time": 312595
+      },
+      "45": {
+        "start_time": 312595,
+        "end_time": 317776
+      },
+      "46": {
+        "start_time": 317776,
+        "end_time": 321667
+      },
+      "47": {
+        "start_time": 321667,
+        "end_time": 330988
+      },
+      "48": {
+        "start_time": 330988,
+        "end_time": 338718
+      },
+      "49": {
+        "start_time": 338718,
+        "end_time": 343638
+      },
+      "50": {
+        "start_time": 343638,
+        "end_time": 347749
+      },
+      "51": {
+        "start_time": 347749,
+        "end_time": 351669
+      },
+      "52": {
+        "start_time": 351669,
+        "end_time": 358809
+      },
+      "53": {
+        "start_time": 358809,
+        "end_time": 364550
+      },
+      "54": {
+        "start_time": 364550,
+        "end_time": 371052
+      },
+      "55": {
+        "start_time": 371052,
+        "end_time": 376743
+      },
+      "56": {
+        "start_time": 376743,
+        "end_time": 384849
+      },
+      "57": {
+        "start_time": 384849,
+        "end_time": 388662
+      },
+      "58": {
+        "start_time": 388662,
+        "end_time": 393972
+      },
+      "59": {
+        "start_time": 393972,
+        "end_time": 399306
+      },
+      "60": {
+        "start_time": 399306,
+        "end_time": 404698
+      },
+      "61": {
+        "start_time": 404698,
+        "end_time": 409699
+      },
+      "62": {
+        "start_time": 409699,
+        "end_time": 413731
+      },
+      "63": {
+        "start_time": 413731,
+        "end_time": 418499
+      },
+      "64": {
+        "start_time": 418499,
+        "end_time": 423530
+      },
+      "65": {
+        "start_time": 423530,
+        "end_time": 438217
+      },
+      "66": {
+        "start_time": 438217,
+        "end_time": 446903
+      },
+      "67": {
+        "start_time": 446903,
+        "end_time": 451235
+      },
+      "68": {
+        "start_time": 451235,
+        "end_time": 456986
+      },
+      "69": {
+        "start_time": 456986,
+        "end_time": 460208
+      },
+      "70": {
+        "start_time": 460208,
+        "end_time": 463790
+      },
+      "71": {
+        "start_time": 463790,
+        "end_time": 470315
+      },
+      "72": {
+        "start_time": 470315,
+        "end_time": 474558
+      },
+      "73": {
+        "start_time": 474558,
+        "end_time": 477729
+      },
+      "74": {
+        "start_time": 477729,
+        "end_time": 485352
+      },
+      "75": {
+        "start_time": 485352,
+        "end_time": 489782
+      },
+      "76": {
+        "start_time": 489782,
+        "end_time": 493503
+      },
+      "77": {
+        "start_time": 493503,
+        "end_time": 497526
+      },
+      "78": {
+        "start_time": 497526,
+        "end_time": 501757
+      },
+      "79": {
+        "start_time": 501757,
+        "end_time": 507887
+      },
+      "80": {
+        "start_time": 507887,
+        "end_time": 511901
+      },
+      "81": {
+        "start_time": 511901,
+        "end_time": 516791
+      },
+      "82": {
+        "start_time": 516791,
+        "end_time": 521375
+      },
+      "83": {
+        "start_time": 521375,
+        "end_time": 524475
+      },
+      "84": {
+        "start_time": 524475,
+        "end_time": 528585
+      },
+      "85": {
+        "start_time": 528585,
+        "end_time": 540564
+      },
+      "86": {
+        "start_time": 540564,
+        "end_time": 544364
+      },
+      "87": {
+        "start_time": 544364,
+        "end_time": 550576
+      },
+      "88": {
+        "start_time": 550576,
+        "end_time": 563708
+      },
+      "89": {
+        "start_time": 563708,
+        "end_time": 568269
+      },
+      "90": {
+        "start_time": 568269,
+        "end_time": 572223
+      },
+      "91": {
+        "start_time": 572223,
+        "end_time": 575973
+      },
+      "92": {
+        "start_time": 575973,
+        "end_time": 579263
+      },
+      "93": {
+        "start_time": 579263,
+        "end_time": 582424
+      },
+      "94": {
+        "start_time": 582424,
+        "end_time": 587358
+      },
+      "95": {
+        "start_time": 587358,
+        "end_time": 591008
+      },
+      "96": {
+        "start_time": 591008,
+        "end_time": 597670
+      },
+      "97": {
+        "start_time": 597670,
+        "end_time": 603213
+      },
+      "98": {
+        "start_time": 603213,
+        "end_time": 608567
+      },
+      "99": {
+        "start_time": 608567,
+        "end_time": 613825
+      }
+    },
+    "folder_url": "https://server13.mp3quran.net/jhn/"
+  },
+  "عبدالمحسن القاسم - حفص عن عاصم": {
+    "reader_id": 67,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4308
+      },
+      "1": {
+        "start_time": 4308,
+        "end_time": 13602
+      },
+      "2": {
+        "start_time": 13602,
+        "end_time": 18946
+      },
+      "3": {
+        "start_time": 18946,
+        "end_time": 25512
+      },
+      "4": {
+        "start_time": 25512,
+        "end_time": 33542
+      },
+      "5": {
+        "start_time": 33542,
+        "end_time": 38993
+      },
+      "6": {
+        "start_time": 38993,
+        "end_time": 46225
+      },
+      "7": {
+        "start_time": 46225,
+        "end_time": 53974
+      },
+      "8": {
+        "start_time": 53974,
+        "end_time": 63423
+      },
+      "9": {
+        "start_time": 63423,
+        "end_time": 69674
+      },
+      "10": {
+        "start_time": 69674,
+        "end_time": 74994
+      },
+      "11": {
+        "start_time": 74994,
+        "end_time": 81728
+      },
+      "12": {
+        "start_time": 81728,
+        "end_time": 86260
+      },
+      "13": {
+        "start_time": 86260,
+        "end_time": 91672
+      },
+      "14": {
+        "start_time": 91672,
+        "end_time": 99957
+      },
+      "15": {
+        "start_time": 99957,
+        "end_time": 108553
+      },
+      "16": {
+        "start_time": 108553,
+        "end_time": 116541
+      },
+      "17": {
+        "start_time": 116541,
+        "end_time": 121242
+      },
+      "18": {
+        "start_time": 121242,
+        "end_time": 126699
+      },
+      "19": {
+        "start_time": 126699,
+        "end_time": 137551
+      },
+      "20": {
+        "start_time": 137551,
+        "end_time": 143878
+      },
+      "21": {
+        "start_time": 143878,
+        "end_time": 156444
+      },
+      "22": {
+        "start_time": 156444,
+        "end_time": 172092
+      },
+      "23": {
+        "start_time": 172092,
+        "end_time": 177797
+      },
+      "24": {
+        "start_time": 177797,
+        "end_time": 184758
+      },
+      "25": {
+        "start_time": 184758,
+        "end_time": 191397
+      },
+      "26": {
+        "start_time": 191397,
+        "end_time": 198685
+      },
+      "27": {
+        "start_time": 198685,
+        "end_time": 206973
+      },
+      "28": {
+        "start_time": 206973,
+        "end_time": 218168
+      },
+      "29": {
+        "start_time": 218168,
+        "end_time": 225235
+      },
+      "30": {
+        "start_time": 225235,
+        "end_time": 230072
+      },
+      "31": {
+        "start_time": 230072,
+        "end_time": 236975
+      },
+      "32": {
+        "start_time": 236975,
+        "end_time": 243163
+      },
+      "33": {
+        "start_time": 243163,
+        "end_time": 251755
+      },
+      "34": {
+        "start_time": 251755,
+        "end_time": 255702
+      },
+      "35": {
+        "start_time": 255702,
+        "end_time": 260130
+      },
+      "36": {
+        "start_time": 260130,
+        "end_time": 265312
+      },
+      "37": {
+        "start_time": 265312,
+        "end_time": 268919
+      },
+      "38": {
+        "start_time": 268919,
+        "end_time": 271947
+      },
+      "39": {
+        "start_time": 271947,
+        "end_time": 281575
+      },
+      "40": {
+        "start_time": 281575,
+        "end_time": 285150
+      },
+      "41": {
+        "start_time": 285150,
+        "end_time": 289274
+      },
+      "42": {
+        "start_time": 289274,
+        "end_time": 297393
+      },
+      "43": {
+        "start_time": 297393,
+        "end_time": 302375
+      },
+      "44": {
+        "start_time": 302375,
+        "end_time": 309608
+      },
+      "45": {
+        "start_time": 309608,
+        "end_time": 315003
+      },
+      "46": {
+        "start_time": 315003,
+        "end_time": 318775
+      },
+      "47": {
+        "start_time": 318775,
+        "end_time": 328017
+      },
+      "48": {
+        "start_time": 328017,
+        "end_time": 334392
+      },
+      "49": {
+        "start_time": 334392,
+        "end_time": 340305
+      },
+      "50": {
+        "start_time": 340305,
+        "end_time": 344690
+      },
+      "51": {
+        "start_time": 344690,
+        "end_time": 348713
+      },
+      "52": {
+        "start_time": 348713,
+        "end_time": 355900
+      },
+      "53": {
+        "start_time": 355900,
+        "end_time": 361836
+      },
+      "54": {
+        "start_time": 361836,
+        "end_time": 370910
+      },
+      "55": {
+        "start_time": 370910,
+        "end_time": 377136
+      },
+      "56": {
+        "start_time": 377136,
+        "end_time": 385220
+      },
+      "57": {
+        "start_time": 385220,
+        "end_time": 389358
+      },
+      "58": {
+        "start_time": 389358,
+        "end_time": 397074
+      },
+      "59": {
+        "start_time": 397074,
+        "end_time": 403311
+      },
+      "60": {
+        "start_time": 403311,
+        "end_time": 410006
+      },
+      "61": {
+        "start_time": 410006,
+        "end_time": 414779
+      },
+      "62": {
+        "start_time": 414779,
+        "end_time": 419019
+      },
+      "63": {
+        "start_time": 419019,
+        "end_time": 423818
+      },
+      "64": {
+        "start_time": 423818,
+        "end_time": 428478
+      },
+      "65": {
+        "start_time": 428478,
+        "end_time": 440309
+      },
+      "66": {
+        "start_time": 440309,
+        "end_time": 451404
+      },
+      "67": {
+        "start_time": 451404,
+        "end_time": 456572
+      },
+      "68": {
+        "start_time": 456572,
+        "end_time": 462733
+      },
+      "69": {
+        "start_time": 462733,
+        "end_time": 465756
+      },
+      "70": {
+        "start_time": 465756,
+        "end_time": 469805
+      },
+      "71": {
+        "start_time": 469805,
+        "end_time": 477484
+      },
+      "72": {
+        "start_time": 477484,
+        "end_time": 482504
+      },
+      "73": {
+        "start_time": 482504,
+        "end_time": 485826
+      },
+      "74": {
+        "start_time": 485826,
+        "end_time": 494774
+      },
+      "75": {
+        "start_time": 494774,
+        "end_time": 499754
+      },
+      "76": {
+        "start_time": 499754,
+        "end_time": 503555
+      },
+      "77": {
+        "start_time": 503555,
+        "end_time": 508345
+      },
+      "78": {
+        "start_time": 508345,
+        "end_time": 512730
+      },
+      "79": {
+        "start_time": 512730,
+        "end_time": 519135
+      },
+      "80": {
+        "start_time": 519135,
+        "end_time": 523505
+      },
+      "81": {
+        "start_time": 523505,
+        "end_time": 528899
+      },
+      "82": {
+        "start_time": 528899,
+        "end_time": 534092
+      },
+      "83": {
+        "start_time": 534092,
+        "end_time": 537142
+      },
+      "84": {
+        "start_time": 537142,
+        "end_time": 542901
+      },
+      "85": {
+        "start_time": 542901,
+        "end_time": 557184
+      },
+      "86": {
+        "start_time": 557184,
+        "end_time": 561199
+      },
+      "87": {
+        "start_time": 561199,
+        "end_time": 567652
+      },
+      "88": {
+        "start_time": 567652,
+        "end_time": 581906
+      },
+      "89": {
+        "start_time": 581906,
+        "end_time": 586807
+      },
+      "90": {
+        "start_time": 586807,
+        "end_time": 591428
+      },
+      "91": {
+        "start_time": 591428,
+        "end_time": 594778
+      },
+      "92": {
+        "start_time": 594778,
+        "end_time": 598633
+      },
+      "93": {
+        "start_time": 598633,
+        "end_time": 601683
+      },
+      "94": {
+        "start_time": 601683,
+        "end_time": 606398
+      },
+      "95": {
+        "start_time": 606398,
+        "end_time": 610161
+      },
+      "96": {
+        "start_time": 610161,
+        "end_time": 617189
+      },
+      "97": {
+        "start_time": 617189,
+        "end_time": 623252
+      },
+      "98": {
+        "start_time": 623252,
+        "end_time": 628179
+      },
+      "99": {
+        "start_time": 628179,
+        "end_time": 634331
+      }
+    },
+    "folder_url": "https://server8.mp3quran.net/qasm/"
+  },
+  "علي بن عبدالرحمن الحذيفي - حفص عن عاصم": {
+    "reader_id": 74,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 6413
+      },
+      "1": {
+        "start_time": 6413,
+        "end_time": 19113
+      },
+      "2": {
+        "start_time": 19113,
+        "end_time": 26497
+      },
+      "3": {
+        "start_time": 26497,
+        "end_time": 35921
+      },
+      "4": {
+        "start_time": 35921,
+        "end_time": 47978
+      },
+      "5": {
+        "start_time": 47978,
+        "end_time": 55679
+      },
+      "6": {
+        "start_time": 55679,
+        "end_time": 67141
+      },
+      "7": {
+        "start_time": 67141,
+        "end_time": 78153
+      },
+      "8": {
+        "start_time": 78153,
+        "end_time": 91755
+      },
+      "9": {
+        "start_time": 91755,
+        "end_time": 100850
+      },
+      "10": {
+        "start_time": 100850,
+        "end_time": 108730
+      },
+      "11": {
+        "start_time": 108730,
+        "end_time": 117433
+      },
+      "12": {
+        "start_time": 117433,
+        "end_time": 123960
+      },
+      "13": {
+        "start_time": 123960,
+        "end_time": 132448
+      },
+      "14": {
+        "start_time": 132448,
+        "end_time": 144613
+      },
+      "15": {
+        "start_time": 144613,
+        "end_time": 156475
+      },
+      "16": {
+        "start_time": 156475,
+        "end_time": 169136
+      },
+      "17": {
+        "start_time": 169136,
+        "end_time": 176043
+      },
+      "18": {
+        "start_time": 176043,
+        "end_time": 184135
+      },
+      "19": {
+        "start_time": 184135,
+        "end_time": 197609
+      },
+      "20": {
+        "start_time": 197609,
+        "end_time": 205699
+      },
+      "21": {
+        "start_time": 205699,
+        "end_time": 221802
+      },
+      "22": {
+        "start_time": 221802,
+        "end_time": 245547
+      },
+      "23": {
+        "start_time": 245547,
+        "end_time": 253332
+      },
+      "24": {
+        "start_time": 253332,
+        "end_time": 262501
+      },
+      "25": {
+        "start_time": 262501,
+        "end_time": 272068
+      },
+      "26": {
+        "start_time": 272068,
+        "end_time": 282012
+      },
+      "27": {
+        "start_time": 282012,
+        "end_time": 294127
+      },
+      "28": {
+        "start_time": 294127,
+        "end_time": 310870
+      },
+      "29": {
+        "start_time": 310870,
+        "end_time": 320564
+      },
+      "30": {
+        "start_time": 320564,
+        "end_time": 328988
+      },
+      "31": {
+        "start_time": 328988,
+        "end_time": 339913
+      },
+      "32": {
+        "start_time": 339913,
+        "end_time": 349275
+      },
+      "33": {
+        "start_time": 349275,
+        "end_time": 360993
+      },
+      "34": {
+        "start_time": 360993,
+        "end_time": 367971
+      },
+      "35": {
+        "start_time": 367971,
+        "end_time": 374541
+      },
+      "36": {
+        "start_time": 374541,
+        "end_time": 384138
+      },
+      "37": {
+        "start_time": 384138,
+        "end_time": 390917
+      },
+      "38": {
+        "start_time": 390917,
+        "end_time": 396062
+      },
+      "39": {
+        "start_time": 396062,
+        "end_time": 409952
+      },
+      "40": {
+        "start_time": 409952,
+        "end_time": 415639
+      },
+      "41": {
+        "start_time": 415639,
+        "end_time": 422484
+      },
+      "42": {
+        "start_time": 422484,
+        "end_time": 432979
+      },
+      "43": {
+        "start_time": 432979,
+        "end_time": 440820
+      },
+      "44": {
+        "start_time": 440820,
+        "end_time": 450301
+      },
+      "45": {
+        "start_time": 450301,
+        "end_time": 458132
+      },
+      "46": {
+        "start_time": 458132,
+        "end_time": 463349
+      },
+      "47": {
+        "start_time": 463349,
+        "end_time": 474537
+      },
+      "48": {
+        "start_time": 474537,
+        "end_time": 483437
+      },
+      "49": {
+        "start_time": 483437,
+        "end_time": 492973
+      },
+      "50": {
+        "start_time": 492973,
+        "end_time": 499287
+      },
+      "51": {
+        "start_time": 499287,
+        "end_time": 505669
+      },
+      "52": {
+        "start_time": 505669,
+        "end_time": 517112
+      },
+      "53": {
+        "start_time": 517112,
+        "end_time": 524755
+      },
+      "54": {
+        "start_time": 524755,
+        "end_time": 535817
+      },
+      "55": {
+        "start_time": 535817,
+        "end_time": 543946
+      },
+      "56": {
+        "start_time": 543946,
+        "end_time": 558059
+      },
+      "57": {
+        "start_time": 558059,
+        "end_time": 564537
+      },
+      "58": {
+        "start_time": 564537,
+        "end_time": 576698
+      },
+      "59": {
+        "start_time": 576698,
+        "end_time": 586734
+      },
+      "60": {
+        "start_time": 586734,
+        "end_time": 596314
+      },
+      "61": {
+        "start_time": 596314,
+        "end_time": 604523
+      },
+      "62": {
+        "start_time": 604523,
+        "end_time": 611704
+      },
+      "63": {
+        "start_time": 611704,
+        "end_time": 618642
+      },
+      "64": {
+        "start_time": 618642,
+        "end_time": 625361
+      },
+      "65": {
+        "start_time": 625361,
+        "end_time": 641133
+      },
+      "66": {
+        "start_time": 641133,
+        "end_time": 657709
+      },
+      "67": {
+        "start_time": 657709,
+        "end_time": 665512
+      },
+      "68": {
+        "start_time": 665512,
+        "end_time": 675520
+      },
+      "69": {
+        "start_time": 675520,
+        "end_time": 680741
+      },
+      "70": {
+        "start_time": 680741,
+        "end_time": 687698
+      },
+      "71": {
+        "start_time": 687698,
+        "end_time": 699907
+      },
+      "72": {
+        "start_time": 699907,
+        "end_time": 706778
+      },
+      "73": {
+        "start_time": 706778,
+        "end_time": 712296
+      },
+      "74": {
+        "start_time": 712296,
+        "end_time": 723182
+      },
+      "75": {
+        "start_time": 723182,
+        "end_time": 731310
+      },
+      "76": {
+        "start_time": 731310,
+        "end_time": 737853
+      },
+      "77": {
+        "start_time": 737853,
+        "end_time": 744921
+      },
+      "78": {
+        "start_time": 744921,
+        "end_time": 751862
+      },
+      "79": {
+        "start_time": 751862,
+        "end_time": 761663
+      },
+      "80": {
+        "start_time": 761663,
+        "end_time": 768855
+      },
+      "81": {
+        "start_time": 768855,
+        "end_time": 777211
+      },
+      "82": {
+        "start_time": 777211,
+        "end_time": 784424
+      },
+      "83": {
+        "start_time": 784424,
+        "end_time": 790196
+      },
+      "84": {
+        "start_time": 790196,
+        "end_time": 799525
+      },
+      "85": {
+        "start_time": 799525,
+        "end_time": 818838
+      },
+      "86": {
+        "start_time": 818838,
+        "end_time": 825590
+      },
+      "87": {
+        "start_time": 825590,
+        "end_time": 835271
+      },
+      "88": {
+        "start_time": 835271,
+        "end_time": 856261
+      },
+      "89": {
+        "start_time": 856261,
+        "end_time": 864585
+      },
+      "90": {
+        "start_time": 864585,
+        "end_time": 872543
+      },
+      "91": {
+        "start_time": 872543,
+        "end_time": 878761
+      },
+      "92": {
+        "start_time": 878761,
+        "end_time": 886362
+      },
+      "93": {
+        "start_time": 886362,
+        "end_time": 891405
+      },
+      "94": {
+        "start_time": 891405,
+        "end_time": 897787
+      },
+      "95": {
+        "start_time": 897787,
+        "end_time": 903478
+      },
+      "96": {
+        "start_time": 903478,
+        "end_time": 912704
+      },
+      "97": {
+        "start_time": 912704,
+        "end_time": 921346
+      },
+      "98": {
+        "start_time": 921346,
+        "end_time": 928587
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/hthfi/"
+  },
+  "علي حجاج السويسي - حفص عن عاصم": {
+    "reader_id": 77,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4004
+      },
+      "1": {
+        "start_time": 4004,
+        "end_time": 17041
+      },
+      "2": {
+        "start_time": 17041,
+        "end_time": 24784
+      },
+      "3": {
+        "start_time": 24784,
+        "end_time": 35386
+      },
+      "4": {
+        "start_time": 35386,
+        "end_time": 46467
+      },
+      "5": {
+        "start_time": 46467,
+        "end_time": 55221
+      },
+      "6": {
+        "start_time": 55221,
+        "end_time": 65854
+      },
+      "7": {
+        "start_time": 65854,
+        "end_time": 77175
+      },
+      "8": {
+        "start_time": 77175,
+        "end_time": 90948
+      },
+      "9": {
+        "start_time": 90948,
+        "end_time": 100470
+      },
+      "10": {
+        "start_time": 100470,
+        "end_time": 108813
+      },
+      "11": {
+        "start_time": 108813,
+        "end_time": 119132
+      },
+      "12": {
+        "start_time": 119132,
+        "end_time": 126258
+      },
+      "13": {
+        "start_time": 126258,
+        "end_time": 135090
+      },
+      "14": {
+        "start_time": 135090,
+        "end_time": 151460
+      },
+      "15": {
+        "start_time": 151460,
+        "end_time": 162935
+      },
+      "16": {
+        "start_time": 162935,
+        "end_time": 176059
+      },
+      "17": {
+        "start_time": 176059,
+        "end_time": 183710
+      },
+      "18": {
+        "start_time": 183710,
+        "end_time": 192692
+      },
+      "19": {
+        "start_time": 192692,
+        "end_time": 208215
+      },
+      "20": {
+        "start_time": 208215,
+        "end_time": 217903
+      },
+      "21": {
+        "start_time": 217903,
+        "end_time": 235608
+      },
+      "22": {
+        "start_time": 235608,
+        "end_time": 256572
+      },
+      "23": {
+        "start_time": 256572,
+        "end_time": 264438
+      },
+      "24": {
+        "start_time": 264438,
+        "end_time": 275500
+      },
+      "25": {
+        "start_time": 275500,
+        "end_time": 286013
+      },
+      "26": {
+        "start_time": 286013,
+        "end_time": 297566
+      },
+      "27": {
+        "start_time": 297566,
+        "end_time": 309278
+      },
+      "28": {
+        "start_time": 309278,
+        "end_time": 326603
+      },
+      "29": {
+        "start_time": 326603,
+        "end_time": 337425
+      },
+      "30": {
+        "start_time": 337425,
+        "end_time": 345169
+      },
+      "31": {
+        "start_time": 345169,
+        "end_time": 353781
+      },
+      "32": {
+        "start_time": 353781,
+        "end_time": 362369
+      },
+      "33": {
+        "start_time": 362369,
+        "end_time": 376325
+      },
+      "34": {
+        "start_time": 376325,
+        "end_time": 382992
+      },
+      "35": {
+        "start_time": 382992,
+        "end_time": 390318
+      },
+      "36": {
+        "start_time": 390318,
+        "end_time": 398031
+      },
+      "37": {
+        "start_time": 398031,
+        "end_time": 410665
+      },
+      "38": {
+        "start_time": 410665,
+        "end_time": 415574
+      },
+      "39": {
+        "start_time": 415574,
+        "end_time": 430189
+      },
+      "40": {
+        "start_time": 430189,
+        "end_time": 436962
+      },
+      "41": {
+        "start_time": 436962,
+        "end_time": 443417
+      },
+      "42": {
+        "start_time": 443417,
+        "end_time": 455751
+      },
+      "43": {
+        "start_time": 455751,
+        "end_time": 463272
+      },
+      "44": {
+        "start_time": 463272,
+        "end_time": 475978
+      },
+      "45": {
+        "start_time": 475978,
+        "end_time": 484600
+      },
+      "46": {
+        "start_time": 484600,
+        "end_time": 490624
+      },
+      "47": {
+        "start_time": 490624,
+        "end_time": 503356
+      },
+      "48": {
+        "start_time": 503356,
+        "end_time": 513972
+      },
+      "49": {
+        "start_time": 513972,
+        "end_time": 521987
+      },
+      "50": {
+        "start_time": 521987,
+        "end_time": 528634
+      },
+      "51": {
+        "start_time": 528634,
+        "end_time": 535245
+      },
+      "52": {
+        "start_time": 535245,
+        "end_time": 547562
+      },
+      "53": {
+        "start_time": 547562,
+        "end_time": 558124
+      },
+      "54": {
+        "start_time": 558124,
+        "end_time": 570136
+      },
+      "55": {
+        "start_time": 570136,
+        "end_time": 579457
+      },
+      "56": {
+        "start_time": 579457,
+        "end_time": 590306
+      },
+      "57": {
+        "start_time": 590306,
+        "end_time": 596527
+      },
+      "58": {
+        "start_time": 596527,
+        "end_time": 605269
+      },
+      "59": {
+        "start_time": 605269,
+        "end_time": 619475
+      },
+      "60": {
+        "start_time": 619475,
+        "end_time": 628599
+      },
+      "61": {
+        "start_time": 628599,
+        "end_time": 644195
+      },
+      "62": {
+        "start_time": 644195,
+        "end_time": 651436
+      },
+      "63": {
+        "start_time": 651436,
+        "end_time": 658600
+      },
+      "64": {
+        "start_time": 658600,
+        "end_time": 666555
+      },
+      "65": {
+        "start_time": 666555,
+        "end_time": 683777
+      },
+      "66": {
+        "start_time": 683777,
+        "end_time": 697505
+      },
+      "67": {
+        "start_time": 697505,
+        "end_time": 704557
+      },
+      "68": {
+        "start_time": 704557,
+        "end_time": 713670
+      },
+      "69": {
+        "start_time": 713670,
+        "end_time": 718725
+      },
+      "70": {
+        "start_time": 718725,
+        "end_time": 725288
+      },
+      "71": {
+        "start_time": 725288,
+        "end_time": 735253
+      },
+      "72": {
+        "start_time": 735253,
+        "end_time": 742854
+      },
+      "73": {
+        "start_time": 742854,
+        "end_time": 748607
+      },
+      "74": {
+        "start_time": 748607,
+        "end_time": 761595
+      },
+      "75": {
+        "start_time": 761595,
+        "end_time": 769450
+      },
+      "76": {
+        "start_time": 769450,
+        "end_time": 775882
+      },
+      "77": {
+        "start_time": 775882,
+        "end_time": 783164
+      },
+      "78": {
+        "start_time": 783164,
+        "end_time": 790325
+      },
+      "79": {
+        "start_time": 790325,
+        "end_time": 801781
+      },
+      "80": {
+        "start_time": 801781,
+        "end_time": 808758
+      },
+      "81": {
+        "start_time": 808758,
+        "end_time": 817993
+      },
+      "82": {
+        "start_time": 817993,
+        "end_time": 825960
+      },
+      "83": {
+        "start_time": 825960,
+        "end_time": 831400
+      },
+      "84": {
+        "start_time": 831400,
+        "end_time": 839176
+      },
+      "85": {
+        "start_time": 839176,
+        "end_time": 859279
+      },
+      "86": {
+        "start_time": 859279,
+        "end_time": 865861
+      },
+      "87": {
+        "start_time": 865861,
+        "end_time": 876651
+      },
+      "88": {
+        "start_time": 876651,
+        "end_time": 896682
+      },
+      "89": {
+        "start_time": 896682,
+        "end_time": 903983
+      },
+      "90": {
+        "start_time": 903983,
+        "end_time": 910395
+      },
+      "91": {
+        "start_time": 910395,
+        "end_time": 916516
+      },
+      "92": {
+        "start_time": 916516,
+        "end_time": 929255
+      },
+      "93": {
+        "start_time": 929255,
+        "end_time": 934313
+      },
+      "94": {
+        "start_time": 934313,
+        "end_time": 941619
+      },
+      "95": {
+        "start_time": 941619,
+        "end_time": 948073
+      },
+      "96": {
+        "start_time": 948073,
+        "end_time": 959374
+      },
+      "97": {
+        "start_time": 959374,
+        "end_time": 968241
+      },
+      "98": {
+        "start_time": 968241,
+        "end_time": 977276
+      },
+      "99": {
+        "start_time": 977276,
+        "end_time": 983415
+      }
+    },
+    "folder_url": "https://server9.mp3quran.net/hajjaj/"
+  },
+  "عماد زهير حافظ - حفص عن عاصم": {
+    "reader_id": 78,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 8576
+      },
+      "1": {
+        "start_time": 8576,
+        "end_time": 21700
+      },
+      "2": {
+        "start_time": 21700,
+        "end_time": 29867
+      },
+      "3": {
+        "start_time": 29867,
+        "end_time": 39928
+      },
+      "4": {
+        "start_time": 39928,
+        "end_time": 50036
+      },
+      "5": {
+        "start_time": 50036,
+        "end_time": 58709
+      },
+      "6": {
+        "start_time": 58709,
+        "end_time": 68857
+      },
+      "7": {
+        "start_time": 68857,
+        "end_time": 79987
+      },
+      "8": {
+        "start_time": 79987,
+        "end_time": 92590
+      },
+      "9": {
+        "start_time": 92590,
+        "end_time": 102175
+      },
+      "10": {
+        "start_time": 102175,
+        "end_time": 110713
+      },
+      "11": {
+        "start_time": 110713,
+        "end_time": 120641
+      },
+      "12": {
+        "start_time": 120641,
+        "end_time": 127608
+      },
+      "13": {
+        "start_time": 127608,
+        "end_time": 136429
+      },
+      "14": {
+        "start_time": 136429,
+        "end_time": 148956
+      },
+      "15": {
+        "start_time": 148956,
+        "end_time": 160153
+      },
+      "16": {
+        "start_time": 160153,
+        "end_time": 172715
+      },
+      "17": {
+        "start_time": 172715,
+        "end_time": 180440
+      },
+      "18": {
+        "start_time": 180440,
+        "end_time": 189316
+      },
+      "19": {
+        "start_time": 189316,
+        "end_time": 203187
+      },
+      "20": {
+        "start_time": 203187,
+        "end_time": 212606
+      },
+      "21": {
+        "start_time": 212606,
+        "end_time": 228337
+      },
+      "22": {
+        "start_time": 228337,
+        "end_time": 252477
+      },
+      "23": {
+        "start_time": 252477,
+        "end_time": 261204
+      },
+      "24": {
+        "start_time": 261204,
+        "end_time": 271330
+      },
+      "25": {
+        "start_time": 271330,
+        "end_time": 281860
+      },
+      "26": {
+        "start_time": 281860,
+        "end_time": 293007
+      },
+      "27": {
+        "start_time": 293007,
+        "end_time": 305211
+      },
+      "28": {
+        "start_time": 305211,
+        "end_time": 321903
+      },
+      "29": {
+        "start_time": 321903,
+        "end_time": 331988
+      },
+      "30": {
+        "start_time": 331988,
+        "end_time": 339949
+      },
+      "31": {
+        "start_time": 339949,
+        "end_time": 348571
+      },
+      "32": {
+        "start_time": 348571,
+        "end_time": 357036
+      },
+      "33": {
+        "start_time": 357036,
+        "end_time": 369443
+      },
+      "34": {
+        "start_time": 369443,
+        "end_time": 376370
+      },
+      "35": {
+        "start_time": 376370,
+        "end_time": 384150
+      },
+      "36": {
+        "start_time": 384150,
+        "end_time": 391708
+      },
+      "37": {
+        "start_time": 391708,
+        "end_time": 398134
+      },
+      "38": {
+        "start_time": 398134,
+        "end_time": 403632
+      },
+      "39": {
+        "start_time": 403632,
+        "end_time": 416143
+      },
+      "40": {
+        "start_time": 416143,
+        "end_time": 422676
+      },
+      "41": {
+        "start_time": 422676,
+        "end_time": 429409
+      },
+      "42": {
+        "start_time": 429409,
+        "end_time": 440792
+      },
+      "43": {
+        "start_time": 440792,
+        "end_time": 448522
+      },
+      "44": {
+        "start_time": 448522,
+        "end_time": 459124
+      },
+      "45": {
+        "start_time": 459124,
+        "end_time": 467492
+      },
+      "46": {
+        "start_time": 467492,
+        "end_time": 473866
+      },
+      "47": {
+        "start_time": 473866,
+        "end_time": 485992
+      },
+      "48": {
+        "start_time": 485992,
+        "end_time": 499294
+      },
+      "49": {
+        "start_time": 499294,
+        "end_time": 507273
+      },
+      "50": {
+        "start_time": 507273,
+        "end_time": 514308
+      },
+      "51": {
+        "start_time": 514308,
+        "end_time": 521229
+      },
+      "52": {
+        "start_time": 521229,
+        "end_time": 531994
+      },
+      "53": {
+        "start_time": 531994,
+        "end_time": 540673
+      },
+      "54": {
+        "start_time": 540673,
+        "end_time": 550672
+      },
+      "55": {
+        "start_time": 550672,
+        "end_time": 560014
+      },
+      "56": {
+        "start_time": 560014,
+        "end_time": 571843
+      },
+      "57": {
+        "start_time": 571843,
+        "end_time": 578431
+      },
+      "58": {
+        "start_time": 578431,
+        "end_time": 586690
+      },
+      "59": {
+        "start_time": 586690,
+        "end_time": 595088
+      },
+      "60": {
+        "start_time": 595088,
+        "end_time": 603988
+      },
+      "61": {
+        "start_time": 603988,
+        "end_time": 612285
+      },
+      "62": {
+        "start_time": 612285,
+        "end_time": 620094
+      },
+      "63": {
+        "start_time": 620094,
+        "end_time": 627814
+      },
+      "64": {
+        "start_time": 627814,
+        "end_time": 635591
+      },
+      "65": {
+        "start_time": 635591,
+        "end_time": 654577
+      },
+      "66": {
+        "start_time": 654577,
+        "end_time": 668128
+      },
+      "67": {
+        "start_time": 668128,
+        "end_time": 675753
+      },
+      "68": {
+        "start_time": 675753,
+        "end_time": 684643
+      },
+      "69": {
+        "start_time": 684643,
+        "end_time": 690148
+      },
+      "70": {
+        "start_time": 690148,
+        "end_time": 696666
+      },
+      "71": {
+        "start_time": 696666,
+        "end_time": 706392
+      },
+      "72": {
+        "start_time": 706392,
+        "end_time": 714085
+      },
+      "73": {
+        "start_time": 714085,
+        "end_time": 720287
+      },
+      "74": {
+        "start_time": 720287,
+        "end_time": 732212
+      },
+      "75": {
+        "start_time": 732212,
+        "end_time": 740208
+      },
+      "76": {
+        "start_time": 740208,
+        "end_time": 747388
+      },
+      "77": {
+        "start_time": 747388,
+        "end_time": 754978
+      },
+      "78": {
+        "start_time": 754978,
+        "end_time": 762539
+      },
+      "79": {
+        "start_time": 762539,
+        "end_time": 772250
+      },
+      "80": {
+        "start_time": 772250,
+        "end_time": 779237
+      },
+      "81": {
+        "start_time": 779237,
+        "end_time": 787772
+      },
+      "82": {
+        "start_time": 787772,
+        "end_time": 795750
+      },
+      "83": {
+        "start_time": 795750,
+        "end_time": 801869
+      },
+      "84": {
+        "start_time": 801869,
+        "end_time": 809343
+      },
+      "85": {
+        "start_time": 809343,
+        "end_time": 826839
+      },
+      "86": {
+        "start_time": 826839,
+        "end_time": 833478
+      },
+      "87": {
+        "start_time": 833478,
+        "end_time": 843647
+      },
+      "88": {
+        "start_time": 843647,
+        "end_time": 859825
+      },
+      "89": {
+        "start_time": 859825,
+        "end_time": 866734
+      },
+      "90": {
+        "start_time": 866734,
+        "end_time": 873123
+      },
+      "91": {
+        "start_time": 873123,
+        "end_time": 879270
+      },
+      "92": {
+        "start_time": 879270,
+        "end_time": 886045
+      },
+      "93": {
+        "start_time": 886045,
+        "end_time": 892015
+      },
+      "94": {
+        "start_time": 892015,
+        "end_time": 899877
+      },
+      "95": {
+        "start_time": 899877,
+        "end_time": 906255
+      },
+      "96": {
+        "start_time": 906255,
+        "end_time": 915928
+      },
+      "97": {
+        "start_time": 915928,
+        "end_time": 924492
+      },
+      "98": {
+        "start_time": 924492,
+        "end_time": 932675
+      },
+      "99": {
+        "start_time": 932675,
+        "end_time": 941140
+      }
+    },
+    "folder_url": "https://server6.mp3quran.net/hafz/"
+  },
+  "محمد الطبلاوي - حفص عن عاصم": {
+    "reader_id": 106,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 5626
+      },
+      "1": {
+        "start_time": 5626,
+        "end_time": 18136
+      },
+      "2": {
+        "start_time": 18136,
+        "end_time": 25087
+      },
+      "3": {
+        "start_time": 25087,
+        "end_time": 34558
+      },
+      "4": {
+        "start_time": 34558,
+        "end_time": 44849
+      },
+      "5": {
+        "start_time": 44849,
+        "end_time": 52439
+      },
+      "6": {
+        "start_time": 52439,
+        "end_time": 62492
+      },
+      "7": {
+        "start_time": 62492,
+        "end_time": 72594
+      },
+      "8": {
+        "start_time": 72594,
+        "end_time": 85726
+      },
+      "9": {
+        "start_time": 85726,
+        "end_time": 94008
+      },
+      "10": {
+        "start_time": 94008,
+        "end_time": 101558
+      },
+      "11": {
+        "start_time": 101558,
+        "end_time": 110629
+      },
+      "12": {
+        "start_time": 110629,
+        "end_time": 117119
+      },
+      "13": {
+        "start_time": 117119,
+        "end_time": 124779
+      },
+      "14": {
+        "start_time": 124779,
+        "end_time": 136360
+      },
+      "15": {
+        "start_time": 136360,
+        "end_time": 148281
+      },
+      "16": {
+        "start_time": 148281,
+        "end_time": 159831
+      },
+      "17": {
+        "start_time": 159831,
+        "end_time": 166812
+      },
+      "18": {
+        "start_time": 166812,
+        "end_time": 174812
+      },
+      "19": {
+        "start_time": 174812,
+        "end_time": 188453
+      },
+      "20": {
+        "start_time": 188453,
+        "end_time": 196965
+      },
+      "21": {
+        "start_time": 196965,
+        "end_time": 211645
+      },
+      "22": {
+        "start_time": 211645,
+        "end_time": 230706
+      },
+      "23": {
+        "start_time": 230706,
+        "end_time": 238737
+      },
+      "24": {
+        "start_time": 238737,
+        "end_time": 247878
+      },
+      "25": {
+        "start_time": 247878,
+        "end_time": 256722
+      },
+      "26": {
+        "start_time": 256722,
+        "end_time": 268200
+      },
+      "27": {
+        "start_time": 268200,
+        "end_time": 278800
+      },
+      "28": {
+        "start_time": 278800,
+        "end_time": 294625
+      },
+      "29": {
+        "start_time": 294625,
+        "end_time": 303616
+      },
+      "30": {
+        "start_time": 303616,
+        "end_time": 310697
+      },
+      "31": {
+        "start_time": 310697,
+        "end_time": 320849
+      },
+      "32": {
+        "start_time": 320849,
+        "end_time": 329790
+      },
+      "33": {
+        "start_time": 329790,
+        "end_time": 341611
+      },
+      "34": {
+        "start_time": 341611,
+        "end_time": 348001
+      },
+      "35": {
+        "start_time": 348001,
+        "end_time": 354793
+      },
+      "36": {
+        "start_time": 354793,
+        "end_time": 363500
+      },
+      "37": {
+        "start_time": 363500,
+        "end_time": 369704
+      },
+      "38": {
+        "start_time": 369704,
+        "end_time": 374575
+      },
+      "39": {
+        "start_time": 374575,
+        "end_time": 387645
+      },
+      "40": {
+        "start_time": 387645,
+        "end_time": 393426
+      },
+      "41": {
+        "start_time": 393426,
+        "end_time": 399706
+      },
+      "42": {
+        "start_time": 399706,
+        "end_time": 409817
+      },
+      "43": {
+        "start_time": 409817,
+        "end_time": 416200
+      },
+      "44": {
+        "start_time": 416200,
+        "end_time": 425168
+      },
+      "45": {
+        "start_time": 425168,
+        "end_time": 433100
+      },
+      "46": {
+        "start_time": 433100,
+        "end_time": 438288
+      },
+      "47": {
+        "start_time": 438288,
+        "end_time": 449399
+      },
+      "48": {
+        "start_time": 449399,
+        "end_time": 458919
+      },
+      "49": {
+        "start_time": 458919,
+        "end_time": 468240
+      },
+      "50": {
+        "start_time": 468240,
+        "end_time": 473960
+      },
+      "51": {
+        "start_time": 473960,
+        "end_time": 479601
+      },
+      "52": {
+        "start_time": 479601,
+        "end_time": 489266
+      },
+      "53": {
+        "start_time": 489266,
+        "end_time": 497107
+      },
+      "54": {
+        "start_time": 497107,
+        "end_time": 508197
+      },
+      "55": {
+        "start_time": 508197,
+        "end_time": 516848
+      },
+      "56": {
+        "start_time": 516848,
+        "end_time": 529003
+      },
+      "57": {
+        "start_time": 529003,
+        "end_time": 534834
+      },
+      "58": {
+        "start_time": 534834,
+        "end_time": 546600
+      },
+      "59": {
+        "start_time": 546600,
+        "end_time": 555500
+      },
+      "60": {
+        "start_time": 555500,
+        "end_time": 565089
+      },
+      "61": {
+        "start_time": 565089,
+        "end_time": 573129
+      },
+      "62": {
+        "start_time": 573129,
+        "end_time": 580400
+      },
+      "63": {
+        "start_time": 580400,
+        "end_time": 588220
+      },
+      "64": {
+        "start_time": 588220,
+        "end_time": 595673
+      },
+      "65": {
+        "start_time": 595673,
+        "end_time": 610525
+      },
+      "66": {
+        "start_time": 610525,
+        "end_time": 624856
+      },
+      "67": {
+        "start_time": 624856,
+        "end_time": 631737
+      },
+      "68": {
+        "start_time": 631737,
+        "end_time": 641077
+      },
+      "69": {
+        "start_time": 641077,
+        "end_time": 645958
+      },
+      "70": {
+        "start_time": 645958,
+        "end_time": 652548
+      },
+      "71": {
+        "start_time": 652548,
+        "end_time": 663639
+      },
+      "72": {
+        "start_time": 663639,
+        "end_time": 671089
+      },
+      "73": {
+        "start_time": 671089,
+        "end_time": 677039
+      },
+      "74": {
+        "start_time": 677039,
+        "end_time": 688110
+      },
+      "75": {
+        "start_time": 688110,
+        "end_time": 695230
+      },
+      "76": {
+        "start_time": 695230,
+        "end_time": 701061
+      },
+      "77": {
+        "start_time": 701061,
+        "end_time": 707751
+      },
+      "78": {
+        "start_time": 707751,
+        "end_time": 714631
+      },
+      "79": {
+        "start_time": 714631,
+        "end_time": 723012
+      },
+      "80": {
+        "start_time": 723012,
+        "end_time": 729472
+      },
+      "81": {
+        "start_time": 729472,
+        "end_time": 737350
+      },
+      "82": {
+        "start_time": 737350,
+        "end_time": 744383
+      },
+      "83": {
+        "start_time": 744383,
+        "end_time": 749403
+      },
+      "84": {
+        "start_time": 749403,
+        "end_time": 757475
+      },
+      "85": {
+        "start_time": 757475,
+        "end_time": 774307
+      },
+      "86": {
+        "start_time": 774307,
+        "end_time": 780447
+      },
+      "87": {
+        "start_time": 780447,
+        "end_time": 789648
+      },
+      "88": {
+        "start_time": 789648,
+        "end_time": 806159
+      },
+      "89": {
+        "start_time": 806159,
+        "end_time": 814269
+      },
+      "90": {
+        "start_time": 814269,
+        "end_time": 821220
+      },
+      "91": {
+        "start_time": 821220,
+        "end_time": 826590
+      },
+      "92": {
+        "start_time": 826590,
+        "end_time": 832600
+      },
+      "93": {
+        "start_time": 832600,
+        "end_time": 837792
+      },
+      "94": {
+        "start_time": 837792,
+        "end_time": 845003
+      },
+      "95": {
+        "start_time": 845003,
+        "end_time": 851193
+      },
+      "96": {
+        "start_time": 851193,
+        "end_time": 860085
+      },
+      "97": {
+        "start_time": 860085,
+        "end_time": 868000
+      },
+      "98": {
+        "start_time": 868000,
+        "end_time": 875346
+      },
+      "99": {
+        "start_time": 875346,
+        "end_time": 881782
+      }
+    },
+    "folder_url": "https://server12.mp3quran.net/tblawi/"
+  },
+  "محمد صديق المنشاوي - حفص عن عاصم": {
+    "reader_id": 112,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 4604
+      },
+      "1": {
+        "start_time": 4604,
+        "end_time": 16558
+      },
+      "2": {
+        "start_time": 16558,
+        "end_time": 23310
+      },
+      "3": {
+        "start_time": 23310,
+        "end_time": 32125
+      },
+      "4": {
+        "start_time": 32125,
+        "end_time": 42560
+      },
+      "5": {
+        "start_time": 42560,
+        "end_time": 50720
+      },
+      "6": {
+        "start_time": 50720,
+        "end_time": 61467
+      },
+      "7": {
+        "start_time": 61467,
+        "end_time": 71596
+      },
+      "8": {
+        "start_time": 71596,
+        "end_time": 84468
+      },
+      "9": {
+        "start_time": 84468,
+        "end_time": 94158
+      },
+      "10": {
+        "start_time": 94158,
+        "end_time": 102218
+      },
+      "11": {
+        "start_time": 102218,
+        "end_time": 111218
+      },
+      "12": {
+        "start_time": 111218,
+        "end_time": 117719
+      },
+      "13": {
+        "start_time": 117719,
+        "end_time": 125909
+      },
+      "14": {
+        "start_time": 125909,
+        "end_time": 137035
+      },
+      "15": {
+        "start_time": 137035,
+        "end_time": 148851
+      },
+      "16": {
+        "start_time": 148851,
+        "end_time": 160972
+      },
+      "17": {
+        "start_time": 160972,
+        "end_time": 167536
+      },
+      "18": {
+        "start_time": 167536,
+        "end_time": 175724
+      },
+      "19": {
+        "start_time": 175724,
+        "end_time": 190097
+      },
+      "20": {
+        "start_time": 190097,
+        "end_time": 199287
+      },
+      "21": {
+        "start_time": 199287,
+        "end_time": 215663
+      },
+      "22": {
+        "start_time": 215663,
+        "end_time": 235036
+      },
+      "23": {
+        "start_time": 235036,
+        "end_time": 244039
+      },
+      "24": {
+        "start_time": 244039,
+        "end_time": 254537
+      },
+      "25": {
+        "start_time": 254537,
+        "end_time": 263726
+      },
+      "26": {
+        "start_time": 263726,
+        "end_time": 274413
+      },
+      "27": {
+        "start_time": 274413,
+        "end_time": 284539
+      },
+      "28": {
+        "start_time": 284539,
+        "end_time": 300541
+      },
+      "29": {
+        "start_time": 300541,
+        "end_time": 311538
+      },
+      "30": {
+        "start_time": 311538,
+        "end_time": 318163
+      },
+      "31": {
+        "start_time": 318163,
+        "end_time": 327478
+      },
+      "32": {
+        "start_time": 327478,
+        "end_time": 336667
+      },
+      "33": {
+        "start_time": 336667,
+        "end_time": 348103
+      },
+      "34": {
+        "start_time": 348103,
+        "end_time": 353979
+      },
+      "35": {
+        "start_time": 353979,
+        "end_time": 359853
+      },
+      "36": {
+        "start_time": 359853,
+        "end_time": 368042
+      },
+      "37": {
+        "start_time": 368042,
+        "end_time": 373769
+      },
+      "38": {
+        "start_time": 373769,
+        "end_time": 378458
+      },
+      "39": {
+        "start_time": 378458,
+        "end_time": 392272
+      },
+      "40": {
+        "start_time": 392272,
+        "end_time": 397831
+      },
+      "41": {
+        "start_time": 397831,
+        "end_time": 403584
+      },
+      "42": {
+        "start_time": 403584,
+        "end_time": 414582
+      },
+      "43": {
+        "start_time": 414582,
+        "end_time": 420895
+      },
+      "44": {
+        "start_time": 420895,
+        "end_time": 429707
+      },
+      "45": {
+        "start_time": 429707,
+        "end_time": 437460
+      },
+      "46": {
+        "start_time": 437460,
+        "end_time": 442334
+      },
+      "47": {
+        "start_time": 442334,
+        "end_time": 454146
+      },
+      "48": {
+        "start_time": 454146,
+        "end_time": 462770
+      },
+      "49": {
+        "start_time": 462770,
+        "end_time": 471835
+      },
+      "50": {
+        "start_time": 471835,
+        "end_time": 477520
+      },
+      "51": {
+        "start_time": 477520,
+        "end_time": 483086
+      },
+      "52": {
+        "start_time": 483086,
+        "end_time": 492960
+      },
+      "53": {
+        "start_time": 492960,
+        "end_time": 500960
+      },
+      "54": {
+        "start_time": 500960,
+        "end_time": 511208
+      },
+      "55": {
+        "start_time": 511208,
+        "end_time": 519645
+      },
+      "56": {
+        "start_time": 519645,
+        "end_time": 531645
+      },
+      "57": {
+        "start_time": 531645,
+        "end_time": 537646
+      },
+      "58": {
+        "start_time": 537646,
+        "end_time": 548836
+      },
+      "59": {
+        "start_time": 548836,
+        "end_time": 558147
+      },
+      "60": {
+        "start_time": 558147,
+        "end_time": 567916
+      },
+      "61": {
+        "start_time": 567916,
+        "end_time": 574913
+      },
+      "62": {
+        "start_time": 574913,
+        "end_time": 580979
+      },
+      "63": {
+        "start_time": 580979,
+        "end_time": 587600
+      },
+      "64": {
+        "start_time": 587600,
+        "end_time": 593979
+      },
+      "65": {
+        "start_time": 593979,
+        "end_time": 609351
+      },
+      "66": {
+        "start_time": 609351,
+        "end_time": 622041
+      },
+      "67": {
+        "start_time": 622041,
+        "end_time": 628791
+      },
+      "68": {
+        "start_time": 628791,
+        "end_time": 636976
+      },
+      "69": {
+        "start_time": 636976,
+        "end_time": 641227
+      },
+      "70": {
+        "start_time": 641227,
+        "end_time": 647226
+      },
+      "71": {
+        "start_time": 647226,
+        "end_time": 657479
+      },
+      "72": {
+        "start_time": 657479,
+        "end_time": 664415
+      },
+      "73": {
+        "start_time": 664415,
+        "end_time": 668601
+      },
+      "74": {
+        "start_time": 668601,
+        "end_time": 679477
+      },
+      "75": {
+        "start_time": 679477,
+        "end_time": 686186
+      },
+      "76": {
+        "start_time": 686186,
+        "end_time": 691370
+      },
+      "77": {
+        "start_time": 691370,
+        "end_time": 697371
+      },
+      "78": {
+        "start_time": 697371,
+        "end_time": 703184
+      },
+      "79": {
+        "start_time": 703184,
+        "end_time": 711497
+      },
+      "80": {
+        "start_time": 711497,
+        "end_time": 717060
+      },
+      "81": {
+        "start_time": 717060,
+        "end_time": 723997
+      },
+      "82": {
+        "start_time": 723997,
+        "end_time": 730559
+      },
+      "83": {
+        "start_time": 730559,
+        "end_time": 734873
+      },
+      "84": {
+        "start_time": 734873,
+        "end_time": 741622
+      },
+      "85": {
+        "start_time": 741622,
+        "end_time": 759934
+      },
+      "86": {
+        "start_time": 759934,
+        "end_time": 765376
+      },
+      "87": {
+        "start_time": 765376,
+        "end_time": 774310
+      },
+      "88": {
+        "start_time": 774310,
+        "end_time": 790562
+      },
+      "89": {
+        "start_time": 790562,
+        "end_time": 797875
+      },
+      "90": {
+        "start_time": 797875,
+        "end_time": 804187
+      },
+      "91": {
+        "start_time": 804187,
+        "end_time": 808814
+      },
+      "92": {
+        "start_time": 808814,
+        "end_time": 814249
+      },
+      "93": {
+        "start_time": 814249,
+        "end_time": 818126
+      },
+      "94": {
+        "start_time": 818126,
+        "end_time": 823936
+      },
+      "95": {
+        "start_time": 823936,
+        "end_time": 829127
+      },
+      "96": {
+        "start_time": 829127,
+        "end_time": 837720
+      },
+      "97": {
+        "start_time": 837720,
+        "end_time": 844969
+      },
+      "98": {
+        "start_time": 844969,
+        "end_time": 851532
+      },
+      "99": {
+        "start_time": 851532,
+        "end_time": 856845
+      }
+    },
+    "folder_url": "https://server10.mp3quran.net/minsh/"
+  },
+  "محمود خليل الحصري - حفص عن عاصم": {
+    "reader_id": 118,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 15606
+      },
+      "1": {
+        "start_time": 15606,
+        "end_time": 35332
+      },
+      "2": {
+        "start_time": 35332,
+        "end_time": 48396
+      },
+      "3": {
+        "start_time": 48396,
+        "end_time": 65938
+      },
+      "4": {
+        "start_time": 65938,
+        "end_time": 82752
+      },
+      "5": {
+        "start_time": 82752,
+        "end_time": 95334
+      },
+      "6": {
+        "start_time": 95334,
+        "end_time": 111454
+      },
+      "7": {
+        "start_time": 111454,
+        "end_time": 128582
+      },
+      "8": {
+        "start_time": 128582,
+        "end_time": 147398
+      },
+      "9": {
+        "start_time": 147398,
+        "end_time": 166696
+      },
+      "10": {
+        "start_time": 166696,
+        "end_time": 175432
+      },
+      "11": {
+        "start_time": 175432,
+        "end_time": 187546
+      },
+      "12": {
+        "start_time": 187546,
+        "end_time": 195214
+      },
+      "13": {
+        "start_time": 195214,
+        "end_time": 204073
+      },
+      "14": {
+        "start_time": 204073,
+        "end_time": 218288
+      },
+      "15": {
+        "start_time": 218288,
+        "end_time": 231546
+      },
+      "16": {
+        "start_time": 231546,
+        "end_time": 246240
+      },
+      "17": {
+        "start_time": 246240,
+        "end_time": 254844
+      },
+      "18": {
+        "start_time": 254844,
+        "end_time": 264658
+      },
+      "19": {
+        "start_time": 264658,
+        "end_time": 284570
+      },
+      "20": {
+        "start_time": 284570,
+        "end_time": 298258
+      },
+      "21": {
+        "start_time": 298258,
+        "end_time": 320085
+      },
+      "22": {
+        "start_time": 320085,
+        "end_time": 345679
+      },
+      "23": {
+        "start_time": 345679,
+        "end_time": 357632
+      },
+      "24": {
+        "start_time": 357632,
+        "end_time": 371338
+      },
+      "25": {
+        "start_time": 371338,
+        "end_time": 385444
+      },
+      "26": {
+        "start_time": 385444,
+        "end_time": 399559
+      },
+      "27": {
+        "start_time": 399559,
+        "end_time": 415533
+      },
+      "28": {
+        "start_time": 415533,
+        "end_time": 437980
+      },
+      "29": {
+        "start_time": 437980,
+        "end_time": 451362
+      },
+      "30": {
+        "start_time": 451362,
+        "end_time": 461080
+      },
+      "31": {
+        "start_time": 461080,
+        "end_time": 475164
+      },
+      "32": {
+        "start_time": 475164,
+        "end_time": 487861
+      },
+      "33": {
+        "start_time": 487861,
+        "end_time": 504001
+      },
+      "34": {
+        "start_time": 504001,
+        "end_time": 513579
+      },
+      "35": {
+        "start_time": 513579,
+        "end_time": 524273
+      },
+      "36": {
+        "start_time": 524273,
+        "end_time": 535329
+      },
+      "37": {
+        "start_time": 535329,
+        "end_time": 544138
+      },
+      "38": {
+        "start_time": 544138,
+        "end_time": 551263
+      },
+      "39": {
+        "start_time": 551263,
+        "end_time": 571507
+      },
+      "40": {
+        "start_time": 571507,
+        "end_time": 583649
+      },
+      "41": {
+        "start_time": 583649,
+        "end_time": 593766
+      },
+      "42": {
+        "start_time": 593766,
+        "end_time": 610484
+      },
+      "43": {
+        "start_time": 610484,
+        "end_time": 620274
+      },
+      "44": {
+        "start_time": 620274,
+        "end_time": 634472
+      },
+      "45": {
+        "start_time": 634472,
+        "end_time": 647480
+      },
+      "46": {
+        "start_time": 647480,
+        "end_time": 655988
+      },
+      "47": {
+        "start_time": 655988,
+        "end_time": 673923
+      },
+      "48": {
+        "start_time": 673923,
+        "end_time": 688266
+      },
+      "49": {
+        "start_time": 688266,
+        "end_time": 702548
+      },
+      "50": {
+        "start_time": 702548,
+        "end_time": 713521
+      },
+      "51": {
+        "start_time": 713521,
+        "end_time": 723617
+      },
+      "52": {
+        "start_time": 723617,
+        "end_time": 739980
+      },
+      "53": {
+        "start_time": 739980,
+        "end_time": 754391
+      },
+      "54": {
+        "start_time": 754391,
+        "end_time": 769973
+      },
+      "55": {
+        "start_time": 769973,
+        "end_time": 782913
+      },
+      "56": {
+        "start_time": 782913,
+        "end_time": 799920
+      },
+      "57": {
+        "start_time": 799920,
+        "end_time": 810066
+      },
+      "58": {
+        "start_time": 810066,
+        "end_time": 826895
+      },
+      "59": {
+        "start_time": 826895,
+        "end_time": 840542
+      },
+      "60": {
+        "start_time": 840542,
+        "end_time": 854636
+      },
+      "61": {
+        "start_time": 854636,
+        "end_time": 865909
+      },
+      "62": {
+        "start_time": 865909,
+        "end_time": 876506
+      },
+      "63": {
+        "start_time": 876506,
+        "end_time": 889395
+      },
+      "64": {
+        "start_time": 889395,
+        "end_time": 899942
+      },
+      "65": {
+        "start_time": 899942,
+        "end_time": 923748
+      },
+      "66": {
+        "start_time": 923748,
+        "end_time": 945311
+      },
+      "67": {
+        "start_time": 945311,
+        "end_time": 955475
+      },
+      "68": {
+        "start_time": 955475,
+        "end_time": 968452
+      },
+      "69": {
+        "start_time": 968452,
+        "end_time": 976249
+      },
+      "70": {
+        "start_time": 976249,
+        "end_time": 988236
+      },
+      "71": {
+        "start_time": 988236,
+        "end_time": 1005738
+      },
+      "72": {
+        "start_time": 1005738,
+        "end_time": 1016829
+      },
+      "73": {
+        "start_time": 1016829,
+        "end_time": 1025907
+      },
+      "74": {
+        "start_time": 1025907,
+        "end_time": 1044483
+      },
+      "75": {
+        "start_time": 1044483,
+        "end_time": 1056122
+      },
+      "76": {
+        "start_time": 1056122,
+        "end_time": 1064960
+      },
+      "77": {
+        "start_time": 1064960,
+        "end_time": 1075739
+      },
+      "78": {
+        "start_time": 1075739,
+        "end_time": 1086493
+      },
+      "79": {
+        "start_time": 1086493,
+        "end_time": 1099641
+      },
+      "80": {
+        "start_time": 1099641,
+        "end_time": 1112491
+      },
+      "81": {
+        "start_time": 1112491,
+        "end_time": 1124966
+      },
+      "82": {
+        "start_time": 1124966,
+        "end_time": 1136251
+      },
+      "83": {
+        "start_time": 1136251,
+        "end_time": 1144262
+      },
+      "84": {
+        "start_time": 1144262,
+        "end_time": 1156791
+      },
+      "85": {
+        "start_time": 1156791,
+        "end_time": 1186159
+      },
+      "86": {
+        "start_time": 1186159,
+        "end_time": 1195736
+      },
+      "87": {
+        "start_time": 1195736,
+        "end_time": 1210369
+      },
+      "88": {
+        "start_time": 1210369,
+        "end_time": 1237543
+      },
+      "89": {
+        "start_time": 1237543,
+        "end_time": 1248966
+      },
+      "90": {
+        "start_time": 1248966,
+        "end_time": 1260119
+      },
+      "91": {
+        "start_time": 1260119,
+        "end_time": 1271299
+      },
+      "92": {
+        "start_time": 1271299,
+        "end_time": 1281251
+      },
+      "93": {
+        "start_time": 1281251,
+        "end_time": 1288430
+      },
+      "94": {
+        "start_time": 1288430,
+        "end_time": 1299242
+      },
+      "95": {
+        "start_time": 1299242,
+        "end_time": 1308864
+      },
+      "96": {
+        "start_time": 1308864,
+        "end_time": 1324997
+      },
+      "97": {
+        "start_time": 1324997,
+        "end_time": 1337645
+      },
+      "98": {
+        "start_time": 1337645,
+        "end_time": 1348280
+      },
+      "99": {
+        "start_time": 1348280,
+        "end_time": 1359664
+      }
+    },
+    "folder_url": "https://server13.mp3quran.net/husr/"
+  },
+  "خالد المهنا - حفص عن عاصم": {
+    "reader_id": 159,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 7609
+      },
+      "1": {
+        "start_time": 7609,
+        "end_time": 20043
+      },
+      "2": {
+        "start_time": 20043,
+        "end_time": 28416
+      },
+      "3": {
+        "start_time": 28416,
+        "end_time": 37873
+      },
+      "4": {
+        "start_time": 37873,
+        "end_time": 48594
+      },
+      "5": {
+        "start_time": 48594,
+        "end_time": 57195
+      },
+      "6": {
+        "start_time": 57195,
+        "end_time": 67946
+      },
+      "7": {
+        "start_time": 67946,
+        "end_time": 79566
+      },
+      "8": {
+        "start_time": 79566,
+        "end_time": 92159
+      },
+      "9": {
+        "start_time": 92159,
+        "end_time": 102150
+      },
+      "10": {
+        "start_time": 102150,
+        "end_time": 111250
+      },
+      "11": {
+        "start_time": 111250,
+        "end_time": 120920
+      },
+      "12": {
+        "start_time": 120920,
+        "end_time": 128220
+      },
+      "13": {
+        "start_time": 128220,
+        "end_time": 136713
+      },
+      "14": {
+        "start_time": 136713,
+        "end_time": 149183
+      },
+      "15": {
+        "start_time": 149183,
+        "end_time": 160717
+      },
+      "16": {
+        "start_time": 160717,
+        "end_time": 174402
+      },
+      "17": {
+        "start_time": 174402,
+        "end_time": 182282
+      },
+      "18": {
+        "start_time": 182282,
+        "end_time": 191426
+      },
+      "19": {
+        "start_time": 191426,
+        "end_time": 206086
+      },
+      "20": {
+        "start_time": 206086,
+        "end_time": 215246
+      },
+      "21": {
+        "start_time": 215246,
+        "end_time": 231225
+      },
+      "22": {
+        "start_time": 231225,
+        "end_time": 254689
+      },
+      "23": {
+        "start_time": 254689,
+        "end_time": 263562
+      },
+      "24": {
+        "start_time": 263562,
+        "end_time": 274203
+      },
+      "25": {
+        "start_time": 274203,
+        "end_time": 285601
+      },
+      "26": {
+        "start_time": 285601,
+        "end_time": 297483
+      },
+      "27": {
+        "start_time": 297483,
+        "end_time": 311289
+      },
+      "28": {
+        "start_time": 311289,
+        "end_time": 329064
+      },
+      "29": {
+        "start_time": 329064,
+        "end_time": 339501
+      },
+      "30": {
+        "start_time": 339501,
+        "end_time": 348532
+      },
+      "31": {
+        "start_time": 348532,
+        "end_time": 357516
+      },
+      "32": {
+        "start_time": 357516,
+        "end_time": 366432
+      },
+      "33": {
+        "start_time": 366432,
+        "end_time": 380004
+      },
+      "34": {
+        "start_time": 380004,
+        "end_time": 387195
+      },
+      "35": {
+        "start_time": 387195,
+        "end_time": 395380
+      },
+      "36": {
+        "start_time": 395380,
+        "end_time": 404036
+      },
+      "37": {
+        "start_time": 404036,
+        "end_time": 410986
+      },
+      "38": {
+        "start_time": 410986,
+        "end_time": 416354
+      },
+      "39": {
+        "start_time": 416354,
+        "end_time": 430301
+      },
+      "40": {
+        "start_time": 430301,
+        "end_time": 436508
+      },
+      "41": {
+        "start_time": 436508,
+        "end_time": 443495
+      },
+      "42": {
+        "start_time": 443495,
+        "end_time": 455696
+      },
+      "43": {
+        "start_time": 455696,
+        "end_time": 464288
+      },
+      "44": {
+        "start_time": 464288,
+        "end_time": 475304
+      },
+      "45": {
+        "start_time": 475304,
+        "end_time": 484361
+      },
+      "46": {
+        "start_time": 484361,
+        "end_time": 490662
+      },
+      "47": {
+        "start_time": 490662,
+        "end_time": 503988
+      },
+      "48": {
+        "start_time": 503988,
+        "end_time": 514186
+      },
+      "49": {
+        "start_time": 514186,
+        "end_time": 522980
+      },
+      "50": {
+        "start_time": 522980,
+        "end_time": 530578
+      },
+      "51": {
+        "start_time": 530578,
+        "end_time": 537493
+      },
+      "52": {
+        "start_time": 537493,
+        "end_time": 548744
+      },
+      "53": {
+        "start_time": 548744,
+        "end_time": 558271
+      },
+      "54": {
+        "start_time": 558271,
+        "end_time": 569049
+      },
+      "55": {
+        "start_time": 569049,
+        "end_time": 578487
+      },
+      "56": {
+        "start_time": 578487,
+        "end_time": 591153
+      },
+      "57": {
+        "start_time": 591153,
+        "end_time": 597753
+      },
+      "58": {
+        "start_time": 597753,
+        "end_time": 606951
+      },
+      "59": {
+        "start_time": 606951,
+        "end_time": 616196
+      },
+      "60": {
+        "start_time": 616196,
+        "end_time": 625717
+      },
+      "61": {
+        "start_time": 625717,
+        "end_time": 634157
+      },
+      "62": {
+        "start_time": 634157,
+        "end_time": 642057
+      },
+      "63": {
+        "start_time": 642057,
+        "end_time": 649903
+      },
+      "64": {
+        "start_time": 649903,
+        "end_time": 657937
+      },
+      "65": {
+        "start_time": 657937,
+        "end_time": 674475
+      },
+      "66": {
+        "start_time": 674475,
+        "end_time": 688934
+      },
+      "67": {
+        "start_time": 688934,
+        "end_time": 697841
+      },
+      "68": {
+        "start_time": 697841,
+        "end_time": 707638
+      },
+      "69": {
+        "start_time": 707638,
+        "end_time": 713241
+      },
+      "70": {
+        "start_time": 713241,
+        "end_time": 720415
+      },
+      "71": {
+        "start_time": 720415,
+        "end_time": 731442
+      },
+      "72": {
+        "start_time": 731442,
+        "end_time": 739650
+      },
+      "73": {
+        "start_time": 739650,
+        "end_time": 745982
+      },
+      "74": {
+        "start_time": 745982,
+        "end_time": 759500
+      },
+      "75": {
+        "start_time": 759500,
+        "end_time": 768392
+      },
+      "76": {
+        "start_time": 768392,
+        "end_time": 775524
+      },
+      "77": {
+        "start_time": 775524,
+        "end_time": 783163
+      },
+      "78": {
+        "start_time": 783163,
+        "end_time": 791232
+      },
+      "79": {
+        "start_time": 791232,
+        "end_time": 801122
+      },
+      "80": {
+        "start_time": 801122,
+        "end_time": 808734
+      },
+      "81": {
+        "start_time": 808734,
+        "end_time": 817485
+      },
+      "82": {
+        "start_time": 817485,
+        "end_time": 825991
+      },
+      "83": {
+        "start_time": 825991,
+        "end_time": 832092
+      },
+      "84": {
+        "start_time": 832092,
+        "end_time": 839617
+      },
+      "85": {
+        "start_time": 839617,
+        "end_time": 858181
+      },
+      "86": {
+        "start_time": 858181,
+        "end_time": 865637
+      },
+      "87": {
+        "start_time": 865637,
+        "end_time": 875888
+      },
+      "88": {
+        "start_time": 875888,
+        "end_time": 892631
+      },
+      "89": {
+        "start_time": 892631,
+        "end_time": 900261
+      },
+      "90": {
+        "start_time": 900261,
+        "end_time": 907303
+      },
+      "91": {
+        "start_time": 907303,
+        "end_time": 914004
+      },
+      "92": {
+        "start_time": 914004,
+        "end_time": 920750
+      },
+      "93": {
+        "start_time": 920750,
+        "end_time": 926879
+      },
+      "94": {
+        "start_time": 926879,
+        "end_time": 934976
+      },
+      "95": {
+        "start_time": 934976,
+        "end_time": 943245
+      },
+      "96": {
+        "start_time": 943245,
+        "end_time": 954161
+      },
+      "97": {
+        "start_time": 954161,
+        "end_time": 963588
+      },
+      "98": {
+        "start_time": 963588,
+        "end_time": 971782
+      },
+      "99": {
+        "start_time": 971782,
+        "end_time": 980460
+      }
+    },
+    "folder_url": "https://server11.mp3quran.net/mohna/"
+  },
+  "أحمد خليل شاهين - حفص عن عاصم": {
+    "reader_id": 256,
+    "ayat": {
+      "0": {
+        "start_time": 0,
+        "end_time": 6275
+      },
+      "1": {
+        "start_time": 6275,
+        "end_time": 20447
+      },
+      "2": {
+        "start_time": 20447,
+        "end_time": 28844
+      },
+      "3": {
+        "start_time": 28844,
+        "end_time": 39071
+      },
+      "4": {
+        "start_time": 39071,
+        "end_time": 49998
+      },
+      "5": {
+        "start_time": 49998,
+        "end_time": 59188
+      },
+      "6": {
+        "start_time": 59188,
+        "end_time": 70132
+      },
+      "7": {
+        "start_time": 70132,
+        "end_time": 82194
+      },
+      "8": {
+        "start_time": 82194,
+        "end_time": 95449
+      },
+      "9": {
+        "start_time": 95449,
+        "end_time": 105904
+      },
+      "10": {
+        "start_time": 105904,
+        "end_time": 114863
+      },
+      "11": {
+        "start_time": 114863,
+        "end_time": 125587
+      },
+      "12": {
+        "start_time": 125587,
+        "end_time": 132814
+      },
+      "13": {
+        "start_time": 132814,
+        "end_time": 141716
+      },
+      "14": {
+        "start_time": 141716,
+        "end_time": 154379
+      },
+      "15": {
+        "start_time": 154379,
+        "end_time": 166322
+      },
+      "16": {
+        "start_time": 166322,
+        "end_time": 179484
+      },
+      "17": {
+        "start_time": 179484,
+        "end_time": 187576
+      },
+      "18": {
+        "start_time": 187576,
+        "end_time": 197742
+      },
+      "19": {
+        "start_time": 197742,
+        "end_time": 214526
+      },
+      "20": {
+        "start_time": 214526,
+        "end_time": 225064
+      },
+      "21": {
+        "start_time": 225064,
+        "end_time": 242100
+      },
+      "22": {
+        "start_time": 242100,
+        "end_time": 267116
+      },
+      "23": {
+        "start_time": 267116,
+        "end_time": 275906
+      },
+      "24": {
+        "start_time": 275906,
+        "end_time": 287393
+      },
+      "25": {
+        "start_time": 287393,
+        "end_time": 298222
+      },
+      "26": {
+        "start_time": 298222,
+        "end_time": 310467
+      },
+      "27": {
+        "start_time": 310467,
+        "end_time": 322242
+      },
+      "28": {
+        "start_time": 322242,
+        "end_time": 340428
+      },
+      "29": {
+        "start_time": 340428,
+        "end_time": 351570
+      },
+      "30": {
+        "start_time": 351570,
+        "end_time": 359124
+      },
+      "31": {
+        "start_time": 359124,
+        "end_time": 367670
+      },
+      "32": {
+        "start_time": 367670,
+        "end_time": 376329
+      },
+      "33": {
+        "start_time": 376329,
+        "end_time": 390393
+      },
+      "34": {
+        "start_time": 390393,
+        "end_time": 396985
+      },
+      "35": {
+        "start_time": 396985,
+        "end_time": 404560
+      },
+      "36": {
+        "start_time": 404560,
+        "end_time": 412607
+      },
+      "37": {
+        "start_time": 412607,
+        "end_time": 419009
+      },
+      "38": {
+        "start_time": 419009,
+        "end_time": 424014
+      },
+      "39": {
+        "start_time": 424014,
+        "end_time": 437791
+      },
+      "40": {
+        "start_time": 437791,
+        "end_time": 443999
+      },
+      "41": {
+        "start_time": 443999,
+        "end_time": 450583
+      },
+      "42": {
+        "start_time": 450583,
+        "end_time": 462408
+      },
+      "43": {
+        "start_time": 462408,
+        "end_time": 469937
+      },
+      "44": {
+        "start_time": 469937,
+        "end_time": 480430
+      },
+      "45": {
+        "start_time": 480430,
+        "end_time": 489581
+      },
+      "46": {
+        "start_time": 489581,
+        "end_time": 495473
+      },
+      "47": {
+        "start_time": 495473,
+        "end_time": 508583
+      },
+      "48": {
+        "start_time": 508583,
+        "end_time": 518711
+      },
+      "49": {
+        "start_time": 518711,
+        "end_time": 526520
+      },
+      "50": {
+        "start_time": 526520,
+        "end_time": 533096
+      },
+      "51": {
+        "start_time": 533096,
+        "end_time": 539190
+      },
+      "52": {
+        "start_time": 539190,
+        "end_time": 550207
+      },
+      "53": {
+        "start_time": 550207,
+        "end_time": 559174
+      },
+      "54": {
+        "start_time": 559174,
+        "end_time": 569843
+      },
+      "55": {
+        "start_time": 569843,
+        "end_time": 579101
+      },
+      "56": {
+        "start_time": 579101,
+        "end_time": 590669
+      },
+      "57": {
+        "start_time": 590669,
+        "end_time": 597009
+      },
+      "58": {
+        "start_time": 597009,
+        "end_time": 605586
+      },
+      "59": {
+        "start_time": 605586,
+        "end_time": 614086
+      },
+      "60": {
+        "start_time": 614086,
+        "end_time": 622614
+      },
+      "61": {
+        "start_time": 622614,
+        "end_time": 630433
+      },
+      "62": {
+        "start_time": 630433,
+        "end_time": 637640
+      },
+      "63": {
+        "start_time": 637640,
+        "end_time": 645475
+      },
+      "64": {
+        "start_time": 645475,
+        "end_time": 653251
+      },
+      "65": {
+        "start_time": 653251,
+        "end_time": 671349
+      },
+      "66": {
+        "start_time": 671349,
+        "end_time": 685841
+      },
+      "67": {
+        "start_time": 685841,
+        "end_time": 692825
+      },
+      "68": {
+        "start_time": 692825,
+        "end_time": 702023
+      },
+      "69": {
+        "start_time": 702023,
+        "end_time": 706907
+      },
+      "70": {
+        "start_time": 706907,
+        "end_time": 713218
+      },
+      "71": {
+        "start_time": 713218,
+        "end_time": 723380
+      },
+      "72": {
+        "start_time": 723380,
+        "end_time": 731107
+      },
+      "73": {
+        "start_time": 731107,
+        "end_time": 736553
+      },
+      "74": {
+        "start_time": 736553,
+        "end_time": 750175
+      },
+      "75": {
+        "start_time": 750175,
+        "end_time": 758290
+      },
+      "76": {
+        "start_time": 758290,
+        "end_time": 765080
+      },
+      "77": {
+        "start_time": 765080,
+        "end_time": 772402
+      },
+      "78": {
+        "start_time": 772402,
+        "end_time": 779900
+      },
+      "79": {
+        "start_time": 779900,
+        "end_time": 790399
+      },
+      "80": {
+        "start_time": 790399,
+        "end_time": 798028
+      },
+      "81": {
+        "start_time": 798028,
+        "end_time": 807378
+      },
+      "82": {
+        "start_time": 807378,
+        "end_time": 815848
+      },
+      "83": {
+        "start_time": 815848,
+        "end_time": 821233
+      },
+      "84": {
+        "start_time": 821233,
+        "end_time": 828899
+      },
+      "85": {
+        "start_time": 828899,
+        "end_time": 849315
+      },
+      "86": {
+        "start_time": 849315,
+        "end_time": 855824
+      },
+      "87": {
+        "start_time": 855824,
+        "end_time": 867050
+      },
+      "88": {
+        "start_time": 867050,
+        "end_time": 891075
+      },
+      "89": {
+        "start_time": 891075,
+        "end_time": 898243
+      },
+      "90": {
+        "start_time": 898243,
+        "end_time": 904950
+      },
+      "91": {
+        "start_time": 904950,
+        "end_time": 910948
+      },
+      "92": {
+        "start_time": 910948,
+        "end_time": 917548
+      },
+      "93": {
+        "start_time": 917548,
+        "end_time": 922501
+      },
+      "94": {
+        "start_time": 922501,
+        "end_time": 930601
+      },
+      "95": {
+        "start_time": 930601,
+        "end_time": 936849
+      },
+      "96": {
+        "start_time": 936849,
+        "end_time": 947886
+      },
+      "97": {
+        "start_time": 947886,
+        "end_time": 956951
+      },
+      "98": {
+        "start_time": 956951,
+        "end_time": 965151
+      },
+      "99": {
+        "start_time": 965151,
+        "end_time": 972251
+      }
+    },
+    "folder_url": "https://server16.mp3quran.net/shaheen/Rewayat-Hafs-A-n-Assem/"
+  },
+  "sheikhs": {
+    "إبراهيم الأخضر - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/akdr/undefined.mp3"
+    },
+    "أحمد بن علي العجمي - حفص عن عاصم": {
+      "url": "https://server10.mp3quran.net/ajm/undefined.mp3"
+    },
+    "أحمد نعينع - حفص عن عاصم": {
+      "url": "https://server11.mp3quran.net/ahmad_nu/undefined.mp3"
+    },
+    "أكرم العلاقمي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/akrm/undefined.mp3"
+    },
+    "سعود الشريم - حفص عن عاصم": {
+      "url": "https://server7.mp3quran.net/shur/undefined.mp3"
+    },
+    "سهل ياسين - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/shl/undefined.mp3"
+    },
+    "عبدالباسط عبدالصمد - المصحف المجود": {
+      "url": "https://server7.mp3quran.net/basit/Almusshaf-Al-Mojawwad/undefined.mp3"
+    },
+    "عبدالباسط عبدالصمد - حفص عن عاصم": {
+      "url": "https://server7.mp3quran.net/basit/undefined.mp3"
+    },
+    "عبدالله بصفر - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/bsfr/undefined.mp3"
+    },
+    "عبدالله عواد الجهني - حفص عن عاصم": {
+      "url": "https://server13.mp3quran.net/jhn/undefined.mp3"
+    },
+    "عبدالمحسن القاسم - حفص عن عاصم": {
+      "url": "https://server8.mp3quran.net/qasm/undefined.mp3"
+    },
+    "علي بن عبدالرحمن الحذيفي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/hthfi/undefined.mp3"
+    },
+    "علي حجاج السويسي - حفص عن عاصم": {
+      "url": "https://server9.mp3quran.net/hajjaj/undefined.mp3"
+    },
+    "عماد زهير حافظ - حفص عن عاصم": {
+      "url": "https://server6.mp3quran.net/hafz/undefined.mp3"
+    },
+    "محمد الطبلاوي - حفص عن عاصم": {
+      "url": "https://server12.mp3quran.net/tblawi/undefined.mp3"
+    },
+    "محمد صديق المنشاوي - حفص عن عاصم": {
+      "url": "https://server10.mp3quran.net/minsh/undefined.mp3"
+    },
+    "محمود خليل الحصري - حفص عن عاصم": {
+      "url": "https://server13.mp3quran.net/husr/undefined.mp3"
+    },
+    "خالد المهنا - حفص عن عاصم": {
+      "url": "https://server11.mp3quran.net/mohna/undefined.mp3"
+    },
+    "أحمد خليل شاهين - حفص عن عاصم": {
+      "url": "https://server16.mp3quran.net/shaheen/Rewayat-Hafs-A-n-Assem/undefined.mp3"
+    }
+  }
+}

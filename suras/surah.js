@@ -42,12 +42,21 @@ let name = document.querySelector(".title .container h2")
 let typ = document.getElementById('type')
 let sura = document.getElementById('su')
 let ayatt = document.getElementById('ayas')
-let eles = []
-let tafsir = []
+let ayats = [];
+let pages = {};
+// pages that we need for rendering
+let pagesEles = [];
+// control pages
+let controlling = document.getElementsByClassName("controls")[0]
+let arrows = controlling.children
+let currentpage = 0;
+// sound media
+let readers = {};
 let numay;
-let selectqaree= document.getElementById("qaree")
+let sheikhs;
 let numsurah;
 let surahname;
+let selectplace;
 async function info(num) {
   // buttons after and before
   let arwsplace = document.getElementById("arrows")
@@ -91,37 +100,34 @@ async function info(num) {
   let tafs = `https://quranenc.com/api/v1/translation/sura/arabic_moyassar/${num}`
   // add quran with many sheikhs
   let file = `surahaudio/surah_${num}.json`
-  fetch(file).then((r)=>r.json()).then((r)=>{
-    let sheikhs = Object.keys(r)
-    for(let i = 0;i<sheikhs.length;i++){
-      for(let j = 0;j<r[`${sheikhs[i]}`]["riwayat"].length;j++){
-        let numero;
-        if(num < 10){
-          numero = `00${num}`
-        }else if(num < 100){
-          numero = `0${num}`
-        }else{
-          numero = num
-        }
-        let rewaaya = r[sheikhs[i]]["riwayat"][j]["riwaya"]
-        let audiourl = `${r[sheikhs[i]]["riwayat"][j]["server"]}${numero}.mp3`
-        selectqaree.innerHTML += `<option value="${r[sheikhs[i]]["id"]}" data-url="${audiourl}">${sheikhs[i]} (${rewaaya})</option>`
-      }
-    } 
+  let ayatfile = `suraayat/surah_${num > 10?num>100?num:"0"+num:"00"+num}.json`
+  await fetch(file).then((r)=>r.json()).then((r)=>{
+     sheikhs = r
+  })
+  await fetch(ayatfile).then((r)=>r.json()).then((r)=>{
+    let sheikhss = Object.keys(r)
+    sheikhss.shift();
+    sheikhss.shift();
+    sheikhss.pop();
+    for(let i=0;i<sheikhss.length;i++){
+      readers[sheikhss[i]] = {"id":r[sheikhss[i]]["reader_id"],"name":sheikhss[i],"ayat-times":r[sheikhss[i]]["ayat"],"link":(r[sheikhss[i]]["folder_url"]+`${num > 10?num>100?num:"0"+num:"00"+num}.mp3`)}
+    }
+  }).catch(()=>{
+      su.innerHTML = '<div class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br>أعد تحميل الصفحة<br> أو بلغنا'
+      su.style.textAlign = 'center'
+      su.style.backgroundColor = 'var(--third-color)'
+      su.style.padding = '40px'
   })
   // add sura ayats
   await fetch(url)
     .then(response => response.json())
     .then(function(data) {
-      //console.log(data.data)
       let nam = data.data.name
       name.innerHTML = nam
       surahname = nam
       let rank = data.data.number
-      //console.log(rank)
       ranks.innerHTML = rank
       let type = data.data.revelationType
-      //console.log(type)
       if (type == 'Meccan') { type = 'مَكِّيَة' }
       if (type == 'Medinan') { type = 'مَدَنِيَّة' }
       typ.innerHTML = type
@@ -132,29 +138,32 @@ async function info(num) {
       numa.innerHTML = numayas + " " + word
       for (let i = 0; i < numayas; i++) {
         let aya = data.data.ayahs[i].text
+        let pag = data.data.ayahs[i].page
+        let ayanumm = i + 1;
         let word = "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ "
         let w2 = "بِّسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ "
-        let ok = true
+        let bsmala = true
         if (i == 0 && num != 1) {
           for (let i = 0; i < word.length; i++) {
             if (word[i] != aya[i]) {
-              ok = false
+              bsmala = false
               break;
             }
           }
           if(aya[1] == 'ّ'){
-            ok = true
+            bsmala = true
           }
-       if (ok == true) {
+       if (bsmala == true) {
             aya = aya.slice(40)
+            ayats.push({"aya":w2,"tafsir":"","page":pag,"ayanum":"non"})
+         }else{
          }
         }
-       // console.log(aya, word.length)
-        eles.push(aya)
+        //eles.push(aya)
+        ayats.push({"aya":aya,"tafsir":"","page":pag,"ayanum":ayanumm})
       }
     })
     .catch(error => {
-      //console.log(error)
       su.innerHTML = '<div class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br>أعد تحميل الصفحة<br> أو بلغنا'
       su.style.textAlign = 'center'
       su.style.backgroundColor = 'var(--third-color)'
@@ -164,48 +173,105 @@ async function info(num) {
   await fetch(tafs)
     .then(res => res.json())
     .then(function(data) {
-      //  console.log(data)
-      for (let i = 0; i < numay; i++) {
-        let ay = data.result[i]["translation"]
-        tafsir.push(ay)
+      let tIndex = 0;
+      try{
+      for (let i = 0; i < ayats.length; i++) {
+    if (ayats[i].ayanum !== "non") { // ليست البسملة
+    ayats[i].tafsir = data.result[tIndex].translation;
+    tIndex++;
+    }
       }
-      ayatt.innerHTML = ''
-      //  console.log(tafsir)
-      for (let i = 0; i < numay; i++) {
-        // console.log(eles[i])
-        ayatt.innerHTML += `
-        <div class="ayaa">
-        <div class="ayacont">
-                <div class="aya-text" data-aya="${i+1}">${eles[i]} (${i + 1})</div>
-                <div class="tools-flex" id="qurantext">
-                <button class="share"><img loading="lazy" src="../icons/share.png" alt="مشاركة" class="sharee"></button>
-                <button class="paste"><img loading="lazy" src="../icons/paste.png" alt="لصق" class="pastee"></button>
-                </div>
-                </div>
-                <hr>
-        <div class="tafsircont">
-                <div class="tafsir-text">
-                  <p>التفسير</p>
-              </div>
-                <hr>
-                <div class="tafsir">${tafsir[i]}</div>
-                <div class="tools-flex" id="tafsirtext">
-                <button class="share"><img loading="lazy" src="../icons/share.png" alt="مشاركة" class="sharee"></button>
-                <button class="paste"><img loading="lazy" src="../icons/paste.png" alt="لصق" class="pastee"></button>
-                </div>
-                </div>
-              </div>`
+    }catch{
+    }
+     // ayatt.innerHTML = ''
+      let prevpage;
+      pages[ayats[0]["page"]] = []
+      // tajheez pages
+      for (let i = 0; i < ayats.length; i++){
+        let startpage = ayats[i]["page"]
+        if(i > 1){
+          if(startpage != prevpage){
+            pages[startpage] = []
+          }
+        }
+        pages[startpage].push({"ayaa":ayats[`${i}`]["aya"],"tafser":ayats[i]["tafsir"],"ayanum":ayats[i]["ayanum"]})
+          prevpage = startpage
       }
+      let pagenumbers = Object.keys(pages)
+      for(let i = 0;i<pagenumbers.length;i++){
+        let ele = "";
+        for(let j = 0;j < pages[pagenumbers[i]].length;j++){
+          if(pagenumbers[i] == 1 && j == 0){
+            ele += `<span class="aya-container"><span class="aya-text center" style="display:block !important;" data-tafsir="${pages[pagenumbers[i]][j]["tafser"]}" data-num="${pages[pagenumbers[i]][j]["ayanum"]}">${pages[pagenumbers[i]][j]["ayaa"]}(${pages[pagenumbers[i]][j]["ayanum"]})</span></span>`
+          }else if(pages[pagenumbers[i]][j]["ayanum"] == "non"){
+            ele += `<div class="bsm center">بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>`
+          }else{
+          ele += `<span class="aya-container"><span class="aya-text" data-tafsir="${pages[pagenumbers[i]][j]["tafser"]}" data-num="${pages[pagenumbers[i]][j]["ayanum"]}">${pages[pagenumbers[i]][j]["ayaa"]}</span><span class="aya-num">(${pages[pagenumbers[i]][j]["ayanum"]})</span></span>`
+          }
+        }
+        ele += `<div class="page-num center">${pagenumbers[i]}</div>`
+        pagesEles.push(ele)
+      }
+      if(pagesEles.length < 2){
+      arrows[0].style.display = "none"
+      arrows[1].style.display = "none"
+       }
+      ayatt.innerHTML = pagesEles[currentpage]
+    let pgsoundplayer = document.querySelector(".control audio")
+    arrows[0].addEventListener("click",(e)=>{
+    ayatt.innerHTML = pagesEles[--currentpage]
+    if(currentpage == 0){
+      arrows[0].style.visibility = "hidden"
+    }else{
+      arrows[0].style.visibility = "visible"
+    }
+    if(currentpage == pagesEles.length - 1){
+      arrows[1].style.visibility = "visible"
+    }
+    arrows[1].style.visibility = "visible"
+    pgsoundplayer.play()
+  })
+arrows[1].addEventListener("click",(e)=>{
+    ayatt.innerHTML = pagesEles[++currentpage]
+    if(currentpage == pagesEles.length - 1){
+      arrows[1].style.visibility = "hidden"
+    }else{
+      arrows[1].style.visibility = "visible"
+    }
+    if(currentpage == 1){
+      arrows[0].style.visibility = "visible"
+    }
+    arrows[0].style.visibility = "visible"
+    pgsoundplayer.play()
+  })
+    let r = sheikhs
+    let sheiokh = Object.keys(r)
+    let num = numsurah
+    for(let i = 0;i<sheiokh.length;i++){
+      for(let j = 0;j<r[`${sheiokh[i]}`]["riwayat"].length;j++){
+        let numero;
+        if(num< 10){
+          numero = `00${num}`
+        }else if(num < 100){
+          numero = `0${num}`
+        }else{
+          numero = num
+        }
+        let rewaaya = r[sheiokh[i]]["riwayat"][j]["riwaya"]
+        let audiourl = `${r[sheiokh[i]]["riwayat"][j]["server"]}${numero}.mp3`
+        selectplace += `<option value="${audiourl}">${sheiokh[i]} (${rewaaya})</option>`
+      }
+    }
     })
     .catch(function(error) {
-      //console.log(error)
-      su.innerHTML = '<div class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br>اعد تحميل الصفحة<br> أو بلغنا'
+      su.innerHTML = '<span class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></span>هناك خلل في الصفحة <br>اعد تحميل الصفحة<br> أو بلغنا'
       su.style.textAlign = 'center'
       su.style.backgroundColor = 'var(--third-color)'
       su.style.padding = '40px'
       
     })
 }
+
 // loading animation
 window.addEventListener('load', function(e) {
   setTimeout(()=>{
@@ -215,180 +281,496 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
 })
-// add pasting and sharing for any aya or it tafsir
-let element;
-let type = 0;
+// show aya properties
+let ayapropertiescontainer = document.getElementsByClassName("details-container")[0]
+let ayacontainer = document.getElementsByClassName("theaya")[0]
+let actionplace = document.getElementsByClassName("detail")[0]
 window.addEventListener("click",(e)=>{
-  if(e.target.classList.contains("paste") || e.target.classList.contains("share")){
-  let ele = e.target.parentElement.previousElementSibling
-    if(e.target.classList.contains("paste")){
-      navigator.clipboard.writeText(ele.innerText)
-      if(type != 0){
-        if(type == 1){
-          element.src = "../icons/paste.png"
-        }else if(type == 2){
-          element.src = "../icons/share.png"
-        }
-      }
-        e.target.children[0].src = "../icons/check-mark.png"
-        type = 1;
-        element = e.target.children[0]
-    }else if(e.target.classList.contains("share")){
-     let textplacecont = document.querySelector(".pop-up-share")
-     let textplace = document.querySelector(".content-shared")
-     let exitbtn = document.querySelector(".exit-pop-up")
-     let btns = document.querySelectorAll(".sites button")
-     textplacecont.style.display = "flex"
-     let sharetxt;
-     let eleid = e.target.parentElement.id
-     if(eleid == "tafsirtext"){
-      let ayatxt = e.target.parentElement.parentElement.parentElement.children[0].children[0]
-      let ayatxtcontent = ayatxt.innerHTML
-      let tafsirtxt = e.target.parentElement.parentElement.innerText
-      sharetxt = `${ayatxtcontent} \n${tafsirtxt}\n${surahname}`
-     }
-     else if(eleid == "qurantext"){
-      sharetxt = `${ele.innerText} \n(${surahname})`
+  if(e.target.classList.contains("aya-container")){
+    let aya = e.target.children[0]
+    let tafsir = aya.getAttribute("data-tafsir")
+    let ayanum = aya.getAttribute("data-num")
+    let ayatext = aya.innerHTML
+    ayapropertiescontainer.style.display = "block"
+    if(ayatext == `بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ
+(1)`){
+      ayacontainer.innerHTML = ayatext
+    }else{
+    ayacontainer.innerHTML = `${ayatext} (${ayanum})`
     }
-    textplace.innerText = sharetxt
-    // sharing
-    const pageUrl = "https://sahers.github.io/islamy";
-    // 1-facebook sharing
-    btns[0].onclick = function(){
-      const url = "https://www.facebook.com/sharer/sharer.php?u=" 
-            + encodeURIComponent(pageUrl);
-      navigator.clipboard.writeText(sharetxt)
-      window.open(url, "_blank");
+    ayacontainer.setAttribute("data-tafsir",tafsir)
+    ayacontainer.setAttribute("data-num",ayanum)
+    actionplace.style.display = "none"
+  }else if(e.target.classList.contains("aya-text")){
+    let aya = e.target
+    let tafsir = aya.getAttribute("data-tafsir")
+    let ayanum = aya.getAttribute("data-num")
+    let ayatext = aya.innerHTML
+    ayapropertiescontainer.style.display = "block"
+    if(ayatext == `بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ
+(1)`){
+      ayacontainer.innerHTML = ayatext
+    }else{
+    ayacontainer.innerHTML = `${ayatext} (${ayanum})`
     }
-    // 2- whatsapp sharing
-    btns[1].onclick = function(){
-  const shareUrl = `https://wa.me/?text=${encodeURIComponent(sharetxt + " " + pageUrl)}`;
-  window.open(shareUrl, "_blank");
-    }
-    // 3 - x sharing
-    btns[2].onclick = function(){
-      const shareUrl = "https://x.com/intent/post?text=" + encodeURIComponent(sharetxt);
-      window.open(shareUrl, "_blank");
-    }
-    // 4 - telegram sharing
-    btns[3].onclick = function(){
-      const url = "https://t.me/share/url?url=" + encodeURIComponent(pageUrl) + "&text=" + encodeURIComponent(sharetxt);
-      window.open(url, "_blank");
-    }
-    // exit button
-     exitbtn.onclick = function(){
-      textplacecont.style.display = "none"
-     }
-     if(type != 0){
-        if(type == 1){
-          element.src = "../icons/paste.png"
-        }else if(type == 2){
-          element.src = "../icons/share.png"
-        }
-      }
-      e.target.children[0].src = "../icons/check-mark.png"
-        type = 2;
-        element = e.target.children[0]
-    }
-  }else if(e.target.classList.contains("pastee") || e.target.classList.contains("sharee")){
-      let ele = e.target.parentElement.parentElement.previousElementSibling
-      if(e.target.classList.contains("pastee")){
-      navigator.clipboard.writeText(ele.innerText)
-      if(type != 0){
-        if(type == 1){
-          element.src = "../icons/paste.png"
-        }else if(type == 2){
-          element.src = "../icons/share.png"
-        }
-      }
-      e.target.src = "../icons/check-mark.png"
-        type = 1;
-        element = e.target
-      }else if(e.target.classList.contains("sharee")){
-     let textplacecont = document.querySelector(".pop-up-share")
-     let textplace = document.querySelector(".content-shared")
-     let exitbtn = document.querySelector(".exit-pop-up")
-     let btns = document.querySelectorAll(".sites button")
-     textplacecont.style.display = "flex"
-     let sharetxt;
-     let eleid = e.target.parentElement.parentElement.id
-     if(eleid == "tafsirtext"){
-      let ayatxt = e.target.parentElement.parentElement.parentElement.parentElement.children[0].children[0]
-      let ayatxtcontent = ayatxt.innerHTML
-      let tafsirtxt = e.target.parentElement.parentElement.parentElement.innerText
-      sharetxt = `${ayatxtcontent} \n${tafsirtxt}\n${surahname}`
-     }
-     else if(eleid == "qurantext"){
-      sharetxt = `${ele.innerText} \n(${surahname})`
-    }
-    textplace.innerText = sharetxt
-    // sharing
-    const pageUrl = "https://sahers.github.io/islamy";
-    // 1-facebook sharing
-    btns[0].onclick = function(){
-      const url = "https://www.facebook.com/sharer/sharer.php?u=" 
-            + encodeURIComponent(pageUrl);
-      navigator.clipboard.writeText(sharetxt)
-      window.open(url, "_blank");
-    }
-    // 2- whatsapp sharing
-    btns[1].onclick = function(){
-  const shareUrl = `https://wa.me/?text=${encodeURIComponent(sharetxt + " " + pageUrl)}`;
-  window.open(shareUrl, "_blank");
-    }
-    // 3 - x sharing
-    btns[2].onclick = function(){
-      const shareUrl = "https://x.com/intent/post?text=" + encodeURIComponent(sharetxt);
-      window.open(shareUrl, "_blank");
-    }
-    // 4 - telegram sharing
-    btns[3].onclick = function(){
-      const url = "https://t.me/share/url?url=" + encodeURIComponent(pageUrl) + "&text=" + encodeURIComponent(sharetxt);
-      window.open(url, "_blank");
-    }
-    // exit button
-     exitbtn.onclick = function(){
-      textplacecont.style.display = "none"
-     }
-     if(type != 0){
-        if(type == 1){
-          element.src = "../icons/paste.png"
-        }else if(type == 2){
-          element.src = "../icons/share.png"
-        }
-      }
-      e.target.src = "../icons/check-mark.png"
-        type = 2;
-        element = e.target
-    }
-  }else{
-    if(type != 0){
-        if(type == 1){
-          element.src = "../icons/paste.png"
-        }else if(type == 2){
-          element.src = "../icons/share.png"
-        }
-      }
-      type = 0;
+    ayacontainer.setAttribute("data-tafsir",tafsir)
+    ayacontainer.setAttribute("data-num",ayanum)
+    actionplace.style.display = "none"
   }
 })
-// play the sura with any sheikh handling
-let audioopener = document.querySelector("audio")
-let audioopen = false
-selectqaree.addEventListener("change",async(e)=>{
-  if(selectqaree.value != "--"){
-    if(!audioopen){
-      audioopener.style.animation = "openaudio 1s ease-out" 
-      audioopener.style.display = "inline-block"
-      audioopen = true
+let audiosource = document.getElementById("audio-source")
+let audioplayer = document.getElementById("audio-player")
+let choicesaudio = document.getElementById("choicesaudio")
+let repeatTimes = -1
+let playPromise = null;
+let readingsheikh;
+let ayanumber;
+let controller;
+let repeated = false
+// typebtns: ch1 -> 0 ,ch2 -> 1,ch3 -> 2,ch4 -> 3
+// types: 0-single aya 1-repeated aya 2-repeated ayas 3-start from it
+window.addEventListener("click",(e)=>{
+  /* Tafsir showing */
+  if(e.target.classList.contains("thetafsir")){
+    actionplace.style.display = "block"
+    actionplace.style.fontFamily = "tafsir"
+    actionplace.innerHTML = `<p>التفسير</p>
+    <div>${ayacontainer.getAttribute("data-tafsir")}</div>
+    `
+  }
+  /* quran audio */
+  if(e.target.classList.contains("thesound")){
+    // choose listening type (full-surah / part-of-surah)
+    playPromise = null;
+    ayanumber = ayacontainer.getAttribute("data-num")
+    choicesaudio.style.display = "flex"
+    choicesaudio.style.justifyContent = "space-around"
+    choicesaudio.style.flexDirection = "row"
+    choicesaudio.style.flexWrap = "wrap"
+    choicesaudio.style.alignItems = "center"
+    choicesaudio.style.gap = "10px"
+    choicesaudio.innerHTML = `
+    <div class="sura-part">قراءة جزء من السورة</div>
+    <div class="sura-full">السورة كاملة</div>
+    `
+  }
+  /* Full surah audio */
+  if(e.target.classList.contains("sura-full")){
+    // choose sheikh for full-surah
+    choicesaudio.style.flexDirection = "column"
+    choicesaudio.innerHTML = `
+    <p class="center">اختر الشيخ الذي تحب أن تسمع له</p>
+    <select id="qaree">
+        <option disabled value="--">--</option>
+      </select>
+      <div class="ch-full">اختر</div>
+    `
+    let selectqaree= document.getElementById("qaree")
+    selectqaree.innerHTML = selectplace
+  }
+  if(e.target.classList.contains("ch-full")){
+    // Full-surah-playing
+    let started = false;
+    let selectt = document.getElementById("qaree")
+    let link = selectt.options[selectt.selectedIndex].getAttribute("value")
+    let readingsheikh = document.getElementById("qaree").options[selectt.selectedIndex].innerText
+    audiosource.pause();
+    audiosource.oncanplay = null;
+    audiosource.onwaiting = null;
+    audiosource.ontimeupdate = null;
+    audiosource.src = ""
+    choicesaudio.style.display = "none";
+    audioplayer.style.display = "block";
+    audioplayer.innerHTML = `
+        <p class="center">الشيخ ${readingsheikh}</p>
+        <div class="type-1">
+             <p id="audio-status" style="font-size:15px; color:red;">جارٍ تهيئة الصوت...</p>
+             <div class="div-flex">
+                <div id="play">تشغيل</div>
+                <div id="pause">إيقاف</div>
+             </div>
+        </div>`;
+    audiosource.src = link;
+    audiosource.load()
+    // Changing ready status for audio
+    const status = document.getElementById("audio-status");
+    audiosource.oncanplay = () => {
+      if(!started){
+        audiosource.currentTime = 0;
+        started=true;
       }
-    audioopener.src = selectqaree.options[selectqaree.selectedIndex].getAttribute("data-url")
-  }else{
-    if(audioopen){
-      audioopener.style.animation = "" 
-      audioopener.style.display = "none"
-      audioopen = false
-      audioopener.src = ""
+        if(status) status.innerText = "جاهز للاستماع";
+        status.style.color = "black";
+    };
+    audiosource.onwaiting = () => {
+        if(status) status.innerText = "جارٍ تهيئة الصوت...";
+        status.style.color = "red";
     }
   }
+  if(e.target.classList.contains("sura-part")){
+    // Choose sheikh for part-sura listening
+    choicesaudio.style.flexDirection = "column"
+    choicesaudio.innerHTML = `
+    <p class="center">اختر الشيخ الذي تحب أن تسمع له</p>
+    `
+    let sheikhs = Object.keys(readers)
+    let a = "";
+    for(let i=0;i<sheikhs.length;i++){
+     a += `<option value="${readers[sheikhs[i]]["name"]}">${readers[sheikhs[i]]["name"]}</option>`
+    }
+    choicesaudio.innerHTML += `
+    <select id="select-reader">
+    <option disabled value="--">--</option>
+    ${a}
+    </select>
+    <div id="error">من فضلك اختر شيخًا</div>
+    <div class="thesound-open">تأكيد</div>
+    `
+  }
+  if(e.target.classList.contains("thesound-open")){
+    // Choose part-surah type for listening
+    if(document.getElementById("select-reader").value == "--"){
+      document.getElementById("error").style.display = "block"
+    }else{
+      document.getElementById("error").style.display = "none"
+      audiosource.ontimeupdate = null
+      audiosource.onloadedmetadata = null
+    readingsheikh = document.getElementById("select-reader").value
+    choicesaudio.style.display = "block"
+    choicesaudio.innerHTML = `
+        <p class="center">اختر طريقة السماع التي تريدها</p>
+        <div class="div-flex">
+        <div class="ch1">سماع الآية لوحدها</div>
+        <div class="ch2">تكرار الآية</div>
+        <div class="ch3">تكرار من آية لآية معينة</div>
+        <div class="ch4">البدء منها</div>
+        </div>`
+  }
+  }
+  // Part-surah sound choices
+  if(e.target.classList.contains("ch1")){
+    // single aya listening
+    let timestart = readers[readingsheikh]["ayat-times"][ayanumber]["start_time"] / 1000
+    let timeend = readers[readingsheikh]["ayat-times"][ayanumber]["end_time"] / 1000
+    audiosource.src = `${readers[readingsheikh]["link"]}`
+    audiosource.onloadedmetadata = ()=>{
+      audiosource.currentTime = timestart
+    }
+    audiosource.ontimeupdate = ()=>{
+      if(audiosource.currentTime >= timeend){
+        if(playPromise){
+        playPromise.then(()=>{
+            audiosource.pause()
+          })
+        }
+    audiosource.currentTime = timestart
+        }
+    }
+    audioplayer.innerHTML = `
+    <p class="center">الشيخ ${readingsheikh}</p>
+    <p id="audio-status" style="font-size:15px; color:red;">جارٍ تهيئة الصوت...</p>
+    <div class="type-0">
+          <div id="play">تشغيل</div>
+          <div id="pause">إيقاف</div>
+    </div>`
+    choicesaudio.style.display = "none"
+    readystatus();
+  }
+  if(e.target.classList.contains("ch2")){
+    // Choosing repeating times for aya
+    choicesaudio.innerHTML = `
+    <p class="center">اختر عدد مرات تكرار الآية</p>
+    <div class="div-flex" style="flex-direction:column;align-items:center;">
+    <input id="repeat-times" type="number" inputmode="numeric">
+    <div id="error-repeat">من فضلك اختر رقمًا بين 1 و 20</div>
+    <div class="repeat-aya">اضغط</div>
+    </div>
+    `
+  }
+   if(e.target.classList.contains("repeat-aya")){
+    // Input checking for single-aya repeating
+  audiosource.pause();
+  audiosource.ontimeupdate = null;
+  audiosource.onloadedmetadata = null;
+    repeatTimes = Number(document.getElementById("repeat-times").value)
+    if(isNaN(Number(document.getElementById("repeat-times").value))){
+        document.getElementById("error-repeat").style.display = "block"
+      document.getElementById("error-repeat").innerHTML = `من فضلك اكتب رقمًا`
+    }else if(Number(document.getElementById("repeat-times").value) < 1 || Number(document.getElementById("repeat-times").value) > 20){
+      document.getElementById("error-repeat").style.display = "block"
+      document.getElementById("error-repeat").innerHTML = `من فضلك اختر رقمًا بين 1 و 20`
+    }else{
+      // single-aya repeating listening
+    document.getElementById("error-repeat").style.display = "none"
+    let timestart = readers[readingsheikh]["ayat-times"][ayanumber]["start_time"] / 1000
+    let timeend = readers[readingsheikh]["ayat-times"][ayanumber]["end_time"] / 1000
+    audiosource.src = `${readers[readingsheikh]["link"]}`
+    audiosource.onloadedmetadata = ()=>{
+      audiosource.currentTime = timestart
+    }
+    audiosource.ontimeupdate = () => {
+  if (audiosource.currentTime >= timeend && !repeated) {
+    repeated = true
+    repeatTimes--
+    document.querySelector(".repeat-num").textContent =
+      repeatTimes > 0 ? repeatTimes : 0
+    if (repeatTimes > 0) {
+      audiosource.currentTime = timestart
+      audiosource.play()
+    } else {
+      audiosource.pause()
+    }
+  }
+  if (audiosource.currentTime < timeend) {
+    repeated = false
+  }
+}
+    audioplayer.innerHTML = `
+    <p class="center">الشيخ ${readingsheikh}</p>
+    <div class="type-1">
+          <div class="repeat-times">
+            عدد مرات التكرار المتبقية:
+            <span class="repeat-num">${repeatTimes>0?repeatTimes:0}</span>
+          </div>
+          <p id="audio-status" style="font-size:15px; color:red;">جارٍ تهيئة الصوت...</p>
+          <div class="div-flex">
+          <div id="play">تشغيل</div>
+          <div id="pause">إيقاف</div>
+          </div>
+        </div>`
+    choicesaudio.style.display = "none"
+    readystatus();
+    }
+   }
+   if(e.target.classList.contains("ch3")){
+    // Choosing repeating times for ayats
+    choicesaudio.innerHTML = `
+    <div class="div-flex" style="flex-direction:column;align-items:center;">
+    <p class="center">اكتب رقم الآية التي تود أن تقف عندها</p>
+    <div class="limit-repeat">
+      الآية <input type="number" input-mode="numeric" id="endaya">
+    </div>
+    <div id="error-repeat-ayats"></div>
+    <p class="center">اختر عدد مرات تكرار الآيات</p>
+    <input id="repeat-times" type="number" inputmode="numeric">
+    <div id="error-repeat">من فضلك اختر رقمًا بين 1 و 20</div>
+    <div class="repeat-ayats">اضغط</div>
+    </div>
+    `
+  }
+  if(e.target.classList.contains("repeat-ayats")){
+    // Input checking for ayats repeating
+    let ok1 = true,ok2=true
+    let ayanumber = document.getElementsByClassName("theaya")[0].getAttribute("data-num")
+  audiosource.pause();
+  audiosource.ontimeupdate = null;
+  audiosource.onloadedmetadata = null;
+    repeatTimes = Number(document.getElementById("repeat-times").value)
+    if(isNaN(Number(document.getElementById("repeat-times").value))){
+      document.getElementById("error-repeat").style.display = "block"
+      document.getElementById("error-repeat").innerHTML = `من فضلك اكتب رقمًا`
+      ok1=false;
+    }else if(Number(document.getElementById("repeat-times").value) < 1 || Number(document.getElementById("repeat-times").value) > 20){
+      document.getElementById("error-repeat").style.display = "block"
+      document.getElementById("error-repeat").innerHTML = `من فضلك اختر رقمًا بين 1 و 20`
+      ok1=false;
+    }else{
+      document.getElementById("error-repeat").style.display = "none"
+      ok1=true;
+    }
+     if(isNaN(Number(document.getElementById("endaya").value))){
+        document.getElementById("error-repeat-ayats").style.display = "block"
+        document.getElementById("error-repeat-ayats").innerHTML = `من فضلك أدخل رقمًا`
+        ok2=false;
+      }else if(Number(document.getElementById("endaya").value) <= ayanumber || Number(document.getElementById("endaya").value) > numay){
+        document.getElementById("error-repeat-ayats").style.display = "block"
+        document.getElementById("error-repeat-ayats").innerHTML = `من فضلك أدخل رقم آية يكون بعد الآية التي تريدها`
+        ok2=false;
+      }else{
+        document.getElementById("error-repeat-ayats").style.display = "none"
+        ok2=true
+      }
+      if(ok1&&ok2){
+        // Aya repeating audio listening
+    let timestart = readers[readingsheikh]["ayat-times"][ayanumber]["start_time"] / 1000
+    let timeend = readers[readingsheikh]["ayat-times"][Number(document.getElementById("endaya").value)]["end_time"] / 1000
+    audiosource.src = `${readers[readingsheikh]["link"]}`
+    audiosource.onloadedmetadata = ()=>{
+      audiosource.currentTime = timestart
+    }
+    audiosource.ontimeupdate = ()=>{
+      if(audiosource.currentTime >= timeend){
+        repeatTimes--;
+      document.querySelector(".repeat-num").textContent =
+      repeatTimes > 0 ? repeatTimes : 0;
+        if(repeatTimes > 0){
+          audiosource.currentTime = timestart
+          audiosource.play()
+        }else{
+          if(playPromise){
+            playPromise.then(()=>{
+              audiosource.pause()
+            })
+          }
+        audiosource.currentTime = timestart
+    }
+        }
+    }
+    audioplayer.innerHTML = `
+    <p class="center">الشيخ ${readingsheikh}</p>
+    <div class="type-1">
+          <div class="repeat-times">
+            عدد مرات التكرار المتبقية:
+            <span class="repeat-num">${repeatTimes>0?repeatTimes:0}</span>
+          </div>
+           <p id="audio-status" style="font-size:15px; color:red;">جارٍ تهيئة الصوت...</p>
+          <div class="div-flex">
+          <div id="play">تشغيل</div>
+          <div id="pause">إيقاف</div>
+          </div>
+        </div>`
+    choicesaudio.style.display = "none"
+    readystatus();
+      }
+  }
+  if(e.target.classList.contains("ch4")){
+    // Remaining of sura listening
+  audiosource.pause();
+  audiosource.oncanplay = null;
+  audiosource.onloadeddata = null;
+  audiosource.ontimeupdate = null;
+  audiosource.onloadedmetadata = null;
+  let timestart = readers[readingsheikh]["ayat-times"][ayanumber]["start_time"] / 1000
+  let timeend = readers[readingsheikh]["ayat-times"][numay]["end_time"] / 1000
+    audiosource.src = `${readers[readingsheikh]["link"]}`
+    audiosource.onloadedmetadata = ()=>{
+      audiosource.currentTime = timestart
+    }
+    audiosource.ontimeupdate = ()=>{
+      if(audiosource.currentTime >= timeend){
+        audiosource.currentTime = timestart
+        }
+    }
+    audioplayer.innerHTML = `
+    <p class="center">الشيخ ${readingsheikh}</p>
+    <div class="type-1">
+     <p id="audio-status" style="font-size:15px; color:red;">جارٍ تهيئة الصوت...</p>
+          <div class="div-flex">
+          <div id="play">تشغيل</div>
+          <div id="pause">إيقاف</div>
+          </div>
+        </div>`
+    choicesaudio.style.display = "none"
+    readystatus();
+  }
+ if(e.target.id =="play"){
+      playPromise = audiosource.play()
+  }
+    if(e.target.id =="pause"){
+        if(playPromise){
+          playPromise.then(()=>{
+            audiosource.pause()
+          })
+        }
+    }
+  function readystatus(){ // Showing audio's ready status
+    let status = document.getElementById("audio-status")
+    audiosource.oncanplay = () => {
+        if(status) status.innerText = "جاهز للاستماع";
+        status.style.color = "black";
+    };
+    audiosource.onwaiting = () => {
+        if(status) status.innerText = "جارٍ تهيئة الصوت...";
+        status.style.color = "red";
+    }
+  }
+  // Choosing copy type
+  if(e.target.classList.contains("thecopy")){
+    actionplace.style.display = "block"
+    actionplace.style.fontFamily = "islam !important"
+    actionplace.innerHTML = `
+    <div class="copy-container">
+    <div class="aya-copy">نسخ الآية</div>
+    <div class="aya-tafsir-copy">نسخ الآية والتفسير</div>
+    </div>
+    <div class="pop-up-message">تم نسخ الرسالة</div>
+    `
+  }
+  if(e.target.classList.contains("aya-copy")){
+    let ayatxt = ayacontainer.innerHTML
+    copy(`${ayatxt} \n(${surahname})`)
+  }
+  if(e.target.classList.contains("aya-tafsir-copy")){
+    let tafsirtxt = ayacontainer.getAttribute("data-tafsir");
+    let ayatxt = ayacontainer.innerHTML
+    copy(`${ayatxt} \n${tafsirtxt} \n(${surahname})`)
+  }
+  function copy(text){
+    navigator.clipboard.writeText(text)
+    document.getElementsByClassName("pop-up-message")[0].style.display = "block"
+    setTimeout(()=>{
+    document.getElementsByClassName("pop-up-message")[0].style.display = "none"
+    },2000)
+  }
+  // Sharing
+  if(e.target.classList.contains("theshare")){
+    actionplace.style.display = "block"
+    actionplace.style.fontFamily = "islam !important"
+    actionplace.innerHTML = `
+    <div class="copy-container">
+    <div class="aya-share">مشاركة الآية</div>
+    <div class="aya-tafsir-share">مشاركة الآية والتفسير</div>
+    </div>
+    `
+  }
+  if(e.target.classList.contains("aya-share")){
+    let ayatxt = ayacontainer.innerHTML
+    actionplace.innerHTML = `
+    <p class="center">اختر المنصة التي تريد المشاركة عليها <br> ملاحظة:عند المشاركة عبر فيسبوك سوف يتم نسخ النص تلقائيًا ثم تلصقه في منشور فيسبوك الذي سيتم إنشاءه</p>
+    <div class="sites">
+          <button class="site face"></button>
+          <button class="site whatsapp"></button>
+          <button class="site x"></button>
+          <button class="site telegram"></button>
+      </div>`
+    share(`${ayatxt} \n(${surahname})`)
+  }
+  if(e.target.classList.contains("aya-tafsir-share")){
+    let tafsirtxt = ayacontainer.getAttribute("data-tafsir");
+    let ayatxt = ayacontainer.innerHTML
+    actionplace.innerHTML = `
+    <p class="center">اختر المنصة التي تريد المشاركة عليها <br> ملاحظة:عند المشاركة عبر فيسبوك سوف يتم نسخ النص تلقائيًا ثم تلصقه في منشور فيسبوك الذي سيتم إنشاءه</p>
+    <div class="sites">
+          <button class="site face"></button>
+          <button class="site whatsapp"></button>
+          <button class="site x"></button>
+          <button class="site telegram"></button>
+    </div>`
+     share(`${ayatxt} \n${tafsirtxt} \n(${surahname})`)
+    }
+    function share(sharetxt){
+      let btns = document.querySelectorAll(".sites button")
+      const pageUrl = "https://sahers.github.io/islamy";
+      btns[0].onclick = function(){
+      const url = "https://www.facebook.com/sharer/sharer.php?u=" 
+            + encodeURIComponent(pageUrl);
+      navigator.clipboard.writeText(sharetxt)
+      window.open(url, "_blank");
+    }
+    // 2- whatsapp sharing
+    btns[1].onclick = function(){
+  const shareUrl = `https://wa.me/?text=${encodeURIComponent(sharetxt + " " + pageUrl)}`;
+  window.open(shareUrl, "_blank");
+    }
+    // 3 - x sharing
+    btns[2].onclick = function(){
+      const shareUrl = "https://x.com/intent/post?text=" + encodeURIComponent(sharetxt);
+      window.open(shareUrl, "_blank");
+    }
+    // 4 - telegram sharing
+    btns[3].onclick = function(){
+      const url = "https://t.me/share/url?url=" + encodeURIComponent(pageUrl) + "&text=" + encodeURIComponent(sharetxt);
+      window.open(url, "_blank");
+    }
+    }
 })
