@@ -110,7 +110,7 @@ async function info(num) {
     sheikhss.shift();
     sheikhss.pop();
     for(let i=0;i<sheikhss.length;i++){
-      readers[sheikhss[i]] = {"id":r[sheikhss[i]]["reader_id"],"name":sheikhss[i],"ayat-times":r[sheikhss[i]]["ayat"],"link":(r[sheikhss[i]]["folder_url"]+`${num > 10?num>100?num:"0"+num:"00"+num}.mp3`)}
+      readers[sheikhss[i]] = {"id":r[sheikhss[i]]["reader_id"],"name":sheikhss[i],"ayat-times":r[sheikhss[i]]["ayat"],"link":(r[sheikhss[i]]["folder_url"]+`${num > 10?num>100?num:"0"+num:"0"+num}.mp3`)}
     }
   }).catch(()=>{
       su.innerHTML = '<div class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br>أعد تحميل الصفحة<br> أو بلغنا'
