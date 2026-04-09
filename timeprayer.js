@@ -33,7 +33,7 @@ window.addEventListener('load', function(e) {
     document.getElementsByClassName('content')[0].style.opacity = 1
     document.getElementsByClassName('loading')[0].style.display = 'none'
   },1000)
-   navigator.geolocation.getCurrentPosition(position => {
+     navigator.geolocation.getCurrentPosition(position => {
      lat = position.coords.latitude;
      lon = position.coords.longitude;
      salah()
@@ -42,6 +42,10 @@ window.addEventListener('load', function(e) {
 // prayers time handling
 let maincontainer = document.getElementsByClassName("prayers")[0]
 async function salah() {
+  let topcontainer = document.getElementsByClassName("cont-salah")[0]
+  topcontainer.style.display = "flex"
+  let permcontainer = document.getElementsByClassName("cont-permission")[0]
+  permcontainer.style.display = "none"
     let url = `https://api.aladhan.com/v1/timings?latitude=${lat}&longitude=${lon}&method=5`
     await fetch(url).then((r)=>r.json())
     .then((r)=>{

@@ -16,8 +16,17 @@ a[href="timeprayer.html"] li {
     background-size: 100% 100%;
     padding: 20px 0;
   }
-.cont{
+.cont-permission{
   display: flex;
+  flex-direction: column;
+  background-color: var(--sec-color);
+  padding: 15px;
+  margin: 10px 0;
+  direction: rtl;
+  font-size: 20px;
+}
+.cont-salah{
+  display: none;
   flex-direction: column;
   background-color: var(--sec-color);
   padding: 15px;

@@ -36,9 +36,8 @@ window.addEventListener('load', function(e) {
 })
 // start questions
 let startbtn = document.getElementById("start")
-let errormessage = document.getElementsByClassName("err")[0]
 let quescontainer = document.getElementsByClassName("quescont")[0]
-let errorshowed = true
+let errorshowed = false
 let m;
 let counter = 0;
 let points = 0;
@@ -49,12 +48,14 @@ document.body.addEventListener("click",(e)=>{
   if(numofques < 1 || numofques > 20 || numofques === "" || isNaN(numofques)){
     errorshowed = false
     if(!errorshowed){
-      errormessage.classList.remove("off")
-      errormessage.classList.add("on")
+      document.getElementsByClassName("err")[0].classList.remove("off")
+      document.getElementsByClassName("err")[0].classList.add("on")
+      errorshowed = true
     }
   }else{
-    errormessage.classList.remove("on")
-    errormessage.classList.add("off")
+    document.getElementsByClassName("err")[0].classList.remove("on")
+    document.getElementsByClassName("err")[0].classList.add("off")
+    errorshowed = false
     // get questions
     let link = `https://islamicquiz.i8x.net/api/questions/random?count=${numofques}`
     fetch(link).then((r)=>r.json()).then((r)=>{
@@ -139,6 +140,7 @@ document.body.addEventListener("click",(e)=>{
         </div>
         <button id="start">ابدأ</button>
       </div>
+      <div class="err off center">من فضلك اكتب عددًا صحيحًا أكبر من صفر ولا يتجاوز 20</div>
     `;
   }
   }
