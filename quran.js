@@ -1,22 +1,21 @@
 // animation handling in menu
+// animation handling in menu
 let menu = document.getElementById('topic')
 let men = document.getElementsByClassName('menu')[0]
+// open menu
 men.addEventListener('click',function(e) {
 e.stopPropagation()
   let contain = menu.classList.contains('visible')
   if(contain){
-
     menu.classList.remove('visible')
   }else{
-
     menu.classList.add('visible')
   }
 })
 window.addEventListener("click",(e)=>{
   e.stopPropagation();
-  if(e.target != menu){
+  if(e.target.id == "close-menu-btn"){
   if(menu.classList.contains('visible')){
-
     menu.classList.remove('visible')
   }
 }

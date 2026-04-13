@@ -1,190 +1,234 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="logo.png">
-  <meta name="description" content="موقع إسلامي شامل للقرآن الكريم، الأحاديث النبوية، الأذكار، أوقات الصلاة والأدعية">
-  <meta name="keywords" content="قرآن كريم، حديث نبوي، أذكار، أدعية، أوقات الصلاة، أسئلة دينية">
-  <meta name="author" content="ساهر التحفة">
-  <meta name="robots" content="index, follow">
-  <meta property="og:title" content="إسلامي - لنفع الأمة الإسلامية">
-  <meta property="og:description" content="كل ما يحتاجه المسلم في مكان واحد">
-<meta property="og:image" content="logo.png">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="ar_AR">
-  <title>إسلامي</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="logo.png" />
+    <meta
+      name="description"
+      content="موقع إسلامي شامل للقرآن الكريم، الأحاديث النبوية، الأذكار، أوقات الصلاة والأدعية"
+    />
+    <meta
+      name="keywords"
+      content="قرآن كريم، حديث نبوي، أذكار، أدعية، أوقات الصلاة، أسئلة دينية"
+    />
+    <meta name="author" content="ساهر التحفة" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="إسلامي - لنفع الأمة الإسلامية" />
+    <meta
+      property="og:description"
+      content="كل ما يحتاجه المسلم في مكان واحد"
+    />
+    <meta property="og:image" content="logo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ar_AR" />
+    <title>إسلامي</title>
 
-  <!-- HTML -->
+    <!-- HTML -->
 
-  <link rel="preload" href="fonts/ArbFONTS-Noon.ttf" as="font" crossorigin>
-  <link rel="preload" href="Cairo-VariableFont_slnt,wght.ttf" as="font" crossorigin>
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css?v=1">
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M6C1RBHYTT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link rel="preload" href="fonts/ArbFONTS-Noon.ttf" as="font" crossorigin />
+    <link
+      rel="preload"
+      href="Cairo-VariableFont_slnt,wght.ttf"
+      as="font"
+      crossorigin
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css?v=1" />
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-M6C1RBHYTT"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'G-M6C1RBHYTT');
-</script>
+    gtag("config", "G-M6C1RBHYTT");
+  </script>
 
-<body>
-  <div class="loading">
-    <p>جار التحميل</p>
-    <div></div>
-  </div>
-  <div class="content">
-  <header>
-    <div class="container">
-      <div class="logo">
-        <img loading="lazy" src="logo.png" alt="لوجو">
-      </div>
-      <div class="men">
-        <div class="menu">
-          القائمة 
+  <body>
+    <div class="loading">
+      <p>جار التحميل</p>
+      <div></div>
+    </div>
+    <div class="content">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img loading="lazy" src="logo.png" alt="لوجو" />
+          </div>
+          <div class="men">
+            <div class="menu">القائمة</div>
+            <div class="links">
+              <ul id="topic">
+                <li class="top-row">
+                  <div id="close-menu-btn">إغلاق</div>
+                  <a href="index.html">الصفحة الرئيسية</a>
+                </li>
+                <a href="quran.html"><li>القرآن الكريم</li></a>
+                <a href="hadith.html"><li>السنة النبوية</li></a>
+                <a href="azkar.html"><li>الأذكار</li></a>
+                <a href="timeprayer.html"><li>أوقات الصلاة</li></a>
+                <a href="doaa.html"><li>الأدعية</li></a>
+                <a href="question.html"><li>أسئلة دينية</li></a>
+                <a href="about.html"><li>تعرف علينا</li></a>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="links">
-          <ul id="topic">
-            <a href="index.html"><li>الصفحة الرئيسية</li></a>
-            <a href="quran.html"><li>القرآن الكريم</li></a>
-            <a href="hadith.html"><li>السنة النبوية</li></a>
-            <a href="azkar.html"><li>الأذكار</li></a>
-            <a href="timeprayer.html"><li>أوقات الصلاة</li></a>
-            <a href="doaa.html"><li>الأدعية</li></a>
-            <a href="question.html"><li>أسئلة دينية</li></a>
-            <a href="about.html"><li>تعرف علينا</li></a>
-          </ul>
+      </header>
+      <div class="image">
+        <div class="container">
+          <h2 class="center">مرحبًا بكم في موقع إسلامي</h2>
+          <p class="center">
+            موقع إسلامي هو موقع يهدف لإفادة المسلمين في العالم أجمع عن طريق
+            محتوى ديني مهم لكل مسلم ومسلمة
+          </p>
         </div>
       </div>
-    </div>
-  </header>
-  <div class="image">
-    <div class="container">
-      <h2 class="center">مرحبًا بكم في موقع إسلامي</h2>
-      <p class="center">موقع إسلامي هو موقع يهدف لإفادة المسلمين في العالم أجمع عن طريق محتوى ديني مهم لكل مسلم ومسلمة</p>
-    </div>
-  </div>
-  <div class="news center">سيتم إضافة قسم المتون إن شاء الله</div>
-  <div class="container">
-    <h2 class="center top">آية قرآنية</h2>
-  </div>
-  <div class="container">
-  <div class="aya">
-    <div class="text"></div>
-    <div class="sura">
-      سورة <span></span>، الآية <span></span>
-    </div>
-      <a><button id="read-surah-btn">اقرأ السورة</button></a>
-  </div>
-  </div>
-  <div class="container">
-    <h2 class="center top">أقسام الموقع</h2>
-  </div>
-  <div class="sections">
-    <div class="container">
-    <div class="card quran">
-      <div class="text">
-        <h3>القرآن الكريم</h3>
-        <p>هو كتاب الله المنزل على سيدنا محمد صلى الله عليه وسلم عن طريق الوحي</p>
-        <a href="quran.html"><button>اقرأ</button></a>
+      <div class="news center">سيتم إضافة قسم المتون إن شاء الله</div>
+      <div class="container">
+        <h2 class="center top">آية قرآنية</h2>
       </div>
-  </div>
-    <div class="card hadith">
-      <div class="text">
-        <h3>السنة النبوية</h3>
-        <p>هو ما صدر من قول أو فعلٍ أو شئ أمر به أو نهى عنه الرسول صلى الله عليه وسلم وواجبنا الاقتداء به صلى الله عليه وسلم
-        </p>
-        <a href="hadith.html"><button>اقرأ</button></a>
+      <div class="container">
+        <div class="aya">
+          <div class="text"></div>
+          <div class="sura">سورة <span></span>، الآية <span></span></div>
+          <a><button id="read-surah-btn">اقرأ السورة</button></a>
+        </div>
       </div>
-  </div>
-    <div class="card azkar">
-      <div class="text">
-        <h3>الأذكار</h3>
-        <p>ذكر الله تعالى يرطب اللسان ويطيبه وهو خير الأعمال عند الله تعالى ويحيى القلب</p>
-        <a href="azkar.html"><button>اذكر ربك</button></a>
+      <div class="container">
+        <h2 class="center top">أقسام الموقع</h2>
       </div>
-  </div>
-    <div class="card salah">
-      <div class="text">
-        <h3>أوقات الصلاة</h3>
-        <p>الصلاة الركن الثاني من الإسلام بعد الشهادتين وتصلى 5 صلوات في اليوم والليلة وهي عماد الدين ولكل صلاة وقت معين</p>
-        <a href="timeprayer.html"><button>اعرف الوقت</button></a>
+      <div class="sections">
+        <div class="container">
+          <div class="card quran">
+            <div class="text">
+              <h3>القرآن الكريم</h3>
+              <p>
+                هو كتاب الله المنزل على سيدنا محمد صلى الله عليه وسلم عن طريق
+                الوحي
+              </p>
+              <a href="quran.html"><button>اقرأ</button></a>
+            </div>
+          </div>
+          <div class="card hadith">
+            <div class="text">
+              <h3>السنة النبوية</h3>
+              <p>
+                هو ما صدر من قول أو فعلٍ أو شئ أمر به أو نهى عنه الرسول صلى الله
+                عليه وسلم وواجبنا الاقتداء به صلى الله عليه وسلم
+              </p>
+              <a href="hadith.html"><button>اقرأ</button></a>
+            </div>
+          </div>
+          <div class="card azkar">
+            <div class="text">
+              <h3>الأذكار</h3>
+              <p>
+                ذكر الله تعالى يرطب اللسان ويطيبه وهو خير الأعمال عند الله تعالى
+                ويحيى القلب
+              </p>
+              <a href="azkar.html"><button>اذكر ربك</button></a>
+            </div>
+          </div>
+          <div class="card salah">
+            <div class="text">
+              <h3>أوقات الصلاة</h3>
+              <p>
+                الصلاة الركن الثاني من الإسلام بعد الشهادتين وتصلى 5 صلوات في
+                اليوم والليلة وهي عماد الدين ولكل صلاة وقت معين
+              </p>
+              <a href="timeprayer.html"><button>اعرف الوقت</button></a>
+            </div>
+          </div>
+          <div class="card doaa">
+            <div class="text">
+              <h3>الدعاء</h3>
+              <p dir="rtl">
+                {وقال ربكم ادعوني أستجب لكم}.هو توجه العبد إلى الله تعالى لطلب
+                ما يريده العبد أو لسؤال الله العون
+              </p>
+              <a href="doaa.html"><button>ادخل</button></a>
+            </div>
+          </div>
+          <div class="card question">
+            <div class="text">
+              <h3>أسئلة دينية</h3>
+              <p dir="rtl">اختبر نفسك في الدين وأرنا قوة معرفتك!</p>
+              <a href="question.html"><button>ادخل</button></a>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-    <div class="card doaa">
-      <div class="text">
-        <h3>الدعاء</h3>
-        <p dir="rtl">{وقال ربكم ادعوني أستجب لكم}.هو توجه العبد إلى الله تعالى لطلب ما يريده العبد أو لسؤال الله العون </p>
-        <a href="doaa.html"><button>ادخل</button></a>
+      <div class="container">
+        <h2 class="roya center">رؤيتنا</h2>
       </div>
-  </div>
-    <div class="card question">
-      <div class="text">
-        <h3>أسئلة دينية</h3>
-        <p dir="rtl">اختبر نفسك في الدين وأرنا قوة معرفتك!</p>
-        <a href="question.html"><button>ادخل</button></a>
+      <div class="container">
+        <div class="royaa center">
+          <div class="icon o">
+            <img loading="lazy" src="icons/quran.png" alt="قرآن" />
+          </div>
+          تثقيف المسلمين بمعرفة القرآن والسنة النبوية
+        </div>
+        <div class="royaa">
+          <div class="icon s">
+            <img loading="lazy" src="icons/salah.png" alt="صلاة" />
+          </div>
+          تذكير المسلمين بأوقات الصلاة وأهمية الحفاظ عليها
+        </div>
+        <div class="royaa">
+          <div class="icon t">
+            <img loading="lazy" src="icons/doaa.png" alt="دعاء" />
+          </div>
+          تعريفهم بأهمية الدعاء
+        </div>
+        <div class="royaa">
+          <div class="icon f">
+            <img loading="lazy" src="icons/ques.png" alt="سؤال" />
+          </div>
+          إعمال العقل وإثارته بأسئلةٍ تزيد من معرفته
+        </div>
       </div>
-  </div>
-  </div>
-  </div>
-  <div class="container">
-    <h2 class="roya center">رؤيتنا</h2>
-  </div>
-  <div class="container">
-    <div class="royaa center">
-      <div class="icon o">
-        <img loading="lazy" src="icons/quran.png" alt="قرآن">
+      <div class="me">
+        <div class="container co">
+          <div class="connect">
+            <div class="pic">
+              <img loading="lazy" src="saher.jpg" alt="ساهر" />
+            </div>
+          </div>
+          <div class="con">ساهر التحفة</div>
+          <div class="con" style="font-size: 17px; font-weight: 200">
+            مصمم ومبرمج مواقع
+          </div>
+          <div class="cona">
+            <a href="https://www.facebook.com/saher56.me" class="web"
+              ><img loading="lazy" src="icons/facebook.png" alt="فيسبوك"
+            /></a>
+            <a href="https://twitter.com/1BzboN9g0moAiOu" class="web"
+              ><img loading="lazy" src="icons/twitter.png" alt="إكس"
+            /></a>
+            <a href="https://github.com/Sahers" class="web"
+              ><img loading="lazy" src="icons/github.png" alt="جيتهاب"
+            /></a>
+          </div>
+        </div>
       </div>
-      تثقيف المسلمين بمعرفة القرآن والسنة النبوية
+      <footer>
+        <div class="container center">
+          <p>جميع الحقوق محفوظة &copy; - <span id="date"></span></p>
+          <p>ساهر أحمد إبراهيم التحفة</p>
+          <p>مدرسة جمال عبد الناصر الثانوية العسكرية</p>
+          <p>الصف الثالث الثانوي</p>
+        </div>
+      </footer>
     </div>
-    <div class="royaa">
-      <div class="icon s">
-        <img loading="lazy" src="icons/salah.png" alt="صلاة">
-      </div>
-      تذكير المسلمين بأوقات الصلاة وأهمية الحفاظ عليها
-    </div>
-    <div class="royaa">
-      <div class="icon t">
-        <img loading="lazy" src="icons/doaa.png" alt="دعاء">
-      </div>
-      تعريفهم بأهمية الدعاء
-    </div>
-    <div class="royaa">
-      <div class="icon f">
-        <img loading="lazy" src="icons/ques.png" alt="سؤال">
-      </div>
-      إعمال العقل وإثارته بأسئلةٍ تزيد من معرفته
-    </div>
-  </div>
-  <div class="me">
-  <div class="container co">
-    <div class="connect">
-      <div class="pic"><img loading="lazy" src="saher.jpg" alt="ساهر"/></div>
-    </div>
-    <div class="con">ساهر التحفة</div>
-    <div class="con" style="font-size: 17px;font-weight: 200">مصمم ومبرمج مواقع</div>
-    <div class="cona">
-      <a href="https://www.facebook.com/saher56.me" class="web"><img loading="lazy" src="icons/facebook.png" alt="فيسبوك"></a>
-      <a href="https://twitter.com/1BzboN9g0moAiOu" class="web"><img loading="lazy" src="icons/twitter.png" alt="إكس"></a>
-      <a href="https://github.com/Sahers" class="web"><img loading="lazy" src="icons/github.png" alt="جيتهاب"></a>
-    </div>
-  </div>
-  </div>
-  <footer>
-    <div class="container center">
-      <p>جميع الحقوق محفوظة &copy; - <span id="date"></span></p>
-      <p>ساهر أحمد إبراهيم التحفة</p>
-      <p>مدرسة جمال عبد الناصر الثانوية العسكرية</p>
-      <p>الصف الثالث الثانوي</p>
-    </div>
-  </footer>
-  </div>
-  <script src="main.js?v=1" defer></script>
-</body>
-
+    <script src="main.js?v=1" defer></script>
+  </body>
 </html>
