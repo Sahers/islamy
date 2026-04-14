@@ -88,3 +88,18 @@ input[type=number] {
 .result-now{
   direction: rtl;
 }
+#show-questions button,#back-result button{
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: var(--third-color);
+  border-radius: 5px;
+  padding: 7px;
+}
+#quesshowcont{
+  align-items: flex-end;
+  text-align: right;
+  margin-top: 10px;
+}
+#quesshowcont > div{
+  border-top:1.1px solid black;
+}

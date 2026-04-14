@@ -40,10 +40,14 @@ let errorshowed = false
 let m;
 let counter = 0;
 let points = 0;
+let numofquestions;
+let quesandans = [];
+let questionshtml;
 let event;
 document.body.addEventListener("click",(e)=>{
   if(e.target && e.target.id == "start"){
   let numofques = +document.querySelector(".choic input").value
+  numofquestions = numofques;
   if(numofques < 1 || numofques > 20 || numofques === "" || isNaN(numofques)){
     errorshowed = false
     if(!errorshowed){
@@ -62,6 +66,9 @@ document.body.addEventListener("click",(e)=>{
       // ans = r[i][answers][0->2][answer]
       m = r;
       counter=0,points=0;
+      for(let i=0;i<numofquestions;i++){
+        quesandans.push([])
+      }
       printquestion()
       window.removeEventListener("click",event)
       event = eventt
@@ -85,6 +92,8 @@ document.body.addEventListener("click",(e)=>{
         }else{
           e.target.style.backgroundColor = "red"
         }
+        quesandans[counter]["youranswer"] = m[counter]["answers"][Number(e.target.getAttribute("num"))]["answer"]
+        quesandans[counter]["check"] = ans;
         counter++
         points += ans
         setTimeout(() => {
@@ -112,14 +121,24 @@ document.body.addEventListener("click",(e)=>{
        النتيجة:<span class="questions">${numofques}</span>/<span class="points">${points}</span>
      </div>
     `
+    let correct;
+        for(let i =0;i<3;i++){
+          if(m[counter]["answers"][i]["t"]){
+            correct = m[counter]["answers"][i]["answer"];
+            break;
+          }
+        }
+    quesandans[counter]["num"] = counter + 1
+    quesandans[counter]["question"] = m[counter]["q"]
+    quesandans[counter]["answer"] = correct;
   }
   // show final result
   function showResult(total, score) {
     quescontainer.innerHTML = `
       <div class="result">نتيجتك هي</div>
-      <h2>${score}/${total}</h2>
+      <h2>${total}/${score}</h2>
+      <div id="show-questions"><button>عرض الأسئلة</button></div>
     `;
-
     if (score / total === 1) {
       quescontainer.innerHTML += `<div>بارك الله فيك، أسأل الله أن يزيدك علمًا</div>`;
     } else if (score / total > 0.7) {
@@ -141,6 +160,24 @@ document.body.addEventListener("click",(e)=>{
       </div>
       <div class="err off center">من فضلك اكتب عددًا صحيحًا أكبر من صفر ولا يتجاوز 20</div>
     `;
+    document.querySelector("#show-questions button").onclick= ()=>{
+      quescontainer.innerHTML = `<div class="center">الأسئلة</div>
+      <div id="back-result"><button>العودة للنتيجة</button></div>
+      <div id="quesshowcont"></div>
+    `
+    for(let i = 0;i<numofquestions;i++){
+      //quesandans
+      document.getElementById("quesshowcont").innerHTML += `
+      <div class="quesshow">
+        <div class="quesnum">السؤال ${quesandans[i]["num"]}:</div>
+        <div class="questext">${quesandans[i]["question"]}</div>
+        <div class="your-answer">إجابتك هي:${quesandans[i]["youranswer"]}</div>
+        <div class="check-ans">إجابتك ${(quesandans[i]["check"])?"صحيحة ✔️":`خاطئة ❌<br>        <div class="answer">الإجابة الصحيحة هي:${quesandans[i]["answer"]}</div>`}</div>
+      </div>
+      `
+    }
+    document.getElementById("back-result").onclick = () => showResult(numofquestions,points);
+    }
   }
   }
 }

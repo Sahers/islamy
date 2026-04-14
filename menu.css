@@ -103,6 +103,7 @@ display: flex;
 flex-direction: row-reverse;
 cursor: pointer;
 transition: 0.5s ease-in-out;
+font-size: 1.1rem;
 }
 /*top row in menu that contains close menu button*/
 .top-row{
@@ -121,8 +122,11 @@ a{
   width: 200px;
   transition: 0.5s ease-in-out;
 }
-a:hover,#close-menu-btn:hover{
+a:hover{
   font-size: 1.11rem;
+}
+#close-menu-btn:hover{
+  font-size: 1.2rem;
 }
 .visible{
   display: block;
