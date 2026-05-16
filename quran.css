@@ -57,14 +57,14 @@ a[href="quran.html"] li {
   top: 35px;
   left: 0;
 }
-.sur,.quranlive{
+.sur,.quranlive,.save-quran{
   display: flex;
   flex-direction: column;
   gap:10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.sura,.quranlive{
+.sura,.quranlive,.save-quran{
   padding: 10px;
   border-radius: 10px;
   background-color: var(--sec-color);
@@ -72,9 +72,18 @@ a[href="quran.html"] li {
   transition: 0.8s  ease-in-out;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-.sura:hover{
+.quranlive a{
+  transition: 0.8s  ease-in-out;
+}
+.sura:hover,.save-quran:hover{
 padding: 15px;
 font-size: 1.1rem;
+}
+.quranlive a:hover{
+  font-size: 1.1rem;
+}
+.quranlive>*:hover{
+  padding: 7.5px;
 }
 .choose{
   display: flex;

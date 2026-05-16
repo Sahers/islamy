@@ -9,13 +9,6 @@
 a[href="timeprayer.html"] li {
   font-weight: 600;
 }
-.title{
-    font-size: 32px;
-    text-align: center;
-    background-color:var(--sec-color);
-    background-size: 100% 100%;
-    padding: 20px 0;
-  }
 .cont-permission{
   display: flex;
   flex-direction: column;

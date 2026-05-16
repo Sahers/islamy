@@ -43,6 +43,7 @@ function getAzkar(){
     for(let i=0;i<localStorage.length;i++){
         let key = localStorage.key(i)
         let value = localStorage.getItem(key)
+        if(key == "name" || key == "rate" || value == "true" || value == "false" || key == "percent") continue;
         azkarprevious += `
         <div class="zkr">
         <p class="zkr-text">${key}</p>
