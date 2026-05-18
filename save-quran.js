@@ -70,7 +70,7 @@ function UpdateRate(rate){
     white ${rate}% 100%
   )`
   let ratenum = document.querySelector(".rate-detail span")
-  ratenum.innerHTML = `${rate}`
+  ratenum.innerHTML = `${Math.floor(rate)}`
 }
 let surascont = document.getElementsByClassName("suras")[0];
 function Perparesuras(){
