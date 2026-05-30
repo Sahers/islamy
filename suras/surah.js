@@ -302,6 +302,8 @@ async function GetTafsir(tafnum,sura,ayanum){
  let link = `http://api.quran-tafseer.com/tafseer/${tafnum}/${sura}/${ayanum}`
  return fetch(link).then((r)=>r.json()).then((r)=>{
   return r.text
+ }).catch(()=>{
+  return "هناك مشكلة في جلب التفسير"
  })
 }
 // typebtns: ch1 -> 0 ,ch2 -> 1,ch3 -> 2,ch4 -> 3
