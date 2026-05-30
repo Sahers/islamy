@@ -71,14 +71,27 @@
   flex-wrap: wrap;
   padding: 7px;
  }
-.details > div,#choicesaudio .div-flex div,.thesound-open,.repeat-aya,.sura-part,.sura-full,.ch-full{
+.details > div,#choicesaudio .div-flex div,.thesound-open,.thetafsir-open,.repeat-aya,.sura-part,.sura-full,.ch-full,.aya-tafsir-share2,.aya-tafsir-copy2{
 background-color: var(--third-color);
 padding: 5px;
 border-radius: 7px;
 cursor: pointer;
 }
+.thetafsir-open,.aya-tafsir-share2,.aya-tafsir-copy2{
+  border: 1px solid var(--sec-color);
+  font-size: 18px;
+}
+.flex-select-and-btn{
+  display:flex !important;
+  flex-direction:column;
+  align-items:center;
+  gap: 10px;
+}
 .detail{
   padding: 8px;
+  height: fit-content;     
+  max-height: 300px;            
+  overflow-y: auto; 
 }
 .detail div{
   font-family: "tafsir";
@@ -126,7 +139,7 @@ border-top:4.5px solid var(--sec-color);
   width: auto;
 }
 @media(min-width:700px) {
-#choicesaudio select{
+#choicesaudio select,.detail select{
   width: 35%;
 }
 }

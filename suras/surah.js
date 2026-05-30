@@ -33,6 +33,15 @@ let lin = ['../index.html','../quran.html','../hadith.html',"../azkar.html","../
 for(let i = 0;i < links.length;i++){
   links[i].href = lin[i]
 }
+// loading animation
+window.addEventListener('load', function(e) {
+  setTimeout(()=>{
+    document.getElementsByClassName('content')[0].style.display = 'block'
+    document.getElementsByClassName('content')[0].style.animation = "openpage 1.5s ease-in-out"
+    document.getElementsByClassName('content')[0].style.opacity = 1
+    document.getElementsByClassName('loading')[0].style.display = 'none'
+  },1000)
+})
 // add quran content for any sura
 let numa = document.getElementById('num-aya')
 let ranks = document.getElementById('rank')
@@ -95,7 +104,6 @@ async function info(num) {
   // add sura data
   numsurah = num 
   let url = `https://api.alquran.cloud/v1/surah/${num}`
-  let tafs = `https://quranenc.com/api/v1/translation/sura/arabic_moyassar/${num}`
   // add quran with many sheikhs
   let file = `surahaudio/surah_${num}.json`
   let ayatfile = `suraayat/surah_${num >= 10?(num>100?num:"0"+num):"00"+num}.json`
@@ -154,12 +162,12 @@ async function info(num) {
           }
        if (bsmala == true) {
             aya = aya.slice(40)
-            ayats.push({"aya":w2,"tafsir":"","page":pag,"ayanum":"non"})
+            ayats.push({"aya":w2,"page":pag,"ayanum":"non"})
          }else{
          }
         }
         //eles.push(aya)
-        ayats.push({"aya":aya,"tafsir":"","page":pag,"ayanum":ayanumm})
+        ayats.push({"aya":aya,"page":pag,"ayanum":ayanumm})
       }
     })
     .catch(error => {
@@ -169,21 +177,7 @@ async function info(num) {
       su.style.padding = '40px'
     });
     // add tafsir for any aya in sura
-  await fetch(tafs)
-    .then(res => res.json())
-    .then(function(data) {
-      let tIndex = 0;
-      try{
-      for (let i = 0; i < ayats.length; i++) {
-    if (ayats[i].ayanum !== "non") { // ليست البسملة
-    ayats[i].tafsir = data.result[tIndex].translation;
-    tIndex++;
-    }
-      }
-    }catch{
-    }
-     // ayatt.innerHTML = ''
-      let prevpage;
+    let prevpage;
       pages[ayats[0]["page"]] = []
       // tajheez pages
       for (let i = 0; i < ayats.length; i++){
@@ -201,11 +195,11 @@ async function info(num) {
         let ele = "";
         for(let j = 0;j < pages[pagenumbers[i]].length;j++){
           if(pagenumbers[i] == 1 && j == 0){
-            ele += `<span class="aya-container"><span class="aya-text center" style="display:block !important;" data-tafsir="${pages[pagenumbers[i]][j]["tafser"]}" data-num="${pages[pagenumbers[i]][j]["ayanum"]}">${pages[pagenumbers[i]][j]["ayaa"]}(${pages[pagenumbers[i]][j]["ayanum"]})</span></span>`
+            ele += `<span class="aya-container"><span class="aya-text center" style="display:block !important;" data-num="${pages[pagenumbers[i]][j]["ayanum"]}">${pages[pagenumbers[i]][j]["ayaa"]}(${pages[pagenumbers[i]][j]["ayanum"]})</span></span>`
           }else if(pages[pagenumbers[i]][j]["ayanum"] == "non"){
             ele += `<div class="bsm center">بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>`
           }else{
-          ele += `<span class="aya-container"><span class="aya-text" data-tafsir="${pages[pagenumbers[i]][j]["tafser"]}" data-num="${pages[pagenumbers[i]][j]["ayanum"]}">${pages[pagenumbers[i]][j]["ayaa"]}</span><span class="aya-num">(${pages[pagenumbers[i]][j]["ayanum"]})</span></span>`
+          ele += `<span class="aya-container"><span class="aya-text" data-num="${pages[pagenumbers[i]][j]["ayanum"]}">${pages[pagenumbers[i]][j]["ayaa"]}</span><span class="aya-num">(${pages[pagenumbers[i]][j]["ayanum"]})</span></span>`
           }
         }
         ele += `<div class="page-num center">${pagenumbers[i]}</div>`
@@ -245,41 +239,23 @@ arrows[1].addEventListener("click",(e)=>{
   })
     let r = sheikhs
     let sheiokh = Object.keys(r)
-    let num = numsurah
+    let numS = numsurah
     for(let i = 0;i<sheiokh.length;i++){
       for(let j = 0;j<r[`${sheiokh[i]}`]["riwayat"].length;j++){
         let numero;
-        if(num< 10){
-          numero = `00${num}`
-        }else if(num < 100){
-          numero = `0${num}`
+        if(numS< 10){
+          numero = `00${numS}`
+        }else if(numS < 100){
+          numero = `0${numS}`
         }else{
-          numero = num
+          numero = numS
         }
         let rewaaya = r[sheiokh[i]]["riwayat"][j]["riwaya"]
         let audiourl = `${r[sheiokh[i]]["riwayat"][j]["server"]}${numero}.mp3`
         selectplace += `<option value="${audiourl}">${sheiokh[i]} (${rewaaya})</option>`
       }
     }
-    })
-    .catch(function(error) {
-      su.innerHTML = '<span class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></span>هناك خلل في الصفحة <br>اعد تحميل الصفحة<br> أو بلغنا'
-      su.style.textAlign = 'center'
-      su.style.backgroundColor = 'var(--third-color)'
-      su.style.padding = '40px'
-      
-    })
 }
-
-// loading animation
-window.addEventListener('load', function(e) {
-  setTimeout(()=>{
-    document.getElementsByClassName('content')[0].style.display = 'block'
-    document.getElementsByClassName('content')[0].style.animation = "openpage 1.5s ease-in-out"
-    document.getElementsByClassName('content')[0].style.opacity = 1
-    document.getElementsByClassName('loading')[0].style.display = 'none'
-  },1000)
-})
 // show aya properties
 let ayapropertiescontainer = document.getElementsByClassName("details-container")[0]
 let ayacontainer = document.getElementsByClassName("theaya")[0]
@@ -287,7 +263,6 @@ let actionplace = document.getElementsByClassName("detail")[0]
 window.addEventListener("click",(e)=>{
   if(e.target.classList.contains("aya-container")){
     let aya = e.target.children[0]
-    let tafsir = aya.getAttribute("data-tafsir")
     let ayanum = aya.getAttribute("data-num")
     let ayatext = aya.innerHTML
     ayapropertiescontainer.style.display = "block"
@@ -297,12 +272,10 @@ window.addEventListener("click",(e)=>{
     }else{
     ayacontainer.innerHTML = `${ayatext} (${ayanum})`
     }
-    ayacontainer.setAttribute("data-tafsir",tafsir)
     ayacontainer.setAttribute("data-num",ayanum)
     actionplace.style.display = "none"
   }else if(e.target.classList.contains("aya-text")){
     let aya = e.target
-    let tafsir = aya.getAttribute("data-tafsir")
     let ayanum = aya.getAttribute("data-num")
     let ayatext = aya.innerHTML
     ayapropertiescontainer.style.display = "block"
@@ -312,7 +285,6 @@ window.addEventListener("click",(e)=>{
     }else{
     ayacontainer.innerHTML = `${ayatext} (${ayanum})`
     }
-    ayacontainer.setAttribute("data-tafsir",tafsir)
     ayacontainer.setAttribute("data-num",ayanum)
     actionplace.style.display = "none"
   }
@@ -326,17 +298,47 @@ let readingsheikh;
 let ayanumber;
 let controller;
 let repeated = false
+async function GetTafsir(tafnum,sura,ayanum){
+ let link = `http://api.quran-tafseer.com/tafseer/${tafnum}/${sura}/${ayanum}`
+ return fetch(link).then((r)=>r.json()).then((r)=>{
+  return r.text
+ })
+}
 // typebtns: ch1 -> 0 ,ch2 -> 1,ch3 -> 2,ch4 -> 3
 // types: 0-single aya 1-repeated aya 2-repeated ayas 3-start from it
-window.addEventListener("click",(e)=>{
+window.addEventListener("click",async (e)=>{
   /* Tafsir showing */
   if(e.target.classList.contains("thetafsir")){
+    ayanumber = ayacontainer.getAttribute("data-num")
+    actionplace.classList.add("flex-select-and-btn")
+    actionplace.innerHTML = `<p>اختر التفسير</p>
+    <select dir="rtl" id="select-tafsir">
+    <option selected="selected" id="1">التفسير الميسر</option>
+    <option id="2">تفسير الجلالين</option>
+    <option id="3">تفسير السعدي</option>
+    <option id="4">تفسير ابن كثير</option>
+    <option id="6">تفسير البغوي</option>
+    <option id="7">تفسير القرطبي</option>
+    <option id="8">تفسير الطبري</option>
+    </select>
+    <button class="thetafsir-open">اختر</button>
+    `
+    /* 
+    actionplace.style.display = "block"
+    actionplace.style.fontFamily = "tafsir" 
+    actionplace.innerHTML = `<p>التفسير</p>
+    <div dir="rtl">${ayacontainer.getAttribute("data-tafsir")}</div>
+    `*/
+  }
+   if(e.target.classList.contains("thetafsir-open")){
+    let selection= document.getElementById("select-tafsir")
+    let choice = selection.options[selection.selectedIndex].getAttribute("id")
+    let tafcontent = await GetTafsir(choice,numsurah,ayanumber)
+    actionplace.innerHTML = tafcontent
+    actionplace.classList.remove("flex-select-and-btn")
     actionplace.style.display = "block"
     actionplace.style.fontFamily = "tafsir"
-    actionplace.innerHTML = `<p>التفسير</p>
-    <div>${ayacontainer.getAttribute("data-tafsir")}</div>
-    `
-  }
+   }
   /* quran audio */
   if(e.target.classList.contains("thesound")){
     // choose listening type (full-surah / part-of-surah)
@@ -700,15 +702,38 @@ window.addEventListener("click",(e)=>{
     copy(`${ayatxt} \n(${surahname})`)
   }
   if(e.target.classList.contains("aya-tafsir-copy")){
-    let tafsirtxt = ayacontainer.getAttribute("data-tafsir");
+    ayanumber = ayacontainer.getAttribute("data-num")
+    actionplace.classList.add("flex-select-and-btn")
+    actionplace.innerHTML = `<p>اختر التفسير</p>
+    <select dir="rtl" id="select-tafsir">
+    <option selected="selected" id="1">التفسير الميسر</option>
+    <option id="2">تفسير الجلالين</option>
+    <option id="3">تفسير السعدي</option>
+    <option id="4">تفسير ابن كثير</option>
+    <option id="6">تفسير البغوي</option>
+    <option id="7">تفسير القرطبي</option>
+    <option id="8">تفسير الطبري</option>
+    </select>
+    <button class="aya-tafsir-copy2">اختر</button>
+    <div class="pop-up-message">تم نسخ الرسالة</div>
+    `
+  }
+  if(e.target.classList.contains("aya-tafsir-copy2")){
+    let selection= document.getElementById("select-tafsir")
+    let choice = selection.options[selection.selectedIndex].getAttribute("id")
+    let tafsirtxt = await GetTafsir(choice,numsurah,ayanumber)
     let ayatxt = ayacontainer.innerHTML
     copy(`${ayatxt} \n${tafsirtxt} \n(${surahname})`)
   }
   function copy(text){
     navigator.clipboard.writeText(text)
+    actionplace.innerHTML = `<div class="pop-up-message">تم نسخ الرسالة</div>`
     document.getElementsByClassName("pop-up-message")[0].style.display = "block"
+    actionplace.classList.remove("flex-select-and-btn")
+    actionplace.style.display = "block"
     setTimeout(()=>{
     document.getElementsByClassName("pop-up-message")[0].style.display = "none"
+    actionplace.innerHTML = ""
     },2000)
   }
   // Sharing
@@ -735,7 +760,25 @@ window.addEventListener("click",(e)=>{
     share(`${ayatxt} \n(${surahname})`)
   }
   if(e.target.classList.contains("aya-tafsir-share")){
-    let tafsirtxt = ayacontainer.getAttribute("data-tafsir");
+    ayanumber = ayacontainer.getAttribute("data-num")
+    actionplace.classList.add("flex-select-and-btn")
+    actionplace.innerHTML = `<p>اختر التفسير</p>
+    <select dir="rtl" id="select-tafsir">
+    <option selected="selected" id="1">التفسير الميسر</option>
+    <option id="2">تفسير الجلالين</option>
+    <option id="3">تفسير السعدي</option>
+    <option id="4">تفسير ابن كثير</option>
+    <option id="6">تفسير البغوي</option>
+    <option id="7">تفسير القرطبي</option>
+    <option id="8">تفسير الطبري</option>
+    </select>
+    <button class="aya-tafsir-share2">اختر</button>
+    `
+  }
+  if(e.target.classList.contains("aya-tafsir-share2")){
+    let selection= document.getElementById("select-tafsir")
+    let choice = selection.options[selection.selectedIndex].getAttribute("id")
+    let tafsirtxt = await GetTafsir(choice,numsurah,ayanumber)
     let ayatxt = ayacontainer.innerHTML
     actionplace.innerHTML = `
     <p class="center">اختر المنصة التي تريد المشاركة عليها <br> ملاحظة:عند المشاركة عبر فيسبوك سوف يتم نسخ النص تلقائيًا ثم تلصقه في منشور فيسبوك الذي سيتم إنشاءه</p>
@@ -745,6 +788,8 @@ window.addEventListener("click",(e)=>{
           <button class="site x"></button>
           <button class="site telegram"></button>
     </div>`
+    actionplace.classList.remove("flex-select-and-btn")
+    actionplace.style.display = "block"
      share(`${ayatxt} \n${tafsirtxt} \n(${surahname})`)
     }
     function share(sharetxt){
