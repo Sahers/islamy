@@ -327,11 +327,12 @@ cursor: pointer;
   display: none;
   position: fixed;
   margin: auto;
-  right: 0;
-  left: 0;
+  left: 50%;
   background-color: #fefcff;
   padding: 12px;
   width: fit-content;
+  transform: translateX(-50%);
+  bottom: 50px;
 }
 /* sharing */
 .sites{

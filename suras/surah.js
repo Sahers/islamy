@@ -298,10 +298,10 @@ let readingsheikh;
 let ayanumber;
 let controller;
 let repeated = false
-async function GetTafsir(tafnum,sura,ayanum){
- let link = `http://api.quran-tafseer.com/tafseer/${tafnum}/${sura}/${ayanum}`
+async function GetTafsir(taftype,sura,ayanum){
+ let link = `https://dev.surahapp.com/api/v1/aya/${taftype}/${sura}/${ayanum}`
  return fetch(link).then((r)=>r.json()).then((r)=>{
-  return r.text
+  return (r!== null || r!== undefined)?r.content:"هناك مشكلة في التحميل";
  }).catch(()=>{
   return "هناك مشكلة في جلب التفسير"
  })
@@ -315,13 +315,12 @@ window.addEventListener("click",async (e)=>{
     actionplace.classList.add("flex-select-and-btn")
     actionplace.innerHTML = `<p>اختر التفسير</p>
     <select dir="rtl" id="select-tafsir">
-    <option selected="selected" id="1">التفسير الميسر</option>
-    <option id="2">تفسير الجلالين</option>
-    <option id="3">تفسير السعدي</option>
-    <option id="4">تفسير ابن كثير</option>
-    <option id="6">تفسير البغوي</option>
-    <option id="7">تفسير القرطبي</option>
-    <option id="8">تفسير الطبري</option>
+    <option selected="selected" id="tafsir-mokhtasar">التفسير المختصر</option>
+    <option id="tafsir-saadi">تفسير السعدي</option>
+    <option id="tafsir-katheer">تفسير ابن كثير</option>
+    <option id="tafsir-baghawy">تفسير البغوي</option>
+    <option id="tafsir-tabary">تفسير الطبري</option>
+    <option id="eerab-word-aya">إعراب الآية</option>
     </select>
     <button class="thetafsir-open">اختر</button>
     `
@@ -696,47 +695,53 @@ window.addEventListener("click",async (e)=>{
     <div class="aya-copy">نسخ الآية</div>
     <div class="aya-tafsir-copy">نسخ الآية والتفسير</div>
     </div>
-    <div class="pop-up-message">تم نسخ الرسالة</div>
     `
   }
+  function triggerPopup(text) {
+    if (window.activePopupTimeout) {
+        clearTimeout(window.activePopupTimeout);
+    }
+
+    actionplace.style.display = "block";
+    actionplace.innerHTML = `<div class="pop-up-message">${text}</div>`;
+    const popupElement = actionplace.querySelector(".pop-up-message");
+    if (popupElement) {
+        popupElement.style.display = "block";
+    }
+    window.activePopupTimeout = setTimeout(() => {
+        actionplace.innerHTML = "";
+        actionplace.style.display = "none";
+    }, 2000);
+}
   if(e.target.classList.contains("aya-copy")){
     let ayatxt = ayacontainer.innerHTML
-    copy(`${ayatxt} \n(${surahname})`)
+   navigator.clipboard.writeText(`${ayatxt} \n(${surahname})`);
+   triggerPopup("تم نسخ الآية")
   }
   if(e.target.classList.contains("aya-tafsir-copy")){
     ayanumber = ayacontainer.getAttribute("data-num")
     actionplace.classList.add("flex-select-and-btn")
     actionplace.innerHTML = `<p>اختر التفسير</p>
     <select dir="rtl" id="select-tafsir">
-    <option selected="selected" id="1">التفسير الميسر</option>
-    <option id="2">تفسير الجلالين</option>
-    <option id="3">تفسير السعدي</option>
-    <option id="4">تفسير ابن كثير</option>
-    <option id="6">تفسير البغوي</option>
-    <option id="7">تفسير القرطبي</option>
-    <option id="8">تفسير الطبري</option>
+    <option selected="selected" id="tafsir-mokhtasar">التفسير المختصر</option>
+    <option id="tafsir-saadi">تفسير السعدي</option>
+    <option id="tafsir-katheer">تفسير ابن كثير</option>
+    <option id="tafsir-baghawy">تفسير البغوي</option>
+    <option id="tafsir-tabary">تفسير الطبري</option>
+    <option id="eerab-word-aya">إعراب الآية</option>
     </select>
     <button class="aya-tafsir-copy2">اختر</button>
-    <div class="pop-up-message">تم نسخ الرسالة</div>
     `
   }
   if(e.target.classList.contains("aya-tafsir-copy2")){
     let selection= document.getElementById("select-tafsir")
     let choice = selection.options[selection.selectedIndex].getAttribute("id")
+    actionplace.classList.remove("flex-select-and-btn")
+    actionplace.innerHTML = `<div class="pop-up-message" style="display: block;" dir="rtl">جارٍ جلب التفسير والنسخ...</div>`;
     let tafsirtxt = await GetTafsir(choice,numsurah,ayanumber)
     let ayatxt = ayacontainer.innerHTML
-    copy(`${ayatxt} \n${tafsirtxt} \n(${surahname})`)
-  }
-  function copy(text){
-    navigator.clipboard.writeText(text)
-    actionplace.innerHTML = `<div class="pop-up-message">تم نسخ الرسالة</div>`
-    document.getElementsByClassName("pop-up-message")[0].style.display = "block"
-    actionplace.classList.remove("flex-select-and-btn")
-    actionplace.style.display = "block"
-    setTimeout(()=>{
-    document.getElementsByClassName("pop-up-message")[0].style.display = "none"
-    actionplace.innerHTML = ""
-    },2000)
+    navigator.clipboard.writeText(`${ayatxt} \n${tafsirtxt} \n(${surahname})`);
+        triggerPopup("تمت عملية النسخ")
   }
   // Sharing
   if(e.target.classList.contains("theshare")){
@@ -766,13 +771,12 @@ window.addEventListener("click",async (e)=>{
     actionplace.classList.add("flex-select-and-btn")
     actionplace.innerHTML = `<p>اختر التفسير</p>
     <select dir="rtl" id="select-tafsir">
-    <option selected="selected" id="1">التفسير الميسر</option>
-    <option id="2">تفسير الجلالين</option>
-    <option id="3">تفسير السعدي</option>
-    <option id="4">تفسير ابن كثير</option>
-    <option id="6">تفسير البغوي</option>
-    <option id="7">تفسير القرطبي</option>
-    <option id="8">تفسير الطبري</option>
+    <option selected="selected" id="tafsir-mokhtasar">التفسير المختصر</option>
+    <option id="tafsir-saadi">تفسير السعدي</option>
+    <option id="tafsir-katheer">تفسير ابن كثير</option>
+    <option id="tafsir-baghawy">تفسير البغوي</option>
+    <option id="tafsir-tabary">تفسير الطبري</option>
+    <option id="eerab-word-aya">إعراب الآية</option>
     </select>
     <button class="aya-tafsir-share2">اختر</button>
     `
