@@ -46,9 +46,15 @@ let soundLink = ""
 let chosenShiekh;
 async function mtnShow(mtnName) {
   let data = await fetch("moton.json").then((r)=>r.json()).then((r)=>r[mtnName]).catch(()=>{
-
+    let content =  document.querySelector("main")
+    content.innerHTML = `<div class="center-image"><img loading="lazy" src="../icons/error.png" class="imagee error-hadith"></div>هناك خلل في الصفحة <br> </a>أعد تحميل الصفحة أو <a href="../about.html" style="color:var(--sec-color);">بلغنا`
+    content.style.cssText = `
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    `
   })
-  let abyatcontent = data["abyat"]
+  let abyatcontent = data["abyat"] || undefined
   let keys = Object.keys(abyatcontent)
   // put abyats
   for(let i=0;i<keys.length;i++){
