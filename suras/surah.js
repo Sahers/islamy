@@ -29,7 +29,7 @@ daten.innerText = datee.getFullYear()
 let logo = document.querySelector('header .container .logo img')
 logo.src = '../logo.png'
 let links = document.querySelectorAll("ul a")
-let lin = ['../index.html','../quran.html','../hadith.html',"../azkar.html","../timeprayer.html","../doaa.html","../question.html","../about.html"]
+let lin = ['../index.html','../quran.html','../hadith.html',"../azkar.html","../timeprayer.html","../doaa.html","../moton.html","../question.html","../about.html"]
 for(let i = 0;i < links.length;i++){
   links[i].href = lin[i]
 }

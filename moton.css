@@ -1,0 +1,51 @@
+@import url(menu.css);
+.title {
+  font-size: 32px;
+  text-align: center;
+  background-color: var(--sec-color);
+  background-size: 100% 100%;
+  padding: 20px 0;
+}
+a[href="moton.html"] li {
+  font-weight: 600;
+}
+.title {
+  font-size: 32px;
+  text-align: center;
+  background-color: var(--sec-color);
+  background-size: 100% 100%;
+  padding: 20px 0;
+}
+.top{
+    padding-top: 10px;
+    position: relative;
+  }
+  .top:before{
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 1px;
+    opacity: 0.6;
+    background-color: black;
+    top:35px;
+    right:0;
+  }
+  .top:after {
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 1px;
+    opacity: 0.6;
+    background-color: black;
+    top: 35px;
+    left: 0;
+  }
+  .moton{
+    margin: 15px 0;
+  }
+  .moton div{
+    background-color: var(--sec-color);
+    padding: 7px;
+    border-radius: 10px;
+    
+  }

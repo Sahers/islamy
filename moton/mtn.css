@@ -1,0 +1,178 @@
+@import url(../menu.css);
+.title {
+  font-size: 32px;
+  text-align: center;
+  background-color: var(--sec-color);
+  background-size: 100% 100%;
+  padding: 20px 0;
+}
+.taaref{
+    margin: 15px 0;
+    direction: rtl;
+}
+.field{
+    background-color: var(--third-color);
+    border-radius: 5px;
+    display: inline;
+    padding: 5px;
+}
+@keyframes load{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+@font-face {
+  font-family: "tafsir";
+  src: url("../fonts/UthmanicHafs1Ver08.otf");
+}
+#abyat-options{
+  padding: 8px;
+  border-radius: 10px;
+  background-color: var(--third-color);
+  margin-bottom: 10px;
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  direction: rtl;
+  gap:15px;
+}
+.the-byt{
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+  font-family: "tafsir" !important;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.1rem;
+}
+.the-byt *{
+    font-family: "tafsir" !important;
+}
+#choose-sheikh{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.options{
+  display: flex;
+  justify-content: center;
+}
+#abyat-options button{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--sec-color) !important;
+}
+.buttons-place{
+  display: flex;
+  justify-content: space-around;
+}
+#listenplace{
+  display: none;
+  flex-direction: column;
+  gap:12px;
+}
+#to-any-byt{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+#repeattimes{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap:8px;
+}
+.error,.error-byt{
+  color: red;
+  display: none;
+}
+input{
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+}
+#audio-player{
+  display: none;
+  flex-direction: column;
+  text-align: center;
+}
+.audio-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap:10px;
+}
+select{
+  padding: 5px;
+}
+#themtn{
+padding: 15px;
+margin: 0 0 10px;
+background-color: var(--sec-color);
+direction: rtl;
+user-select: none;
+}
+#themtn *{
+  font-family: "tafsir";
+}
+.bab-title{
+  text-align: center;
+  font-size: 1.1rem;
+}
+.byt{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.byt:hover{
+  background-color: var(--third-color);
+  cursor: pointer;
+}
+.correct{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  color:#ffc31d  
+}
+.correct::after{
+  content: attr(data-correct);
+  position: absolute;
+  color:black;
+  display: none;
+  bottom: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  animation:load 0.7s ease-in-out;
+  border-radius: 6px;
+  padding: 5px;
+}
+.correct:hover::after{
+  display: block;
+}
+@media (max-width:520px) {
+  .byt,.the-byt{
+  gap: 10px;
+  flex-direction: column !important;
+}
+.byt > div,.the-byt > div{
+  width: 100%;
+   white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    line-height: 1.6;
+}
+.shatr1{
+  text-align: right;
+}
+.shatr2{
+  text-align: left;
+}
+}

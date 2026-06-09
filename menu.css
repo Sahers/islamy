@@ -146,7 +146,7 @@ footer {
 }
 @font-face{
 font-family: "quran";
-  src: url("/fonts/ArbFONTS-Noon.ttf"),url("fonts/ArbFONTS-Noon.ttf");
+  src: url("/fonts/ArbFONTS-Noon.ttf"),url("fonts/ArbFONTS-Noon.ttf"),url("../fonts/ArbFONTS-Noon.ttf");
   font-display: swap;
   }
 .title {
