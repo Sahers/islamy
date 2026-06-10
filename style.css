@@ -111,6 +111,9 @@ a[href="index.html"] li{
 .quran{
   background-image: url("mainImages/quran.JPG");
 }
+.moton{
+  background-image: url("mainImages/moton.png");
+}
 .card button{
   border: 1px solid black;
   background-color: var(--sec-color);
