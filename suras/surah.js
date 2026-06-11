@@ -302,7 +302,11 @@ async function GetTafsir(taftype,sura,ayanum){
   actionplace.innerHTML = `يرجى الانتظار..`
  let link = `https://dev.surahapp.com/api/v1/aya/${taftype}/${sura}/${ayanum}`
  return fetch(link).then((r)=>r.json()).then((r)=>{
-  return (r!== null || r!== undefined)?r.content:"هناك مشكلة في التحميل";
+  let content = r.content;
+  if(taftype == "eerab-word-aya"){
+    content = content.replace(/\s+(?=\*)/g, '<br>').replace(/\*([^*]+)\*/g, '$1:')
+  }
+  return (r!== null || r!== undefined)?content:"هناك مشكلة في التحميل";
  }).catch(()=>{
   return "هناك مشكلة في جلب التفسير"
  })

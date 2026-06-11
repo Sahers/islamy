@@ -93,6 +93,7 @@ cursor: pointer;
   max-height: 300px;            
   overflow-y: auto; 
   direction: rtl;
+  text-align: right !important;
 }
 .detail div{
   font-family: "tafsir";
