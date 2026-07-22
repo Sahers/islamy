@@ -1,4 +1,8 @@
 @import url(../menu.css);
+body{
+  position: relative;
+  padding-bottom: 180px;
+}
 .title {
   font-size: 32px;
   text-align: center;
@@ -24,29 +28,44 @@
   font-family: "tafsir";
   src: url("../fonts/UthmanicHafs1Ver08.otf");
 }
+.notice{
+  background-color:var(--third-color);
+  border-radius: 8px;
+}
 #abyat-options{
   padding: 8px;
   border-radius: 10px;
   background-color: var(--third-color);
-  margin-bottom: 10px;
+   position: fixed;
+  bottom: 0%;
+  z-index:1000;
+  width: 100%;
   display: none;
   justify-content: center;
   flex-direction: column;
   direction: rtl;
   gap:15px;
 }
-.the-byt{
+.flex-row{
+  display: flex;
+  gap: 15px;
+}
+.the-byt-container{
   background-color: white;
   border-radius: 8px;
   padding: 5px;
   font-family: "tafsir" !important;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   width: 100%;
   font-size: 1.1rem;
 }
-.the-byt *{
+.the-byt{
+  display: flex;
+  justify-content: space-around;
+}
+.the-byt-container *{
     font-family: "tafsir" !important;
 }
 #choose-sheikh{

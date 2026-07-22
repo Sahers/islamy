@@ -44,6 +44,9 @@ let times;
 let mtnPartMode = false;
 let soundLink = ""
 let chosenShiekh;
+let babname = ""
+let endtimebyt,starttimebyt,currentByt;
+let abyat = [];
 async function mtnShow(mtnName) {
   let data = await fetch("moton.json").then((r)=>r.json()).then((r)=>r[mtnName]).catch(()=>{
     let content =  document.querySelector("main")
@@ -62,6 +65,7 @@ async function mtnShow(mtnName) {
    for(let j=0;j<bab.length;j++){
     if(j == 0){
       mtnPlace.innerHTML += `<div class="bab-title">${bab[j]}</div>`
+      babname = `<div class="bab-title">${bab[j]}</div>`
     }else{
       abyatNum++;
       let bytText = bab[j]["text"]
@@ -90,26 +94,34 @@ async function mtnShow(mtnName) {
         ${eleSh1}
         ${eleSh2}
       </div>`
+      abyat.push(`${((babname != "")?babname:"")}
+        <div class="the-byt">
+        ${eleSh1}
+        ${eleSh2}
+      </div>`)
+      babname = "";
     }
    }
   }
   let abyatoptions = document.getElementById("abyat-options")
-  let bytShown = document.getElementsByClassName("the-byt")[0]
+  let bytShown = document.getElementsByClassName("the-byt-container")[0]
   window.addEventListener("click",(e)=>{
     if(e.target.classList.contains("byt")){
-      abyatoptions.style.display = "flex"
-      bytShown.innerHTML = e.target.innerHTML
-      bytNow = bytShown.children[0].getAttribute("data-byt")
+      if(!playstatus){
+        abyatoptions.style.display = "flex"
+      bytShown.innerHTML = `<div class="the-byt">${e.target.innerHTML}</div>`
+      bytNow = bytShown.children[0].children[0].getAttribute("data-byt")
+            audioplayer.style.display = "none"
+      }
       console.log(bytNow)
-      location.href = `#abyat-options`
-      restartAudio()
-    }else if((e.target.classList.contains("shatr1") ||e.target.classList.contains("shatr2"))  && !e.target.parentElement.classList.contains("the-byt")){
-      abyatoptions.style.display = "flex"
-      bytShown.innerHTML = e.target.parentElement.innerHTML
-      bytNow = bytShown.children[0].getAttribute("data-byt")
+    }else if((e.target.classList.contains("shatr1") ||e.target.classList.contains("shatr2"))  && !e.target.parentElement.classList.contains("the-byt-container")){
+      if(!playstatus){
+        abyatoptions.style.display = "flex"
+      bytShown.innerHTML = `<div class="the-byt">${e.target.parentElement.innerHTML}</div>`
+      bytNow = bytShown.children[0].children[0].getAttribute("data-byt")
+            audioplayer.style.display = "none"
+      }
       console.log(bytNow)
-      location.href = `#abyat-options`
-      restartAudio()
     }
   })
   // sound manage
@@ -131,6 +143,7 @@ async function mtnShow(mtnName) {
       chooseendbyt.style.display = "none"
       repeatContainer.style.display = "none"
       restartAudio()
+      audioplayer.style.display = "none"
     })
     let openaudio = document.getElementById("open-audio")
     openaudio.addEventListener("click",function(e){
@@ -150,7 +163,11 @@ async function mtnShow(mtnName) {
       listenplace.style.display = "none"
       repeatContainer.style.display = "flex"
       startTime = 0;
+      starttimebyt = 0;
+      currentByt = 0;
+      endtimebyt = times[0][1]
       endTime = times[abyatNum-1][1]
+      bytShown.innerHTML = abyat[currentByt];
       mtnPartMode = false
     })
     let inputend = document.getElementById("endbyt")
@@ -170,6 +187,9 @@ async function mtnShow(mtnName) {
       if(!isNaN(inputend.value) && Number(+inputend.value) >= bytNow && Number(+inputend.value) <= abyatNum){
         if(mtnPartMode){
           startTime = times[Number(bytNow) - 1][0]
+          starttimebyt = times[Number(bytNow) - 1][0]
+          currentByt = Number(bytNow) - 1;
+          endtimebyt = times[Number(bytNow) - 1][1]
           endTime = times[Number(inputend.value) - 1][1]
         }
         document.getElementsByClassName("error-byt")[0].style.display = "none"
@@ -227,17 +247,34 @@ async function mtnShow(mtnName) {
       if(audiostatus) audiostatus.innerText = `جاهز للاستماع`
     }
     audioplayerplay.ontimeupdate = function(e){
+      if(audioplayerplay.currentTime >= endtimebyt){
+        if(currentByt < abyatNum - 1){
+          currentByt++;
+          starttimebyt = times[currentByt][0];
+        endtimebyt = times[currentByt][1]
+        bytShown.innerHTML = abyat[currentByt];
+        }
+      }
       if(audioplayerplay.currentTime >= endTime){
           if(tkrar > 1){
             tkrar--;
-          audioplayerplay.currentTime = startTime
+          resetAudioTimeline();
+          if(!mtnPartMode){
+            currentByt = 0;
+          }
+            bytShown.innerHTML = abyat[currentByt];
           }else{
             audioplayerplay.pause()
             playstatus = false
             tkrar = 0
-            audioplayerplay.currentTime = startTime;
+            resetAudioTimeline();
           }
         }
+    }
+    audioplayerplay.onerror = function(e){
+      if(audioplayerplay.src.readyState === 3){
+        audiostatus.innerText = `هناك خطأ في الصوت`
+      }
     }
     playbtn.addEventListener("click",function(e){
       if(!playstatus){
@@ -257,12 +294,27 @@ async function mtnShow(mtnName) {
       audioplayerplay.playbackRate = speeds[++speedind % 6]
       e.target.innerText = `السرعة:${speeds[speedind % 6]}`
     })
+    function resetAudioTimeline() {
+  audioplayerplay.currentTime = startTime;
+  starttimebyt = startTime;
+  
+  if (mtnPartMode) {
+    currentByt = Number(bytNow) - 1;
+  } else {
+    currentByt = 0;
+  }
+    if (times[currentByt]) {
+    endtimebyt = times[currentByt][1];
+  }
+  if (abyat[currentByt]) {
+    bytShown.innerHTML = abyat[currentByt];
+  }
+}
     function restartAudio(){
       audioplayerplay.pause()
       audioplayerplay.src = ""
       playstatus = false
       document.getElementById("speed").innerText = `السرعة:1`
-      audioplayer.style.display = "none"
       speedind = 2
       ready = false
       tkrar = 0
